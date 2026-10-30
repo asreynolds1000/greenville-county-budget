@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Fraunces, IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { SITE_URL } from "@/lib/site";
+import { GA_MEASUREMENT_ID, IS_PRODUCTION_DEPLOYMENT, SITE_URL } from "@/lib/site";
 import { SITE_TITLE } from "@/lib/entityTitle";
 
 import "./globals.css";
@@ -95,6 +96,16 @@ export default function RootLayout({
           {children}
         </div>
         <SiteFooter />
+        {/* Visit counts only, on the production site. The property-tax lookup never puts an
+            address or PIN in the URL, so analytics never receives either. */}
+        {IS_PRODUCTION_DEPLOYMENT && (
+          <>
+            <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="afterInteractive" />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GA_MEASUREMENT_ID}');`}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );

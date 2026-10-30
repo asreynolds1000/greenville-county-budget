@@ -93,5 +93,5 @@ source metadata/hash, schema/input validation, calculation oracles and UI year t
 Do not silently apply a new year to current GIS values or treat an estimate as a bill.
 The source transcription, generated JSON and CSV are checked for deterministic freshness.
 Address lookups go directly from the browser to county GIS; only the PIN and tax year go to
-the site's own record function. Neither is persisted, and there are no analytics. Live GIS checks are a separate, small canary from deterministic
+the site's own record function. Neither is persisted or sent to analytics; Google Analytics, on production builds only, counts page visits. Live GIS checks are a separate, small canary from deterministic
 mocked regression tests; unavailable county services must preserve manual entry.
