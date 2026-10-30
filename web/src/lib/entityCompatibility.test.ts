@@ -21,7 +21,7 @@ describe("legacy entity-year compatibility", () => {
     expect(response.headers.get("Content-Type")).toContain("text/html");
     expect(Buffer.byteLength(html)).toBeLessThan(1200);
     expect(html).toContain('/e/dept.sheriff/?fy=2002');
-    expect(html).toContain('rel="canonical" href="https://gcb.alexreynolds.com/e/dept.sheriff/"');
+    expect(html).toContain('rel="canonical" href="https://gcdata.alexreynolds.com/e/dept.sheriff/"');
     expect(html).toContain("location.replace(");
     expect(html).toContain("location.hash");
     expect(html).toContain("<noscript>");

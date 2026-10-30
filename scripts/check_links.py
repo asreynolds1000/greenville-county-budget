@@ -65,7 +65,7 @@ def check(root: Path, origin: str) -> tuple[int, int, list[str]]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1] / "web/out")
-    parser.add_argument("--origin", default="https://gcb.alexreynolds.com")
+    parser.add_argument("--origin", default="https://gcdata.alexreynolds.com")
     args = parser.parse_args()
     try:
         pages, links, errors = check(args.root, args.origin)

@@ -30,6 +30,6 @@ describe("consolidated entity pages", () => {
   it("lists the canonical entity once in the sitemap", () => {
     const urls = sitemap().map((entry) => entry.url);
     expect(urls.filter((url) => url.includes("/e/balance.debt.beginning/")))
-      .toEqual(["https://gcb.alexreynolds.com/e/balance.debt.beginning/"]);
+      .toEqual(["https://gcdata.alexreynolds.com/e/balance.debt.beginning/"]);
   });
 });

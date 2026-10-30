@@ -12,7 +12,7 @@ test("an old inbound URL preserves its year, query context and fragment", async 
   const actual = page.locator('[data-canonical-value="balance.debt.beginning|2024|actual|dollars"]');
   await expect(actual).toContainText("$36,090,963");
   await expect(actual.locator('a[href*="greenvillecounty.org"]')).toBeVisible();
-  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://gcb.alexreynolds.com/e/balance.debt.beginning/");
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://gcdata.alexreynolds.com/e/balance.debt.beginning/");
   expect(errors).toEqual([]);
 });
 

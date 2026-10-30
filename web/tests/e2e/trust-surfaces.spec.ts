@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-const SITE_URL = "https://gcb.alexreynolds.com";
+const SITE_URL = "https://gcdata.alexreynolds.com";
 
 test("About identifies the publisher and explains the independent editorial stance", async ({ page }) => {
   await page.goto("/about/");
@@ -22,7 +22,7 @@ test("correction actions prefill the stable context without inventing a figure",
   expect(href).toContain("mailto:a@alexreynolds.com?");
   const body = new URL(href ?? "mailto:a@alexreynolds.com").searchParams.get("body") ?? "";
   expect(body).toContain(
-    "Page: https://gcb.alexreynolds.com/e/dept.sheriff/?fy=2026",
+    "Page: https://gcdata.alexreynolds.com/e/dept.sheriff/?fy=2026",
   );
   expect(body).toContain("Fiscal year: FY2026");
   expect(body).toContain("Line or fund: dept.sheriff");

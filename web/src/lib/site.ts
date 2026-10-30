@@ -5,7 +5,7 @@
  * a build environment variable, makes canonical URLs and the static sitemap correct in
  * local production builds as well as the Vercel deployment.
  */
-export const SITE_URL = "https://gcb.alexreynolds.com";
+export const SITE_URL = "https://gcdata.alexreynolds.com";
 
 /** Vercel marks production builds; previews and local exports must ask crawlers not to index. */
 export const IS_PRODUCTION_DEPLOYMENT = process.env.VERCEL_ENV === "production";

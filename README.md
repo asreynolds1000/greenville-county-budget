@@ -4,7 +4,7 @@ An independent, non-advocacy civic-information project. It helps Greenville Coun
 Carolina residents see how county government raises, restricts, allocates and spends money,
 and how that has changed over time.
 
-**Live site:** [gvl-county-budget.vercel.app](https://gvl-county-budget.vercel.app/)
+**Live site:** [gcdata.alexreynolds.com](https://gcdata.alexreynolds.com/)
 
 This repository holds everything behind the site: the source registry and document hashes,
 the transcribed figures, the pipeline that turns them into the site's data, the tests that
