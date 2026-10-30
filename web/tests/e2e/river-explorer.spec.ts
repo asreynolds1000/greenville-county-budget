@@ -29,6 +29,7 @@ function explorer(page: import("@playwright/test").Page) {
 test.describe("river explorer", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/");
+    await explorer(page).getByLabel("Budget year").selectOption("2026");
   });
 
   test("changing FY2022 to FY2026 replaces every visible General Fund reconciliation", async ({ page }) => {

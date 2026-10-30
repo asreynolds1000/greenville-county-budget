@@ -5,14 +5,14 @@ import { expect, type Page } from "@playwright/test";
 const budget2016 = "https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf";
 const budget2026 = "https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf";
 export const fundEvidence = {
-  "fund.general": { totals: ["$140,193,909", "$242,740,106"], latest: "$275,141,134" },
-  "fund.debt-service": { totals: ["$18,501,715", "$32,218,726"], latest: "$34,885,734",
+  "fund.general": { totals: ["$140,193,909", "$242,740,106"], latest: "$288,494,094" },
+  "fund.debt-service": { totals: ["$18,501,715", "$32,218,726"], latest: "$33,861,514",
     member: "balance.debt.beginning", values: ["$94,869", "$36,090,963"], pages: [50, 48] },
-  "fund.special-revenue": { totals: ["$44,372,415", "$82,947,221"], latest: "$133,984,290",
+  "fund.special-revenue": { totals: ["$44,372,415", "$82,947,221"], latest: "$118,256,009",
     member: "balance.sr.beginning", values: ["$17,958,623", "$35,838,197"], pages: [46, 43] },
-  "fund.enterprise": { totals: ["$22,003,332", "$28,457,302"], latest: "$33,222,597",
+  "fund.enterprise": { totals: ["$22,003,332", "$28,457,302"], latest: "$35,296,480",
     member: "balance.enterprise.solid-waste-usage", values: ["-$197,534", "-$10,596,989"], pages: [149, 156] },
-  "fund.internal-service": { totals: ["$35,408,142", "$48,356,039"], latest: "$56,969,595" },
+  "fund.internal-service": { totals: ["$35,408,142", "$48,356,039"], latest: "$58,943,086" },
 } as const;
 export type FundId = keyof typeof fundEvidence;
 

@@ -97,7 +97,7 @@ test.describe("search is shareable", () => {
     await expect(gis).toHaveCount(2);
     const gisText = await gis.allInnerTexts();
     expect(gisText.some((text) => text.includes("FY2002–FY2019"))).toBe(true);
-    expect(gisText.some((text) => text.includes("FY2020–FY2026"))).toBe(true);
+    expect(gisText.some((text) => text.includes("FY2020–FY2027"))).toBe(true);
   });
 
   test("overlapping Planning and Code Compliance results name different parent categories", async ({

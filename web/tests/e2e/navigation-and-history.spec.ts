@@ -18,14 +18,14 @@ test.describe("General Fund year navigation", () => {
     const yearNav = page.getByRole("navigation", { name: /fiscal year/i });
     await expect(yearNav).toBeVisible();
 
-    // The route supports FY2002–FY2026. A year that exists as a page but appears in no
+    // The route supports FY2002–FY2027. A year that exists as a page but appears in no
     // control is unreachable by anything except a hand-typed URL.
     const links = yearNav.getByRole("link");
     const labels = await links.allInnerTexts();
     const reachable = new Set(labels.map((text) => text.trim()));
 
     const missing: string[] = [];
-    for (let year = 2002; year <= 2026; year += 1) {
+    for (let year = 2002; year <= 2027; year += 1) {
       if (!reachable.has(`FY${year}`)) missing.push(`FY${year}`);
     }
     expect(missing, `years with a route but no control entry: ${missing.join(", ")}`)

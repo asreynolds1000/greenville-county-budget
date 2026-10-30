@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test("the property-tax result continues into FY2026 county services without allocating personal dollars", async ({ page }) => {
+test("the property-tax result continues into FY2027 county services without allocating personal dollars", async ({ page }) => {
   await page.goto("/property-tax/");
   await page.getByText("Review or change details", { exact: true }).click();
   await page.getByLabel("Tax district").selectOption("065");
@@ -18,15 +18,15 @@ test("the property-tax result continues into FY2026 county services without allo
   await expect(bridge).toContainText("fees, aid, transfers, and other funding");
   await expect(bridge).toContainText("does not trace an individual’s dollars to a department or service");
   await expect(bridge).toContainText("is not county spending");
-  await expect(bridge).toContainText("FY2026");
+  await expect(bridge).toContainText("FY2027");
   await expect(bridge).not.toContainText(/unknown|unavailable/i);
 
-  await expect(bridge.getByRole("link", { name: /Explore FY2026 General Fund services/ }))
-    .toHaveAttribute("href", "/e/fund.general/?fy=2026#money-out");
+  await expect(bridge.getByRole("link", { name: /Explore FY2027 General Fund services/ }))
+    .toHaveAttribute("href", "/e/fund.general/?fy=2027#money-out");
   await expect(bridge.getByRole("link", { name: "Emergency medical services (EMS)" }))
-    .toHaveAttribute("href", "/e/dept.emergencymedicalservices/?fy=2026");
+    .toHaveAttribute("href", "/e/dept.emergencymedicalservices/?fy=2027");
   await expect(bridge.getByRole("link", { name: "Sheriff and deputies" }))
-    .toHaveAttribute("href", "/e/dept.sheriff/?fy=2026");
+    .toHaveAttribute("href", "/e/dept.sheriff/?fy=2027");
   await expect(bridge.getByRole("link", { name: "Roads and paving" }))
     .toHaveAttribute("href", "/services/roads/");
 
@@ -42,10 +42,10 @@ test("the property-tax result continues into FY2026 county services without allo
   expect(queryKeys.every((key) => key === "fy")).toBe(true);
   expect(bridgeHrefs.every((href) => !/pin|address|market|taxable|district/i.test(href))).toBe(true);
 
-  await bridge.getByRole("link", { name: /Explore FY2026 General Fund services/ }).click();
-  await expect(page).toHaveURL(/\/e\/fund.general\/\?fy=2026#money-out$/);
-  const services = page.getByRole("navigation", { name: "Explore FY2026 General Fund services" });
-  await services.getByRole("link", { name: "Ambulance services" }).click();
-  await expect(page).toHaveURL(/\/e\/dept.emergencymedicalservices\/\?fy=2026$/);
-  await expect(page.getByRole("heading", { name: "What the FY2026 EMS budget covers" })).toBeVisible();
+  await bridge.getByRole("link", { name: /Explore FY2027 General Fund services/ }).click();
+  await expect(page).toHaveURL(/\/e\/fund.general\/\?fy=2027#money-out$/);
+  const services = page.getByRole("navigation", { name: "Explore FY2027 General Fund services" });
+  await services.locator('a[href="/e/dept.emergencymedicalservices/?fy=2027"]').click();
+  await expect(page).toHaveURL(/\/e\/dept.emergencymedicalservices\/\?fy=2027$/);
+  await expect(page.getByRole("heading", { name: "Emergency Medical Services", exact: true })).toBeVisible();
 });

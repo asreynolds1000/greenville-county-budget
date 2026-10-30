@@ -30,11 +30,11 @@ const DESTINATIONS = [
 const ORIGINS = [
   { name: "a deferred fund with ?fy", url: "/e/fund.general/?fy=2020", title: `General Fund — FY2020 · ${SITE}`, year: "2020" },
   { name: "an ordinary entity with ?fy", url: "/e/dept.sheriff/?fy=2020", title: `Sheriff — FY2020 · ${SITE}`, year: "2020" },
-  { name: "a deferred fund on its latest year", url: "/e/fund.general/", title: `General Fund — FY2026 · ${SITE}`, year: "2026" },
-  { name: "an ordinary entity on its latest year", url: "/e/dept.sheriff/", title: `Sheriff — FY2026 · ${SITE}`, year: "2026" },
+  { name: "a deferred fund on its latest year", url: "/e/fund.general/", title: `General Fund — FY2027 · ${SITE}`, year: "2027" },
+  { name: "an ordinary entity on its latest year", url: "/e/dept.sheriff/", title: `Sheriff — FY2027 · ${SITE}`, year: "2027" },
   // Out of range: year === null, so the explorer installs no observer. Its server-rendered
   // title is the latest year, which the existing spec accepts as "not asserting FY1999".
-  { name: "an uncovered year", url: "/e/fund.general/?fy=1999", title: `General Fund — FY2026 · ${SITE}`, year: "unavailable" },
+  { name: "an uncovered year", url: "/e/fund.general/?fy=1999", title: `General Fund — FY2027 · ${SITE}`, year: "unavailable" },
 ] as const;
 
 const SETTLE_MS = 800;
