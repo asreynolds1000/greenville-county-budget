@@ -148,7 +148,9 @@ test.describe("river explorer", () => {
       await expectNoAxeViolations(page, `${width}-county`, testInfo);
 
       await region.getByRole("button", { name: "General Fund", exact: true }).click();
-      const propertyTaxes = region.getByRole("button", { name: /Select Property Taxes: \$158,487,600/ }).first();
+      // This test checks accessibility, so it opens the branch for whatever year the home page
+      // shows; the figures themselves are asserted by the year-pinned tests above.
+      const propertyTaxes = region.getByRole("button", { name: /Select Property Taxes: \$[\d,]+/ }).first();
       await propertyTaxes.click();
       await expect(page.getByRole("dialog")).toBeVisible();
       await expectNoAxeViolations(page, `${width}-branch-dialog`, testInfo);

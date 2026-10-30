@@ -48,23 +48,26 @@ test.describe("money-out composition", () => {
   });
 
   test("the shares are derived from the amounts on the page, not written in", async ({ page }) => {
-    // "Check another year" is not available here: FY2011–FY2025 all have an audited
-    // comparison and render the budget-versus-actual branch instead, so FY2026 is the only
-    // year that uses this two-line presentation at all. Proving the numbers are derived
-    // therefore has to be done within the one year — by recomputing them from the dollar
-    // figures the page itself prints. A hardcoded "96.9%" would survive a second-year test
-    // that never ran; it cannot survive this one.
-    await page.goto("/e/fund.general/?fy=2026");
-    const moneyOut = page.locator("#money-out");
-    // The "What services does this support?" nav at the end of this section prints its own
-    // General Fund total (for its share denominator) plus each linked service's own dollar
-    // figure -- none of which are the operating/transfers/total triple this test recomputes
-    // from, so its dollar figures are subtracted out (by exact text, respecting duplicate
-    // counts) rather than assumed away by DOM position.
-    const nav = moneyOut.locator("nav");
-    const navDollarCounts = new Map<string, number>();
-    for (const text of await nav.getByText(/^\$[\d,]+$/).allInnerTexts()) {
-      navDollarCounts.set(text, (navDollarCounts.get(text) ?? 0) + 1);
+    // FY2011–FY2025 all have an audited comparison and render the budget-versus-actual
+    // branch instead, so only the adopted-only years (FY2026 and FY2027) use this two-line
+    // presentation. Proving the numbers are derived is done within each year, by recomputing
+    // them from the dollar figures the page itself prints. A hardcoded "96.9%" cannot
+    // survive this.
+    for (const fy of [2026, 2027]) {
+      await page.goto(`/e/fund.general/?fy=${fy}`);
+      const moneyOut = page.locator("#money-out");
+      // A year other than the latest loads after navigation, and allInnerTexts() does not
+      // wait. Read the figures only once the composition has rendered.
+      await expect(moneyOut.getByText(/%\s*of money out/i).first()).toBeVisible();
+      // The "What services does this support?" nav at the end of this section prints its own
+      // General Fund total (for its share denominator) plus each linked service's own dollar
+      // figure -- none of which are the operating/transfers/total triple this test recomputes
+      // from, so its dollar figures are subtracted out (by exact text, respecting duplicate
+      // counts) rather than assumed away by DOM position.
+      const nav = moneyOut.locator("nav");
+      const navDollarCounts = new Map<string, number>();
+      for (const text of await nav.getByText(/^\$[\d,]+$/).allInnerTexts()) {
+        navDollarCounts.set(text, (navDollarCounts.get(text) ?? 0) + 1);
     }
 
     const dollars = (await moneyOut.getByText(/^\$[\d,]+$/).allInnerTexts())
@@ -88,6 +91,7 @@ test.describe("money-out composition", () => {
 
     expect(shares[0]).toBeCloseTo(Number(((operating / total) * 100).toFixed(1)), 1);
     expect(shares[1]).toBeCloseTo(Number(((transfersOut / total) * 100).toFixed(1)), 1);
+    }
   });
 });
 

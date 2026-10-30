@@ -8,8 +8,10 @@ test("parks search explains the overlap and preserves all three official account
   const whole = results.filter({ has: page.locator('a[href^="/e/fund.sr.parks-recreation-tourism"]') });
   const spending = results.filter({ has: page.locator('a[href^="/e/use.sr.parks-recreation-tourism"]') });
   const debt = results.filter({ has: page.locator('a[href^="/e/use.debt.parks-recreation-tourism"]') });
-  await expect(whole).toContainText("$22,510,172");
-  await expect(spending).toContainText("$17,475,148");
+  // Search previews the latest year (FY2027); the explainer below is the FY2026 plan.
+  await expect(whole).toContainText("FY2027");
+  await expect(whole).toContainText("$22,025,613");
+  await expect(spending).toContainText("$17,840,529");
   await expect(spending).toContainText(/already included/i);
   await expect(debt).toContainText(/does not establish|does not mean|not a total/i);
   await expect(debt.locator('[data-printed-form="-"]')).toContainText("$0");
