@@ -59,3 +59,15 @@ test("robots follows the build environment while canonicals keep the public host
     `${SITE_URL}/e/fund.general/`,
   );
 });
+
+test("the repository and the data licence are reachable from every page and stated where data is offered", async ({ page }) => {
+  await page.goto("/e/dept.sheriff/?fy=2026");
+  await expect(page.locator('footer a[href="https://github.com/asreynolds1000/greenville-county-budget"]'))
+    .toHaveText(/source code and data/i);
+  for (const path of ["/about/", "/downloads/"]) {
+    await page.goto(path);
+    await expect(page.locator('main a[href="https://creativecommons.org/licenses/by/4.0/"]')).toHaveText(/CC BY 4\.0/);
+    await expect(page.locator('main a[href="https://github.com/asreynolds1000/greenville-county-budget"]')).toBeVisible();
+    await expect(page.getByText(/still being selected/i)).toHaveCount(0);
+  }
+});

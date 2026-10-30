@@ -1,0 +1,32 @@
+# Greenville County Budget Explorer
+
+> An independent, non-advocacy site that transcribes Greenville County, South Carolina's published budget books (FY2004-05 through FY2026) and audited financial reports (FY2011 to FY2025). Every figure cites its source document and printed page.
+
+- Source code, compiled data, pipeline and tests: https://github.com/asreynolds1000/greenville-county-budget
+- Data licence: CC BY 4.0 (credit the Greenville County Budget Explorer). Code licence: MIT.
+- Corrections: a GitHub issue, or email a@alexreynolds.com.
+
+## Start here
+
+- [County overview](https://gcdata.alexreynolds.com/): money in, fund position and money out for one fiscal year.
+- [Methodology and coverage](https://gcdata.alexreynolds.com/methodology/): what is covered, what is not, and how figures are sourced.
+- [Download the data](https://gcdata.alexreynolds.com/downloads/): CSV files with source, page, status and notes on every row.
+- [Compare years](https://gcdata.alexreynolds.com/compare/)
+- [Search](https://gcdata.alexreynolds.com/search/)
+- [Property-tax estimate](https://gcdata.alexreynolds.com/property-tax/): how a 2025 property-tax bill divides among taxing entities.
+
+## The repository
+
+- [README](https://github.com/asreynolds1000/greenville-county-budget#readme): layout and where the numbers come from.
+- [Accounting specification](https://github.com/asreynolds1000/greenville-county-budget/blob/main/docs/sources-funds-uses-architecture-spec.md): what money in, fund position and money out mean here.
+- [Editorial rules](https://github.com/asreynolds1000/greenville-county-budget/blob/main/docs/product-brief.md)
+- [Contributing](https://github.com/asreynolds1000/greenville-county-budget/blob/main/CONTRIBUTING.md): setup, checks, and how to propose a correction.
+- [Roadmap](https://github.com/asreynolds1000/greenville-county-budget/blob/main/ROADMAP.md): data the site does not cover yet.
+
+## Reading the figures
+
+- Every value carries a status: actual, adopted budget, proposed or projected. Statuses are never blended into one series.
+- A missing value means the county did not publish it. It is not zero. A printed dash is marked as a dash.
+- Budget-versus-actual comparisons use the audited report's final amended budget; the downloads also keep the originally adopted budget.
+- Caveats such as reorganizations that break a series travel with the figures as notes, including in the downloads.
+- The site states how quantities are measured and reaches no conclusion about them.
