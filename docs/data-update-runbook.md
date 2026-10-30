@@ -8,8 +8,8 @@ status: active
 
 The next named data event is the FY2026 ACFR. It becomes a budget-versus-actual year only
 after the county publishes the audited report and the report is read into the production
-model. FY2027 remains outside production until a consolidated final source is acquired and verified (an adopted book,
-signed ordinance or certified schedule satisfying the source-readiness record).
+model. FY2027 is included from the final adopted book verified on 2026-10-30;
+[`fy2027-source-readiness.md`](../research/fund-coverage/fy2027-source-readiness.md) records the adoption reconciliation.
 
 ## Before editing data
 

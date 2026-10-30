@@ -1,7 +1,7 @@
 # The source documents: how to restore them, and how changes are detected
 
-The site's figures are transcribed from 70 Greenville County documents: 55 budget-book files
-and 15 audited Annual Comprehensive Financial Reports (ACFRs), about 475 MB in all. This
+The site's figures are transcribed from 71 Greenville County documents: 56 budget-book files
+and 15 audited Annual Comprehensive Financial Reports (ACFRs), about 483 MiB in all. This
 repository does not store the documents. It stores their SHA-256 hashes, which is what makes a
 citation checkable: anyone can fetch a document and prove it is the exact file that was read.
 
@@ -17,7 +17,7 @@ year, or answer "the document says something different on that page."
 
 | | Budget books | ACFRs |
 |---|---|---|
-| What they source | the adopted budget series, FY2002–FY2026 | every budget-versus-actual figure, FY2011–FY2025 |
+| What they source | the adopted budget series, FY2002–FY2027 | every budget-versus-actual figure, FY2011–FY2025 |
 | Hash manifest | `audit/source-files.json` | `data/production/acfr_source_files.json` |
 | Restored to | `data/raw/<path>` | `data/raw/acfr/<filename>` |
 
@@ -34,7 +34,7 @@ For each document the tool tries the county's official URL, then the byte-identi
 Archive capture listed in `data/production/source_archive_captures.csv`. It keeps a download
 only if its SHA-256 equals the hash in the manifest, and it never edits a manifest.
 
-As checked on 2026-10-30, 69 of the 70 documents have a byte-identical Internet Archive copy.
+As checked on 2026-10-30, 70 of the 71 documents have a byte-identical Internet Archive copy.
 The exception is the FY2027 budget ordinance after second reading, which is still available
 from the county's site. The Internet Archive copies matter because a county site
 reorganization can move or remove a document; a restore still succeeds as long as either
@@ -53,7 +53,7 @@ page that no longer shows the figure that was read from it.
 county's URL and compares it with the recorded hash.
 
 ```bash
-python3 -m scripts.verify_sources            # network: re-fetch and compare all 70
+python3 -m scripts.verify_sources            # network: re-fetch and compare all 71
 python3 -m scripts.verify_sources --local    # disk only, no network
 python3 -m scripts.verify_sources --json     # machine-readable, for a scheduled run
 ```

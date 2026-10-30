@@ -13,7 +13,7 @@ check every published number against its source, and the web app.
 ## Where the numbers come from
 
 Every figure comes from Greenville County's own published documents: its adopted budget books
-(FY2004–05 through FY2026; some series reach back to FY2002 where a book prints earlier years
+(FY2004–05 through FY2027; some series reach back to FY2002 where a book prints earlier years
 for comparison) and its audited Annual Comprehensive Financial Reports (FY2011 to FY2025).
 The property-tax estimate also uses the County Auditor's 2025 millage sheet and county GIS.
 

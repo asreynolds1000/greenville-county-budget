@@ -1,6 +1,6 @@
 # Greenville County Budget Explorer
 
-> An independent, non-advocacy site that transcribes Greenville County, South Carolina's published budget books (FY2004-05 through FY2026) and audited financial reports (FY2011 to FY2025). Every figure cites its source document and printed page.
+> An independent, non-advocacy site that transcribes Greenville County, South Carolina's published budget books (FY2004-05 through FY2027) and audited financial reports (FY2011 to FY2025). Every figure cites its source document and printed page.
 
 - Source code, compiled data, pipeline and tests: https://github.com/asreynolds1000/greenville-county-budget
 - Data licence: CC BY 4.0 (credit the Greenville County Budget Explorer). Code licence: MIT.

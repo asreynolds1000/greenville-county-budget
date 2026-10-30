@@ -9,8 +9,7 @@ file explains.
 - **Corrections.** A figure that does not match the county's document. Say which document and
   which printed page.
 - **New source-backed data.** The gaps are listed in [`ROADMAP.md`](ROADMAP.md): transit
-  amounts, staffing and compensation, all-fund audited actuals, FY2027 once a final adopted
-  source is published, roads across governments, and debt detail.
+  amounts, staffing and compensation, all-fund audited actuals, roads across governments, and debt detail.
 - **Accessibility and clarity fixes** to the site, as long as they keep the meaning of every
   figure and caveat.
 
