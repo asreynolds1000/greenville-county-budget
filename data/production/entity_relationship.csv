@@ -1,55 +1,55 @@
 relationship_id,from_entity_id,to_entity_id,relationship_type,traceability_level,is_additive,effective_from_fy,effective_to_fy,restriction_note,relationship_note,source_code
-gf.revenue-to-fund,rev.total-estimated-financial-sources,fund.general,inflow_to,structural,no,2002,2026,,General Fund financial-sources statement,
-gf.beginning-position,balance.gf.beginning,fund.general,position_of,structural,no,2002,2026,Fund balance is not cash,Beginning General Fund position,
-gf.ending-position,balance.gf.ending,fund.general,position_of,structural,no,2002,2026,Fund balance is not cash,Ending General Fund position,
-gf.net-position-change,balance.gf.net-change,fund.general,position_of,structural,no,2002,2026,,Change connecting beginning and ending position,
+gf.revenue-to-fund,rev.total-estimated-financial-sources,fund.general,inflow_to,structural,no,2002,2027,,General Fund financial-sources statement,
+gf.beginning-position,balance.gf.beginning,fund.general,position_of,structural,no,2002,2027,Fund balance is not cash,Beginning General Fund position,
+gf.ending-position,balance.gf.ending,fund.general,position_of,structural,no,2002,2027,Fund balance is not cash,Ending General Fund position,
+gf.net-position-change,balance.gf.net-change,fund.general,position_of,structural,no,2002,2027,,Change connecting beginning and ending position,
 gf.revenue-replacement-position,balance.gf.revenue-replacement,fund.general,position_of,structural,no,2022,2022,,Source-printed position adjustment,
 gf.encumbrance-position,balance.gf.reserved-encumbrances,fund.general,position_of,structural,no,2023,2023,Not equivalent to unrestricted cash,Source-printed position adjustment,
-gf.transfers-in,fin.gf.transfers-in,fund.general,inflow_to,structural,no,2018,2026,,Budgeted transfers into the General Fund,
-gf.transfers-out,fund.general,fin.gf.transfers-out,outflow_from,structural,no,2002,2026,,Budgeted transfers out of the General Fund,
-gf.operating-uses,fund.general,use.gf.operating-total,outflow_from,structural,no,2002,2026,,Operating uses before interfund transfers,
-gf.net-financing,fin.gf.total-other-sources-uses,fund.general,related_to,editorial_related,no,2002,2026,,Net other financing sources and uses for the General Fund,
+gf.transfers-in,fin.gf.transfers-in,fund.general,inflow_to,structural,no,2018,2027,,Budgeted transfers into the General Fund,
+gf.transfers-out,fund.general,fin.gf.transfers-out,outflow_from,structural,no,2002,2027,,Budgeted transfers out of the General Fund,
+gf.operating-uses,fund.general,use.gf.operating-total,outflow_from,structural,no,2002,2027,,Operating uses before interfund transfers,
+gf.net-financing,fin.gf.total-other-sources-uses,fund.general,related_to,editorial_related,no,2002,2027,,Net other financing sources and uses for the General Fund,
 gf.legacy-net-transfers,fin.gf.transfers-net,fund.general,related_to,editorial_related,no,2002,2017,,Net transfer presentation used before separate in and out rows,
 gf.legacy-other-transfers,fin.gf.other-transfers,fund.general,related_to,editorial_related,no,2002,2013,,Additional early-period transfer line,
-gf.overview.administrative,use.gf.operating-total,overview.gf.administrative,detail_view,structural,no,2002,2026,,Broad operating-overview category; parallel to department detail,
-gf.overview.fiscal,use.gf.operating-total,overview.gf.fiscal,detail_view,structural,no,2002,2026,,Broad operating-overview category; parallel to department detail,
-gf.overview.judicial,use.gf.operating-total,overview.gf.judicial,detail_view,structural,no,2002,2026,,Broad operating-overview category; parallel to department detail,
-gf.overview.law-enforcement,use.gf.operating-total,overview.gf.law-enforcement,detail_view,structural,no,2002,2026,,Broad operating-overview category; parallel to department detail,
-gf.overview.general-services,use.gf.operating-total,overview.gf.general-services,detail_view,structural,no,2002,2026,,Broad operating-overview category; parallel to department detail,
+gf.overview.administrative,use.gf.operating-total,overview.gf.administrative,detail_view,structural,no,2002,2027,,Broad operating-overview category; parallel to department detail,
+gf.overview.fiscal,use.gf.operating-total,overview.gf.fiscal,detail_view,structural,no,2002,2027,,Broad operating-overview category; parallel to department detail,
+gf.overview.judicial,use.gf.operating-total,overview.gf.judicial,detail_view,structural,no,2002,2027,,Broad operating-overview category; parallel to department detail,
+gf.overview.law-enforcement,use.gf.operating-total,overview.gf.law-enforcement,detail_view,structural,no,2002,2027,,Broad operating-overview category; parallel to department detail,
+gf.overview.general-services,use.gf.operating-total,overview.gf.general-services,detail_view,structural,no,2002,2027,,Broad operating-overview category; parallel to department detail,
 gf.overview.human-resources,use.gf.operating-total,overview.gf.human-resources,detail_view,structural,no,2002,2013,,Broad operating-overview category; parallel to department detail,
-gf.overview.other-services,use.gf.operating-total,overview.gf.other-services,detail_view,structural,no,2002,2026,,Broad operating-overview category; parallel to department detail,
-gf.overview.public-safety,use.gf.operating-total,overview.gf.public-safety,detail_view,structural,no,2002,2026,,Broad operating-overview category; parallel to department detail,
+gf.overview.other-services,use.gf.operating-total,overview.gf.other-services,detail_view,structural,no,2002,2027,,Broad operating-overview category; parallel to department detail,
+gf.overview.public-safety,use.gf.operating-total,overview.gf.public-safety,detail_view,structural,no,2002,2027,,Broad operating-overview category; parallel to department detail,
 gf.overview.public-works.early,use.gf.operating-total,overview.gf.public-works,detail_view,structural,no,2002,2011,,Broad operating-overview category; parallel to department detail,
-gf.overview.public-works.late,use.gf.operating-total,overview.gf.public-works,detail_view,structural,no,2022,2026,,Broad operating-overview category; parallel to department detail,
-gf.overview.community-planning,use.gf.operating-total,overview.gf.community-planning-development,detail_view,structural,no,2012,2026,,Broad operating-overview category; parallel to department detail,
+gf.overview.public-works.late,use.gf.operating-total,overview.gf.public-works,detail_view,structural,no,2022,2027,,Broad operating-overview category; parallel to department detail,
+gf.overview.community-planning,use.gf.operating-total,overview.gf.community-planning-development,detail_view,structural,no,2012,2027,,Broad operating-overview category; parallel to department detail,
 gf.overview.ems,use.gf.operating-total,overview.gf.emergency-medical-services,detail_view,structural,no,2016,2021,,Broad operating-overview category; parallel to department detail,
 gf.overview.emergency-management,use.gf.operating-total,overview.gf.emergency-management,detail_view,structural,no,2018,2021,,Broad operating-overview category; parallel to department detail,
 gf.overview.strategic-operations,use.gf.operating-total,overview.gf.strategic-operations,detail_view,structural,no,2022,2023,,Broad operating-overview category; parallel to department detail,
-gf.overview.department-administration,use.gf.operating-total,overview.gf.department-administration,detail_view,structural,no,2024,2026,,Broad operating-overview category; parallel to department detail,
-gf.other-revenue.cable-franchise,rev.other,rev.other.cable-franchise,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.other-revenue.interest,rev.other,rev.other.interest,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.other-revenue.administrative-cost,rev.other,rev.other.administrative-cost,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.other-revenue.county-health-retirees,rev.other,rev.other.county-health-retirees,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.other-revenue.miscellaneous,rev.other,rev.other.miscellaneous,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.other-revenue.indirect-cost,rev.other,rev.other.indirect-cost,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.other-revenue.rents,rev.other,rev.other.rents,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.other-revenue.railroad-row,rev.other,rev.other.railroad-row,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.other-revenue.unrealized-investment,rev.other,rev.other.unrealized-investment,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.other-revenue.tax-sale,rev.other,rev.other.tax-sale,contains,exact,yes,2026,2026,,Source-printed component of Other Revenue,FY2026
-gf.transfer-in.hospitality-tax,fund.sr.hospitality-tax,fund.general,transfer_to,exact,no,2026,2026,Internal county movement; do not count again as county-wide revenue,The FY2026 transfer summary reports 2162116 from Hospitality Tax for eligible public-safety-related expenditures; its narrative reports 2162115,FY2026
-gf.transfer-in.infrastructure-bank,fund.sr.infrastructure-bank,fund.general,transfer_to,exact,no,2026,2026,Internal county movement; do not count again as county-wide revenue,The FY2026 transfer summary reports 16677877 from the Infrastructure Bank,FY2026
-gf.transfer-in.workers-compensation,isf.workers-compensation,fund.general,transfer_to,exact,no,2026,2026,Existing county fund balance rather than outside revenue,The FY2026 transfer summary reports 2500000 of accumulated Workers Compensation fund balance,FY2026
-gf.transfer-in.state-accommodations,fund.sr.state-accommodations-tax,fund.general,transfer_to,exact,no,2026,2026,Internal county movement; do not count again as county-wide revenue,The FY2026 transfer summary reports 75000 for the County's portion of accommodations tax revenue,FY2026
-gf.transfer-in-detail.hospitality-tax,fin.gf.transfers-in,fin.gf.transfer-in.hospitality-tax,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers in,FY2026
-gf.transfer-in-detail.infrastructure-bank,fin.gf.transfers-in,fin.gf.transfer-in.infrastructure-bank,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers in,FY2026
-gf.transfer-in-detail.workers-compensation,fin.gf.transfers-in,fin.gf.transfer-in.workers-compensation,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers in,FY2026
-gf.transfer-in-detail.state-accommodations,fin.gf.transfers-in,fin.gf.transfer-in.state-accommodations,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers in,FY2026
-gf.transfer-out.debt-service,fin.gf.transfers-out,dept.otherfinancingusesdebtservice,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers out,FY2026
-gf.transfer-out.special-revenue,fin.gf.transfers-out,dept.otherfinancingusesspecialrevenue,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers out,FY2026
-gf.transfer-out.matching-grants,fin.gf.transfers-out,dept.matchingfundsgrants,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers out,FY2026
-gf.transfer-out.capital-projects,fin.gf.transfers-out,dept.otherfinancingusescapitalprojects,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers out,FY2026
-gf.transfer-out.internal-services,fin.gf.transfers-out,dept.otherfinancingusesinternalservices,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers out,FY2026
-gf.transfer-out.fmv-adjustment,fin.gf.transfers-out,dept.fmvadjustment,contains,exact,yes,2026,2026,,Source-printed component of FY2026 transfers out,FY2026
+gf.overview.department-administration,use.gf.operating-total,overview.gf.department-administration,detail_view,structural,no,2024,2027,,Broad operating-overview category; parallel to department detail,
+gf.other-revenue.cable-franchise,rev.other,rev.other.cable-franchise,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.other-revenue.interest,rev.other,rev.other.interest,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.other-revenue.administrative-cost,rev.other,rev.other.administrative-cost,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.other-revenue.county-health-retirees,rev.other,rev.other.county-health-retirees,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.other-revenue.miscellaneous,rev.other,rev.other.miscellaneous,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.other-revenue.indirect-cost,rev.other,rev.other.indirect-cost,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.other-revenue.rents,rev.other,rev.other.rents,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.other-revenue.railroad-row,rev.other,rev.other.railroad-row,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.other-revenue.unrealized-investment,rev.other,rev.other.unrealized-investment,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.other-revenue.tax-sale,rev.other,rev.other.tax-sale,contains,exact,yes,2026,2027,,Source-printed component of Other Revenue,FY2026
+gf.transfer-in.hospitality-tax,fund.sr.hospitality-tax,fund.general,transfer_to,exact,no,2026,2027,Internal county movement; do not count again as county-wide revenue,The FY2026 transfer summary reports 2162116 from Hospitality Tax for eligible public-safety-related expenditures; its narrative reports 2162115,FY2026
+gf.transfer-in.infrastructure-bank,fund.sr.infrastructure-bank,fund.general,transfer_to,exact,no,2026,2027,Internal county movement; do not count again as county-wide revenue,The FY2026 transfer summary reports 16677877 from the Infrastructure Bank,FY2026
+gf.transfer-in.workers-compensation,isf.workers-compensation,fund.general,transfer_to,exact,no,2026,2027,Existing county fund balance rather than outside revenue,The FY2026 transfer summary reports 2500000 of accumulated Workers Compensation fund balance,FY2026
+gf.transfer-in.state-accommodations,fund.sr.state-accommodations-tax,fund.general,transfer_to,exact,no,2026,2027,Internal county movement; do not count again as county-wide revenue,The FY2026 transfer summary reports 75000 for the County's portion of accommodations tax revenue,FY2026
+gf.transfer-in-detail.hospitality-tax,fin.gf.transfers-in,fin.gf.transfer-in.hospitality-tax,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers in,FY2026
+gf.transfer-in-detail.infrastructure-bank,fin.gf.transfers-in,fin.gf.transfer-in.infrastructure-bank,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers in,FY2026
+gf.transfer-in-detail.workers-compensation,fin.gf.transfers-in,fin.gf.transfer-in.workers-compensation,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers in,FY2026
+gf.transfer-in-detail.state-accommodations,fin.gf.transfers-in,fin.gf.transfer-in.state-accommodations,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers in,FY2026
+gf.transfer-out.debt-service,fin.gf.transfers-out,dept.otherfinancingusesdebtservice,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers out,FY2026
+gf.transfer-out.special-revenue,fin.gf.transfers-out,dept.otherfinancingusesspecialrevenue,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers out,FY2026
+gf.transfer-out.matching-grants,fin.gf.transfers-out,dept.matchingfundsgrants,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers out,FY2026
+gf.transfer-out.capital-projects,fin.gf.transfers-out,dept.otherfinancingusescapitalprojects,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers out,FY2026
+gf.transfer-out.internal-services,fin.gf.transfers-out,dept.otherfinancingusesinternalservices,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers out,FY2026
+gf.transfer-out.fmv-adjustment,fin.gf.transfers-out,dept.fmvadjustment,contains,exact,yes,2026,2027,,Source-printed component of FY2026 transfers out,FY2026
 succ.eng-northern-bureau,dept.engnorthernbureau,dept.engineeringnorthernbureau,succeeded_by,documented_association,no,2013,2014,,"The county printed ENG.-NORTHERN BUREAU through FY2013 and ENGINEERING - NORTHERN BUREAU from FY2014; the FY2013 reorganisation also moved it from Public Works to Community Development and Planning. FY2013 2,333,521 to FY2014 2,480,983 (+6.3%).",FY2014-15
 succ.eng-southern-bureau,dept.engsouthernbureau,dept.engineeringsouthernbureau,succeeded_by,documented_association,no,2013,2014,,"The county printed ENG.-SOUTHERN BUREAU through FY2013 and ENGINEERING - SOUTHERN BUREAU from FY2014; the FY2013 reorganisation also moved it from Public Works to Community Development and Planning. FY2013 1,881,303 to FY2014 2,006,376 (+6.6%).",FY2014-15
 succ.matching-fund-grants,dept.matchingfundgrants,dept.matchingfundsgrants,succeeded_by,documented_association,no,2019,2020,,"MATCHING FUND GRANTS becomes Matching Funds/Grants in the FY2020-21 book. The published amount is identical either side of the change: 200,000 in both FY2019 and FY2020.",FY2020-21
@@ -61,28 +61,28 @@ succ.operating-transfers-category,opcat.operating-transfers,opcat.other-financin
 succ.transfers-debt-service,dept.transfersdebtservice,dept.otherfinancingusesdebtservice,succeeded_by,documented_association,no,2019,2020,,"TRANSFERS - DEBT SERVICE becomes Other Financing Uses/Debt Service in the FY2020-21 book, moving with its category. FY2019 2,760,631 to FY2020 3,072,791 (+11.3%).",FY2020-21
 succ.transfers-internal-service,dept.transfersinternalservice,dept.otherfinancingusesinternalservices,succeeded_by,documented_association,no,2019,2020,,"TRANSFERS - INTERNAL SERVICE becomes Other Financing Uses/Internal Services in the FY2020-21 book, moving with its category. FY2019 4,826,403 to FY2020 5,000,000 (+3.6%).",FY2020-21
 succ.county-administrator,dept.countyadministrator,dept.counciladministrator,succeeded_by,documented_association,no,2019,2020,,"COUNTY ADMINISTRATOR becomes Council Administrator in the FY2020-21 book, under the same operating category. FY2019 818,658 to FY2020 874,878 (+6.9%).",FY2020-21
-succ.non-departmental,dept.nondepartmental,dept.nondepartmentalfunds,succeeded_by,documented_association,no,2025,2026,,"Non-Departmental becomes Non-Departmental Funds in the FY2026 book. FY2025 6,385,868 to FY2026 8,082,619, a rise of 26.6 percent against 3 to 5 percent in the preceding years, so the added word may reflect added scope rather than a rename alone.",FY2026
+succ.non-departmental,dept.nondepartmental,dept.nondepartmentalfunds,succeeded_by,documented_association,no,2025,2027,,"Non-Departmental becomes Non-Departmental Funds in the FY2026 book. FY2025 6,385,868 to FY2026 8,082,619, a rise of 26.6 percent against 3 to 5 percent in the preceding years, so the added word may reflect added scope rather than a rename alone.",FY2026
 succ.other-financing-uses-capital-projects,dept.otherfinancingusescapitalproject,dept.otherfinancingusescapitalprojects,succeeded_by,documented_association,no,2023,2024,,"Other Financing Uses/Capital Project gains an S in the FY2024-25 book. The earlier line is present in both FY2022 and FY2023 with a printed dash represented as zero for reconciled arithmetic; it is not an absent observation.",FY2024-25
-related.sr-parks-presentations,fund.sr.parks-recreation-tourism,use.sr.parks-recreation-tourism,related_to,documented_association,no,2016,2026,Parallel presentations; do not add them together.,"The named-fund Budget Expenditure Overview includes transfers out where starred; the operating-category line is the department view. In FY2026, $22,510,172 minus $17,475,148 is $5,035,024, exactly the printed transfers of $4,550,000 to Capital Projects, $460,024 to Debt Service, and $25,000 for matching grants.",FY2026
-related.gf-public-works-presentations,overview.gf.public-works,opcat.public-works,related_to,documented_association,no,2002,2026,Parallel presentations; do not add them together.,"The General Fund operating overview total and the department-composition category are parallel Public Works presentations. In FY2026 both print $26,595,450; Engineering and Road Bureaus is $7,868,053, or 29.6% of the department composition.",FY2026
-sr.revenue-to-fund,rev.sr.total,fund.special-revenue,inflow_to,structural,no,2010,2026,Restricted revenue is not General Fund revenue,Selected Special Revenue financial sources,
-sr.operating-uses,fund.special-revenue,use.sr.total,outflow_from,structural,no,2010,2026,,Selected Special Revenue expenditures before other financing,
-sr.beginning-position,balance.sr.beginning,fund.special-revenue,position_of,structural,no,2010,2026,Fund balance is not cash,Beginning selected Special Revenue position,
-sr.ending-position,balance.sr.ending,fund.special-revenue,position_of,structural,no,2010,2026,Fund balance is not cash,Ending selected Special Revenue position,
-sr.net-position-change,balance.sr.net-change,fund.special-revenue,position_of,structural,no,2010,2026,,Change connecting beginning and ending selected Special Revenue position,
-sr.transfers-in,fin.sr.transfers-in,fund.special-revenue,inflow_to,structural,no,2016,2026,Internal county movement; not outside revenue,Transfers into selected Special Revenue Funds,
-sr.transfers-out,fund.special-revenue,fin.sr.transfers-out,outflow_from,structural,no,2016,2026,Internal county movement; do not count again county-wide,Transfers out of selected Special Revenue Funds,
-sr.net-financing,fin.sr.total-other-sources-uses,fund.special-revenue,related_to,editorial_related,no,2010,2026,Internal county movement; do not count again county-wide,Net other financing for selected Special Revenue Funds,
-debt.revenue-to-fund,rev.debt.total,fund.debt-service,inflow_to,structural,no,2010,2026,Dedicated revenue is not General Fund revenue,Debt Service financial sources,
-debt.operating-uses,fund.debt-service,use.debt.total,outflow_from,structural,no,2010,2026,,Debt Service principal interest and other expenditures,
-debt.beginning-position,balance.debt.beginning,fund.debt-service,position_of,structural,no,2010,2026,Fund balance is not cash,Beginning Debt Service position,
-debt.ending-position,balance.debt.ending,fund.debt-service,position_of,structural,no,2010,2026,Fund balance is not cash,Ending Debt Service position,
-debt.net-position-change,balance.debt.net-change,fund.debt-service,position_of,structural,no,2010,2026,,Change connecting beginning and ending Debt Service position,
-debt.transfers-in,fin.debt.transfers-in,fund.debt-service,inflow_to,structural,no,2016,2026,Internal county movement; not outside revenue,Transfers into Debt Service,
-debt.transfers-out,fund.debt-service,fin.debt.transfers-out,outflow_from,structural,no,2016,2026,Internal county movement; do not count again county-wide,Transfers out of Debt Service,
-debt.net-financing,fin.debt.total-other-sources-uses,fund.debt-service,related_to,editorial_related,no,2010,2026,Borrowing and internal movements are not operating revenue,Net other financing for Debt Service,
-enterprise.funding-to-fund,funding.enterprise.total,fund.enterprise,related_to,structural,no,2002,2026,Includes financing and fund-balance usage; not an outside-revenue total,Source-printed total Enterprise operating funding,
-enterprise.operating-uses,fund.enterprise,use.enterprise.total,outflow_from,structural,no,2002,2026,,Source-printed total Enterprise expenses,
-enterprise.solid-waste-position-change,balance.enterprise.solid-waste-usage,fund.enterprise,position_of,structural,no,2003,2026,Usage and contribution only; beginning and ending fund balance are not printed,Solid Waste fund-balance usage or contribution,
-enterprise.stormwater-position-change,balance.enterprise.stormwater-usage,fund.enterprise,position_of,structural,no,2006,2026,Usage and contribution only; beginning and ending fund balance are not printed,Stormwater fund-balance usage or contribution,
-enterprise.other-financing,fin.enterprise.other-sources-solid-waste,fund.enterprise,inflow_to,structural,no,2024,2026,Financing rather than outside operating revenue,Solid Waste other financing sources,
+related.sr-parks-presentations,fund.sr.parks-recreation-tourism,use.sr.parks-recreation-tourism,related_to,documented_association,no,2016,2027,Parallel presentations; do not add them together.,"The named-fund Budget Expenditure Overview includes transfers out where starred; the operating-category line is the department view. In FY2026, $22,510,172 minus $17,475,148 is $5,035,024, exactly the printed transfers of $4,550,000 to Capital Projects, $460,024 to Debt Service, and $25,000 for matching grants.",FY2026
+related.gf-public-works-presentations,overview.gf.public-works,opcat.public-works,related_to,documented_association,no,2002,2027,Parallel presentations; do not add them together.,"The General Fund operating overview total and the department-composition category are parallel Public Works presentations. In FY2026 both print $26,595,450; Engineering and Road Bureaus is $7,868,053, or 29.6% of the department composition.",FY2026
+sr.revenue-to-fund,rev.sr.total,fund.special-revenue,inflow_to,structural,no,2010,2027,Restricted revenue is not General Fund revenue,Selected Special Revenue financial sources,
+sr.operating-uses,fund.special-revenue,use.sr.total,outflow_from,structural,no,2010,2027,,Selected Special Revenue expenditures before other financing,
+sr.beginning-position,balance.sr.beginning,fund.special-revenue,position_of,structural,no,2010,2027,Fund balance is not cash,Beginning selected Special Revenue position,
+sr.ending-position,balance.sr.ending,fund.special-revenue,position_of,structural,no,2010,2027,Fund balance is not cash,Ending selected Special Revenue position,
+sr.net-position-change,balance.sr.net-change,fund.special-revenue,position_of,structural,no,2010,2027,,Change connecting beginning and ending selected Special Revenue position,
+sr.transfers-in,fin.sr.transfers-in,fund.special-revenue,inflow_to,structural,no,2016,2027,Internal county movement; not outside revenue,Transfers into selected Special Revenue Funds,
+sr.transfers-out,fund.special-revenue,fin.sr.transfers-out,outflow_from,structural,no,2016,2027,Internal county movement; do not count again county-wide,Transfers out of selected Special Revenue Funds,
+sr.net-financing,fin.sr.total-other-sources-uses,fund.special-revenue,related_to,editorial_related,no,2010,2027,Internal county movement; do not count again county-wide,Net other financing for selected Special Revenue Funds,
+debt.revenue-to-fund,rev.debt.total,fund.debt-service,inflow_to,structural,no,2010,2027,Dedicated revenue is not General Fund revenue,Debt Service financial sources,
+debt.operating-uses,fund.debt-service,use.debt.total,outflow_from,structural,no,2010,2027,,Debt Service principal interest and other expenditures,
+debt.beginning-position,balance.debt.beginning,fund.debt-service,position_of,structural,no,2010,2027,Fund balance is not cash,Beginning Debt Service position,
+debt.ending-position,balance.debt.ending,fund.debt-service,position_of,structural,no,2010,2027,Fund balance is not cash,Ending Debt Service position,
+debt.net-position-change,balance.debt.net-change,fund.debt-service,position_of,structural,no,2010,2027,,Change connecting beginning and ending Debt Service position,
+debt.transfers-in,fin.debt.transfers-in,fund.debt-service,inflow_to,structural,no,2016,2027,Internal county movement; not outside revenue,Transfers into Debt Service,
+debt.transfers-out,fund.debt-service,fin.debt.transfers-out,outflow_from,structural,no,2016,2027,Internal county movement; do not count again county-wide,Transfers out of Debt Service,
+debt.net-financing,fin.debt.total-other-sources-uses,fund.debt-service,related_to,editorial_related,no,2010,2027,Borrowing and internal movements are not operating revenue,Net other financing for Debt Service,
+enterprise.funding-to-fund,funding.enterprise.total,fund.enterprise,related_to,structural,no,2002,2027,Includes financing and fund-balance usage; not an outside-revenue total,Source-printed total Enterprise operating funding,
+enterprise.operating-uses,fund.enterprise,use.enterprise.total,outflow_from,structural,no,2002,2027,,Source-printed total Enterprise expenses,
+enterprise.solid-waste-position-change,balance.enterprise.solid-waste-usage,fund.enterprise,position_of,structural,no,2003,2027,Usage and contribution only; beginning and ending fund balance are not printed,Solid Waste fund-balance usage or contribution,
+enterprise.stormwater-position-change,balance.enterprise.stormwater-usage,fund.enterprise,position_of,structural,no,2006,2027,Usage and contribution only; beginning and ending fund balance are not printed,Stormwater fund-balance usage or contribution,
+enterprise.other-financing,fin.enterprise.other-sources-solid-waste,fund.enterprise,inflow_to,structural,no,2024,2027,Financing rather than outside operating revenue,Solid Waste other financing sources,

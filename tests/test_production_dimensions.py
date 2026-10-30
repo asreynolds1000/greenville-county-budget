@@ -29,9 +29,9 @@ class DimensionTests(unittest.TestCase):
         total, distinct = conn.execute(
             "SELECT COUNT(*), COUNT(DISTINCT source_code) FROM source").fetchone()
         self.assertEqual(total, distinct)
-        # 12 budget-book codes, 5 ACFR sources in the frozen registry, and 10 more ACFR
+        # 13 budget-book codes, 5 ACFR sources in the frozen registry, and 10 more ACFR
         # sources for the audited years modelled after the registry was frozen.
-        self.assertEqual(total, 27)
+        self.assertEqual(total, 28)
         codes = {r[0] for r in conn.execute("SELECT source_code FROM source")}
         self.assertNotIn("INDEX", codes)
         self.assertEqual(
@@ -200,7 +200,7 @@ class DimensionTests(unittest.TestCase):
             # Revenue statements added 74 instances, the four Debt Service statements
             # another 68, and Enterprise funding/outflow add 50 source-and-status-
             # controlled instances. Source exceptions retain exact printed deltas.
-            334,
+            352,
         )
         self.assertEqual(
             conn.execute(
@@ -277,7 +277,7 @@ class DimensionTests(unittest.TestCase):
                 "SELECT COUNT(*) FROM statement_instance "
                 "WHERE statement_id='gf.operating-overview'"
             ).fetchone()[0],
-            25,
+            26,
         )
 
     def test_reorganization_edges_follow_printed_department_sections(self):

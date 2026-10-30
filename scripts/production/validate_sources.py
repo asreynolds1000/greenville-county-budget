@@ -986,7 +986,7 @@ def check_hierarchy_edge_overlap(data_dir: Path) -> list[str]:
     """
     errors: list[str] = []
     rows = _read(data_dir, "hierarchy_edge.csv")
-    GLOBAL_MIN, GLOBAL_MAX = 2002, 2026
+    GLOBAL_MIN, GLOBAL_MAX = 2002, 2027
 
     def span(row: dict) -> tuple[int, int]:
         start = row.get("effective_from_fy", "").strip() or GLOBAL_MIN

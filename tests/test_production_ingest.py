@@ -52,7 +52,7 @@ class FullIngestTests(unittest.TestCase):
                 "SELECT COUNT(*) FROM observation WHERE value=0 AND printed_form IS NOT NULL "
                 "AND printed_form_review_status IS NOT NULL"
             ).fetchone()[0],
-            773,
+            804,
         )
         self.assertEqual(
             conn.execute(

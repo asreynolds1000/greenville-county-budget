@@ -1,22 +1,22 @@
 statement_id,canonical_name,scope_entity_id,statement_type,effective_from_fy,effective_to_fy,statement_note
-debt.financing,Debt Service Other Financing,fund.debt-service,financing_reconciliation,2010,2026,Source-printed bond and transfer financing components sum to Total Other Sources (Uses)
-debt.inflow,Debt Service Financial Sources,fund.debt-service,inflow_reconciliation,2010,2026,Source-printed broad revenue categories sum to Total Estimated Financial Sources for the Debt Service Fund
-debt.outflow,Debt Service Expenditures,fund.debt-service,outflow_reconciliation,2010,2026,Source-printed principal interest and zero-valued categories sum to Total Expenditures
-debt.position,Debt Service Position Reconciliation,fund.debt-service,position_reconciliation,2010,2026,Beginning fund balance plus net change equals ending fund balance in the latest publication selected for each year
-enterprise.funding,Enterprise Revenue and Funding,fund.enterprise,inflow_reconciliation,2002,2026,Outside revenue plus separately identified financing and fund-balance usage reconcile to the source-printed Enterprise funding total; the total is not outside revenue
-enterprise.outflow,Enterprise Expenses,fund.enterprise,outflow_reconciliation,2002,2026,Solid Waste and source-era Stormwater expense categories reconcile to Total Enterprise Expenses
+debt.financing,Debt Service Other Financing,fund.debt-service,financing_reconciliation,2010,2027,Source-printed bond and transfer financing components sum to Total Other Sources (Uses)
+debt.inflow,Debt Service Financial Sources,fund.debt-service,inflow_reconciliation,2010,2027,Source-printed broad revenue categories sum to Total Estimated Financial Sources for the Debt Service Fund
+debt.outflow,Debt Service Expenditures,fund.debt-service,outflow_reconciliation,2010,2027,Source-printed principal interest and zero-valued categories sum to Total Expenditures
+debt.position,Debt Service Position Reconciliation,fund.debt-service,position_reconciliation,2010,2027,Beginning fund balance plus net change equals ending fund balance in the latest publication selected for each year
+enterprise.funding,Enterprise Revenue and Funding,fund.enterprise,inflow_reconciliation,2002,2027,Outside revenue plus separately identified financing and fund-balance usage reconcile to the source-printed Enterprise funding total; the total is not outside revenue
+enterprise.outflow,Enterprise Expenses,fund.enterprise,outflow_reconciliation,2002,2027,Solid Waste and source-era Stormwater expense categories reconcile to Total Enterprise Expenses
 gf.actual-position,Audited General Fund Position,fund.general,position_reconciliation,2019,2025,Audited beginning position plus actual net change equals audited ending position for the years currently extracted
 gf.balance-composition,How much of the General Fund balance is available,fund.general,position_reconciliation,2011,2025,The audited ending fund balance split by how freely it can be spent. Most of a fund balance is not available cash.
-gf.budget-sources,General Fund Budget Sources,fund.general,sources_and_uses,2018,2026,Estimated revenue plus transfers in and planned balance use equals the adopted General Fund budget
-gf.financing,General Fund Financing Reconciliation,fund.general,financing_reconciliation,2002,2026,Printed other financing components sum to Total Other Sources (Uses)
-gf.operating-overview,General Fund Operating Overview,fund.general,outflow_reconciliation,2002,2026,Source-printed broad operating categories sum to Total General Fund Operating Budget; this is parallel to and not additive with the department hierarchy
-gf.other-revenue-detail,General Fund Other Revenue Detail,rev.other,inflow_reconciliation,2026,2026,Source-printed FY2026 Other Revenue lines sum to the broad Other Revenue category
-gf.outflow,General Fund Outflow Reconciliation,fund.general,outflow_reconciliation,2002,2026,Operating uses plus interfund transfers equal the total General Fund budget
-gf.position,General Fund Position Reconciliation,fund.general,position_reconciliation,2002,2026,Beginning position plus source-printed changes and adjustments equals ending position
-gf.transfer-in-detail,General Fund Transfer In Detail,fin.gf.transfers-in,inflow_reconciliation,2026,2026,Source-printed FY2026 sending-fund amounts sum to Transfers In; the narrative differs from the transfer summary by one dollar on Hospitality Tax
-gf.transfer-out-detail,General Fund Transfer Out Detail,fin.gf.transfers-out,outflow_reconciliation,2026,2026,Source-printed FY2026 Other Financing Uses lines sum to Transfers Out
+gf.budget-sources,General Fund Budget Sources,fund.general,sources_and_uses,2018,2027,Estimated revenue plus transfers in and planned balance use equals the adopted General Fund budget
+gf.financing,General Fund Financing Reconciliation,fund.general,financing_reconciliation,2002,2027,Printed other financing components sum to Total Other Sources (Uses)
+gf.operating-overview,General Fund Operating Overview,fund.general,outflow_reconciliation,2002,2027,Source-printed broad operating categories sum to Total General Fund Operating Budget; this is parallel to and not additive with the department hierarchy
+gf.other-revenue-detail,General Fund Other Revenue Detail,rev.other,inflow_reconciliation,2026,2027,Source-printed FY2026 Other Revenue lines sum to the broad Other Revenue category
+gf.outflow,General Fund Outflow Reconciliation,fund.general,outflow_reconciliation,2002,2027,Operating uses plus interfund transfers equal the total General Fund budget
+gf.position,General Fund Position Reconciliation,fund.general,position_reconciliation,2002,2027,Beginning position plus source-printed changes and adjustments equals ending position
+gf.transfer-in-detail,General Fund Transfer In Detail,fin.gf.transfers-in,inflow_reconciliation,2026,2027,Source-printed FY2026 sending-fund amounts sum to Transfers In; the narrative differs from the transfer summary by one dollar on Hospitality Tax
+gf.transfer-out-detail,General Fund Transfer Out Detail,fin.gf.transfers-out,outflow_reconciliation,2026,2027,Source-printed FY2026 Other Financing Uses lines sum to Transfers Out
 sr.balance-composition,Special Revenue Fund Balance Composition,fund.special-revenue,position_reconciliation,2014,2019,Source-era reserved and unreserved classifications sum to ending fund balance where the selected publication prints them
-sr.financing,Special Revenue Other Financing,fund.special-revenue,financing_reconciliation,2010,2026,Source-printed other financing components sum to Total Other Sources (Uses)
-sr.inflow,Special Revenue Financial Sources,fund.special-revenue,inflow_reconciliation,2010,2026,Source-printed broad revenue categories sum to Total Estimated Financial Sources for the selected Special Revenue Funds
-sr.outflow,Special Revenue Expenditures,fund.special-revenue,outflow_reconciliation,2010,2026,Source-printed expenditure categories sum to Total Expenditures for the selected Special Revenue Funds
-sr.position,Special Revenue Position Reconciliation,fund.special-revenue,position_reconciliation,2010,2026,Beginning fund balance plus net change equals ending fund balance in the latest publication selected for each year
+sr.financing,Special Revenue Other Financing,fund.special-revenue,financing_reconciliation,2010,2027,Source-printed other financing components sum to Total Other Sources (Uses)
+sr.inflow,Special Revenue Financial Sources,fund.special-revenue,inflow_reconciliation,2010,2027,Source-printed broad revenue categories sum to Total Estimated Financial Sources for the selected Special Revenue Funds
+sr.outflow,Special Revenue Expenditures,fund.special-revenue,outflow_reconciliation,2010,2027,Source-printed expenditure categories sum to Total Expenditures for the selected Special Revenue Funds
+sr.position,Special Revenue Position Reconciliation,fund.special-revenue,position_reconciliation,2010,2027,Beginning fund balance plus net change equals ending fund balance in the latest publication selected for each year
