@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "@/components/AppLink";
+import { REPO_URL } from "@/lib/site";
 
 import { CORRECTIONS_EMAIL, ReportErrorLink } from "@/components/ReportErrorLink";
 import { getLatestFiscalYear } from "@/lib/loaders";
@@ -83,8 +84,16 @@ export default function AboutPage() {
       <section className="mt-12 border-t border-hairline pt-8">
         <h2 className="font-display text-2xl font-semibold tracking-tight text-ink">Data reuse</h2>
         <p className="mt-4 leading-relaxed text-ink-secondary">
-          A public licence for the compiled dataset and downloads is still being selected.
-          Reuse terms will be published here and on the downloads page before public launch.
+          The compiled dataset and downloads are published under the{" "}
+          <a href="https://creativecommons.org/licenses/by/4.0/" className="text-accent underline decoration-dotted underline-offset-2">
+            Creative Commons Attribution 4.0 licence (CC BY 4.0)
+          </a>
+          : you may reuse and adapt them for any purpose if you credit the Greenville County Budget
+          Explorer. The source data, pipeline, tests and code are{" "}
+          <a href={REPO_URL} className="text-accent underline decoration-dotted underline-offset-2">
+            on GitHub
+          </a>
+          , where corrections and new source-backed data are welcome. The code is MIT-licensed.
         </p>
       </section>
     </main>

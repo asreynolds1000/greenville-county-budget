@@ -3,6 +3,7 @@ import Link from "@/components/AppLink";
 import { noteAnchor } from "@/components/DataNotes";
 import { PRINTED_DASH_NOTE_ID } from "@/components/PrintedFormNote";
 import { getAllDataNotes, getCorrections, getPendingYears } from "@/lib/loaders";
+import { REPO_URL } from "@/lib/site";
 
 const MONTHS = [
   "January", "February", "March", "April", "May", "June",
@@ -84,6 +85,9 @@ export function SiteFooter() {
           >
             Download the data
           </Link>
+          <a href={REPO_URL} className="underline decoration-dotted underline-offset-2 hover:text-accent">
+            Source code and data
+          </a>
         </nav>
         <p className="mt-4 font-mono text-xs text-ink-faint">
           Budget status checked {formatDate(lastDataStatusCheck)} · Data version {dataVersion}

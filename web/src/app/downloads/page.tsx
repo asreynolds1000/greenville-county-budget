@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "@/components/AppLink";
+import { REPO_URL } from "@/lib/site";
 
 import { comparisonGranularityText } from "@/lib/comparisonClaims";
 import { displayName } from "@/lib/format";
@@ -98,8 +99,15 @@ export default function DownloadsPage() {
         .
       </p>
       <p className="mt-4 leading-relaxed text-ink-secondary">
-        A public licence for the compiled dataset and downloads is still being selected.
-        Reuse terms will be published here before public launch.
+        These downloads are published under the{" "}
+        <a href="https://creativecommons.org/licenses/by/4.0/" className="text-accent underline decoration-dotted underline-offset-2">
+          Creative Commons Attribution 4.0 licence (CC BY 4.0)
+        </a>
+        . Credit the Greenville County Budget Explorer. The full dataset, pipeline and tests are{" "}
+        <a href={REPO_URL} className="text-accent underline decoration-dotted underline-offset-2">
+          on GitHub
+        </a>
+        .
       </p>
 
       <section className="mt-12 border-t border-hairline pt-8">
