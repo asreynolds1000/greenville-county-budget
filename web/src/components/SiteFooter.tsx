@@ -92,6 +92,12 @@ export function SiteFooter() {
         <p className="mt-4 font-mono text-xs text-ink-faint">
           Budget status checked {formatDate(lastDataStatusCheck)} · Data version {dataVersion}
         </p>
+        <p className="mt-2 text-xs text-ink-secondary">
+          Site by{" "}
+          <a href="https://alexreynolds.com" target="_blank" rel="noopener noreferrer" className="underline decoration-dotted underline-offset-2 hover:text-accent">
+            Alex Reynolds
+          </a>
+        </p>
         <PrintedDashFootnote />
       </div>
     </footer>

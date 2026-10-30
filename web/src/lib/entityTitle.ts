@@ -13,6 +13,15 @@
  */
 export const SITE_TITLE = "Greenville County Budget Explorer";
 
+/**
+ * Nine General Fund operating-overview categories share a name with a department-view
+ * operating category (both are "Public Works", for example). The qualifier keeps their
+ * titles distinct in search results and browser history.
+ */
+export function entityTitleName(entityId: string, name: string): string {
+  return entityId.startsWith("overview.gf.") ? `${name} (operating overview)` : name;
+}
+
 /** What `generateMetadata` returns; Next applies the site template to it. */
 export function entityTitle(name: string, year: number): string {
   return `${name} — FY${year}`;

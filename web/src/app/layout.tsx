@@ -54,18 +54,20 @@ export const metadata: Metadata = {
    * Link previews. Per-page `title` and `description` flow into these automatically, so
    * every entity page gets its own; only the site-wide frame is declared here.
    *
-   * No `images` entry. An OG image would have to be either a generic card, which adds
-   * nothing, or a rendering of the figure — and a dollar amount baked into an image is a
-   * number that travels without its citation, its status label, or its caveats. That is
-   * the one thing this site is built not to do.
+   * The share image is one generic card (public/og.png) with the site's name and mark and
+   * no figures. A dollar amount baked into an image would travel without its citation,
+   * status label or caveats, which is the one thing this site is built not to do, so no
+   * page gets a card showing its own numbers.
    */
   openGraph: {
     type: "website",
     siteName: "Greenville County Budget Explorer",
     locale: "en_US",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Budget Explorer: follow Greenville County's money" }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
+    images: ["/og.png"],
   },
 };
 

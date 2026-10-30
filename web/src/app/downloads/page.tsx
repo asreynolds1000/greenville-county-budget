@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "@/components/AppLink";
-import { REPO_URL } from "@/lib/site";
+import { REPO_URL, SITE_URL } from "@/lib/site";
 
 import { comparisonGranularityText } from "@/lib/comparisonClaims";
 import { displayName } from "@/lib/format";
@@ -66,7 +66,34 @@ export default function DownloadsPage() {
     .filter((entity) => entity.entity_type === "department")
     .slice(0, 3);
 
+  // schema.org Dataset, so Google Dataset Search can list the data. Describes the files and
+  // their terms only; no figures.
+  const dataset = {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: "Greenville County, South Carolina budget data",
+    description:
+      `Greenville County adopted budget figures FY${FIRST_YEAR} to FY${LAST_YEAR} and General Fund audited budget-versus-actual results, transcribed from the county's budget books and Annual Comprehensive Financial Reports. Every value carries its source document, printed page and status (actual, adopted budget, proposed or projected), and caveats travel with the figures as notes.`,
+    url: `${SITE_URL}/downloads/`,
+    license: "https://creativecommons.org/licenses/by/4.0/",
+    isAccessibleForFree: true,
+    creator: { "@type": "Person", name: "Alex Reynolds", url: "https://alexreynolds.com" },
+    temporalCoverage: `${FIRST_YEAR}/${LAST_YEAR}`,
+    spatialCoverage: { "@type": "Place", name: "Greenville County, South Carolina" },
+    keywords: ["Greenville County", "South Carolina", "county budget", "public finance", "audited financial report"],
+    sameAs: REPO_URL,
+    distribution: [
+      ["tree/whole-budget-" + LAST_YEAR + ".csv", "Whole-budget tree, latest year"],
+      ["comparisons/general-fund-totals-budget-actual.csv", "General Fund budget versus actual totals"],
+      ["data-notes.csv", "Caveats and notes"],
+      ["v2/statements.csv", "Fund statements"],
+      ["property-tax/millage-2025.csv", "2025 millage by tax district"],
+    ].map(([path, name]) => ({ "@type": "DataDownload", name, encodingFormat: "text/csv", contentUrl: `${SITE_URL}/downloads/${path}` })),
+  };
+
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(dataset) }} />
     <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-16">
       <p className="font-mono text-xs tracking-widest text-ink-secondary uppercase">
         <Link href="/" className="underline decoration-dotted underline-offset-2 hover:text-accent">
@@ -254,5 +281,6 @@ export default function DownloadsPage() {
         </ul>
       </section>
     </main>
+    </>
   );
 }

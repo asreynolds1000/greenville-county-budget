@@ -71,3 +71,24 @@ test("the repository and the data licence are reachable from every page and stat
     await expect(page.getByText(/still being selected/i)).toHaveCount(0);
   }
 });
+
+test("link previews, the credit, the home canonical and the Dataset markup are in place", async ({ page }) => {
+  await page.goto("/e/dept.sheriff/?fy=2026");
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", `${SITE_URL}/og.png`);
+  await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute("content", "summary_large_image");
+  await expect(page.locator('footer a[href="https://alexreynolds.com"]')).toHaveText("Alex Reynolds");
+
+  await page.goto("/");
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", `${SITE_URL}/`);
+
+  await page.goto("/downloads/");
+  const raw = await page.locator('script[type="application/ld+json"]').first().textContent();
+  const dataset = JSON.parse(raw ?? "{}");
+  expect(dataset["@type"]).toBe("Dataset");
+  expect(dataset.license).toBe("https://creativecommons.org/licenses/by/4.0/");
+  expect(dataset.distribution.length).toBeGreaterThan(0);
+  for (const file of dataset.distribution) {
+    const response = await page.request.get(new URL(file.contentUrl).pathname);
+    expect(response.status(), file.contentUrl).toBe(200);
+  }
+});

@@ -1,4 +1,5 @@
 import Link from "@/components/AppLink";
+import { BrandMark } from "@/components/BrandMark";
 
 /**
  * Site-wide wayfinding (plan Step 2).
@@ -57,8 +58,9 @@ export function SiteHeader() {
         <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-5 py-3.5 sm:px-8">
           <Link
             href="/"
-            className="font-display text-base font-semibold tracking-tight text-ink hover:text-accent"
+            className="inline-flex items-center gap-2 font-display text-base font-semibold tracking-tight text-ink hover:text-accent"
           >
+            <BrandMark size={22} />
             Budget Explorer
           </Link>
 
