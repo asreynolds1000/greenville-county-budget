@@ -1,0 +1,97 @@
+{
+  "files": 6014,
+  "raw_bytes": 193296409,
+  "gzip_bytes": 16564415,
+  "duplicate_files": 598,
+  "duplicate_bytes": 42783429,
+  "by_ext": {
+    ".txt": {
+      "files": 1461,
+      "raw_bytes": 122047287
+    },
+    ".html": {
+      "files": 4169,
+      "raw_bytes": 66742597
+    },
+    ".json": {
+      "files": 4,
+      "raw_bytes": 1606150
+    },
+    ".csv": {
+      "files": 333,
+      "raw_bytes": 1296193
+    },
+    ".js": {
+      "files": 22,
+      "raw_bytes": 1162798
+    },
+    ".woff2": {
+      "files": 19,
+      "raw_bytes": 284360
+    },
+    ".css": {
+      "files": 3,
+      "raw_bytes": 81181
+    },
+    ".ico": {
+      "files": 2,
+      "raw_bytes": 51862
+    },
+    ".xml": {
+      "files": 1,
+      "raw_bytes": 23981
+    }
+  },
+  "largest": [
+    {
+      "raw": 677379,
+      "gzip": 44528,
+      "path": "e/fund.general/panels.json"
+    },
+    {
+      "raw": 504782,
+      "gzip": 29560,
+      "path": "e/gf.expenditures/index.html"
+    },
+    {
+      "raw": 459190,
+      "gzip": 26903,
+      "path": "compare/index.html"
+    },
+    {
+      "raw": 443323,
+      "gzip": 24894,
+      "path": "e/balance.enterprise.solid-waste-usage/index.html"
+    },
+    {
+      "raw": 440662,
+      "gzip": 23572,
+      "path": "e/rev.enterprise.property-taxes/index.html"
+    },
+    {
+      "raw": 439472,
+      "gzip": 25821,
+      "path": "e/fin.gf.transfers-out/index.html"
+    },
+    {
+      "raw": 438915,
+      "gzip": 23929,
+      "path": "e/use.enterprise.total/index.html"
+    },
+    {
+      "raw": 437119,
+      "gzip": 22137,
+      "path": "e/rev.enterprise.charges-services/index.html"
+    },
+    {
+      "raw": 435360,
+      "gzip": 24155,
+      "path": "e/funding.enterprise.total/index.html"
+    },
+    {
+      "raw": 433787,
+      "gzip": 21872,
+      "path": "e/rev.enterprise.other-solid-waste/index.html"
+    }
+  ]
+}

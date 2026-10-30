@@ -1,0 +1,235 @@
+{
+  "year": 2011,
+  "pdf_pages": "97-103",
+  "notes": "Printed pages 79-85 of the CAFR (PDF pages 97-103). Revenue detail is on PDF page 97 (printed 79); expenditure detail runs PDF pages 98-103 (printed 80-85), organized by department > subdepartment > object (Salaries/Operations/Contractual agreements/Capital outlay). All figures cross-checked against 200dpi page-image renders, not just pdftotext. Every subtotal and total on every page (department totals, Total revenues, Total expenditures, Excess of revenues over expenditures, Other financing sources/uses, and the final bottom-line) reconciles exactly to the printed figures -- no arithmetic discrepancies found anywhere in the schedule.",
+  "cells": [
+    {
+      "id": 1,
+      "printed_label": "Total administrative",
+      "pdf_page": 98,
+      "printed_value": "2,311,646",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "printed_label": "Total general services",
+      "pdf_page": 99,
+      "printed_value": "10,363,640",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "printed_label": "Total human resources",
+      "pdf_page": 99,
+      "printed_value": "2,109,063",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "printed_label": "Total public works",
+      "pdf_page": 100,
+      "printed_value": "15,961,651",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "printed_label": "Total public safety",
+      "pdf_page": 100,
+      "printed_value": "37,002,637",
+      "confidence": "high"
+    },
+    {
+      "id": 6,
+      "printed_label": "Total elected officials - Judicial",
+      "pdf_page": 101,
+      "printed_value": "15,391,058",
+      "confidence": "high"
+    },
+    {
+      "id": 7,
+      "printed_label": "Total elected officials - fiscal",
+      "pdf_page": 102,
+      "printed_value": "2,461,125",
+      "confidence": "high",
+      "reason": "Section header on p.101 reads 'Elected officials - Fiscal' (capital F); the total row itself on p.102 prints 'Total elected officials - fiscal' (lowercase f). Value is unambiguous either way; see anomalies for the capitalization inconsistency."
+    },
+    {
+      "id": 8,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 102,
+      "printed_value": "35,665,020",
+      "confidence": "high"
+    },
+    {
+      "id": 9,
+      "printed_label": "Total boards, commissions and others",
+      "pdf_page": 103,
+      "printed_value": "5,483,787",
+      "confidence": "high"
+    },
+    {
+      "id": 10,
+      "printed_label": "Total boards, commissions and others",
+      "pdf_page": 103,
+      "printed_value": "4,400,902",
+      "confidence": "high"
+    },
+    {
+      "id": 11,
+      "printed_label": "Total public works",
+      "pdf_page": 100,
+      "printed_value": "15,418,221",
+      "confidence": "high"
+    },
+    {
+      "id": 12,
+      "printed_label": "Total elected officials - fiscal",
+      "pdf_page": 102,
+      "printed_value": "2,394,812",
+      "confidence": "high"
+    },
+    {
+      "id": 13,
+      "printed_label": "Detention center (subtotal, under Public safety)",
+      "pdf_page": 100,
+      "printed_value": "17,492,374",
+      "confidence": "high"
+    },
+    {
+      "id": 14,
+      "printed_label": "Human resources (subtotal, under Human resources department -- subdepartment name duplicates the department name as printed)",
+      "pdf_page": 99,
+      "printed_value": "804,286",
+      "confidence": "high"
+    },
+    {
+      "id": 15,
+      "printed_label": "Records (subtotal, under Public safety)",
+      "pdf_page": 100,
+      "printed_value": "2,199,466",
+      "confidence": "high"
+    },
+    {
+      "id": 16,
+      "printed_label": "Purchasing (subtotal, under General services)",
+      "pdf_page": 98,
+      "printed_value": "329,055",
+      "confidence": "high"
+    },
+    {
+      "id": 17,
+      "printed_label": "Circuit Solicitor (subtotal, under Elected officials - Judicial)",
+      "pdf_page": 100,
+      "printed_value": "5,620,030",
+      "confidence": "high"
+    },
+    {
+      "id": 18,
+      "printed_label": "County Attorney (subtotal, under Administrative)",
+      "pdf_page": 98,
+      "printed_value": "664,806",
+      "confidence": "high"
+    },
+    {
+      "id": 19,
+      "printed_label": "Real property services -- Operations (under General services)",
+      "pdf_page": 99,
+      "printed_value": "169,788",
+      "confidence": "high"
+    },
+    {
+      "id": 20,
+      "printed_label": "Engineering -- Contractual agreements (under Public works)",
+      "pdf_page": 99,
+      "printed_value": "59,259",
+      "confidence": "high"
+    },
+    {
+      "id": 21,
+      "printed_label": "Animal Care Services -- Contractual agreements (under Public works)",
+      "pdf_page": 100,
+      "printed_value": "37,800",
+      "confidence": "high"
+    },
+    {
+      "id": 22,
+      "printed_label": "Forensics -- Operations (under Public safety)",
+      "pdf_page": 100,
+      "printed_value": "110,943",
+      "confidence": "high"
+    },
+    {
+      "id": 23,
+      "printed_label": "Emergency medical services -- Salaries (under Public safety)",
+      "pdf_page": 100,
+      "printed_value": "13,581,421",
+      "confidence": "high"
+    },
+    {
+      "id": 24,
+      "printed_label": "Master in Equity -- Salaries (under Elected officials - Judicial)",
+      "pdf_page": 101,
+      "printed_value": "504,645",
+      "confidence": "high"
+    },
+    {
+      "id": 25,
+      "printed_label": "County Attorney -- Salaries (under Administrative)",
+      "pdf_page": 98,
+      "printed_value": "616,806",
+      "confidence": "high"
+    },
+    {
+      "id": 26,
+      "printed_label": "Management and budget -- Operations (under General services)",
+      "pdf_page": 98,
+      "printed_value": "10,587",
+      "confidence": "high"
+    },
+    {
+      "id": 27,
+      "printed_label": "State allocations (under Intergovernmental revenues > State of South Carolina)",
+      "pdf_page": 97,
+      "printed_value": "19,596,654",
+      "confidence": "high"
+    },
+    {
+      "id": 28,
+      "printed_label": "Law enforcement support (under County offices)",
+      "pdf_page": 97,
+      "printed_value": "302,671",
+      "confidence": "high"
+    },
+    {
+      "id": 29,
+      "printed_label": "Probate court (under County offices)",
+      "pdf_page": 97,
+      "printed_value": "852,151",
+      "confidence": "high"
+    },
+    {
+      "id": 30,
+      "printed_label": "Clerk of court (under County offices)",
+      "pdf_page": 97,
+      "printed_value": "2,387,941",
+      "confidence": "high"
+    }
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 102,
+      "observation": "Inconsistent capitalization of the department-total labels for the 'Elected officials' group. Judicial gets a capital letter in its total row ('Total elected officials - Judicial', p.101/102 boundary) while Fiscal and law enforcement do not ('Total elected officials - fiscal' and 'Total elected officials - law enforcement', both on p.102), even though the section headers themselves are capitalized consistently ('Elected officials - Judicial', 'Elected officials - Fiscal', 'Elected officials - law enforcement' -- note law enforcement is lowercase even in the header). Not a numeric error, just an inconsistency in the printed labels.",
+      "printed_line": "Total elected officials - fiscal / Total elected officials - law enforcement (p.102) vs. Total elected officials - Judicial (p.101/102)"
+    },
+    {
+      "pdf_page": 97,
+      "observation": "Several revenue sublines print a dash for zero actual collections against a nonzero budget (Voter registration and election, Tax supplies). Legitimate accounting convention for zero, not a formatting defect, but flagging since a dash appears where a figure is otherwise expected on every other row in the column.",
+      "printed_line": "Voter registration and election    12,000    12,000    -    (12,000);  Tax supplies    11,646    11,646    -    (11,646)"
+    },
+    {
+      "pdf_page": 103,
+      "observation": "Non-departmental shows a dash for Actual Salaries and Actual Capital outlay against nonzero original/final budgets of $21,598 and $50,000 respectively -- again a legitimate zero-actual convention, not a total-row defect, but the two largest all-zero-actual lines in the whole schedule so worth surfacing.",
+      "printed_line": "Salaries    21,598    21,598    -    21,598;  Capital outlay    50,000    50,000    -    50,000"
+    }
+  ]
+}

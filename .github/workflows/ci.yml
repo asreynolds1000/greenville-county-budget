@@ -1,0 +1,202 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  data:
+    name: Pipeline tests + export freshness
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version-file: ".python-version"
+
+      - name: Regenerate dist/ and web/data + web/public/downloads
+        run: |
+          python3 -m scripts.production.pipeline
+          python3 -m scripts.production.export_app
+
+      - name: Record generated dist fingerprint
+        run: |
+          python3 - <<'PY' > /tmp/gvl-budget-dist-before.sha256
+          import hashlib
+          from pathlib import Path
+
+          for path in sorted(p for p in Path("dist").rglob("*") if p.is_file()):
+              digest = hashlib.sha256(path.read_bytes()).hexdigest()
+              print(f"{path.as_posix()}  {digest}")
+          PY
+
+      # Two suites validate the materialized database itself. Running tests before this step
+      # made those classes skip on a clean runner even though the job stayed green.
+      - name: Run pipeline test suite (stdlib unittest — no pytest, no pandas)
+        run: python3 -m unittest discover tests
+
+      - name: Regenerate twice — generated dist must be deterministic
+        run: |
+          python3 -m scripts.production.pipeline
+          python3 -m scripts.production.export_app
+          python3 - <<'PY'
+          import hashlib
+          import sys
+          from pathlib import Path
+
+          current = []
+          for path in sorted(p for p in Path("dist").rglob("*") if p.is_file()):
+              digest = hashlib.sha256(path.read_bytes()).hexdigest()
+              current.append(f"{path.as_posix()}  {digest}")
+          expected = Path("/tmp/gvl-budget-dist-before.sha256").read_text().splitlines()
+          if current != expected:
+              print("Generated dist changed between identical pipeline runs:")
+              print("\n".join(current))
+              sys.exit(1)
+          print(f"dist fingerprint stable ({len(current)} files)")
+          PY
+
+      - name: Freshness gate — committed app data must equal a fresh regen
+        run: git diff --exit-code web/data web/public/downloads
+
+  web:
+    name: Web build (Next.js static export)
+    # Pinned: Playwright 1.58.0 cannot install Chromium on ubuntu-26.04, and ubuntu-latest moves there in a gradual rollout from 2026-10-19 to 2026-11-19.
+    runs-on: ubuntu-24.04
+    needs: data
+    env:
+      # CI always builds a preview (noindex) export. Production releases are made by the
+      # maintainer outside CI.
+      VERCEL_ENV: preview
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: "web/.nvmrc"
+          cache: "npm"
+          cache-dependency-path: "web/package-lock.json"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run unit tests
+        run: npm test
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type-check
+        run: npm run typecheck
+
+      - name: Build (prebuild data validation runs automatically)
+        run: npm run build
+
+      - name: Verify exported fund renderer isolation
+        run: node --test tests/export/fund-bundles.test.mjs
+
+      - name: Prepare Vercel Build Output API artifact
+        run: npm run prepare:deploy
+
+      - name: Validate Vercel Build Output API artifact
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          config = json.loads(Path(".vercel/output/config.json").read_text())
+          # Prebuilt deploys ignore vercel.json, so its headers must be in the artifact's routes.
+          rules = json.loads(Path("vercel.json").read_text()).get("headers", [])
+          headers = {h["key"]: h["value"] for rule in rules for h in rule["headers"]}
+          for key in ("X-Content-Type-Options", "Referrer-Policy", "Content-Security-Policy", "X-Frame-Options"):
+              assert key in headers, f"vercel.json lost the {key} header"
+          assert config == {
+              "version": 3,
+              "routes": [{"src": "^/(.*)$", "headers": headers, "continue": True}, {"handle": "filesystem"}],
+          }, config
+          assert Path(".vercel/output/static/index.html").is_file()
+          function = Path(".vercel/output/functions/api/property-record.func")
+          function_config = json.loads((function / ".vc-config.json").read_text())
+          assert function_config["runtime"] == "nodejs22.x", function_config
+          assert (function / function_config["handler"]).is_file()
+          assert (function / "propertyRecord.mjs").is_file()
+          # The page-baseline renderer stages into web/.baselines, outside the export, so the
+          # whole-directory copy in prepare-vercel-output.mjs cannot reach it. Assert on the
+          # packaged artifact anyway: "it is outside the copied tree" is a claim about a file
+          # nobody re-reads, and the check is one walk.
+          staged = [p for p in Path(".vercel/output").rglob("*") if p.name in {".baselines", "_baselines"}]
+          assert not staged, f"baseline staging leaked into the deploy artifact: {staged}"
+          print("Vercel Build Output API v3 static pages and county-record function are valid")
+          PY
+
+      # Browser regressions are invisible to Vitest: a total that includes a line it should
+      # not, a source column pushed off a 320px viewport, a year with a route and no
+      # control. The suite runs against the built `out/`, which is the artifact that ships.
+      - name: Install Playwright Chromium (pinned with @playwright/test)
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser regression suite
+        run: npm run test:e2e
+
+      # The page-baseline renderer has fault modes (a stale server on its port, a failed or
+      # hanging deferred panel, a page showing the wrong year). Each must be REFUSED by name.
+      # These runs stage into temporary directories, so they never touch web/.baselines.
+      - name: Page-baseline renderer refuses its fault modes by name
+        run: node --test tests/export/render-page-baseline.test.mjs
+
+      # The link checker is a stdlib Python script invoked by the web package. Keep Python
+      # setup before that gate so a clean runner cannot silently skip it.
+      - name: Set up Python (for link and page-baseline checks)
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version-file: ".python-version"
+
+      - name: Internal link check
+        run: npm run check:links
+
+      # Since a5f4045 the reviewed pages exist only as rendered DOM: the per-year URL is a
+      # meta-refresh stub and the consolidated route server-renders the latest year alone. This
+      # step must run AFTER the build and BEFORE the comparison; the comparison fails closed if
+      # it is skipped, and refuses a capture bound to any other build.
+      - name: Render page baselines in a browser
+        run: npm run baselines:render
+
+      # The artifact was packaged several steps ago, before the staging directory existed.
+      # Re-assert now that it exists: "packaged before it was created" is how an exclusion
+      # check passes without ever having had anything to exclude.
+      - name: Deploy artifact still excludes the baseline staging directory
+        run: |
+          test -d .baselines || { echo "no staging directory — the renderer did not run"; exit 1; }
+          if find .vercel/output -name "_baselines" -o -name ".baselines" | grep -q .; then
+            echo "baseline staging leaked into the deploy artifact"; exit 1
+          fi
+          echo "deploy artifact is clean of baseline staging"
+
+      - name: Upload Playwright failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: playwright-report
+          path: web/playwright-report/
+          retention-days: 7
+
+      # The page baselines need BOTH Python and a built site. REQUIRE_PAGE_BASELINES turns a
+      # missing build into a failure rather than a silent skip.
+      - name: Page baselines — reviewed pages must not change silently
+        working-directory: .
+        env:
+          REQUIRE_PAGE_BASELINES: "1"
+        run: python3 -m unittest tests.test_page_baselines -v
+

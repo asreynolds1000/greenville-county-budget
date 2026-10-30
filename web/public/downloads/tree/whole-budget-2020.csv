@@ -1,0 +1,16 @@
+entity_id,canonical_name,entity_type,parent_entity_id,value,printed_form,status_class,source_code,printed_page,pdf_page,source_url,note_ids
+budget.total,Total Budget,whole_budget,,304858951,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,note.interfund-transfers-not-netted;note.transfers-removed-not-calculated
+fund.debt-service,Debt Service Fund,fund_type,budget.total,17533175,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,
+fund.enterprise,Enterprise Fund,fund_type,budget.total,27903820,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,
+fund.general,General Fund,fund_type,budget.total,186085028,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,
+fund.special-revenue,Special Revenue Fund,fund_type,budget.total,73336928,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,
+fund.sr.e911,E-911,fund,fund.special-revenue,3167602,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,note.source-footnote.fund.sr.e911.6cb7ae2216
+fund.sr.hospitality-tax,Hospitality Tax,fund,fund.special-revenue,8779459,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,
+fund.sr.infrastructure-bank,Infrastructure Bank,fund,fund.special-revenue,13844989,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,note.source-footnote.fund.sr.infrastructure-bank.8c8829ed4f
+fund.sr.local-accommodations-tax,Local Accommodations Tax,fund,fund.special-revenue,400000,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,
+fund.sr.medical-charities,Medical Charities,fund,fund.special-revenue,6322143,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,note.source-footnote.fund.sr.medical-charities.296ae0ca17
+fund.sr.parks-recreation-tourism,"Parks, Recreation, and Tourism",fund,fund.special-revenue,20763145,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,note.source-footnote.fund.sr.parks-recreation-tourism.3368515a6b
+fund.sr.public-safety-interop,Public Safety Interoperable Communications,fund,fund.special-revenue,3356510,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,
+fund.sr.road-program,Road Program,fund,fund.special-revenue,14800000,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,note.source-footnote.fund.sr.road-program.d4f2ce8e80
+fund.sr.state-accommodations-tax,State Accommodations Tax,fund,fund.special-revenue,1277526,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,
+fund.sr.victims-rights,Victim's Rights,fund,fund.special-revenue,625554,,adopted,FY2020-21,37,37,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,

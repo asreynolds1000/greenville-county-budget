@@ -1,0 +1,14 @@
+entity_id,canonical_name,entity_type,parent_entity_id,value,printed_form,status_class,source_code,printed_page,pdf_page,source_url,note_ids
+budget.total,Total Budget,whole_budget,,184834330,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.interfund-transfers-not-netted;note.sources-statement-not-printed;note.transfers-removed-not-calculated
+fund.debt-service,Debt Service Fund,fund_type,budget.total,15917107,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.enterprise,Enterprise Fund,fund_type,budget.total,18017164,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.general,General Fund,fund_type,budget.total,124495244,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.special-revenue,Special Revenue Fund,fund_type,budget.total,26404815,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.sr.accommodations-tax,Accommodations Tax,fund,fund.special-revenue,772610,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.sr.e911,E-911,fund,fund.special-revenue,1664380,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.sr.hospitality-tax,Hospitality Tax,fund,fund.special-revenue,5634000,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.sr.infrastructure-bank,Infrastructure Bank,fund,fund.special-revenue,740261,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.sr.medical-charities,Medical Charities,fund,fund.special-revenue,4950408,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.sr.road-paving,Road Paving,fund,fund.special-revenue,11600000,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed
+fund.sr.road-program,Road Program,fund,fund.special-revenue,,,adopted,,,,,note.sources-statement-not-printed
+fund.sr.victims-rights,Victim's Rights,fund,fund.special-revenue,1043156,,adopted,FY2010-11,39,1,https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf,note.sources-statement-not-printed

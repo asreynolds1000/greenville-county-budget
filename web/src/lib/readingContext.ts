@@ -1,0 +1,1 @@
+export const FUND_BALANCE_CONTEXT = "Fund balance is an accounting position, not a bank balance. Some of it is nonspendable or committed to specific uses. A balance is an amount held at a point in time; revenue is an amount received over a year. The two are measured differently and are not interchangeable.";

@@ -1,0 +1,64 @@
+source_code,fiscal_year,status,total_revenue_and_funding,total_expenses,difference,classification,note
+FY2004-05,2002,ACTUAL,7927100,13575105,-5648005,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2004-05,2003,PROJECTED,10462895,10462895,0,balanced,Source-printed funding and expense totals are equal.
+FY2004-05,2004,BUDGET,18925727,18925727,0,balanced,Source-printed funding and expense totals are equal.
+FY2004-05,2005,BUDGET,18473753,18473753,0,balanced,Source-printed funding and expense totals are equal.
+FY2006-07,2004,ACTUAL,5554193,10408673,-4854480,source_total_exception,"Printed TOTAL FUNDS omits the printed Property Taxes and Charges for Services components; exact component delta is $6,013,793."
+FY2006-07,2005,PROJECTED,16598753,15483430,1115323,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2006-07,2006,BUDGET,24038461,24038461,0,balanced,Source-printed funding and expense totals are equal.
+FY2006-07,2007,BUDGET,15600003,15600003,0,balanced,Source-printed funding and expense totals are equal.
+FY2008-09,2006,ACTUAL,14810938,17782756,-2971818,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2008-09,2007,PROJECTED,15435203,9665060,5770143,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2008-09,2008,BUDGET,20098966,20098966,0,balanced,Source-printed funding and expense totals are equal.
+FY2008-09,2009,BUDGET,20719844,20719844,0,balanced,Source-printed funding and expense totals are equal.
+FY2010-11,2008,ACTUAL,13975598,13362269,613329,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2010-11,2009,PROJECTED,18011911,18011911,0,balanced,Source-printed funding and expense totals are equal.
+FY2010-11,2010,BUDGET,21569478,21569478,0,balanced,Source-printed funding and expense totals are equal.
+FY2010-11,2011,BUDGET,20919723,20919723,0,balanced,Source-printed funding and expense totals are equal.
+FY2012-13,2010,ACTUAL,15014203,18038716,-3024513,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2012-13,2010,BUDGET,21569478,21569478,0,balanced,Source-printed funding and expense totals are equal.
+FY2012-13,2011,ACTUAL,16401801,12170454,4231347,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2012-13,2011,BUDGET,20919723,20919723,0,balanced,Source-printed funding and expense totals are equal.
+FY2012-13,2012,BUDGET,17338509,17338509,0,balanced,Source-printed funding and expense totals are equal.
+FY2012-13,2013,BUDGET,18778407,18778407,0,balanced,Source-printed funding and expense totals are equal.
+FY2014-15,2012,ACTUAL,14260456,13425174,835282,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2014-15,2012,BUDGET,17338509,17338509,0,balanced,Source-printed funding and expense totals are equal.
+FY2014-15,2013,ACTUAL,15906463,11859805,4046658,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2014-15,2013,BUDGET,18778407,18778407,0,balanced,Source-printed funding and expense totals are equal.
+FY2014-15,2014,BUDGET,22003332,22003332,0,balanced,Source-printed funding and expense totals are equal.
+FY2014-15,2015,BUDGET,19332006,19332006,0,balanced,Source-printed funding and expense totals are equal.
+FY2016-17,2014,ACTUAL,18108002,18108002,0,balanced,Source-printed funding and expense totals are equal.
+FY2016-17,2014,BUDGET,22003432,22003332,100,budget_source_exception,The source-printed budget funding total differs from its expense total; values are preserved without correction.
+FY2016-17,2015,ACTUAL,16137614,16137614,0,balanced,Source-printed funding and expense totals are equal.
+FY2016-17,2015,BUDGET,19332006,19332006,0,balanced,Source-printed funding and expense totals are equal.
+FY2016-17,2016,BUDGET,23568904,23568904,0,balanced,Source-printed funding and expense totals are equal.
+FY2016-17,2017,BUDGET,22034570,22034568,2,budget_source_exception,The source-printed budget funding total differs from its expense total; values are preserved without correction.
+FY2018-19,2016,ACTUAL,17183228,17183228,0,balanced,Source-printed funding and expense totals are equal.
+FY2018-19,2016,BUDGET,23568904,23568904,0,balanced,Source-printed funding and expense totals are equal.
+FY2018-19,2017,ACTUAL,21663339,21663339,0,balanced,Source-printed funding and expense totals are equal.
+FY2018-19,2017,BUDGET,22034568,22034568,0,balanced,Source-printed funding and expense totals are equal.
+FY2018-19,2018,BUDGET,27671653,27671653,0,balanced,Source-printed funding and expense totals are equal.
+FY2018-19,2019,BUDGET,21098271,21098271,0,balanced,Source-printed funding and expense totals are equal.
+FY2020-21,2018,ACTUAL,27671653,22196969,5474684,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2020-21,2018,BUDGET,27671653,27671653,0,balanced,Source-printed funding and expense totals are equal.
+FY2020-21,2019,ACTUAL,19840079,19840079,0,balanced,Source-printed funding and expense totals are equal.
+FY2020-21,2019,BUDGET,21098271,21098271,0,balanced,Source-printed funding and expense totals are equal.
+FY2020-21,2020,BUDGET,27903820,27903820,0,balanced,Source-printed funding and expense totals are equal.
+FY2020-21,2021,BUDGET,22245184,22245184,0,balanced,Source-printed funding and expense totals are equal.
+FY2022-23,2020,ACTUAL,20446201,20446201,0,balanced,Source-printed funding and expense totals are equal.
+FY2022-23,2020,BUDGET,27903820,27903820,0,balanced,Source-printed funding and expense totals are equal.
+FY2022-23,2021,ACTUAL,23806706,23806706,0,balanced,Source-printed funding and expense totals are equal.
+FY2022-23,2021,BUDGET,22245184,22245184,0,balanced,Source-printed funding and expense totals are equal.
+FY2022-23,2022,BUDGET,26661146,26661146,0,balanced,Source-printed funding and expense totals are equal.
+FY2022-23,2023,BUDGET,27905433,27905433,0,balanced,Source-printed funding and expense totals are equal.
+FY2024-25,2022,ACTUAL,18614519,18614517,2,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2024-25,2022,BUDGET,26661146,26661146,0,balanced,Source-printed funding and expense totals are equal.
+FY2024-25,2023,ACTUAL,29993785,29993785,0,balanced,Source-printed funding and expense totals are equal.
+FY2024-25,2023,BUDGET,27905433,27905433,0,balanced,Source-printed funding and expense totals are equal.
+FY2024-25,2024,BUDGET,28457302,28457302,0,balanced,Source-printed funding and expense totals are equal.
+FY2024-25,2025,BUDGET,29230291,29230291,0,balanced,Source-printed funding and expense totals are equal.
+FY2026,2024,ACTUAL,25029990,24663492,366498,actual_or_projected_variance,Operating-budget comparison variance; the page does not print beginning and ending fund balance positions.
+FY2026,2024,BUDGET,28457302,28457302,0,balanced,Source-printed funding and expense totals are equal.
+FY2026,2025,ACTUAL,30826722,30826722,0,balanced,Source-printed funding and expense totals are equal.
+FY2026,2025,BUDGET,29230291,29230291,0,balanced,Source-printed funding and expense totals are equal.
+FY2026,2026,BUDGET,33222897,33222597,300,budget_source_exception,The source-printed budget funding total differs from its expense total; values are preserved without correction.

@@ -1,0 +1,275 @@
+{
+  "year": 2012,
+  "pdf_pages": "95-101",
+  "scanned": true,
+  "notes": "PDF is 181 pages, Amyuni PDF Converter, no usable text layer (pdftotext -layout produced 585,676 chars but only 0.37% alphabetic -- confirmed garbage before doing any visual work). However, unlike a true camera-scanned document, pdftoppm renders these pages as crisp, high-fidelity vector-quality images (not photographed paper) -- almost certainly a print driver that embedded fonts without a usable ToUnicode/CID map, so extraction fails but rendering is excellent. Practical effect: legibility at both 150dpi and 300dpi was very high, and every cell below was read at 'high' confidence with no genuinely ambiguous characters. Roman-numeral front matter offset: PDF page = printed page + 1 (e.g. PDF p.4 = printed 'iii'). Arabic body offset for this section: PDF page = printed page + 6 (e.g. PDF p.95 = printed p.89). Located the schedule via TOC (PDF page 2, printed 'i'): 'Schedule of Revenue and Expenditures / Budget and Actual (Budget Basis) - General Fund' at printed page 89. Confirmed the schedule's last page (PDF 101 / printed 95) by checking PDF page 102 (printed 96), which is a different schedule ('Combining Balance Sheet - Federal and State Grant Fund'), matching the TOC. Schedule title as printed: 'Schedule of Revenues and Expenditures / Budget and Actual (Budget Basis) / General Fund'. Page 95 (printed 89) is revenue detail (Property taxes, County offices, Intergovernmental revenues, Other revenues, Total revenues). Pages 96-101 (printed 90-95) are expenditures by department > subdepartment > object (Salaries / Operations / Contractual agreements / Capital outlay), ending with Total expenditures, Excess (deficiency), Other financing sources (uses), and the final Excess line. Arithmetic check: I re-summed every subdepartment total against its object lines, every department total against its subdepartment lines, and the grand Total revenues / Total expenditures / Excess (deficiency) / Other financing / final Excess lines, across all four columns (Original Budget, Final Budget, Actual, Variance) where feasible -- every total tied out exactly. No arithmetic anomalies found anywhere in this schedule.",
+  "cells": [
+    {
+      "id": 1,
+      "printed_label": "Total administrative",
+      "pdf_page": 96,
+      "printed_value": "2,109,216",
+      "confidence": "high",
+      "notes": "Administrative department total row, Original Budget column. Sum of subdepartments (County administrator 595,284 + County Attorney 679,799 + County Council 834,133) ties out exactly."
+    },
+    {
+      "id": 2,
+      "printed_label": "Total general services",
+      "pdf_page": 97,
+      "printed_value": "10,242,267",
+      "confidence": "high",
+      "notes": "General services department total, Original Budget column. Sum of 7 subdepartments (Purchasing, Financial operations, Management and budget, Information systems, Tax collector [pdf p.96] + Real property services, GIS [pdf p.97]) ties out exactly."
+    },
+    {
+      "id": 3,
+      "printed_label": "Total human resources",
+      "pdf_page": 97,
+      "printed_value": "2,103,414",
+      "confidence": "high",
+      "notes": "Human resources department total, Original Budget column."
+    },
+    {
+      "id": 4,
+      "printed_label": "Total public works",
+      "pdf_page": 98,
+      "printed_value": "16,632,570",
+      "confidence": "high",
+      "notes": "Public works department total, Original Budget column. Subdepartments span pdf p.97 (Engineering, Property management) and p.98 (Codes enforcement, Animal Care Services)."
+    },
+    {
+      "id": 5,
+      "printed_label": "Total public safety",
+      "pdf_page": 98,
+      "printed_value": "37,070,784",
+      "confidence": "high",
+      "notes": "Public safety department total, Original Budget column."
+    },
+    {
+      "id": 6,
+      "printed_label": "Total elected officials - Judicial",
+      "pdf_page": 99,
+      "printed_value": "15,435,794",
+      "confidence": "high",
+      "notes": "Circuit Solicitor subdept starts on pdf p.98; remaining subdepts and the total are on p.99."
+    },
+    {
+      "id": 7,
+      "printed_label": "Total elected officials - Fiscal",
+      "pdf_page": 100,
+      "printed_value": "2,451,068",
+      "confidence": "high",
+      "notes": "Treasurer/Register of Deeds/Auditor subdepts on pdf p.99; Board of Appeals and the total on p.100."
+    },
+    {
+      "id": 8,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 100,
+      "printed_value": "35,955,647",
+      "confidence": "high",
+      "notes": "Note the printed total-row label uses lowercase 'law enforcement' -- see anomalies."
+    },
+    {
+      "id": 9,
+      "printed_label": "Total boards, commissions and others",
+      "pdf_page": 101,
+      "printed_value": "5,788,589",
+      "confidence": "high",
+      "notes": "Legislative Delegation/Agencies subdepts on pdf p.100; Planning/Non-departmental/Employee benefit fund and the total on p.101."
+    },
+    {
+      "id": 10,
+      "printed_label": "Total general services",
+      "pdf_page": 97,
+      "printed_value": "9,798,246",
+      "confidence": "high",
+      "notes": "Same total row as id 2, Actual (Budget Basis) column."
+    },
+    {
+      "id": 11,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 100,
+      "printed_value": "36,027,820",
+      "confidence": "high",
+      "notes": "Same total row as id 8, Actual (Budget Basis) column."
+    },
+    {
+      "id": 12,
+      "printed_label": "Total human resources",
+      "pdf_page": 97,
+      "printed_value": "2,122,439",
+      "confidence": "high",
+      "notes": "Same total row as id 3, Actual (Budget Basis) column."
+    },
+    {
+      "id": 13,
+      "printed_label": "Human relations",
+      "pdf_page": 97,
+      "printed_value": "144,406",
+      "confidence": "high",
+      "notes": "Subdepartment total row (unlabeled total line directly under the 'Human relations' subdepartment header, under Human resources dept), Final Budget column."
+    },
+    {
+      "id": 14,
+      "printed_label": "Indigent defense",
+      "pdf_page": 98,
+      "printed_value": "150,568",
+      "confidence": "high",
+      "notes": "Subdepartment total row under Public safety, Final Budget column."
+    },
+    {
+      "id": 15,
+      "printed_label": "Agencies and social service agencies",
+      "pdf_page": 100,
+      "printed_value": "1,227,817",
+      "confidence": "high",
+      "notes": "Subdepartment total under Boards, commissions and others. Only object line under this subdept is 'Lump sum appropriations' (not Salaries/Operations/etc.), Original Budget column."
+    },
+    {
+      "id": 16,
+      "printed_label": "County administrator",
+      "pdf_page": 96,
+      "printed_value": "667,093",
+      "confidence": "high",
+      "notes": "Subdepartment total under Administrative, Final Budget column."
+    },
+    {
+      "id": 17,
+      "printed_label": "Board of Appeals",
+      "pdf_page": 100,
+      "printed_value": "18,962",
+      "confidence": "high",
+      "notes": "Subdepartment total under Elected officials - Fiscal, Final Budget column. Only object line is 'Operations'. Note: Actual for this row is 590 against an 18,962 budget -- a large variance, reported for completeness though it is not an arithmetic anomaly (18,962-590=18,372 ties to the printed variance exactly)."
+    },
+    {
+      "id": 18,
+      "printed_label": "Detention center",
+      "pdf_page": 98,
+      "printed_value": "17,687,355",
+      "confidence": "high",
+      "notes": "Subdepartment total under Public safety, Original Budget column. (Sum of Salaries 15,520,582 + Operations 1,827,177 + Contractual agreements 339,596 = 17,687,355, ties out.)"
+    },
+    {
+      "id": 19,
+      "printed_label": "Contractual agreements",
+      "pdf_page": 98,
+      "printed_value": "461",
+      "confidence": "high",
+      "notes": "Object line under Public safety > Indigent defense, Actual (Budget Basis) column."
+    },
+    {
+      "id": 20,
+      "printed_label": "Operations",
+      "pdf_page": 97,
+      "printed_value": "6,498",
+      "confidence": "high",
+      "notes": "Object line under Human resources > Veterans affairs, Final Budget column."
+    },
+    {
+      "id": 21,
+      "printed_label": "Salaries",
+      "pdf_page": 101,
+      "printed_value": "149,533",
+      "confidence": "high",
+      "notes": "Object line under Boards, commissions and others > Employee benefit fund, Actual (Budget Basis) column."
+    },
+    {
+      "id": 22,
+      "printed_label": "Salaries",
+      "pdf_page": 97,
+      "printed_value": "1,720,739",
+      "confidence": "high",
+      "notes": "Object line under General services > Real property services, Final Budget column."
+    },
+    {
+      "id": 23,
+      "printed_label": "Salaries",
+      "pdf_page": 98,
+      "printed_value": "2,036,616",
+      "confidence": "high",
+      "notes": "Object line under Public safety > Records, Actual (Budget Basis) column."
+    },
+    {
+      "id": 24,
+      "printed_label": "Operations",
+      "pdf_page": 99,
+      "printed_value": "66,922",
+      "confidence": "high",
+      "notes": "Object line under Elected officials - Judicial > Public Defender, Final Budget column. Note: Public Defender subdept has no 'Salaries' object line at all (only Operations and Contractual agreements) -- see anomalies."
+    },
+    {
+      "id": 25,
+      "printed_label": "Salaries",
+      "pdf_page": 99,
+      "printed_value": "1,166,733",
+      "confidence": "high",
+      "notes": "Object line under Elected officials - Judicial > Probate Court, Actual (Budget Basis) column."
+    },
+    {
+      "id": 26,
+      "printed_label": "Contractual agreements",
+      "pdf_page": 99,
+      "printed_value": "47,397",
+      "confidence": "high",
+      "notes": "Object line under Elected officials - Judicial > Probate Court, Original Budget column."
+    },
+    {
+      "id": 27,
+      "printed_label": "Emergency medical services",
+      "pdf_page": 95,
+      "printed_value": "10,842,000",
+      "confidence": "high",
+      "notes": "Revenue subline under 'County offices' category, Final Budget column."
+    },
+    {
+      "id": 28,
+      "printed_label": "Rents",
+      "pdf_page": 95,
+      "printed_value": "276,285",
+      "confidence": "high",
+      "notes": "Revenue subline under 'Other revenues' category, Original Budget column."
+    },
+    {
+      "id": 29,
+      "printed_label": "Clerk of court",
+      "pdf_page": 95,
+      "printed_value": "2,321,741",
+      "confidence": "high",
+      "notes": "Revenue subline under 'County offices' category, Final Budget column."
+    },
+    {
+      "id": 30,
+      "printed_label": "Register of deeds",
+      "pdf_page": 95,
+      "printed_value": "2,987,871",
+      "confidence": "high",
+      "notes": "Revenue subline under 'County offices' category, Final Budget column."
+    }
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 100,
+      "observation": "The total row closing the 'Elected officials - Law Enforcement' department is printed in lowercase ('law enforcement') even though the department header itself uses Title Case ('Elected officials - Law Enforcement'), and every sibling department's total row elsewhere in this schedule keeps the qualifier capitalized to match its header (e.g. 'Total elected officials - Judicial', 'Total elected officials - Fiscal', both Title Case). This is the only department in the schedule where the total-row label's capitalization does not match its own section header.",
+      "printed_line": "Total elected officials - law enforcement    35,955,647    36,089,946    36,027,820    62,126"
+    },
+    {
+      "pdf_page": 97,
+      "observation": "Under Human resources > Human relations subdepartment, the 'Contractual agreements' object line shows a dash in the Original Budget column while the Final Budget (5,137), Actual (4,861), and Variance (276) columns all carry real figures. A dash appearing in a Budget/Actual data column (rather than in the Variance column, where dashes are used throughout this schedule as a zero-variance convention) is worth flagging even though it plausibly reflects a legitimate mid-year budget amendment (a line item added after the original budget was adopted).",
+      "printed_line": "Contractual agreements    -    5,137    4,861    276"
+    },
+    {
+      "pdf_page": 101,
+      "observation": "Under Non-departmental, the 'Salaries' object line shows an Original Budget of 21,598 but Final Budget, Actual, and Variance are all dashes -- i.e. the entire budgeted salary line was zeroed out by year end (moved to $0 in the final budget) with no residual in any other column. Flagging per instruction to note dashes in a data column; this does not break any total (Non-departmental's own total row of 2,937,075 / 2,668,748 / 2,132,166 / 536,582 still ties to its object lines with this line correctly treated as 21,598 / 0 / 0 / 0).",
+      "printed_line": "Salaries    21,598    -    -    -"
+    },
+    {
+      "pdf_page": 101,
+      "observation": "Also under Non-departmental, the 'Capital outlay' object line shows a dash in the Original Budget column (no original capital outlay was budgeted) but Final Budget and Actual both show 17,920 -- the reverse pattern of the Salaries line above (a line added via budget amendment rather than zeroed out). Flagged for completeness; arithmetic still ties out.",
+      "printed_line": "Capital outlay    -    17,920    17,920    -"
+    },
+    {
+      "pdf_page": 99,
+      "observation": "The 'Public Defender' subdepartment (under Elected officials - Judicial) has no 'Salaries' object line at all -- only 'Operations' and 'Contractual agreements' are printed, unlike every other subdepartment in the schedule, which prints Salaries as its first object line. Not an arithmetic problem (the two-line subtotal of 513,922 / 513,922 / 512,216 / 1,706 ties out to the two printed lines), but the missing Salaries line is a structural difference from the rest of the document worth noting -- it may indicate Public Defender staff salaries are budgeted/paid through a different fund or department line.",
+      "printed_line": "Public Defender / Operations 1,922 66,922 66,716 206 / Contractual agreements 512,000 447,000 445,500 1,500 / [total] 513,922 513,922 512,216 1,706"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "year": 2022,
+  "pdf_pages": "110-116",
+  "cells": [
+    {"id": 1, "printed_label": "Total administrative services", "pdf_page": 111, "printed_value": "3,360,382", "confidence": "high"},
+    {"id": 2, "printed_label": "Total general services", "pdf_page": 112, "printed_value": "16,766,133", "confidence": "high"},
+    {"id": 3, "printed_label": "Total community development and planning", "pdf_page": 113, "printed_value": "24,329,522", "confidence": "high"},
+    {"id": 4, "printed_label": "Total public safety", "pdf_page": 113, "printed_value": "35,264,566", "confidence": "high"},
+    {"id": 5, "printed_label": "Total emergency medical services", "pdf_page": 113, "printed_value": "24,857,687", "confidence": "high"},
+    {"id": 6, "printed_label": "Total elected officials - judicial services", "pdf_page": 114, "printed_value": "22,879,347", "confidence": "high"},
+    {"id": 7, "printed_label": "Total elected officials - fiscal services", "pdf_page": 115, "printed_value": "3,433,951", "confidence": "high"},
+    {"id": 8, "printed_label": "Total elected officials - law enforcement", "pdf_page": 115, "printed_value": "59,859,354", "confidence": "high"},
+    {"id": 9, "printed_label": "Total boards, commissions and others", "pdf_page": 116, "printed_value": "10,949,391", "confidence": "high"},
+    {"id": 10, "printed_label": "Total debt service", "pdf_page": 116, "printed_value": "-", "confidence": "high", "note": "Original and Final Budget columns both print as a dash on this total row; only the Actual column (174,592) is populated. See anomalies."},
+    {"id": 11, "printed_label": "Total boards, commissions and others", "pdf_page": 116, "printed_value": "13,462,003", "confidence": "high"},
+    {"id": 12, "printed_label": "Total emergency medical services", "pdf_page": 113, "printed_value": "24,770,647", "confidence": "high"},
+    {"id": 13, "printed_label": "Total elected officials - law enforcement", "pdf_page": 115, "printed_value": "62,713,100", "confidence": "high"},
+    {"id": 14, "printed_label": "Total legislative delegation", "pdf_page": 116, "printed_value": "71,807", "confidence": "high"},
+    {"id": 15, "printed_label": "Total forensic division", "pdf_page": 113, "printed_value": "3,267,664", "confidence": "high"},
+    {"id": 16, "printed_label": "Total procurement services", "pdf_page": 111, "printed_value": "561,724", "confidence": "high"},
+    {"id": 17, "printed_label": "Total county medical examiner", "pdf_page": 115, "printed_value": "980,756", "confidence": "high"},
+    {"id": 18, "printed_label": "Total public defender", "pdf_page": 114, "printed_value": "1,414,673", "confidence": "high"},
+    {"id": 19, "printed_label": "Total Indigent defense", "pdf_page": 113, "printed_value": "235,087", "confidence": "high", "note": "Printed with capital 'I' in 'Indigent' matching the subdepartment header capitalization; sample label used lowercase."},
+    {"id": 20, "printed_label": "Contractual agreements (Clerk of court)", "pdf_page": 114, "printed_value": "12,000", "confidence": "high"},
+    {"id": 21, "printed_label": "Capital outlay (Agencies and social service agencies)", "pdf_page": 116, "printed_value": "10,788", "confidence": "high"},
+    {"id": 22, "printed_label": "Operations (Circuit solicitor)", "pdf_page": 114, "printed_value": "195,896", "confidence": "high"},
+    {"id": 23, "printed_label": "Salaries (Probate court)", "pdf_page": 114, "printed_value": "1,991,157", "confidence": "high"},
+    {"id": 24, "printed_label": "Contractual agreements (County attorney)", "pdf_page": 111, "printed_value": "40,371", "confidence": "high"},
+    {"id": 25, "printed_label": "Lump sum appropriations (Agencies and social service agencies)", "pdf_page": 116, "printed_value": "4,967,055", "confidence": "high"},
+    {"id": 26, "printed_label": "Operations (Sheriff)", "pdf_page": 115, "printed_value": "5,725,877", "confidence": "high"},
+    {"id": 27, "printed_label": "Contractual agreements (Veterans affairs)", "pdf_page": 112, "printed_value": "7,817", "confidence": "high"},
+    {"id": 28, "printed_label": "Detention center (County offices, revenue)", "pdf_page": 110, "printed_value": "888,809", "confidence": "high"},
+    {"id": 29, "printed_label": "Current and delinquent (Property taxes, revenue)", "pdf_page": 110, "printed_value": "112,186,696", "confidence": "high"},
+    {"id": 30, "printed_label": "Clerk of court (County offices, revenue)", "pdf_page": 110, "printed_value": "1,912,895", "confidence": "high"},
+    {"id": 31, "printed_label": "Animal care services (County offices, revenue)", "pdf_page": 110, "printed_value": "904,087", "confidence": "high"}
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 113,
+      "observation": "The subtotal row for the 'Emergency Management division' subdepartment is labeled 'Total detention division' -- an exact duplicate of the label used two rows above it for the actual Detention division subtotal. The figures themselves (612,033 / 585,460 / 581,084 / 4,376) tie out arithmetically as their own self-consistent subtotal (Salaries 584,633+Operations 27,400=612,033, etc.) and roll up correctly into 'Total public safety', so this reads as a copy-paste labeling error in the source document rather than a data problem.",
+      "printed_line": "Emergency Management division\n Salaries                                              584,633          553,060          553,057                   3\n Operations                                             27,400            32,400           28,027               4,373\n Total detention division                              612,033          585,460          581,084               4,376"
+    },
+    {
+      "pdf_page": 116,
+      "observation": "Debt service: both the Original Budget and Final Budget columns show a dash ('-') for 'Principal' and for the 'Total debt service' row, while the Actual column shows $174,592 and Variance shows $(174,592). In other words, the county recorded a Debt service expenditure in the General Fund with zero budget authorized at either the original or final stage. This is unusual relative to every other department total on the schedule, all of which have a nonzero original/final budget.",
+      "printed_line": "Debt service\n Principal                                                          -                  -           174,592             (174,592)\n Total debt service                                               -                  -           174,592             (174,592)"
+    },
+    {
+      "pdf_page": 112,
+      "observation": "Human relations / Contractual agreements: Original budget was $4,370, but Final budget, Actual, and Variance are all printed as a dash (zero). The line was apparently fully definanced between the original and final budget. Arithmetic still ties out (the subdepartment total reconciles correctly), so this is likely a legitimate mid-year budget cut rather than an error, but it's the kind of budget-to-zero line worth a second look.",
+      "printed_line": "Contractual agreements                                  4,370                -                -                   -"
+    }
+  ],
+  "notes": "All four department-total, subdepartment-total, object-level, and revenue-subline figures were located and transcribed as printed. Every total, subtotal, and grand-total row across all 7 pages (110-116) was independently re-summed from its component lines and reconciled exactly to the printed figure, including the two flow-through checks (Total revenues match Deficiency of revenues under expenditures math, and the Deficiency + Other financing sources + Beginning fund balance reconciles to the printed Ending fund balance of $72,802,675 actual / $41,749,395 budget). No column-shift or OCR mismatches were found on visual review of any page -- all text-extracted values matched the rendered page images exactly. One label-duplication anomaly (page 113) and one all-dash budget total (page 116, Debt service) stood out as worth a second look; neither affects the arithmetic integrity of the schedule."
+}

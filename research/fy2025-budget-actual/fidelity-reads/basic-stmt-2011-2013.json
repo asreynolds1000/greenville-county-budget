@@ -1,0 +1,70 @@
+{
+  "years": [
+    {
+      "year": 2011,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances Budget and Actual (Budget Basis) - Major Funds with Legally Adopted Budgets - Year Ended June 30, 2011 (General Fund column)",
+      "printed_page": "28",
+      "pdf_page": 42,
+      "total_revenues": {
+        "original": "125,420,953",
+        "final": "125,420,953",
+        "actual": "122,379,292"
+      },
+      "total_expenditures": {
+        "original": "126,749,627",
+        "final": "126,719,519",
+        "actual": "123,617,673"
+      },
+      "capital_outlay": {
+        "original": "220,959",
+        "final": "220,959",
+        "actual": "278,154"
+      },
+      "notes": "Verified against both pdftotext -layout output and a 200dpi rendered page image (exact match). This basic-statement page covers the General Fund AND the Federal and State Grant Fund side by side across two pages (General Fund on this page, Federal and State Grant Fund on the following page, PDF page 43 / printed page 29) - figures above are the General Fund column only, as requested. Variance column present (4th column, 'Variance With Final Positive (Negative)'), not requested per instructions. No dashes/parentheses in the requested totals rows."
+    },
+    {
+      "year": 2012,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances Budget and Actual (Budget Basis) - Major Funds with Legally Adopted Budgets - Year Ended June 30, 2012 (General Fund column)",
+      "printed_page": "29",
+      "pdf_page": 34,
+      "total_revenues": {
+        "original": "125,407,027",
+        "final": "125,407,027",
+        "actual": "123,592,378"
+      },
+      "total_expenditures": {
+        "original": "127,789,349",
+        "final": "127,789,349",
+        "actual": "126,179,766"
+      },
+      "capital_outlay": {
+        "original": "80,742",
+        "final": "190,887",
+        "actual": "183,180"
+      },
+      "notes": "This PDF has NO usable text layer (pdftotext returns garbage/blank-looking output for body pages, confirmed). Page located via the Table of Contents (PDF page 2, printed page 'i', lists this statement at printed page 29) then confirmed by rendering PDF pages 30-45 at 150dpi and reading the printed page-number footer, landing on PDF page 34 = printed page 29. All figures re-verified against a second, higher-resolution (300dpi) render, cropped and re-read digit by digit. This is the ONLY financial-statement-titled page for the General Fund in this book (the other, similarly-named 'Schedule of Revenue and Expenditures Budget and Actual (Budget Basis) - General Fund' at printed page 89 is the excluded supplementary/departmental-detail schedule, per instructions, and was not used)."
+    },
+    {
+      "year": 2013,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances Budget and Actual (Budget Basis) - Major Funds with Legally Adopted Budgets - Year Ended June 30, 2013 (General Fund column)",
+      "printed_page": "30",
+      "pdf_page": 40,
+      "total_revenues": {
+        "original": "126,627,329",
+        "final": "126,627,329",
+        "actual": "130,171,828"
+      },
+      "total_expenditures": {
+        "original": "130,996,023",
+        "final": "131,271,655",
+        "actual": "131,273,683"
+      },
+      "capital_outlay": {
+        "original": "14,295",
+        "final": "52,162",
+        "actual": "52,162"
+      },
+      "notes": "Verified against both pdftotext -layout output and a 200dpi rendered page image (exact match). Note the FY2013 statement drops several function lines used in FY2011/2012 (e.g. 'Human resources', 'Public works') and adds new ones ('Emergency medical services', 'Community development and planning', 'Pubic safety' [sic, printed exactly this way in the source] ) - a reorganization of functional categories starting this year, but the Total revenues / Total expenditures / Capital outlay lines requested are unaffected by that reorganization."
+    }
+  ]
+}

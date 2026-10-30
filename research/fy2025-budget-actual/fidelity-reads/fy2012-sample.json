@@ -1,0 +1,238 @@
+[
+ {
+  "level": "department_total",
+  "department": "Administrative",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 1
+ },
+ {
+  "level": "department_total",
+  "department": "General services",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 2
+ },
+ {
+  "level": "department_total",
+  "department": "Human resources",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 3
+ },
+ {
+  "level": "department_total",
+  "department": "Public works",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 4
+ },
+ {
+  "level": "department_total",
+  "department": "Public safety",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 5
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - Judicial",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 6
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - Fiscal",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 7
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - Law Enforcement",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 8
+ },
+ {
+  "level": "department_total",
+  "department": "Boards, commissions and others",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 9
+ },
+ {
+  "level": "department_total",
+  "department": "General services",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 10
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - Law Enforcement",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 11
+ },
+ {
+  "level": "department_total",
+  "department": "Human resources",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 12
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Human resources",
+  "subdepartment": "Human relations",
+  "object": "",
+  "column": "final_budget",
+  "id": 13
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Public safety",
+  "subdepartment": "Indigent defense",
+  "object": "",
+  "column": "final_budget",
+  "id": 14
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Boards, commissions and others",
+  "subdepartment": "Agencies and social service agencies",
+  "object": "",
+  "column": "original_budget",
+  "id": 15
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Administrative",
+  "subdepartment": "County administrator",
+  "object": "",
+  "column": "final_budget",
+  "id": 16
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Elected officials - Fiscal",
+  "subdepartment": "Board of Appeals",
+  "object": "",
+  "column": "final_budget",
+  "id": 17
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Public safety",
+  "subdepartment": "Detention center",
+  "object": "",
+  "column": "original_budget",
+  "id": 18
+ },
+ {
+  "level": "object",
+  "department": "Public safety",
+  "subdepartment": "Indigent defense",
+  "object": "Contractual agreements",
+  "column": "actual",
+  "id": 19
+ },
+ {
+  "level": "object",
+  "department": "Human resources",
+  "subdepartment": "Veterans affairs",
+  "object": "Operations",
+  "column": "final_budget",
+  "id": 20
+ },
+ {
+  "level": "object",
+  "department": "Boards, commissions and others",
+  "subdepartment": "Employee benefit fund",
+  "object": "Salaries",
+  "column": "actual",
+  "id": 21
+ },
+ {
+  "level": "object",
+  "department": "General services",
+  "subdepartment": "Real property services",
+  "object": "Salaries",
+  "column": "final_budget",
+  "id": 22
+ },
+ {
+  "level": "object",
+  "department": "Public safety",
+  "subdepartment": "Records",
+  "object": "Salaries",
+  "column": "actual",
+  "id": 23
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - Judicial",
+  "subdepartment": "Public Defender",
+  "object": "Operations",
+  "column": "final_budget",
+  "id": 24
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - Judicial",
+  "subdepartment": "Probate Court",
+  "object": "Salaries",
+  "column": "actual",
+  "id": 25
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - Judicial",
+  "subdepartment": "Probate Court",
+  "object": "Contractual agreements",
+  "column": "original_budget",
+  "id": 26
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Emergency medical services",
+  "column": "final_budget",
+  "id": 27
+ },
+ {
+  "level": "revenue_subline",
+  "category": "Other revenues",
+  "subline": "Rents",
+  "column": "original_budget",
+  "id": 28
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Clerk of court",
+  "column": "final_budget",
+  "id": 29
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Register of deeds",
+  "column": "final_budget",
+  "id": 30
+ }
+]

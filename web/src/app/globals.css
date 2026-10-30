@@ -1,0 +1,903 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens — "editorial data explainer" direction (Step 4 design brief,
+ * locked 2026-07-19). Hexes are exact and validated (fund palette is
+ * CVD-safe) — do not alter them here or anywhere they're duplicated (the
+ * FUND_COLORS map in src/app/page.tsx renders the same hexes directly into
+ * SVG `fill` attributes for cross-browser reliability; keep both in sync).
+ *
+ * No dark-theme variant: the brief specifies one fixed light palette with no
+ * dark alternates, matching the OWID/Pudding "paper" aesthetic this direction
+ * is drawing from. See report for this call.
+ */
+@theme {
+  /* Surfaces */
+  --color-page: #fcfcfb;
+  --color-surface: #ffffff;
+  --color-hairline: #e7e4dd;
+
+  /* Ink */
+  --color-ink: #1c1b18;
+  --color-ink-secondary: #6b6862;
+  /* Darkened from #8f8b83 to clear WCAG AA on the page background (3.31:1 -> 4.53:1).
+     Same hue and saturation, lightness reduced, so the visual hierarchy is unchanged.
+     It had to move rather than be exempted: this token carries the provenance citations
+     and the note marks, which are the small print a sceptical reader most needs to be
+     able to read, and small print is exactly where "decorative, so contrast does not
+     apply" is the wrong answer.
+
+     Checked against EVERY light background this token sits on, enumerated from this file
+     rather than guessed — eight of them. Worst case is the #efede8 tint at 4.53:1; the
+     page background is 5.16:1 and plain white 5.30:1.
+
+     Two earlier attempts failed by checking too few: #78746c cleared the page and white
+     and failed on #f8f7fc at 4.37:1; #757169 cleared those three and failed on #efede8.
+     Each looked done. A contrast fix verified against one background is the same shape of
+     error as a validator written narrower than the thing it checks. */
+  --color-ink-faint: #6f6b64;
+
+  /* Interaction accent (also the General Fund hue — intentional, per brief) */
+  --color-accent: #00795a;
+
+  /* Fund categorical palette (CVD-safe, validated — do not alter) */
+  --color-fund-general: #00795a;
+  --color-fund-special-revenue: #c99320;
+  --color-fund-debt-service: #b23a24;
+  --color-fund-enterprise: #5a52a6;
+  /* Internal Service Fund is deliberately NOT a 5th categorical hue — it
+     renders in neutral + a 45° hatch (see HatchSwatch) to signal "excluded
+     from the total," not "a fifth kind of fund." Same hex as --color-ink-secondary. */
+  --color-fund-internal-service: #6b6862;
+
+  /* Type: next/font/google variables are set on <html> in layout.tsx. Data &
+     citations render in mono with tabular figures everywhere (the signature
+     "ledger" feel) via this --font-mono override of Tailwind's default. */
+  --font-display: var(--font-fraunces), ui-serif, Georgia, "Times New Roman", serif;
+  --font-body: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+/* Focus ring: 2px pine, always visible for keyboard users (plan T4 / quality
+   floor). :focus-visible (not bare :focus) so a mouse click doesn't ring. */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/*
+ * Null-vs-zero (plan Decision 4.3 / R2): the Amount component marks an
+ * unpublished value with data-unpublished="true" — never renders it as "$0".
+ * Styled distinctly (not just italic) so the ledger reads honestly at a
+ * glance, not just to a screen reader.
+ */
+[data-unpublished="true"] {
+  font-style: italic;
+  color: var(--color-ink-faint);
+}
+
+/*
+ * Printed-dash footnote gate.
+ *
+ * PrintedDashFootnote lives in SiteFooter.tsx so its anchor target is one stable id shared
+ * by every page, including client-rendered search results — but that footer renders on
+ * pages statically exported as independent server components with no shared render context,
+ * so it cannot ask "does THIS page have a dagger mark" in JS/server logic. Most pages have
+ * none, and a footnote with no mark above it pointing to it reads as broken production, not
+ * caution (flagged by three independent reviewers).
+ *
+ * CSS answers the question `:has()` was built for: hide the note by default, reveal it only
+ * when the page actually contains a dagger mark. The footnote's anchor id stays in the DOM
+ * either way, so a mark's link target always resolves — display:none hides it, it is never
+ * removed.
+ */
+[data-printed-dash-footnote] {
+  display: none;
+}
+
+body:has([data-printed-dash-mark]) [data-printed-dash-footnote] {
+  display: block;
+}
+
+.cycle-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.cycle-card {
+  border: 1px solid var(--color-hairline);
+  border-top-width: 4px;
+  border-radius: 0.75rem;
+  background: var(--color-surface);
+  padding: 1.25rem;
+}
+
+.cycle-card-in {
+  border-top-color: #00795a;
+  background: linear-gradient(180deg, #f2faf7 0, var(--color-surface) 7rem);
+}
+
+.cycle-card-out {
+  border-top-color: #b23a24;
+  background: linear-gradient(180deg, #fbf5f3 0, var(--color-surface) 7rem);
+}
+
+.balance-flow {
+  overflow: hidden;
+  border: 1px solid #d8d4e8;
+  border-top: 5px solid #5a52a6;
+  border-radius: 1rem;
+  background: linear-gradient(145deg, #f5f4fb 0, var(--color-surface) 48%);
+  padding: 1.25rem;
+}
+
+.balance-flow-equation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.balance-flow-step {
+  flex: 1 1 0;
+  min-width: 0;
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.75rem;
+  background: var(--color-surface);
+  padding: 1rem;
+}
+
+.balance-flow-step-beginning,
+.balance-flow-step-ending {
+  border-color: #c9c5e2;
+  background: #f8f7fc;
+}
+
+.balance-flow-step-in {
+  border-color: #99cbbb;
+  background: #f2faf7;
+}
+
+.balance-flow-step-out {
+  border-color: #dfaa9e;
+  background: #fbf5f3;
+}
+
+.balance-flow-step-adjustment {
+  border-color: #d9bd7a;
+  background: #fcf8ee;
+}
+
+.balance-flow-operator {
+  display: flex;
+  min-height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-ink-secondary);
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+}
+
+/*
+ * The equation as a compact ledger on phones (plan Step 4).
+ *
+ * Five full cards stacked vertically — each an eyebrow, a label, a large figure, a
+ * two-line explanation and a citation — made the FY2026 page about 7,700px tall at 390px,
+ * and the equation alone filled several screens before the reader reached anything else.
+ *
+ * Restyled rather than re-rendered: one DOM tree means no second copy in the accessibility
+ * tree and no risk of the two drifting apart. The label and the figure move onto one line,
+ * the operators shrink to a marker between rows, and only the per-card detail paragraph is
+ * hidden — the same explanation is restated immediately below the equation, so on a phone
+ * it was being read four times in a row.
+ *
+ * The citation is NOT hidden. Compactness is never a reason to drop a source.
+ */
+@media (max-width: 39.9375rem) {
+  .balance-flow-equation {
+    gap: 0;
+  }
+
+  .balance-flow-step {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: baseline;
+    gap: 0.15rem 0.75rem;
+    border-radius: 0.5rem;
+    padding: 0.6rem 0.75rem;
+  }
+
+  .balance-flow-step-eyebrow {
+    grid-column: 1 / -1;
+  }
+
+  .balance-flow-step-label {
+    margin-top: 0.1rem;
+  }
+
+  .balance-flow-step-value {
+    margin-top: 0.1rem;
+    text-align: right;
+    font-size: 1.125rem;
+  }
+
+  .balance-flow-step-detail {
+    display: none;
+  }
+
+  .balance-flow-step-source {
+    grid-column: 1 / -1;
+    margin-top: 0.1rem;
+  }
+
+  /* Between rows rather than as a row of its own: the sign belongs to the join, and a
+     full-height operator between every pair was costing more vertical space than the
+     figures it separated. */
+  .balance-flow-operator {
+    min-height: 0;
+    padding: 0.15rem 0;
+    font-size: 1rem;
+  }
+}
+
+.flow-comparison {
+  border-radius: 0.75rem;
+  background: #efedf7;
+  padding: 1rem;
+}
+
+.flow-comparison-row {
+  display: grid;
+  grid-template-columns: 4.75rem minmax(0, 1fr);
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.flow-comparison-row + .flow-comparison-row {
+  margin-top: 0.75rem;
+}
+
+.flow-comparison-row strong {
+  grid-column: 2;
+  color: var(--color-ink-secondary);
+  font-size: 0.6875rem;
+  font-weight: 500;
+}
+
+.flow-comparison-track {
+  height: 0.75rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.flow-comparison-bar {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.flow-comparison-bar-in {
+  background: #00795a;
+}
+
+.flow-comparison-bar-out {
+  background: #b23a24;
+}
+
+.actual-result {
+  border-top: 1px solid #c9c5e2;
+  padding-top: 1.25rem;
+}
+
+.result-ledger {
+  overflow: hidden;
+  border: 1px solid #c9c5e2;
+  border-radius: 0.75rem;
+  background: var(--color-surface);
+}
+
+.result-ledger-row {
+  display: grid;
+  grid-template-columns: minmax(8.5rem, 1.35fr) repeat(3, minmax(6.75rem, 1fr));
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.8rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.result-ledger-row + .result-ledger-row {
+  border-top: 1px solid var(--color-hairline);
+}
+
+.result-ledger-row > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.result-ledger-row > span {
+  text-align: right;
+}
+
+.result-ledger-head {
+  background: #efedf7;
+  color: var(--color-ink-faint);
+  font-size: 0.625rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.result-ledger-budget,
+.result-ledger-actual {
+  border-left: 4px solid transparent;
+}
+
+.result-ledger-budget {
+  border-left-color: #5a52a6;
+  background: #f8f7fc;
+}
+
+.result-ledger-actual {
+  border-left-color: #00795a;
+  background: #f2faf7;
+}
+
+.result-stories {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.result-story {
+  min-width: 0;
+  border: 1px solid var(--color-hairline);
+  border-left-width: 4px;
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.result-story-budget {
+  border-left-color: #5a52a6;
+  background: #f8f7fc;
+}
+
+.result-story-actual {
+  border-left-color: #00795a;
+  background: #f2faf7;
+}
+
+.result-story-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.result-story-equation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.result-story-equation > div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.result-story-equation small {
+  color: var(--color-ink-faint);
+  font-family: var(--font-mono);
+  font-size: 0.5625rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.result-story-equation strong {
+  overflow-wrap: anywhere;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.result-story-equation > b {
+  color: var(--color-ink-faint);
+  font-family: var(--font-mono);
+  font-weight: 400;
+}
+
+.contribution-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.contribution-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.75rem;
+}
+
+.contribution-label strong {
+  flex: 0 0 auto;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.contribution-track {
+  position: relative;
+  height: 0.65rem;
+  margin-top: 0.35rem;
+  border-radius: 999px;
+  background: #efede8;
+}
+
+.contribution-axis {
+  position: absolute;
+  top: -0.15rem;
+  bottom: -0.15rem;
+  left: 50%;
+  width: 1px;
+  background: #8f8b83;
+}
+
+.contribution-bar {
+  position: absolute;
+  top: 0;
+  min-width: 1px;
+  height: 100%;
+}
+
+.contribution-bar-positive {
+  border-radius: 0 999px 999px 0;
+  background: #00795a;
+}
+
+.contribution-bar-negative {
+  border-radius: 999px 0 0 999px;
+  background: #b23a24;
+}
+
+.contribution-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin-top: 0.3rem;
+  color: var(--color-ink-faint);
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+}
+
+.variance-details {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.variance-details details {
+  border: 1px solid rgba(28, 27, 24, 0.12);
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 0.8rem;
+}
+
+.variance-details summary {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.variance-details details > p {
+  margin: 0.5rem 0 0.9rem;
+  color: var(--color-ink-secondary);
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.budget-actual-lines {
+  overflow: hidden;
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.65rem;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.budget-actual-line {
+  display: grid;
+  grid-template-columns: minmax(7.25rem, 1.2fr) repeat(3, minmax(0, 1fr));
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.budget-actual-line + .budget-actual-line {
+  border-top: 1px solid var(--color-hairline);
+}
+
+.budget-actual-line > span {
+  min-width: 0;
+  text-align: right;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.budget-actual-line-head {
+  background: rgba(239, 237, 247, 0.75);
+  color: var(--color-ink-faint);
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.budget-actual-line-total {
+  background: rgba(28, 27, 24, 0.035);
+  font-weight: 500;
+}
+
+.budget-actual-difference {
+  color: var(--color-ink-secondary);
+}
+
+.forecast-bridge {
+  border: 1px solid #d9bd7a;
+  border-radius: 0.75rem;
+  background: #fcf8ee;
+  padding: 1rem;
+}
+
+.forecast-bridge-equation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+
+.forecast-bridge-equation > div {
+  display: flex;
+  min-width: 8.5rem;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.35rem;
+  border: 1px solid rgba(28, 27, 24, 0.12);
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 0.75rem;
+}
+
+.forecast-bridge-equation small {
+  color: var(--color-ink-secondary);
+  font-size: 0.625rem;
+  line-height: 1.35;
+}
+
+.forecast-bridge-equation strong {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.forecast-bridge-equation > b {
+  align-self: center;
+  color: var(--color-ink-secondary);
+  font-family: var(--font-mono);
+  font-weight: 400;
+}
+
+.transfer-map {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.transfer-map-side {
+  min-width: 0;
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.transfer-map-in {
+  background: #f2faf7;
+}
+
+.transfer-map-out {
+  background: #fbf5f3;
+}
+
+.transfer-map-fund {
+  display: flex;
+  width: 8rem;
+  aspect-ratio: 1;
+  justify-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-ink);
+  border-radius: 50%;
+  background: var(--color-surface);
+  text-align: center;
+}
+
+.transfer-map-fund strong {
+  margin-top: 0.25rem;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+}
+
+.transfer-map-arrow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-ink-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.transfer-map-arrow strong {
+  text-align: right;
+}
+
+.transfer-map-arrow small {
+  font-size: 0.625rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 64rem) {
+  .cycle-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+  }
+
+  .balance-flow {
+    padding: 1.75rem;
+  }
+
+  .balance-flow-equation {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .balance-flow-operator {
+    flex: 0 0 1.5rem;
+  }
+
+  .flow-comparison-row {
+    grid-template-columns: 5rem minmax(0, 1fr) 8rem;
+  }
+
+  .flow-comparison-row strong {
+    grid-column: auto;
+    text-align: right;
+  }
+
+  .result-stories {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .transfer-map {
+    grid-template-columns: minmax(0, 1fr) 5.5rem 8rem 5.5rem minmax(0, 1fr);
+    align-items: center;
+  }
+
+  .transfer-map-fund {
+    width: 8rem;
+  }
+
+  .transfer-map-arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .transfer-map-arrow strong {
+    text-align: center;
+  }
+
+  .transfer-map-arrow span {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 39.999rem) {
+  .result-story-heading {
+    display: block;
+  }
+
+  .result-story-heading > :last-child {
+    display: inline-block;
+    margin-top: 0.35rem;
+  }
+
+  .result-story-equation {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .result-story-equation > b {
+    display: none;
+  }
+
+  .result-story-equation > div {
+    border-top: 1px solid var(--color-hairline);
+    padding-top: 0.5rem;
+  }
+
+  .budget-actual-line {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .budget-actual-line-head {
+    display: none;
+  }
+
+  .budget-actual-line > strong {
+    grid-column: 1 / -1;
+  }
+
+  .budget-actual-line > span {
+    text-align: left;
+  }
+
+  .budget-actual-line > span::before {
+    display: block;
+    margin-bottom: 0.15rem;
+    color: var(--color-ink-faint);
+    content: attr(data-label);
+    font-size: 0.5625rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .result-ledger-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+    padding: 0.75rem;
+  }
+
+  .result-ledger-head {
+    display: none;
+  }
+
+  .result-ledger-row > div {
+    grid-column: 1 / -1;
+    border-bottom: 1px solid var(--color-hairline);
+    padding-bottom: 0.5rem;
+  }
+
+  .result-ledger-row > span {
+    text-align: left;
+  }
+
+  .result-ledger-row > span::before {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: var(--color-ink-faint);
+    content: attr(data-label);
+    font-size: 0.5625rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  /* A bridge is an equation. Keep each source-signed operator beside its term on a
+     narrow screen instead of turning a verifiable calculation into unlabeled cards. */
+  .forecast-bridge-equation {
+    display: grid;
+    grid-template-columns: 1.25rem minmax(0, 1fr);
+    gap: 0.5rem;
+  }
+
+  .forecast-bridge-equation > b {
+    display: block;
+    grid-column: 1;
+    align-self: center;
+    text-align: center;
+  }
+
+  .forecast-bridge-equation > div {
+    min-width: 0;
+    grid-column: 2;
+  }
+}
+
+/* Motion is opt-in, never the default (plan T4). Any transition anywhere in
+   the app must be gated behind this and stay under 150ms. */
+@media (prefers-reduced-motion: no-preference) {
+  .motion-safe-transition {
+    transition:
+      opacity 150ms ease,
+      transform 150ms ease;
+  }
+}
+
+/*
+ * Print.
+ *
+ * A resident printing a page of this site is almost always taking a figure to a meeting,
+ * a council member, or a records request. So the priority on paper is the opposite of the
+ * priority on screen: the numbers and their citations must survive, and the navigation
+ * must not.
+ */
+@media print {
+  /* Chrome that cannot be acted on from paper. A year selector and a section-jump row are
+     as useless on paper as a site menu: they are controls, and paper has no controls. */
+  nav[aria-label="Site"],
+  nav[aria-label="Main"],
+  nav[aria-label="Fiscal year"],
+  nav[aria-label="Sections"],
+  header,
+  footer nav,
+  [data-print-hide] {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  main {
+    max-width: none;
+    padding: 0;
+  }
+
+  /* A citation is the whole point of printing one of these pages, and a printed
+     "County of Greenville Budget Document" with no URL cannot be followed. */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    word-break: break-all;
+  }
+
+  /* Internal links print as plain text: their URLs are only useful on screen and would
+     bury the source URLs that matter. */
+  a:not([href^="http"])::after {
+    content: none;
+  }
+
+  /* Details/summary collapse by default, which would silently drop the table behind
+     "View as table" — the accessible alternative to every chart on the site. */
+  details {
+    display: block;
+  }
+
+  details > summary {
+    display: none;
+  }
+
+  details > *:not(summary) {
+    display: revert !important;
+  }
+
+  /* Never split a figure from its caption, or a row across a page break. */
+  figure,
+  tr,
+  li {
+    break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "year": 2024,
+  "pdf_pages": "106-112",
+  "cells": [
+    {
+      "id": 1,
+      "printed_label": "Total administrative services",
+      "pdf_page": 107,
+      "printed_value": "3,887,907",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "printed_label": "Total general services",
+      "pdf_page": 108,
+      "printed_value": "19,853,880",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "printed_label": "Total community development and planning",
+      "pdf_page": 109,
+      "printed_value": "29,194,596",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "printed_label": "Total public safety",
+      "pdf_page": 109,
+      "printed_value": "39,718,989",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "printed_label": "Total emergency medical services",
+      "pdf_page": 109,
+      "printed_value": "28,578,293",
+      "confidence": "high"
+    },
+    {
+      "id": 6,
+      "printed_label": "Total elected officials - judicial services",
+      "pdf_page": 110,
+      "printed_value": "25,973,744",
+      "confidence": "high"
+    },
+    {
+      "id": 7,
+      "printed_label": "Total elected officials - fiscal services",
+      "pdf_page": 111,
+      "printed_value": "4,066,041",
+      "confidence": "high"
+    },
+    {
+      "id": 8,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 111,
+      "printed_value": "71,393,559",
+      "confidence": "high"
+    },
+    {
+      "id": 9,
+      "printed_label": "Total boards, commissions and others",
+      "pdf_page": 112,
+      "printed_value": "10,924,056",
+      "confidence": "high"
+    },
+    {
+      "id": 10,
+      "printed_label": "Total debt service",
+      "pdf_page": 112,
+      "printed_value": "-",
+      "confidence": "high"
+    },
+    {
+      "id": 11,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 111,
+      "printed_value": "74,468,721",
+      "confidence": "high"
+    },
+    {
+      "id": 12,
+      "printed_label": "Total community development and planning",
+      "pdf_page": 109,
+      "printed_value": "27,518,125",
+      "confidence": "high"
+    },
+    {
+      "id": 13,
+      "printed_label": "Total emergency medical services",
+      "pdf_page": 109,
+      "printed_value": "30,301,672",
+      "confidence": "high"
+    },
+    {
+      "id": 14,
+      "printed_label": "Total engineering, roads and bridges",
+      "pdf_page": 108,
+      "printed_value": "8,011,822",
+      "confidence": "high"
+    },
+    {
+      "id": 15,
+      "printed_label": "Total public defender",
+      "pdf_page": 110,
+      "printed_value": "1,986,744",
+      "confidence": "high"
+    },
+    {
+      "id": 16,
+      "printed_label": "Total records management services division",
+      "pdf_page": 109,
+      "printed_value": "2,310,943",
+      "confidence": "high"
+    },
+    {
+      "id": 17,
+      "printed_label": "Total legislative delegation",
+      "pdf_page": 112,
+      "printed_value": "90,087",
+      "confidence": "high"
+    },
+    {
+      "id": 18,
+      "printed_label": "Total animal care services",
+      "pdf_page": 109,
+      "printed_value": "6,041,259",
+      "confidence": "high"
+    },
+    {
+      "id": 19,
+      "printed_label": "Total sheriff",
+      "pdf_page": 111,
+      "printed_value": "68,259,081",
+      "confidence": "high"
+    },
+    {
+      "id": 20,
+      "printed_label": "Property maintenance - Salaries",
+      "pdf_page": 108,
+      "printed_value": "2,349,139",
+      "confidence": "high"
+    },
+    {
+      "id": 21,
+      "printed_label": "Clerk of court - Capital outlay",
+      "pdf_page": 110,
+      "printed_value": "-",
+      "confidence": "high"
+    },
+    {
+      "id": 22,
+      "printed_label": "Board of appeals - Operations",
+      "pdf_page": 111,
+      "printed_value": "-",
+      "confidence": "high"
+    },
+    {
+      "id": 23,
+      "printed_label": "Planning and code enforcement - Salaries",
+      "pdf_page": 109,
+      "printed_value": "4,619,584",
+      "confidence": "high"
+    },
+    {
+      "id": 24,
+      "printed_label": "Clerk of court - Salaries",
+      "pdf_page": 110,
+      "printed_value": "4,113,551",
+      "confidence": "high"
+    },
+    {
+      "id": 25,
+      "printed_label": "Procurement services - Operations",
+      "pdf_page": 107,
+      "printed_value": "50,374",
+      "confidence": "high"
+    },
+    {
+      "id": 26,
+      "printed_label": "Sheriff - Contractual agreements",
+      "pdf_page": 111,
+      "printed_value": "640,268",
+      "confidence": "high"
+    },
+    {
+      "id": 27,
+      "printed_label": "Legislative delegation - Operations",
+      "pdf_page": 112,
+      "printed_value": "7,334",
+      "confidence": "high"
+    },
+    {
+      "id": 28,
+      "printed_label": "County offices - Sheriff",
+      "pdf_page": 106,
+      "printed_value": "185,344",
+      "confidence": "high"
+    },
+    {
+      "id": 29,
+      "printed_label": "Other revenues - Other",
+      "pdf_page": 106,
+      "printed_value": "1,276,996",
+      "confidence": "high"
+    },
+    {
+      "id": 30,
+      "printed_label": "County offices - Law enforcement support",
+      "pdf_page": 106,
+      "printed_value": "784,711",
+      "confidence": "high"
+    },
+    {
+      "id": 31,
+      "printed_label": "County offices - Clerk of court",
+      "pdf_page": 106,
+      "printed_value": "1,838,618",
+      "confidence": "high"
+    }
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 109,
+      "observation": "Under the 'Emergency Management division' sub-department (Public safety), the total row that closes it is labeled 'Total detention division' -- identical to the label used a few lines above for the actual Detention division subtotal. The arithmetic on both rows is internally correct (this row = 800,427+152,220=952,647 original/final, 767,353+180,951=948,304 actual), so this looks like a copy-paste label error rather than a data error, but the printed label contradicts the section it closes.",
+      "printed_line": "Emergency Management division / Salaries 800,427 767,378 767,353 25 / Operations 152,220 185,269 180,951 4,318 / Total detention division 952,647 952,647 948,304 4,343"
+    },
+    {
+      "pdf_page": 112,
+      "observation": "Under 'Nondepartmental,' the 'Retiree claims' line has a dash (no budget) for both Original and Final Budget but a real Actual figure of 2,403,089, producing a (2,403,089) variance -- i.e. a fully unbudgeted expense line. The Nondepartmental total itself is arithmetically consistent with this (blank+blank+5,884,706... orig; totals check out), so this is flagged as an unusual pattern (large unbudgeted line item) rather than an arithmetic problem.",
+      "printed_line": "Retiree claims - - 2,403,089 (2,403,089)"
+    },
+    {
+      "pdf_page": 112,
+      "observation": "Debt service 'Principal' (and its 'Total debt service') is dashed for both Original and Final Budget but shows a real Actual of 828,434, variance (828,434) -- again a fully unbudgeted line (this is cell id 10 in the sample, transcribed as printed). Flagging because a whole department section budgeted at zero, with a material actual amount, is the kind of pattern worth a second look even though the arithmetic is internally consistent and it feeds correctly into Total expenditures.",
+      "printed_line": "Debt service / Principal - - 828,434 (828,434) / Total debt service - - 828,434 (828,434)"
+    }
+  ],
+  "notes": "Schedule spans PDF pages 106-112 (printed report pages 89-95), consistent across all 7 pages. Verified via pdftotext -layout against pdftoppm-rendered page images (200 dpi) for every page in range; no column-shift or OCR-type discrepancies were found between the two. Independently re-summed every subtotal/total row that appears on these 7 pages (department totals, section totals, Total revenues, Total expenditures, Deficiency of revenues under expenditures, Total other financing sources net, Net change in fund balances, Fund balance end of year) against its component lines; all reconciled exactly to the printed totals except for the one labeling anomaly noted above (the math there is also correct -- only the row label is wrong). No footnote markers, misspellings, or column-shift issues were observed anywhere in the 7-page range."
+}

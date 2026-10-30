@@ -1,0 +1,6 @@
+fiscal_year,residual_total,component,amount,column,source
+2016,1486060,Proceeds of land held for resale,1486060,actual,"FY2016 ACFR GF basic statement (pdf p.35, printed 31) and budgetary schedule (pdf p.105, printed 101); both print this single other-financing-sources line"
+2017,855170,Gain on sale,855170,actual,"FY2017 ACFR GF basic statement (pdf p.37, printed 31) and budgetary schedule (pdf p.105, printed 98); both print this single other-financing-sources line"
+2022,198102,Lease proceeds,198102,actual,"FY2022 ACFR GF basic statement (pdf p.40, printed 25) and budgetary schedule (pdf p.116, printed 99); both print this single other-financing-sources line"
+2023,3164209,Issuance of leases,3164209,actual,"CORRECTED 2026-09-07: previously stored as two fabricated components (""Gain on sale of capital assets"" $1,343,082 + ""Budget-to-GAAP basis adjustment (net)"" $1,821,127) that summed to the right total but matched no printed line. FY2023 ACFR GF basic statement (pdf p.39, printed 24) and budgetary schedule (pdf p.113, printed 96) both print ONE other-financing-sources line, ""Issuance of leases"", $3,164,209."
+2011,-36145,Fund balance appropriation,-36145,final_budget,"FY2011 ACFR GF budget-and-actual (budget basis) schedule, Final Budget column (pdf p.42, printed 28); Original Budget column prints $(6,037), Actual column prints a dash"

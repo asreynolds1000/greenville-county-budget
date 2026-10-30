@@ -1,0 +1,22 @@
+{
+  "fiscal_year": 2012,
+  "source": "FY2012 CAFR (scanned/no-unicode text layer; OCR via tesseract 5.5.2 @300dpi)",
+  "source_url": "https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2012/cafr_complete.pdf",
+  "basis_note": "Schedule prints an explicit Budget-to-GAAP basis adjustment (Note 1-D) = 233,085",
+  "general_fund": {
+    "revenue":        {"original": 125407027, "final": 125407027, "actual_budget_basis": 123592378, "variance": -1814649},
+    "expenditure":    {"original": 127789349, "final": 127789349, "actual_budget_basis": 126179766, "variance": 1609583, "actual_gaap": 125946681},
+    "transfers_in":   {"original": 4504512, "final": 4504512, "actual": 4505669, "variance": 1157},
+    "transfers_out":  {"original": -402500, "final": -402500, "actual": -367962, "variance": 34538},
+    "net_change":     {"budget": 1719690, "actual_budget_basis": 1550319, "budget_to_gaap_adjustment": 233085, "actual_gaap": 1783404},
+    "fund_balance_beginning": 50435663,
+    "fund_balance_ending": 52219067
+  },
+  "reconciliation": {
+    "flow_actual_gaap": "123592378 - 125946681 + 4505669 - 367962 = 1783404 (net GAAP) [OK]",
+    "internal": "50435663 + 1783404 = 52219067 (ending) [OK]",
+    "chain_prior": "beginning 50435663 == FY2011 ending [OK]",
+    "chain_next": "ending 52219067 == FY2013 beginning [OK]",
+    "budget_to_gaap": "50435663 + 1550319 (budget-basis net) + 233085 (adj) = 52219067 [OK]"
+  }
+}

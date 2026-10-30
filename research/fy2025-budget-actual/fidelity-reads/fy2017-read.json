@@ -1,0 +1,259 @@
+{
+  "year": 2017,
+  "pdf_pages": "100-105",
+  "cells": [
+    {
+      "id": 1,
+      "printed_label": "Total administrative",
+      "pdf_page": 101,
+      "printed_value": "2,800,203",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "printed_label": "Total general services",
+      "pdf_page": 102,
+      "printed_value": "14,614,110",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "printed_label": "Total community and development planning",
+      "pdf_page": 103,
+      "printed_value": "20,619,770",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "printed_label": "Total public safety",
+      "pdf_page": 103,
+      "printed_value": "26,432,843",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "printed_label": "Total Emergency medical services",
+      "pdf_page": 103,
+      "printed_value": "18,883,426",
+      "confidence": "high"
+    },
+    {
+      "id": 6,
+      "printed_label": "Total elected officials - Judicial",
+      "pdf_page": 104,
+      "printed_value": "18,695,443",
+      "confidence": "high"
+    },
+    {
+      "id": 7,
+      "printed_label": "Total elected officials - Fiscal",
+      "pdf_page": 104,
+      "printed_value": "2,904,344",
+      "confidence": "high"
+    },
+    {
+      "id": 8,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 105,
+      "printed_value": "43,627,959",
+      "confidence": "high"
+    },
+    {
+      "id": 9,
+      "printed_label": "Total boards, commissions and others",
+      "pdf_page": 105,
+      "printed_value": "5,251,000",
+      "confidence": "high"
+    },
+    {
+      "id": 10,
+      "printed_label": "Total public safety",
+      "pdf_page": 103,
+      "printed_value": "26,702,432",
+      "confidence": "high"
+    },
+    {
+      "id": 11,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 105,
+      "printed_value": "43,681,215",
+      "confidence": "high"
+    },
+    {
+      "id": 12,
+      "printed_label": "Total community and development planning",
+      "pdf_page": 103,
+      "printed_value": "19,627,790",
+      "confidence": "high"
+    },
+    {
+      "id": 13,
+      "printed_label": "Circuit solicitor (subtotal row, Elected officials - Judicial)",
+      "pdf_page": 103,
+      "printed_value": "6,795,198",
+      "confidence": "high"
+    },
+    {
+      "id": 14,
+      "printed_label": "County medical examiner (subtotal row, Elected officials - Law enforcement)",
+      "pdf_page": 105,
+      "printed_value": "353,839",
+      "confidence": "high"
+    },
+    {
+      "id": 15,
+      "printed_label": "Property maintenance (subtotal row, Community development and planning)",
+      "pdf_page": 102,
+      "printed_value": "6,339,437",
+      "confidence": "high"
+    },
+    {
+      "id": 16,
+      "printed_label": "Financial operations (subtotal row, General services)",
+      "pdf_page": 101,
+      "printed_value": "1,532,575",
+      "confidence": "high"
+    },
+    {
+      "id": 17,
+      "printed_label": "Non-departmental (subtotal row, Boards, commissions and others)",
+      "pdf_page": 105,
+      "printed_value": "2,681,673",
+      "confidence": "high"
+    },
+    {
+      "id": 18,
+      "printed_label": "Board of appeals (subtotal row, Elected officials - Fiscal)",
+      "pdf_page": 104,
+      "printed_value": "-",
+      "confidence": "high"
+    },
+    {
+      "id": 19,
+      "printed_label": "Clerk of court - Contractual agreements (Elected officials - Judicial)",
+      "pdf_page": 104,
+      "printed_value": "22,563",
+      "confidence": "high"
+    },
+    {
+      "id": 20,
+      "printed_label": "Auditor - Salaries (Elected officials - Fiscal)",
+      "pdf_page": 104,
+      "printed_value": "1,212,719",
+      "confidence": "high"
+    },
+    {
+      "id": 21,
+      "printed_label": "Veterans affairs - Salaries (General services)",
+      "pdf_page": 102,
+      "printed_value": "328,086",
+      "confidence": "high"
+    },
+    {
+      "id": 22,
+      "printed_label": "County administrator - Salaries (Administrative)",
+      "pdf_page": 101,
+      "printed_value": "740,176",
+      "confidence": "high"
+    },
+    {
+      "id": 23,
+      "printed_label": "Agencies and social service agencies - Lump sum appropriations (Boards, commissions and others)",
+      "pdf_page": 105,
+      "printed_value": "1,375,545",
+      "confidence": "high"
+    },
+    {
+      "id": 24,
+      "printed_label": "Procurement Services - Contractual agreements (General services)",
+      "pdf_page": 101,
+      "printed_value": "1,753",
+      "confidence": "high"
+    },
+    {
+      "id": 25,
+      "printed_label": "Engineering, Roads/Bridges - Salaries (Community development and planning)",
+      "pdf_page": 102,
+      "printed_value": "4,746,532",
+      "confidence": "high"
+    },
+    {
+      "id": 26,
+      "printed_label": "Non-departmental - Contractual agreements (Boards, commissions and others)",
+      "pdf_page": 105,
+      "printed_value": "122,688",
+      "confidence": "high"
+    },
+    {
+      "id": 27,
+      "printed_label": "County offices - Planning and code enforcement (revenue)",
+      "pdf_page": 100,
+      "printed_value": "46,150",
+      "confidence": "high"
+    },
+    {
+      "id": 28,
+      "printed_label": "County offices - Emergency medical services (revenue)",
+      "pdf_page": 100,
+      "printed_value": "13,606,000",
+      "confidence": "high"
+    },
+    {
+      "id": 29,
+      "printed_label": "Intergovernmental revenues - State of South Carolina: State allocations",
+      "pdf_page": 100,
+      "printed_value": "18,646,746",
+      "confidence": "high"
+    },
+    {
+      "id": 30,
+      "printed_label": "Other revenues - Other",
+      "pdf_page": 100,
+      "printed_value": "1,452,486",
+      "confidence": "high"
+    }
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 103,
+      "observation": "Section header on page 102 reads 'Community development and planning' but the closing total row on page 103 reads 'Total community and development planning' -- the word order between 'development' and 'and' is reversed relative to the header.",
+      "printed_line": "Total community and development planning        20,619,770    20,795,827    19,627,790    1,168,037"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "Section header reads 'Elected officials - Law enforcement' (capital L in Law) but the closing total row on the same page reads 'Total elected officials - law enforcement' (lowercase l in law) -- capitalization is inconsistent between the header and its own total row.",
+      "printed_line": "Total elected officials - law enforcement       43,627,959    43,756,895    43,681,215       75,680"
+    },
+    {
+      "pdf_page": 103,
+      "observation": "Emergency medical services 'Capital outlay' row has a dash ('-') in both the Original Budget and Final Budget columns but a nonzero Actual of 12,000, producing a negative variance -- an unbudgeted capital expenditure.",
+      "printed_line": "Capital outlay                                                       -             -               12,000        (12,000)"
+    },
+    {
+      "pdf_page": 104,
+      "observation": "Board of appeals (Elected officials - Fiscal) shows Original Budget and Final Budget of 9,000 but Actual is a dash ('-'), i.e. zero actual expenditure against a $9,000 budget for the entire subdepartment.",
+      "printed_line": "Operations                                                            9,000         9,000          -              9,000"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "Sheriff 'Capital outlay' row has a dash ('-') in the Original Budget column but nonzero Final Budget (4,700) and Actual (4,622) -- an item added entirely during the budget revision with no original allocation.",
+      "printed_line": "Capital outlay                                                                -                   4,700              4,622            78"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "Non-departmental 'Capital outlay' row has a dash ('-') in the Original Budget column but Final Budget of 220,851 and Actual of 120,851 -- another item with no original budget allocation.",
+      "printed_line": "Capital outlay                                                                -                 220,851            120,851       100,000"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "'Gain on sale' (Other financing sources/uses) has a dash ('-') in both Original Budget and Final Budget columns but Actual of 855,170, an entirely unbudgeted gain that appears as a large positive variance.",
+      "printed_line": "Gain on sale                                                                   -                  -                 855,170          855,170"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "'Fund balance usage' is budgeted at 6,676,722 (Original) / 6,676,944 (Final) but Actual is a dash ('-'), meaning none of the budgeted fund balance was actually used, producing a large negative variance of (6,676,944).",
+      "printed_line": "Fund balance usage                                                          6,676,722          6,676,944             -          (6,676,944)"
+    }
+  ],
+  "notes": "Schedule spans PDF pages 100-105 (printed page numbers 93-98): page 100 is revenue detail; pages 101-105 are expenditure detail by department/subdepartment/object, ending with Total expenditures, Excess (deficiency) of revenues over expenditures, Other financing sources (uses), and the final Excess line on page 105. Every subtotal and total row on all 6 pages was independently re-added by hand (department subtotals, section totals, Total revenues, Total expenditures, the excess/deficiency lines, and the final excess of revenues and other financing sources over expenditures and other financing uses) and all reconciled exactly to the printed figures -- no arithmetic discrepancies found anywhere in the schedule. Every page's raw pdftotext -layout extraction was checked against a 200dpi PNG render of the same page; no column-shift or OCR-type discrepancies were found. No footnote markers (asterisks, daggers, superscript numbers) appear anywhere in the schedule. Dashes ('-') are the document's convention for a literal zero in a given column and were transcribed as '-' throughout; they are distinguished in the anomalies list only where a zero-Original/Final-Budget paired with a nonzero Actual (or vice versa) seemed worth flagging as a completely unbudgeted or entirely unused line item, not because the dash itself is an extraction problem. Two label-wording anomalies were found (see anomalies list) but do not affect any of the sampled or reconciled figures."
+}

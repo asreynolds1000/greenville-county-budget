@@ -1,0 +1,565 @@
+{
+  "file_count": 55,
+  "files": [
+    {
+      "bytes": 418709,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/01-Approveda_FirstPages1.pdf",
+      "sha256": "16159492244817f369641687efcb6312ea17f2f906cc7ecc41ac409dca51ab37",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approveda_FirstPages1.pdf"
+    },
+    {
+      "bytes": 641485,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/02-Approvedb_Introduction.pdf",
+      "sha256": "066ac669916036caa4930b3c62d4613b4fc0dc1eb5ce4e01d531477f3aa98e76",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvedb_Introduction.pdf"
+    },
+    {
+      "bytes": 803734,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/03-Approvedc_Highlights.pdf",
+      "sha256": "2a4c42af78ba01bbcdcfa4dde90e79a032d0aa8a59619f7569af6d86d99471ef",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvedc_Highlights.pdf"
+    },
+    {
+      "bytes": 698029,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/04-Approvedd_GeneralFund1.pdf",
+      "sha256": "95abd4868b479f804b47ecb2ebb6d359525230daa80c92d6b638a2fa75359cd3",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvedd_GeneralFund1.pdf"
+    },
+    {
+      "bytes": 729029,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/05-Approvede_GeneralFund2.pdf",
+      "sha256": "5e43ff54c07ecd0369b4ff9922ecd0a2197aa912a49ae397362dd52561edeb54",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvede_GeneralFund2.pdf"
+    },
+    {
+      "bytes": 235731,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/06-Approvedf_Special_Revenue.pdf",
+      "sha256": "62cb7c5f4f08f50c3779be8ac6edfda80dc1ad459f3b2384f5ed88408af660b4",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvedf_Special_Revenue.pdf"
+    },
+    {
+      "bytes": 172697,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/07-Approvedg_DebtService.pdf",
+      "sha256": "4b5fc894451ba10b57e137a1cd379e64da6b8f6137341da48d6faa1268aba234",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvedg_DebtService.pdf"
+    },
+    {
+      "bytes": 578976,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/08-Approvedh_CapitalProjects.pdf",
+      "sha256": "1c49211b7327adf3d88b547f32a4ac2b22005ca295c6d70a5d1a4d05d5cc6c9e",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvedh_CapitalProjects.pdf"
+    },
+    {
+      "bytes": 175152,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/09-Approvedi_Proprietary.pdf",
+      "sha256": "6c20d55523e1fa63d34f15465f40503df079d6c6df35b7d179d12d9ba55282f0",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvedi_Proprietary.pdf"
+    },
+    {
+      "bytes": 329781,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/10-Approvedj_FinancialPolicies.pdf",
+      "sha256": "e17a998c7ed894f70d47d2dfb658e6c02845bddc78b1382cc76767e8ecdde120",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvedj_FinancialPolicies.pdf"
+    },
+    {
+      "bytes": 704858,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/11-Approvedk_OtherInfo.pdf",
+      "sha256": "a760b74d0aa2f1c61b418fe43b2e0efc946bb0e75ef6bea6c9868bd6d3145275",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/Approvedk_OtherInfo.pdf"
+    },
+    {
+      "bytes": 499284,
+      "fiscal_year_end": 2005,
+      "fiscal_year_start": 2004,
+      "path": "gc-fy2004-2005/12-BudgetinBrief.pdf",
+      "sha256": "cc7468ea75e802e17db7bacc8d48dba5800cf806e62723456a42979fb81c8d3e",
+      "source_id": "gc-fy2004-2005",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/BudgetinBrief.pdf"
+    },
+    {
+      "bytes": 270656,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/01-BudgetinBrief.pdf",
+      "sha256": "ca460447a58e9af49b7fff088e82fd82e91e06986321aa9df960fa8fb04f534f",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/BudgetinBrief.pdf"
+    },
+    {
+      "bytes": 227469,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/02-final_A010_first_Pagesi-vii.pdf",
+      "sha256": "5e92b761b3c780c5f01bbb463b218d242a9a8b2a259bbc6af61b26eb2f105f4b",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A010_first_Pagesi-vii.pdf"
+    },
+    {
+      "bytes": 660113,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/03-final_A011_message_pages1-12.pdf",
+      "sha256": "3c72605669b11bbf5dd490f6d5065b3c3f0eca29c087f916545a158e5becfb41",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A011_message_pages1-12.pdf"
+    },
+    {
+      "bytes": 528698,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/04-final_A012_introduction_pages13-36.pdf",
+      "sha256": "a57b5dc626a12c647433ac40e79a87c589c971587d189fad2be4f0de84d6c0e4",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A012_introduction_pages13-36.pdf"
+    },
+    {
+      "bytes": 493053,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/05-final_A013_highlights_pages37-58.pdf",
+      "sha256": "b2f86bb33cb81542ad27ceab81f613dda33ceae29479345dc28da51a35aff6c8",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A013_highlights_pages37-58.pdf"
+    },
+    {
+      "bytes": 2445121,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/06-final_A014_generalfund1_pages59-109.pdf",
+      "sha256": "4119a8685844658c1a88ffcfff385644af144f3506753bb9a33f053a888ff8c5",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A014_generalfund1_pages59-109.pdf"
+    },
+    {
+      "bytes": 1227982,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/07-final_A015_generalfund2_pages110-156.pdf",
+      "sha256": "3f7f8cb35415cd45eb21ed668d982ab208a5954ecebf8f4bb1d8b2382e5b4113",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A015_generalfund2_pages110-156.pdf"
+    },
+    {
+      "bytes": 172372,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/08-final_A016_special_revenue_pages157-166.pdf",
+      "sha256": "9dff3899f922d178404db3b9b856979ce58321e3d3633e90b5c855dc186b4ade",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A016_special_revenue_pages157-166.pdf"
+    },
+    {
+      "bytes": 333235,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/09-final_A017_debtservice_pages167-172.pdf",
+      "sha256": "486c2d602e1b79f08412d04a81c903fcba2bba7f51123d9c7aecb07128e46703",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A017_debtservice_pages167-172.pdf"
+    },
+    {
+      "bytes": 1538484,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/10-final_A018_capitalprojects_pages173-190.pdf",
+      "sha256": "0b9523b0bf6600e7fdc807fc3d1a49cb8058a9d65752b075350a52914ecd65f8",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A018_capitalprojects_pages173-190.pdf"
+    },
+    {
+      "bytes": 332679,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/11-final_A019_proprietary_pages191-200.pdf",
+      "sha256": "6dd9b784beb9b7e18de97f0b2ae9aa8ff5fbd846b17f35e8ed76d9df60a7c672",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A019_proprietary_pages191-200.pdf"
+    },
+    {
+      "bytes": 541606,
+      "fiscal_year_end": 2007,
+      "fiscal_year_start": 2006,
+      "path": "gc-fy2006-2007/12-final_A020_appendix_pages201-232.pdf",
+      "sha256": "eb5d384e20339b063dcbd14613c7ae6a23c169ed97bdaff06990d45d800fa8e4",
+      "source_id": "gc-fy2006-2007",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2006/final_A020_appendix_pages201-232.pdf"
+    },
+    {
+      "bytes": 549489,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/01-appendix-.pdf",
+      "sha256": "8d522c97fa2b33912f19f8fb9ce1c00442e6ecb324366309dcd055ee0ac32c50",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/appendix%20.pdf"
+    },
+    {
+      "bytes": 456577,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/02-budget_highlights.pdf",
+      "sha256": "37a7b63d2474478a8a91acd5e946c2910684db4f174bbf055fcaeae379215469",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/budget_highlights.pdf"
+    },
+    {
+      "bytes": 413640,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/03-budget_message.pdf",
+      "sha256": "87dd955725e78581400ff2d099b7913afb6f0e14a2aff248c3a5b2cd6adecf57",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/budget_message.pdf"
+    },
+    {
+      "bytes": 562299,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/04-capital_projects.pdf",
+      "sha256": "7f09c4bc646a7252ced1677f960e0f6ad3c198959ce321cebab8e160df79adfc",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/capital_projects.pdf"
+    },
+    {
+      "bytes": 113599,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/05-debt_service_fund.pdf",
+      "sha256": "e988d93a8733c0d87388e6c3e286fec598671d58d04e80840ac7bef60826c2ec",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/debt_service_fund.pdf"
+    },
+    {
+      "bytes": 870096,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/06-general_fund_part1.pdf",
+      "sha256": "c44a9375079e7be953018d9d543f8858b8cac1475a31f96a0d52922cc5b0f726",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/general_fund_part1.pdf"
+    },
+    {
+      "bytes": 1216693,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/07-general_fund_part2.pdf",
+      "sha256": "5b4d67a577004510b2c23d7f739425a8c5f41028f3f603bf3d146fc8f22f4096",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/general_fund_part2.pdf"
+    },
+    {
+      "bytes": 526547,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/08-introduction.pdf",
+      "sha256": "e0c0af3eeda8dd5e38f3f026725214ce7618d5c412c99b2d9acf70426550201a",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/introduction.pdf"
+    },
+    {
+      "bytes": 335240,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/09-proprietary_funds.pdf",
+      "sha256": "435ca977132c8c68e68a51a24e39967ee7fd178c175872f34e424f8526c24d08",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/proprietary_funds.pdf"
+    },
+    {
+      "bytes": 178643,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/10-special_revenue_funds.pdf",
+      "sha256": "df88c32d84e5f5e5c052e0d91fe845be6dfcceee440172845f600f6b0e25001c",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/special_revenue_funds.pdf"
+    },
+    {
+      "bytes": 235923,
+      "fiscal_year_end": 2009,
+      "fiscal_year_start": 2008,
+      "path": "gc-fy2008-2009/11-table_of_contents.pdf",
+      "sha256": "5192ecc81e28a7131fcf626df77982f79760a1ec50f148c34faa3c2432c5f037",
+      "source_id": "gc-fy2008-2009",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2008/table_of_contents.pdf"
+    },
+    {
+      "bytes": 434624,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/01-appendix.pdf",
+      "sha256": "3fa8d40944d33c6906de8ebd0c784d65dea2f835cca25a30f9c076fa9b5b69e4",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/appendix.pdf"
+    },
+    {
+      "bytes": 462433,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/02-budget_highlights.pdf",
+      "sha256": "71f940b99efc2e74bac3bf4cc1f1be52b1c5ce977ee7aeac57b9428f7880dc74",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_highlights.pdf"
+    },
+    {
+      "bytes": 237106,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/03-budget_message.pdf",
+      "sha256": "9924a6fb5fe3bf060c26bed3a0f426e68fd06fec30682e67c178071e76079f2a",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/budget_message.pdf"
+    },
+    {
+      "bytes": 621424,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/04-capital_projects.pdf",
+      "sha256": "9319355a6ce9b5549ed91349d86f53ff5db4945986c8560f6630dbd1ae350c00",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/capital_projects.pdf"
+    },
+    {
+      "bytes": 98754,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/05-debt_service_fund.pdf",
+      "sha256": "7b1e8e31726d4e69d84fdcb82aefa4c13dcbfb575773c7eae07b224455bdd2a2",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/debt_service_fund.pdf"
+    },
+    {
+      "bytes": 2549510,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/06-general_fund.pdf",
+      "sha256": "83637fc4654904ee12f0e4a02de1a0df3974fb4440b2ba6998da406bc3126287",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/general_fund.pdf"
+    },
+    {
+      "bytes": 375665,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/07-introduction.pdf",
+      "sha256": "83f4611cdcfc5c4eb1cdcbed722a99aed0173f541312e916cf1647d8f269fc6d",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/introduction.pdf"
+    },
+    {
+      "bytes": 378776,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/08-proprietary_funds.pdf",
+      "sha256": "9be1487416a2e6c4267084fa72f173ff2cf9b0a111b47c0e75e90662e2020be8",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/proprietary_funds.pdf"
+    },
+    {
+      "bytes": 154658,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/09-special_revenue_funds.pdf",
+      "sha256": "e29eea3b4a4c9d1a4e4bfabd71381a2584c7fbdb52d0256a7d8a8d5e3e2c988c",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/special_revenue_funds.pdf"
+    },
+    {
+      "bytes": 219290,
+      "fiscal_year_end": 2011,
+      "fiscal_year_start": 2010,
+      "path": "gc-fy2010-2011/10-table_of_contents.pdf",
+      "sha256": "e34c9bd355853fdec1ec0311e0c43555a1206643306384b584d90b3cae741d9c",
+      "source_id": "gc-fy2010-2011",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2010/table_of_contents.pdf"
+    },
+    {
+      "bytes": 2875299,
+      "fiscal_year_end": 2013,
+      "fiscal_year_start": 2012,
+      "path": "gc-fy2012-2013/budget_combined2012.pdf",
+      "sha256": "f6bc00e9d7ebbbc4aba9f0090c9aa01ff39675e654e96edeb6b4c4eca950a797",
+      "source_id": "gc-fy2012-2013",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2012/budget_combined2012.pdf"
+    },
+    {
+      "bytes": 5195449,
+      "fiscal_year_end": 2015,
+      "fiscal_year_start": 2014,
+      "path": "gc-fy2014-2015/budget_combined.pdf",
+      "sha256": "6ee20299107c63aad5e4b698ed92ed3852d3a105f77ca6ee615299b98d23de02",
+      "source_id": "gc-fy2014-2015",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2014/budget_combined.pdf"
+    },
+    {
+      "bytes": 5330736,
+      "fiscal_year_end": 2017,
+      "fiscal_year_start": 2016,
+      "path": "gc-fy2016-2017/budget_combined.pdf",
+      "sha256": "b01361b6508f220bf272920fb5cd1db6232c65b9c40247b3463e86f5e3eda562",
+      "source_id": "gc-fy2016-2017",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf"
+    },
+    {
+      "bytes": 5238919,
+      "fiscal_year_end": 2019,
+      "fiscal_year_start": 2018,
+      "path": "gc-fy2018-2019/BudgetCombined.pdf",
+      "sha256": "eded2530f88cced8f997d16ade01d1fb8781f41617ed4d14a45d8cf9f947a4d6",
+      "source_id": "gc-fy2018-2019",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2017/BudgetCombined.pdf"
+    },
+    {
+      "bytes": 4699238,
+      "fiscal_year_end": 2021,
+      "fiscal_year_start": 2020,
+      "path": "gc-fy2020-2021/BudgetCombined.pdf",
+      "sha256": "e26b92023d4132e6d9636e84865729c8c20b461604a625214dacdf8e07de3f43",
+      "source_id": "gc-fy2020-2021",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf"
+    },
+    {
+      "bytes": 8308231,
+      "fiscal_year_end": 2023,
+      "fiscal_year_start": 2022,
+      "path": "gc-fy2022-2023/BudgetCombined.pdf",
+      "sha256": "0e911514edbf3a6dcb3cff168887faab79382a77aad441fecc4edf7801f62cca",
+      "source_id": "gc-fy2022-2023",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2022/BudgetCombined.pdf"
+    },
+    {
+      "bytes": 102500911,
+      "fiscal_year_end": 2025,
+      "fiscal_year_start": 2024,
+      "path": "gc-fy2024-2025/BudgetCombined.pdf",
+      "sha256": "b639560bb403a3a39d4fc6c0d34a1b207439e247cc0ed09d0b0a4ed33d22b753",
+      "source_id": "gc-fy2024-2025",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2024/BudgetCombined.pdf"
+    },
+    {
+      "bytes": 57962140,
+      "fiscal_year_end": 2026,
+      "fiscal_year_start": 2026,
+      "path": "gc-fy2026/BudgetCombined.pdf",
+      "sha256": "b1654f93b0764c650ff78d95eb602677649a9acf05f75e925102b719153310a3",
+      "source_id": "gc-fy2026",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf"
+    },
+    {
+      "bytes": 7028704,
+      "fiscal_year_end": 2027,
+      "fiscal_year_start": 2027,
+      "path": "gc-fy2027-proposed/Proposed.pdf",
+      "sha256": "c3707241d8b441b5c38f3757b76140d7cd5d98efec6e82fecd0f294ad7c6487e",
+      "source_id": "gc-fy2027-proposed",
+      "source_status": "proposed",
+      "url": "https://www.greenvillecounty.org/tweet_notices/Proposed.pdf"
+    },
+    {
+      "bytes": 124575,
+      "fiscal_year_end": 2027,
+      "fiscal_year_start": 2027,
+      "path": "gc-fy2027-after-second/FY2027-Budget-Ordinance---after-2nd-Reading.pdf",
+      "sha256": "8e6f32ad7a2c83acda7a1bb60f5362c260999c00bb69eb92d401060695d915f7",
+      "source_id": "gc-fy2027-after-second",
+      "source_status": "pre-adoption",
+      "url": "https://www.greenvillecounty.org/Council/_Agenda/Meetings%20of%202026/County%20Council/2026.06.16/FY2027%20Budget%20Ordinance%20-%20after%202nd%20Reading.pdf"
+    }
+  ],
+  "manifest": "data/source-manifest.csv",
+  "missing_sources": [
+    {
+      "reason": "No downloadable official document URL",
+      "source_id": "gc-fy2002-2003",
+      "status": "missing"
+    }
+  ],
+  "output_directory": "data/raw",
+  "total_bytes": 225014121
+}

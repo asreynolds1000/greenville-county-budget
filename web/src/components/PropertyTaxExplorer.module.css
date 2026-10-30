@@ -1,0 +1,403 @@
+.overviewWrapper {
+  container-type: inline-size;
+}
+
+.overview {
+  display: grid;
+  column-gap: 0.75rem;
+  row-gap: 0.5rem;
+  grid-template-columns: 1fr;
+}
+
+.overviewButton {
+  display: grid;
+  grid-row: span 2;
+  grid-template-rows: subgrid;
+  min-height: 5.25rem;
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+  padding: 0.75rem;
+  text-align: left;
+  color: var(--color-ink);
+  cursor: pointer;
+}
+
+.overviewButton:hover,
+.overviewButton[data-active="true"] {
+  border-color: var(--color-accent);
+  background: #f2faf7;
+}
+
+.overviewButton:focus-visible,
+.allocationButton:focus-visible,
+.suggestion:focus-visible,
+.candidate:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.overviewLabel {
+  display: block;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.overviewDetail {
+  display: block;
+  color: var(--color-ink-secondary);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.lookupGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+.queryInputWrapper {
+  position: relative;
+  min-width: 0;
+  flex: 1 1 0%;
+}
+
+.queryInput::-webkit-search-cancel-button {
+  appearance: none;
+}
+
+.clearButton {
+  position: absolute;
+  top: 50%;
+  right: 0.125rem;
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  transform: translateY(-50%);
+  place-items: center;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--color-ink-secondary);
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  background: color-mix(in srgb, var(--color-ink-secondary) 12%, transparent);
+  color: var(--color-ink);
+}
+
+.clearButton:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -2px;
+}
+
+.allocation {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.allocationButton {
+  display: grid;
+  gap: 0.35rem;
+  min-height: 3.5rem;
+  width: 100%;
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+  padding: 0.75rem;
+  text-align: left;
+  color: var(--color-ink);
+  cursor: pointer;
+}
+
+.allocationButton:hover,
+.allocationButton[data-active="true"] {
+  border-color: var(--color-accent);
+  background: #f2faf7;
+}
+
+.allocationHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  min-width: 0;
+  flex-wrap: wrap;
+}
+
+.allocationLabel {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.allocationSwatch {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  flex: none;
+  border-radius: 999px;
+}
+
+.allocationRank {
+  color: var(--color-ink-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.allocationBar {
+  height: 0.5rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--color-hairline);
+}
+
+.allocationFill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.stackedAllocation {
+  display: flex;
+  min-height: 2.75rem;
+  overflow: visible;
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+}
+
+.stackedSegment {
+  min-width: 0;
+  flex: 0 0 auto;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  color: white;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  box-shadow: inset -1px 0 color-mix(in srgb, white 65%, transparent);
+}
+
+.stackedSegment:first-child {
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.stackedSegment:last-child {
+  border-radius: 0 0.4rem 0.4rem 0;
+  box-shadow: none;
+}
+
+.stackedSegment:hover,
+.stackedSegment[data-active="true"] {
+  box-shadow: inset 0 0 0 3px white;
+}
+
+.stackedSegment:focus-visible {
+  position: relative;
+  z-index: 1;
+  outline: 3px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+.emptyAllocation {
+  display: flex;
+  min-height: 2.75rem;
+  align-items: center;
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+  padding: 0.75rem;
+  color: var(--color-ink-secondary);
+  font-size: 0.875rem;
+}
+
+.suggestions,
+.candidates {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.suggestion,
+.candidate {
+  min-height: 2.75rem;
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.375rem;
+  background: var(--color-surface);
+  padding: 0.65rem 0.75rem;
+  text-align: left;
+  color: var(--color-ink);
+  cursor: pointer;
+}
+
+.suggestion:hover,
+.candidate:hover {
+  border-color: var(--color-accent);
+}
+
+.manualFieldset {
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.selectedProperty {
+  margin-top: 1.5rem;
+  border: 1px solid var(--color-hairline);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+  padding: 1rem;
+  color: var(--color-ink);
+  font-size: 0.875rem;
+}
+
+.calculationDetails {
+  border-top: 1px solid var(--color-hairline);
+  padding-top: 1rem;
+}
+
+.calculationSummary {
+  display: flex;
+  min-height: 2.75rem;
+  align-items: center;
+  cursor: pointer;
+  color: var(--color-accent);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.calculationChevron {
+  margin-left: 0.4rem;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform 150ms ease;
+}
+
+.calculationDetails[open] .calculationChevron {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .calculationChevron {
+    transition: none;
+  }
+}
+
+.calculationSummary:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.manualFields {
+  display: grid;
+  gap: 1rem;
+}
+
+.serviceBridge {
+  margin-top: 1.5rem;
+  border: 1px solid var(--color-hairline);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+  padding: 1rem;
+}
+
+.serviceBridgeLinks {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.serviceBridgePrimary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  min-height: 2.75rem;
+  align-items: center;
+  border-radius: 0.375rem;
+  background: var(--color-ink);
+  padding: 0.65rem 0.85rem;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.serviceBridgePrimaryLabel {
+  text-align: center;
+}
+
+.serviceBridgePrimaryArrow {
+  justify-self: end;
+}
+
+.serviceBridgePrimary:hover {
+  background: color-mix(in srgb, var(--color-ink) 90%, white);
+}
+
+.serviceBridgePrimary:focus-visible,
+.serviceBridgeLink:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.serviceBridgeList {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.serviceBridgeLink {
+  display: flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border-bottom: 1px solid var(--color-hairline);
+  color: var(--color-accent);
+  font-size: 0.875rem;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.serviceBridgeLinkLabel {
+  min-width: 0;
+}
+
+.serviceBridgeLinkArrow {
+  flex: none;
+}
+
+.serviceBridgeLink:hover {
+  background: color-mix(in srgb, var(--color-accent) 5%, transparent);
+}
+
+@media (min-width: 640px) {
+  .lookupGrid,
+  .manualFields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@container (min-width: 18rem) {
+  .overview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@container (min-width: 27rem) {
+  .overview {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

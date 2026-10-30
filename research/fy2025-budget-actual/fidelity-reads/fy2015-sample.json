@@ -1,0 +1,238 @@
+[
+ {
+  "level": "department_total",
+  "department": "Administrative",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 1
+ },
+ {
+  "level": "department_total",
+  "department": "General services",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 2
+ },
+ {
+  "level": "department_total",
+  "department": "Community development and planning",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 3
+ },
+ {
+  "level": "department_total",
+  "department": "Public safety",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 4
+ },
+ {
+  "level": "department_total",
+  "department": "Emergency medical services",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 5
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - Judicial",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 6
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - Fiscal",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 7
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - Law enforcement",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 8
+ },
+ {
+  "level": "department_total",
+  "department": "Boards, commissions and others",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 9
+ },
+ {
+  "level": "department_total",
+  "department": "General services",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 10
+ },
+ {
+  "level": "department_total",
+  "department": "Administrative",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 11
+ },
+ {
+  "level": "department_total",
+  "department": "Boards, commissions and others",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 12
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "General services",
+  "subdepartment": "Information systems",
+  "object": "",
+  "column": "original_budget",
+  "id": 13
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Elected officials - Law enforcement",
+  "subdepartment": "County medical examiner",
+  "object": "",
+  "column": "actual",
+  "id": 14
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Elected officials - Fiscal",
+  "subdepartment": "Treasurer",
+  "object": "",
+  "column": "actual",
+  "id": 15
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "General services",
+  "subdepartment": "Human resources",
+  "object": "",
+  "column": "actual",
+  "id": 16
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Elected officials - Fiscal",
+  "subdepartment": "Register of deeds",
+  "object": "",
+  "column": "original_budget",
+  "id": 17
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Elected officials - Judicial",
+  "subdepartment": "Probate court",
+  "object": "",
+  "column": "final_budget",
+  "id": 18
+ },
+ {
+  "level": "object",
+  "department": "Administrative",
+  "subdepartment": "County administrator",
+  "object": "Operations",
+  "column": "original_budget",
+  "id": 19
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - Judicial",
+  "subdepartment": "Magistrates",
+  "object": "Operations",
+  "column": "final_budget",
+  "id": 20
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - Fiscal",
+  "subdepartment": "Treasurer",
+  "object": "Contractual agreements",
+  "column": "actual",
+  "id": 21
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - Judicial",
+  "subdepartment": "Public defender",
+  "object": "Contractual agreements",
+  "column": "actual",
+  "id": 22
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - Law enforcement",
+  "subdepartment": "County medical examiner",
+  "object": "Operations",
+  "column": "final_budget",
+  "id": 23
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - Judicial",
+  "subdepartment": "Clerk of court",
+  "object": "Operations",
+  "column": "original_budget",
+  "id": 24
+ },
+ {
+  "level": "object",
+  "department": "Public safety",
+  "subdepartment": "Indigent defense",
+  "object": "Salaries",
+  "column": "original_budget",
+  "id": 25
+ },
+ {
+  "level": "object",
+  "department": "Public safety",
+  "subdepartment": "Records management services division",
+  "object": "Contractual agreements",
+  "column": "original_budget",
+  "id": 26
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Probate court",
+  "column": "final_budget",
+  "id": 27
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Emergency medical services",
+  "column": "original_budget",
+  "id": 28
+ },
+ {
+  "level": "revenue_subline",
+  "category": "Intergovernmental revenues",
+  "subline": "Accommodations tax",
+  "column": "original_budget",
+  "id": 29
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Engineering, Roads/Bridges",
+  "column": "original_budget",
+  "id": 30
+ }
+]

@@ -1,0 +1,8 @@
+fiscal_year,value,printed_form,status_class,canonical_status,source_code,printed_page,pdf_page,source_url,note_ids
+2011,833146,,actual,single,FY2011-ACFR,24,38,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2011/cafr_complete.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2012,1052372,,actual,single,FY2012-ACFR,25,30,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2012/cafr_complete.pdf,note.budget-to-gaap;note.fy2012-extraction;note.sources-statement-not-printed
+2013,1418362,,actual,single,FY2013-ACFR,26,36,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2013/cafr_complete.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2014,1287739,,actual,single,FY2014-ACFR,27,35,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2014/cafr_complete.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2015,1461648,,actual,single,FY2015-ACFR,27,35,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2015/cafr_complete.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2016,1248192,,actual,single,FY2016-ACFR,27,31,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2016/cafr_complete.pdf,note.budget-to-gaap;note.flow-residual;note.sources-statement-not-printed
+2017,875287,,actual,single,FY2017-ACFR,27,33,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2017/cafr_complete.pdf,note.budget-to-gaap;note.flow-residual;note.sources-statement-not-printed

@@ -1,0 +1,80 @@
+{
+  "year": 2021,
+  "pdf_pages": "105-111",
+  "notes": "Source: Greenville County SC ACFR/CAFR FYE 6/30/2021, downloaded from the URL given. TOC lists this schedule at printed report pages 88-94; those printed page numbers map 1:1 to PDF physical pages 105-111 (pdftotext/pdftoppm -f/-l N == printed page N + 17, but confirmed directly, no separate offset math needed - the printed-88 page IS PDF page 105 etc., verified against the rendered images). Header wording this year is 'SCHEDULE OF REVENUE AND EXPENDITURES' (singular 'Revenue', not 'Revenues') and the variance column is titled 'Variance with Final Budget' (not 'Positive (Negative) Variance' as described in the generic task prompt) - this is the label drift the task warned about. Department section labels mostly end in a colon (e.g. 'Administrative services:') except 'Emergency medical services' and 'Boards, commissions and others', which print without a colon - consistent with how the sample file already specified them. All 30 sampled cells were located and read directly off both pdftotext -layout output and 200dpi page renders (page-105.png through page-111.png in this folder); every total row I transcribed was also independently re-summed from its component lines and reconciled (county offices, intergovernmental, other revenues, total revenues, every department total, total expenditures, deficiency, net change, fund balance end of year all tie out exactly to the printed figures), so confidence is high across the board. Nothing was found not found."
+  ,
+  "cells": [
+    {"id": 1, "printed_label": "Total administrative services", "pdf_page": 106, "printed_value": "3,100,972", "confidence": "high"},
+    {"id": 2, "printed_label": "Total general services", "pdf_page": 107, "printed_value": "15,759,374", "confidence": "high"},
+    {"id": 3, "printed_label": "Total community development and planning", "pdf_page": 108, "printed_value": "23,160,075", "confidence": "high"},
+    {"id": 4, "printed_label": "Total public safety", "pdf_page": 108, "printed_value": "30,303,122", "confidence": "high"},
+    {"id": 5, "printed_label": "Total emergency medical services", "pdf_page": 108, "printed_value": "20,995,707", "confidence": "high"},
+    {"id": 6, "printed_label": "Total elected officials - judicial services", "pdf_page": 109, "printed_value": "20,796,270", "confidence": "high"},
+    {"id": 7, "printed_label": "Total elected officials - fiscal services", "pdf_page": 110, "printed_value": "3,197,070", "confidence": "high"},
+    {"id": 8, "printed_label": "Total elected officials - law enforcement", "pdf_page": 110, "printed_value": "50,933,154", "confidence": "high"},
+    {"id": 9, "printed_label": "Total boards, commissions and others", "pdf_page": 111, "printed_value": "16,325,487", "confidence": "high"},
+    {"id": 10, "printed_label": "Total elected officials - fiscal services", "pdf_page": 110, "printed_value": "3,304,261", "confidence": "high"},
+    {"id": 11, "printed_label": "Total emergency medical services", "pdf_page": 108, "printed_value": "11,371,295", "confidence": "high"},
+    {"id": 12, "printed_label": "Total general services", "pdf_page": 107, "printed_value": "15,810,217", "confidence": "high"},
+    {"id": 13, "printed_label": "Total county council", "pdf_page": 106, "printed_value": "1,205,693", "confidence": "high"},
+    {"id": 14, "printed_label": "Total register of deeds", "pdf_page": 110, "printed_value": "1,300,414", "confidence": "high"},
+    {"id": 15, "printed_label": "Total board of appeals", "pdf_page": 110, "printed_value": "9,000", "confidence": "high"},
+    {"id": 16, "printed_label": "Total financial operations", "pdf_page": 106, "printed_value": "1,615,318", "confidence": "high"},
+    {"id": 17, "printed_label": "Total Indingent defense", "pdf_page": 108, "printed_value": "219,721", "confidence": "high", "reason": "Printed exactly as 'Total Indingent defense' - the source misspells 'Indigent'; transcribed verbatim, see anomalies."},
+    {"id": 18, "printed_label": "Total detention division", "pdf_page": 108, "printed_value": "23,896,610", "confidence": "high"},
+    {"id": 19, "printed_label": "Operations", "pdf_page": 110, "printed_value": "4,323,627", "confidence": "high"},
+    {"id": 20, "printed_label": "Contractual agreements", "pdf_page": 106, "printed_value": "428", "confidence": "high"},
+    {"id": 21, "printed_label": "Operations", "pdf_page": 109, "printed_value": "20,576", "confidence": "high"},
+    {"id": 22, "printed_label": "Salaries", "pdf_page": 110, "printed_value": "1,337,539", "confidence": "high"},
+    {"id": 23, "printed_label": "Salaries", "pdf_page": 109, "printed_value": "3,467,502", "confidence": "high"},
+    {"id": 24, "printed_label": "Contractual agreements", "pdf_page": 107, "printed_value": "45,802", "confidence": "high"},
+    {"id": 25, "printed_label": "Operations", "pdf_page": 106, "printed_value": "386,264", "confidence": "high"},
+    {"id": 26, "printed_label": "Operations", "pdf_page": 109, "printed_value": "186,666", "confidence": "high"},
+    {"id": 27, "printed_label": "Franchise fees", "pdf_page": 105, "printed_value": "3,732,191", "confidence": "high"},
+    {"id": 28, "printed_label": "Magistrates", "pdf_page": 105, "printed_value": "3,090,393", "confidence": "high"},
+    {"id": 29, "printed_label": "Planning and code enforcement", "pdf_page": 105, "printed_value": "48,390", "confidence": "high"},
+    {"id": 30, "printed_label": "General services", "pdf_page": 105, "printed_value": "254,580", "confidence": "high"}
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 108,
+      "observation": "The 'Emergency Management division' sub-department (under Public safety) has its own total row, but that row is labeled 'Total detention division' - identical to the label already used two sections above it for the actual Detention division total. Two different sub-departments on the same page both close with a row reading 'Total detention division'.",
+      "printed_line": "Total detention division                                539,700          539,700          399,384            140,316"
+    },
+    {
+      "pdf_page": 107,
+      "observation": "Misspelling in a total-row label: 'vererans' instead of 'veterans', under the Veterans affairs sub-department of General services.",
+      "printed_line": "Total vererans affairs                                  387,960          400,878          354,032             46,846"
+    },
+    {
+      "pdf_page": 108,
+      "observation": "Misspelling in a total-row label: 'Indingent' instead of 'Indigent', under the Indigent defense sub-department of Public safety.",
+      "printed_line": "Total Indingent defense                                 219,721          227,699          227,694                     5"
+    },
+    {
+      "pdf_page": 110,
+      "observation": "Dash on a total row: 'Total board of appeals' shows a dash (no figure) in the Actual column, against Original and Final budgets of $9,000 each.",
+      "printed_line": "Total board of appeals                                    9,000            9,000                 -              9,000"
+    },
+    {
+      "pdf_page": 108,
+      "observation": "Large multi-stage swing on a single line: Emergency medical services Salaries goes from an Original budget of $18,488,511 down to a Final budget of $11,836,782 down to Actual of $8,685,529 - Actual is only about 47% of the Original budget, and this line alone accounts for most of the department's $3,158,066 total favorable variance against Final budget.",
+      "printed_line": "Salaries                                             18,488,511       11,836,782        8,685,529          3,151,253"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "Revenue subline Actual far exceeds its Original/Final budget: 'Planning and code enforcement' under County offices is budgeted at $48,390 (Original and Final identical) but Actual comes in at $880,806 - about 18 times the budgeted figure.",
+      "printed_line": "Planning and code enforcement                            48,390            48,390           880,806            832,416"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "Dash on a revenue subline: 'Surplus sales' shows a dash for Actual against an Original/Final budget of $175,000.",
+      "printed_line": "Surplus sales                                          175,000           175,000                 -           (175,000)"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "Revenue subline budgeted as a dash in both Original and Final columns ('Retiree insurance premiums'), yet Actual shows $711,469 received - an unbudgeted line item with real receipts.",
+      "printed_line": "Retiree insurance premiums                                     -                 -           711,469            711,469"
+    }
+  ]
+}

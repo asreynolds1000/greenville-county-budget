@@ -1,0 +1,70 @@
+{
+  "years": [
+    {
+      "year": 2020,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances - Budget and Actual (Budget Basis) - General Fund",
+      "printed_page": "24",
+      "pdf_page": 40,
+      "total_revenues": {
+        "original": "168,538,014",
+        "final": "168,538,014",
+        "actual": "166,342,987"
+      },
+      "total_expenditures": {
+        "original": "177,812,237",
+        "final": "182,682,069",
+        "actual": "176,457,069"
+      },
+      "capital_outlay": {
+        "original": "212,813",
+        "final": "387,743",
+        "actual": "362,837"
+      },
+      "notes": "Source: FY2020 CAFR (cafr_complete.pdf), verified against rendered page image. Capital outlay is a standalone line item (not under 'Current:') immediately before Total expenditures. No debt service line on this statement. Report also contains a separate supplementary 'Schedule of Revenue and Expenditures - Budget and Actual (Budget Basis)' at PDF pages 103+ (printed pages 85-91) that breaks each department into Salaries/Operations/Contractual/Capital outlay -- that schedule was NOT used."
+    },
+    {
+      "year": 2021,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances - Budget and Actual (Budget Basis) - General Fund",
+      "printed_page": "23",
+      "pdf_page": 38,
+      "total_revenues": {
+        "original": "176,240,745",
+        "final": "176,240,745",
+        "actual": "172,822,342"
+      },
+      "total_expenditures": {
+        "original": "184,571,231",
+        "final": "184,571,231",
+        "actual": "178,326,750"
+      },
+      "capital_outlay": {
+        "original": "197,813",
+        "final": "1,100,973",
+        "actual": "1,067,910"
+      },
+      "notes": "Source: FY2021 CAFR (CompleteCAFR.pdf), verified against rendered page image. Original and Final total expenditures happen to be identical (184,571,231) as printed -- confirmed by re-summing the department lines in both columns; this is not a transcription artifact, the county rebalanced its budget across departments without changing the overall total. Capital outlay is a standalone line item before Total expenditures. No debt service line on this statement."
+    },
+    {
+      "year": 2022,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances - Budget and Actual (Budget Basis) - General Fund",
+      "printed_page": "25",
+      "pdf_page": 40,
+      "total_revenues": {
+        "original": "183,376,197",
+        "final": "183,376,197",
+        "actual": "188,966,268"
+      },
+      "total_expenditures": {
+        "original": "201,700,333",
+        "final": "201,687,702",
+        "actual": "202,797,959"
+      },
+      "capital_outlay": {
+        "original": "41,893",
+        "final": "435,276",
+        "actual": "618,813"
+      },
+      "notes": "Source: FY2022 CAFR (CompleteCAFR.pdf), verified against rendered page image. This year's statement adds a 'Debt service: Principal' line below Capital outlay (original '-', final '-', actual 174,592) that did not appear on the FY2020/FY2021 statements -- included in Total expenditures but reported separately here since the task only asked for the Capital outlay line. Capital outlay itself remains a standalone line item, not under 'Current:'."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+fiscal_year,classification,detail,amount,availability,source
+2025,Nonspendable,Prepaid expenditures,18284,not_available,"FY2025 ACFR balance sheet, General Fund column"
+2025,Nonspendable,Advances to other funds,11169331,not_available,"FY2025 ACFR balance sheet, General Fund column"
+2025,Committed,Contingency funds,4919088,committed,"FY2025 ACFR balance sheet, General Fund column"
+2025,Restricted,(none for General Fund),0,restricted,"FY2025 ACFR balance sheet, General Fund column"
+2025,Assigned,(none for General Fund),0,assigned,"FY2025 ACFR balance sheet, General Fund column"
+2025,Unassigned,Unassigned,65438641,available,"FY2025 ACFR balance sheet, General Fund column"
+2025,TOTAL,Total fund balance,81545344,,"FY2025 ACFR balance sheet, General Fund column"

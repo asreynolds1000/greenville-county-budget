@@ -1,0 +1,56 @@
+{
+  "year": 2023,
+  "pdf_pages": "107-113",
+  "printed_pages": "90-96",
+  "cells": [
+    {"id": 1, "printed_label": "Total administrative services", "pdf_page": 108, "printed_value": "3,445,867", "confidence": "high"},
+    {"id": 2, "printed_label": "Total general services", "pdf_page": 109, "printed_value": "17,313,695", "confidence": "high"},
+    {"id": 3, "printed_label": "Total community development and planning", "pdf_page": 110, "printed_value": "24,797,319", "confidence": "high"},
+    {"id": 4, "printed_label": "Total public safety", "pdf_page": 110, "printed_value": "36,383,528", "confidence": "high"},
+    {"id": 5, "printed_label": "Total emergency medical services", "pdf_page": 110, "printed_value": "26,075,166", "confidence": "high"},
+    {"id": 6, "printed_label": "Total elected officials - judicial services", "pdf_page": 111, "printed_value": "23,516,411", "confidence": "high"},
+    {"id": 7, "printed_label": "Total elected officials - fiscal services", "pdf_page": 112, "printed_value": "3,529,100", "confidence": "high"},
+    {"id": 8, "printed_label": "Total elected officials - law enforcement", "pdf_page": 112, "printed_value": "62,378,432", "confidence": "high"},
+    {"id": 9, "printed_label": "Total boards, commissions and others", "pdf_page": 113, "printed_value": "11,235,128", "confidence": "high"},
+    {"id": 10, "printed_label": "Total debt service", "pdf_page": 113, "printed_value": "-", "confidence": "high"},
+    {"id": 11, "printed_label": "Total elected officials - fiscal services", "pdf_page": 112, "printed_value": "3,772,689", "confidence": "high"},
+    {"id": 12, "printed_label": "Total elected officials - law enforcement", "pdf_page": 112, "printed_value": "68,757,957", "confidence": "high"},
+    {"id": 13, "printed_label": "Total debt service", "pdf_page": 113, "printed_value": "187,561", "confidence": "high"},
+    {"id": 14, "printed_label": "Total Indigent defense", "pdf_page": 110, "printed_value": "249,539", "confidence": "high", "note": "printed under Public safety's 'Indigent defense' subsection; capital I on 'Indigent' matches the section header's own capitalization"},
+    {"id": 15, "printed_label": "Total nondepartmental", "pdf_page": 113, "printed_value": "8,924,784", "confidence": "high"},
+    {"id": 16, "printed_label": "Total circuit solicitor", "pdf_page": 111, "printed_value": "8,071,632", "confidence": "high"},
+    {"id": 17, "printed_label": "Total tax services", "pdf_page": 108, "printed_value": "3,959,097", "confidence": "high"},
+    {"id": 18, "printed_label": "Total geographical information systems", "pdf_page": 109, "printed_value": "776,804", "confidence": "high"},
+    {"id": 19, "printed_label": "Total forensic division", "pdf_page": 110, "printed_value": "3,362,100", "confidence": "high"},
+    {"id": 20, "printed_label": "Salaries (under Human relations, General services)", "pdf_page": 109, "printed_value": "194,337", "confidence": "high"},
+    {"id": 21, "printed_label": "Contractual agreements (under Geographical information systems, General services)", "pdf_page": 109, "printed_value": "60,289", "confidence": "high"},
+    {"id": 22, "printed_label": "Contractual agreements (under Public defender, Elected officials - judicial services)", "pdf_page": 111, "printed_value": "440,000", "confidence": "high"},
+    {"id": 23, "printed_label": "Salaries (under County attorney, Administrative services)", "pdf_page": 108, "printed_value": "1,095,129", "confidence": "high"},
+    {"id": 24, "printed_label": "Salaries (under Registration and election, General services)", "pdf_page": 109, "printed_value": "1,008,311", "confidence": "high"},
+    {"id": 25, "printed_label": "Salaries (under Animal care services, Community development and planning)", "pdf_page": 110, "printed_value": "4,376,221", "confidence": "high"},
+    {"id": 26, "printed_label": "Salaries (under Procurement services, General services)", "pdf_page": 108, "printed_value": "618,307", "confidence": "high"},
+    {"id": 27, "printed_label": "Salaries (under Public defender, Elected officials - judicial services)", "pdf_page": 111, "printed_value": "1,531,496", "confidence": "high"},
+    {"id": 28, "printed_label": "General services (revenue subline under County offices)", "pdf_page": 107, "printed_value": "135,000", "confidence": "high"},
+    {"id": 29, "printed_label": "Planning and code enforcement (revenue subline under County offices)", "pdf_page": 107, "printed_value": "121,400", "confidence": "high"},
+    {"id": 30, "printed_label": "Register of deeds (revenue subline under County offices)", "pdf_page": 107, "printed_value": "8,367,871", "confidence": "high"},
+    {"id": 31, "printed_label": "State allocations (revenue subline under Intergovernmental / State of South Carolina)", "pdf_page": 107, "printed_value": "21,610,000", "confidence": "high"}
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 110,
+      "observation": "Under Public safety, the subsection 'Emergency Management division' (Salaries 601,704 / 707,607 / 707,602 / 5; Operations 27,400 / 47,706 / 48,827 / (1,121)) closes with a total line that reads 'Total detention division' (629,104 / 755,313 / 756,429 / (1,116)) -- the same label already used two subsections above it for the actual Detention division total (29,892,296 / 29,727,769 / 29,723,371 / 4,398). Confirmed against the rendered page image, not just text extraction -- this is a printed labeling error in the source document.",
+      "printed_line": "Total detention division            629,104          755,313          756,429           (1,116)"
+    },
+    {
+      "pdf_page": 109,
+      "observation": "Under General services, Human resources, the 'Contractual agreements' actual figure is printed as a negative in parentheses -- unusual for an expenditure line item. The subdepartment total still reconciles arithmetically (1,243,222 Salaries + 37,390 Operations + (40,924) Contractual = 1,239,688 Total human resources), and the figure is confirmed against the page image (not an OCR artifact), but a negative actual expenditure is worth surfacing.",
+      "printed_line": "Contractual agreements                8,000            7,753          (40,924)            48,677"
+    },
+    {
+      "pdf_page": 113,
+      "observation": "Under Boards, commissions and others / Nondepartmental, the 'Retiree claims' line shows an Original budget of 21,679, a Final budget of '-' (blank/zero), and an Actual of 2,607,699 -- a large actual expenditure against a final budget that had been reduced to zero, producing a (2,607,699) unfavorable variance on that single line.",
+      "printed_line": "Retiree claims                            21,679                 -          2,607,699         (2,607,699)"
+    }
+  ],
+  "notes": "Full arithmetic reconciliation was run on every subtotal and total row on pages 107-113 (revenue category subtotals, all expenditure department/subdepartment/object subtotals, total revenues, total expenditures, deficiency of revenues under expenditures, other financing sources net, net change in fund balances, and fund balance end of year) -- every total reconciled exactly to the sum of its component lines except for the one labeling defect noted above (which does not affect the arithmetic, only the label). Every page in the 107-113 range was rendered as a 200dpi PNG and visually compared against the pdftotext -layout extraction; no column-shift or transcription discrepancies were found. Labels this year use the exact same wording as the FY2016-era naming for every sampled row -- no label drift observed for these particular department/subdepartment/object combinations."
+}

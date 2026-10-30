@@ -1,0 +1,70 @@
+{
+  "years": [
+    {
+      "year": 2014,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances Budget and Actual (Budget Basis) - Major Funds with Legally Adopted Budgets (General Fund column)",
+      "printed_page": "31",
+      "pdf_page": 39,
+      "total_revenues": {
+        "original": "133,894,751",
+        "final": "133,894,751",
+        "actual": "132,779,031"
+      },
+      "total_expenditures": {
+        "original": "138,810,832",
+        "final": "138,810,832",
+        "actual": "136,750,125"
+      },
+      "capital_outlay": {
+        "original": "84,620",
+        "final": "73,848",
+        "actual": "66,202"
+      },
+      "notes": "Verified against rendered page image (150 DPI PNG of PDF page 39). Statement covers both the General Fund and the Federal and State Grant Fund as separate fund columns on consecutive pages (General Fund on PDF p.39/printed p.31; Federal and State Grant Fund follows on PDF p.40/printed p.32) -- this is the basic-financial-statement presentation, not the detailed department-level supplementary schedule (which appears later, around PDF pages 107-112). Columns are labeled directly 'Original Budget' / 'Final Budget' / 'Actual (Budget Basis)' -- no 'Budgeted Amounts' group header -- plus a 'Variance With Final Positive (Negative)' column. 'Capital outlay' is listed as its own line at the same indentation as the department lines, under the 'Current:' subheading, immediately before 'Total expenditures'."
+    },
+    {
+      "year": 2015,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances Budget and Actual (Budget Basis) - Major Funds with Legally Adopted Budgets (General Fund column)",
+      "printed_page": "31",
+      "pdf_page": 39,
+      "total_revenues": {
+        "original": "138,227,146",
+        "final": "138,227,146",
+        "actual": "137,546,567"
+      },
+      "total_expenditures": {
+        "original": "143,130,310",
+        "final": "143,130,310",
+        "actual": "142,076,493"
+      },
+      "capital_outlay": {
+        "original": "26,850",
+        "final": "226,374",
+        "actual": "226,228"
+      },
+      "notes": "Verified against rendered page image (150 DPI PNG of PDF page 39). Same format/title/layout as FY2014, same PDF/printed page numbers. Capital outlay original-to-final variance is unusually large (26,850 to 226,374) -- confirmed exact as printed, not a transcription error."
+    },
+    {
+      "year": 2016,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances Budget and Actual (Budget Basis) - Major Funds with Legally Adopted Budgets (General Fund column)",
+      "printed_page": "31",
+      "pdf_page": 35,
+      "total_revenues": {
+        "original": "144,196,003",
+        "final": "144,196,003",
+        "actual": "142,882,729"
+      },
+      "total_expenditures": {
+        "original": "150,417,714",
+        "final": "150,417,714",
+        "actual": "148,561,641"
+      },
+      "capital_outlay": {
+        "original": "11,850",
+        "final": "42,000",
+        "actual": "480,183"
+      },
+      "notes": "Verified against rendered page image (150 DPI PNG of PDF page 35). Same statement title/layout as FY2014/FY2015; PDF page number is lower (35 vs 39) because this year's report is shorter overall, but printed page number is still 31. This year's statement also has an extra other-financing-sources line, 'Proceeds of land held for resale' (Actual 1,486,060, no budgeted amount), between Transfers out and Total other financing sources (uses) -- not part of the requested fields but noted for completeness. Capital outlay actual (480,183) far exceeds both budget columns (11,850 / 42,000) -- confirmed exact as printed."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+raw_status,status_class,is_comparable_group,display_label
+ACTUAL,actual,actual,Actual
+PROJECTED,projected,projected,Projected
+PROJECTION,projected,projected,Projected
+BUDGET,adopted,adopted,Adopted
+ADOPTED BUDGET,adopted,adopted,Adopted
+APPROVED BUDGET,adopted,adopted,Adopted
+PROPOSED BUDGET,proposed,proposed,Proposed
+ESTIMATED,estimated,estimated,Estimated
+BUDGETED FINANCING,financing,financing,Financing

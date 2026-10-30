@@ -1,0 +1,35 @@
+name: Wrong figure
+description: A number on the site does not match the county's document.
+labels: ["data correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page on the site
+      description: The URL where the figure appears.
+    validations:
+      required: true
+  - type: input
+    id: shown
+    attributes:
+      label: What the site shows
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source document and printed page
+      description: Which county document, and the page number printed on the page (not the PDF page index).
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: What the document says
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: For example, if the county has posted a revised edition of the document.

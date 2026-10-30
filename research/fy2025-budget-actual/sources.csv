@@ -1,0 +1,16 @@
+source_code,fiscal_year,document,source_url,extraction
+gc-acfr-fy2011,2011,Greenville County CAFR FYE 6/30/2011,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2011/cafr_complete.pdf,pdftotext -layout
+gc-acfr-fy2012,2012,Greenville County CAFR FYE 6/30/2012,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2012/cafr_complete.pdf,"OCR (tesseract, scanned source)"
+gc-acfr-fy2013,2013,Greenville County CAFR FYE 6/30/2013,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2013/cafr_complete.pdf,pdftotext -layout
+gc-acfr-fy2014,2014,Greenville County CAFR FYE 6/30/2014,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2014/cafr_complete.pdf,pdftotext -layout
+gc-acfr-fy2015,2015,Greenville County CAFR FYE 6/30/2015,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2015/cafr_complete.pdf,pdftotext -layout
+gc-acfr-fy2016,2016,Greenville County CAFR FYE 6/30/2016,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2016/cafr_complete.pdf,pdftotext -layout
+gc-acfr-fy2017,2017,Greenville County CAFR FYE 6/30/2017,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2017/cafr_complete.pdf,pdftotext -layout
+gc-acfr-fy2018,2018,Greenville County CAFR FYE 6/30/2018,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2018/cafr_complete.pdf,pdftotext -layout
+gc-acfr-fy2019,2019,Greenville County CAFR FYE 6/30/2019,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2019/cafr_complete.pdf,pdftotext -layout
+gc-acfr-fy2020,2020,Greenville County CAFR FYE 6/30/2020,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2020/cafr_complete.pdf,pdftotext -layout
+gc-acfr-fy2021,2021,Greenville County ACFR FYE 6/30/2021,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2021/CompleteCAFR.pdf,pdftotext -layout
+gc-acfr-fy2022,2022,Greenville County ACFR FYE 6/30/2022,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2022/CompleteCAFR.pdf,pdftotext -layout
+gc-acfr-fy2023,2023,Greenville County ACFR FYE 6/30/2023,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2023/CompleteCAFR.pdf,pdftotext -layout
+gc-acfr-fy2024,2024,Greenville County ACFR FYE 6/30/2024,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2024/CompleteACFR.pdf,pdftotext -layout
+gc-acfr-fy2025,2025,Greenville County ACFR FYE 6/30/2025,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2025/CompleteACFR.pdf,pdftotext -layout

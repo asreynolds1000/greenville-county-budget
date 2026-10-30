@@ -1,0 +1,40 @@
+.orientation { margin-top: 1.5rem; border: 1px solid #d9ded4; border-radius: .85rem; background: linear-gradient(135deg, #f7f8f3, #fffdf8); padding: clamp(1.1rem, 3vw, 1.7rem); }
+.choice { display: grid; gap: 1rem; grid-template-columns: minmax(0, 1.2fr) minmax(15rem, .8fr); align-items: end; }
+.eyebrow, .stepLabel { color: #486052; font: 600 .7rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; }
+.choice h2, .step h2 { margin-top: .45rem; font: 600 clamp(1.45rem, 3.2vw, 2rem)/1.15 var(--font-display); letter-spacing: -.035em; }
+.copy { max-width: 43rem; margin-top: .65rem; color: var(--color-ink-secondary); font-size: .94rem; line-height: 1.6; }
+.choices { display: grid; gap: .6rem; }
+.choices button, .next { display: flex; align-items: center; justify-content: center; min-height: 48px; border-radius: .5rem; padding: .75rem 1rem; font-size: .9rem; font-weight: 650; cursor: pointer; }
+.choices button:first-child, .next { background: #164d3c; color: white; }
+.choices button:last-child { border: 1px solid #164d3c; color: #164d3c; background: transparent; }
+.choices button:hover, .next:hover { filter: brightness(.95); }
+.step { display: grid; gap: 1.1rem; grid-template-columns: minmax(0, 1fr) minmax(16rem, .92fr); align-items: start; }
+.progress { display: flex; gap: .35rem; margin-bottom: .8rem; }
+.progress span { width: 2rem; height: .28rem; border-radius: 99px; background: #d5dbd1; }
+.progress span[data-current="true"] { background: #164d3c; }
+.diagram { min-height: 100%; border: 1px solid #d9ded4; border-radius: .65rem; background: #fffefa; padding: 1rem; }
+.diagramTitle { margin-bottom: .7rem; color: var(--color-ink-secondary); font: 600 .68rem var(--font-mono); letter-spacing: .1em; text-transform: uppercase; }
+.fundDiagram { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1.1fr); gap: .65rem; align-items: center; }
+.fundInputs, .serviceOutputs { display: grid; gap: .45rem; }
+.branch { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: .5rem; min-height: 44px; width: 100%; border-left: 4px solid #5b8876; border-radius: .35rem; background: #f4f7f2; padding: .55rem .65rem; color: var(--color-ink); font-size: .78rem; font-weight: 650; line-height: 1.25; text-align: left; }
+.branchArrow { align-self: center; }
+button.branch { cursor: pointer; }
+button.branch:hover { background: #e8f0e9; }
+button.branch:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.branch[data-kind="transfer"] { border-left-color: #7284a4; }
+.branch[data-kind="reserve"] { border-left-color: #878175; background: repeating-linear-gradient(135deg, #f3f1eb, #f3f1eb 5px, #e8e4db 5px, #e8e4db 8px); }
+.arrow { color: #486052; font-size: 1.3rem; }
+.fund { border: 1px solid #9ead9f; border-radius: .55rem; background: #edf2eb; padding: .85rem; text-align: center; font-size: .85rem; font-weight: 700; }
+.fund small { display: block; margin-top: .25rem; color: var(--color-ink-secondary); font-size: .68rem; font-weight: 500; line-height: 1.35; }
+.noModel { margin: 0; color: var(--color-ink-secondary); font-size: .85rem; line-height: 1.55; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 1rem; margin-top: 1rem; border-top: 1px solid #d9ded4; padding-top: 1rem; }
+.secondaryActions { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; }
+.back, .skip, .restart, .actualLink { display: inline-flex; align-items: center; min-height: 44px; color: #164d3c; font-size: .85rem; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+.back, .skip, .restart { border: 0; background: transparent; padding: .35rem 0; }
+.skip { color: var(--color-ink-secondary); font-weight: 500; }
+.yearExample { display: grid; justify-items: start; gap: .65rem; margin-top: .9rem; }
+.yearExample button { width: fit-content; max-width: 100%; min-height: 44px; border: 1px solid #9ead9f; border-radius: .4rem; background: white; padding: .55rem .75rem; color: #164d3c; font-size: .82rem; font-weight: 650; line-height: 1.3; text-align: left; cursor: pointer; }
+.completion { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .65rem 1rem; margin-top: 1rem; border-top: 1px solid #d9ded4; padding-top: .9rem; }
+.completion p { color: var(--color-ink-secondary); font-size: .82rem; }
+@media (max-width: 959px) { .choice, .step { grid-template-columns: 1fr; } .diagram { min-height: 0; } .choices { grid-template-columns: 1fr; } .fundDiagram { grid-template-columns: 1fr; } .arrow { width: 1.3rem; height: 1.3rem; justify-self: center; transform: rotate(90deg); text-align: center; } .actions { align-items: stretch; } .next { width: 100%; } }
+@media (prefers-reduced-motion: reduce) { .choices button, .next { transition: none; } }

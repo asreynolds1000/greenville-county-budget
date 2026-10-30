@@ -1,0 +1,64 @@
+entity_id,display_name
+dept.animalcareservices,Animal Care Services
+dept.auditor,Auditor
+dept.boardofappeals,Board of Appeals
+dept.circuitsolicitor,Circuit Solicitor
+dept.clerkofcourt,Clerk of Court
+dept.codeenforcement,Code Enforcement
+dept.codesenforcement,Codes Enforcement
+dept.coroner,Coroner
+dept.countyadministrator,County Administrator
+dept.countyattorney,County Attorney
+dept.countycouncil,County Council
+dept.departmentofplanning,Department of Planning
+dept.detentioncenter,Detention Center
+dept.emergencymedicalservices,Emergency Medical Services
+dept.employeebenefitfund,Employee Benefit Fund
+dept.engadministration,Eng. - Administration
+dept.engengineering,Eng. - Engineering
+dept.engineering,Engineering
+dept.engineeringnorthernbureau,Engineering - Northern Bureau
+dept.engineeringsouthernbureau,Engineering - Southern Bureau
+dept.engnorthernbureau,Eng. - Northern Bureau
+dept.engpavingdrainage,Eng. - Paving/Drainage
+dept.engsouthernbureau,Eng. - Southern Bureau
+dept.financialoperations,Financial Operations
+dept.forensics,Forensics
+dept.geographicinformationsystem,Geographic Information Systems
+dept.humanrelations,Human Relations
+dept.humanresources,Human Resources
+dept.indigentdefense,Indigent Defense
+dept.informationsystemsandservices,Information Systems and Services
+dept.legislativedelegation,Legislative Delegation
+dept.magistrates,Magistrates
+dept.managementbudget,Management & Budget
+dept.masterinequity,Master in Equity
+dept.matchingfundgrants,Matching Fund Grants
+dept.medicalexaminer,Medical Examiner
+dept.nondepartmental,Non-Departmental
+dept.operatingtransferscapitalprojects,Operating Transfers - Capital Projects
+dept.operatingtransfersdebtservice,Operating Transfers - Debt Service
+dept.operatingtransfersspecialrevenue,Operating Transfers - Special Revenue
+dept.outsideagencies,Outside Agencies
+dept.planningandcodecompliance.communitydevelopmentandplanning,Planning and Code Compliance
+dept.planningandcodecompliance.otherservices,Planning and Code Compliance
+dept.planningcommission,Planning Commission
+dept.planningdepartment,Planning Department
+dept.probatecourt,Probate Court
+dept.propertymanagement,Property Management
+dept.publicdefender,Public Defender
+dept.publicworksadministration,Public Works Administration
+dept.purchasing,Purchasing
+dept.realpropertyservices,Real Property Services
+dept.records,Records
+dept.registerofdeeds,Register of Deeds
+dept.registrationandelection,Registration and Election
+dept.sheriff,Sheriff
+dept.soilandwater,Soil and Water
+dept.taxcollector,Tax Collector
+dept.transferscapitalprojects,Transfers - Capital Projects
+dept.transfersdebtservice,Transfers - Debt Service
+dept.transfersinternalservice,Transfers - Internal Service
+dept.transfersspecialrevenue,Transfers - Special Revenue
+dept.treasurer,Treasurer
+dept.veteransaffairs,Veterans Affairs

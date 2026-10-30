@@ -1,0 +1,2344 @@
+fiscal_year,department,subdepartment,object,original_budget,final_budget,actual,variance
+2011,Administrative,County Administrator,Salaries,524485,524485,540687,-16202
+2011,Administrative,County Administrator,Operations,19305,18891,27036,-8145
+2011,Administrative,County Administrator,,543790,543376,567723,-24347
+2011,Administrative,County Attorney,Salaries,616806,616806,613144,3662
+2011,Administrative,County Attorney,Operations,48000,48000,39276,8724
+2011,Administrative,County Attorney,,664806,664806,652420,12386
+2011,Administrative,County Council,Salaries,659950,659950,633207,26743
+2011,Administrative,County Council,Operations,436000,436000,324324,111676
+2011,Administrative,County Council,Contractual agreements,7100,7100,6041,1059
+2011,Administrative,County Council,,1103050,1103050,963572,139478
+2011,Administrative,,,2311646,2311232,2183715,127517
+2011,General services,Purchasing,Salaries,363169,363169,308455,54714
+2011,General services,Purchasing,Operations,17106,17106,18971,-1865
+2011,General services,Purchasing,Contractual agreements,2344,2344,1629,715
+2011,General services,Purchasing,,382619,382619,329055,53564
+2011,General services,Financial operations,Salaries,664457,664457,668140,-3683
+2011,General services,Financial operations,Operations,15970,15970,12374,3596
+2011,General services,Financial operations,Contractual agreements,7430,7430,8516,-1086
+2011,General services,Financial operations,,687857,687857,689030,-1173
+2011,General services,Management and budget,Salaries,578814,578814,576915,1899
+2011,General services,Management and budget,Operations,23000,23000,10587,12413
+2011,General services,Management and budget,,601814,601814,587502,14312
+2011,General services,Information systems,Salaries,2803734,2803734,2725159,78575
+2011,General services,Information systems,Operations,1834258,1834258,1825151,9107
+2011,General services,Information systems,Contractual agreements,345000,345000,345001,-1
+2011,General services,Information systems,,4982992,4982992,4895311,87681
+2011,General services,Tax collector,Salaries,926724,926724,798701,128023
+2011,General services,Tax collector,Operations,252645,252645,255544,-2899
+2011,General services,Tax collector,Contractual agreements,18000,18000,7746,10254
+2011,General services,Tax collector,,1197369,1197369,1061991,135378
+2011,General services,Real property services,Salaries,1788817,1788817,1789892,-1075
+2011,General services,Real property services,Operations,169678,169678,169788,-110
+2011,General services,Real property services,Contractual agreements,22796,22796,21721,1075
+2011,General services,Real property services,,1981291,1981291,1981401,-110
+2011,General services,GIS,Salaries,447598,447598,443240,4358
+2011,General services,GIS,Operations,29290,29290,26756,2534
+2011,General services,GIS,Contractual agreements,52810,52810,51736,1074
+2011,General services,GIS,,529698,529698,521732,7966
+2011,General services,,,10363640,10363640,10066022,297618
+2011,Human resources,Human resources,Salaries,764886,764886,834784,-69898
+2011,Human resources,Human resources,Operations,32439,32439,29695,2744
+2011,Human resources,Human resources,Contractual agreements,6961,6961,4636,2325
+2011,Human resources,Human resources,,804286,804286,869115,-64829
+2011,Human resources,Registration and election,Salaries,726286,726286,703626,22660
+2011,Human resources,Registration and election,Operations,85000,85000,15624,69376
+2011,Human resources,Registration and election,Contractual agreements,60000,60000,72671,-12671
+2011,Human resources,Registration and election,,871286,871286,791921,79365
+2011,Human resources,Human relations,Salaries,134061,134061,134428,-367
+2011,Human resources,Human relations,Operations,6362,3914,14004,-10090
+2011,Human resources,Human relations,Contractual agreements,2688,2688,2660,28
+2011,Human resources,Human relations,,143111,140663,151092,-10429
+2011,Human resources,Veterans affairs,Salaries,276840,276840,284194,-7354
+2011,Human resources,Veterans affairs,Operations,10415,10415,4214,6201
+2011,Human resources,Veterans affairs,Contractual agreements,3125,3125,3116,9
+2011,Human resources,Veterans affairs,,290380,290380,291524,-1144
+2011,Human resources,,,2109063,2106615,2103652,2963
+2011,Public works,Engineering,Salaries,4760004,4760004,4627129,132875
+2011,Public works,Engineering,Operations,1254700,1254700,1412022,-157322
+2011,Public works,Engineering,Contractual agreements,59259,59259,52567,6692
+2011,Public works,Engineering,Capital outlay,60214,60214,46424,13790
+2011,Public works,Engineering,,6134177,6134177,6138142,-3965
+2011,Public works,Property management,Salaries,1638587,1638587,1608825,29762
+2011,Public works,Property management,Operations,3601748,3599502,3079419,520083
+2011,Public works,Property management,Contractual agreements,913519,913519,933652,-20133
+2011,Public works,Property management,,6153854,6151608,5621896,529712
+2011,Public works,Codes enforcement,Salaries,2195374,2195374,2167856,27518
+2011,Public works,Codes enforcement,Operations,315815,315815,297571,18244
+2011,Public works,Codes enforcement,Contractual agreements,95374,95374,83173,12201
+2011,Public works,Codes enforcement,,2606563,2606563,2548600,57963
+2011,Public works,Animal Care Services,Salaries,582342,582342,740069,-157727
+2011,Public works,Animal Care Services,Operations,432955,432955,331714,101241
+2011,Public works,Animal Care Services,Contractual agreements,51760,51760,37800,13960
+2011,Public works,Animal Care Services,,1067057,1067057,1109583,-42526
+2011,Public works,,,15961651,15959405,15418221,541184
+2011,Public safety,Records,Salaries,2094466,2094466,1965014,129452
+2011,Public safety,Records,Operations,83065,83065,81372,1693
+2011,Public safety,Records,Contractual agreements,21935,21935,20687,1248
+2011,Public safety,Records,,2199466,2199466,2067073,132393
+2011,Public safety,Detention center,Salaries,15487374,15487374,15301284,186090
+2011,Public safety,Detention center,Operations,1679148,1679148,1584045,95103
+2011,Public safety,Detention center,Contractual agreements,325852,325852,318645,7207
+2011,Public safety,Detention center,,17492374,17492374,17203974,288400
+2011,Public safety,Emergency medical services,Salaries,13191056,13191056,13581421,-390365
+2011,Public safety,Emergency medical services,Operations,1589504,1589504,1634851,-45347
+2011,Public safety,Emergency medical services,Contractual agreements,268543,268543,264386,4157
+2011,Public safety,Emergency medical services,,15049103,15049103,15480658,-431555
+2011,Public safety,Indigent defense,Salaries,157671,157671,146712,10959
+2011,Public safety,Indigent defense,Operations,4356,4356,1490,2866
+2011,Public safety,Indigent defense,Contractual agreements,894,894,429,465
+2011,Public safety,Indigent defense,,162921,162921,148631,14290
+2011,Public safety,Forensics,Salaries,1869773,1869773,1721368,148405
+2011,Public safety,Forensics,Operations,110943,110943,131388,-20445
+2011,Public safety,Forensics,Contractual agreements,118057,118057,97528,20529
+2011,Public safety,Forensics,Capital outlay,0,0,1000,-1000
+2011,Public safety,Forensics,,2098773,2098773,1951284,147489
+2011,Public safety,,,37002637,37002637,36851620,151017
+2011,Elected officials - Judicial,Circuit Solicitor,Salaries,5334980,5334980,5324599,10381
+2011,Elected officials - Judicial,Circuit Solicitor,Operations,116090,116090,114689,1401
+2011,Elected officials - Judicial,Circuit Solicitor,Contractual agreements,168960,168960,125988,42972
+2011,Elected officials - Judicial,Circuit Solicitor,,5620030,5620030,5565276,54754
+2011,Elected officials - Judicial,Clerk of Court,Salaries,3125601,3125601,3068579,57022
+2011,Elected officials - Judicial,Clerk of Court,Operations,215200,215200,193054,22146
+2011,Elected officials - Judicial,Clerk of Court,Contractual agreements,38800,38800,37802,998
+2011,Elected officials - Judicial,Clerk of Court,,3379601,3379601,3299435,80166
+2011,Elected officials - Judicial,Probate Court,Salaries,1107007,1107007,1101476,5531
+2011,Elected officials - Judicial,Probate Court,Operations,36999,36999,45515,-8516
+2011,Elected officials - Judicial,Probate Court,Contractual agreements,54001,54001,35217,18784
+2011,Elected officials - Judicial,Probate Court,,1198007,1198007,1182208,15799
+2011,Elected officials - Judicial,Master in Equity,Salaries,504645,504645,490942,13703
+2011,Elected officials - Judicial,Master in Equity,Operations,13168,13168,7245,5923
+2011,Elected officials - Judicial,Master in Equity,Contractual agreements,3332,3332,3327,5
+2011,Elected officials - Judicial,Master in Equity,,521145,521145,501514,19631
+2011,Elected officials - Judicial,Magistrates,Salaries,3913946,3913946,3940072,-26126
+2011,Elected officials - Judicial,Magistrates,Operations,296620,296620,284697,11923
+2011,Elected officials - Judicial,Magistrates,Contractual agreements,27787,27787,20597,7190
+2011,Elected officials - Judicial,Magistrates,,4238353,4238353,4245366,-7013
+2011,Elected officials - Judicial,Public Defender,Operations,1922,1922,1800,122
+2011,Elected officials - Judicial,Public Defender,Contractual agreements,432000,432000,432000,0
+2011,Elected officials - Judicial,Public Defender,,433922,433922,433800,122
+2011,Elected officials - Judicial,,,15391058,15391058,15227599,163459
+2011,Elected officials - Fiscal,Treasurer,Salaries,368907,368907,346976,21931
+2011,Elected officials - Fiscal,Treasurer,Operations,12700,12700,11875,825
+2011,Elected officials - Fiscal,Treasurer,Contractual agreements,575,575,492,83
+2011,Elected officials - Fiscal,Treasurer,,382182,382182,359343,22839
+2011,Elected officials - Fiscal,Register of Deeds,Salaries,1005134,1005134,966032,39102
+2011,Elected officials - Fiscal,Register of Deeds,Operations,86356,61356,101016,-39660
+2011,Elected officials - Fiscal,Register of Deeds,Contractual agreements,36848,36848,28751,8097
+2011,Elected officials - Fiscal,Register of Deeds,,1128338,1103338,1095799,7539
+2011,Elected officials - Fiscal,Auditor,Salaries,920605,920605,910107,10498
+2011,Elected officials - Fiscal,Auditor,Operations,21500,21500,21948,-448
+2011,Elected officials - Fiscal,Auditor,Contractual agreements,6500,6500,5671,829
+2011,Elected officials - Fiscal,Auditor,,948605,948605,937726,10879
+2011,Elected officials - Fiscal,Board of Appeals,Operations,2000,2000,1944,56
+2011,Elected officials - Fiscal,Board of Appeals,,2000,2000,1944,56
+2011,Elected officials - Fiscal,,,2461125,2436125,2394812,41313
+2011,Elected officials - law enforcement,Sheriff,Salaries,30916046,30916046,29845872,1070174
+2011,Elected officials - law enforcement,Sheriff,Operations,3363044,3363044,3698348,-335304
+2011,Elected officials - law enforcement,Sheriff,Contractual agreements,414905,414905,328749,86156
+2011,Elected officials - law enforcement,Sheriff,Capital outlay,110745,110745,230730,-119985
+2011,Elected officials - law enforcement,Sheriff,,34804740,34804740,34103699,701041
+2011,Elected officials - law enforcement,Coroner,Salaries,458280,458280,473338,-15058
+2011,Elected officials - law enforcement,Coroner,Operations,52000,52000,59448,-7448
+2011,Elected officials - law enforcement,Coroner,,510280,510280,532786,-22506
+2011,Elected officials - law enforcement,County Medical Examiner,Operations,350000,350000,334645,15355
+2011,Elected officials - law enforcement,County Medical Examiner,,350000,350000,334645,15355
+2011,Elected officials - law enforcement,,,35665020,35665020,34971130,693890
+2011,"Boards, commissions and others",Legislative Delegation,Salaries,31093,31093,25030,6063
+2011,"Boards, commissions and others",Legislative Delegation,Operations,6000,6000,4692,1308
+2011,"Boards, commissions and others",Legislative Delegation,,37093,37093,29722,7371
+2011,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,1156117,1156117,1157547,-1430
+2011,"Boards, commissions and others",Agencies and social service agencies,,1156117,1156117,1157547,-1430
+2011,"Boards, commissions and others",Planning,Salaries,1101977,1101977,1043780,58197
+2011,"Boards, commissions and others",Planning,Operations,47083,47083,43410,3673
+2011,"Boards, commissions and others",Planning,Contractual agreements,60087,60087,15753,44334
+2011,"Boards, commissions and others",Planning,,1209147,1209147,1102943,106204
+2011,"Boards, commissions and others",Non-departmental,Salaries,21598,21598,0,21598
+2011,"Boards, commissions and others",Non-departmental,Operations,2454500,2454500,1790221,664279
+2011,"Boards, commissions and others",Non-departmental,Contractual agreements,165000,165000,95570,69430
+2011,"Boards, commissions and others",Non-departmental,Capital outlay,50000,50000,0,50000
+2011,"Boards, commissions and others",Non-departmental,,2691098,2691098,1885791,805307
+2011,"Boards, commissions and others",Employee benefit fund,Salaries,372232,372232,199249,172983
+2011,"Boards, commissions and others",Employee benefit fund,Operations,18100,18100,25650,-7550
+2011,"Boards, commissions and others",Employee benefit fund,,390332,390332,224899,165433
+2011,"Boards, commissions and others",,,5483787,5483787,4400902,1082885
+2012,Administrative,County administrator,Salaries,568510,639194,639189,5
+2012,Administrative,County administrator,Operations,26774,27899,27895,4
+2012,Administrative,County administrator,,595284,667093,667084,9
+2012,Administrative,County Attorney,Salaries,627506,629923,629916,7
+2012,Administrative,County Attorney,Operations,52293,45527,35737,9790
+2012,Administrative,County Attorney,,679799,675450,665653,9797
+2012,Administrative,County Council,Salaries,643683,637387,637382,5
+2012,Administrative,County Council,Operations,183350,183529,146539,36990
+2012,Administrative,County Council,Contractual agreements,7100,7100,7100,0
+2012,Administrative,County Council,,834133,828016,791021,36995
+2012,Administrative,,,2109216,2170559,2123758,46801
+2012,General services,Purchasing,Salaries,357176,310250,310247,3
+2012,General services,Purchasing,Operations,15148,15148,14982,166
+2012,General services,Purchasing,Contractual agreements,2033,2033,1813,220
+2012,General services,Purchasing,,374357,327431,327042,389
+2012,General services,Financial operations,Salaries,679246,683456,683452,4
+2012,General services,Financial operations,Operations,17614,17614,13737,3877
+2012,General services,Financial operations,Contractual agreements,3975,3975,3722,253
+2012,General services,Financial operations,,700835,705045,700911,4134
+2012,General services,Management and budget,Salaries,590641,615652,615641,11
+2012,General services,Management and budget,Operations,18670,18670,14094,4576
+2012,General services,Management and budget,,609311,634322,629735,4587
+2012,General services,Information systems,Salaries,2750468,2627147,2627142,5
+2012,General services,Information systems,Operations,1812656,1785580,1777552,8028
+2012,General services,Information systems,Contractual agreements,304000,331076,331076,0
+2012,General services,Information systems,,4867124,4743803,4735770,8033
+2012,General services,Tax collector,Salaries,912880,823303,823301,2
+2012,General services,Tax collector,Operations,233260,233260,225432,7828
+2012,General services,Tax collector,Contractual agreements,18000,18000,4128,13872
+2012,General services,Tax collector,,1164140,1074563,1052861,21702
+2012,General services,Real property services,Salaries,1875998,1720739,1720737,2
+2012,General services,Real property services,Operations,109698,109698,96053,13645
+2012,General services,Real property services,Contractual agreements,18611,18611,15410,3201
+2012,General services,Real property services,,2004307,1849048,1832200,16848
+2012,General services,GIS,Salaries,444069,446809,446804,5
+2012,General services,GIS,Operations,29290,25847,24605,1242
+2012,General services,GIS,Contractual agreements,48834,48834,48318,516
+2012,General services,GIS,,522193,521490,519727,1763
+2012,General services,,,10242267,9855702,9798246,57456
+2012,Human resources,Human resources,Salaries,798376,785398,785394,4
+2012,Human resources,Human resources,Operations,39889,31994,31680,314
+2012,Human resources,Human resources,Contractual agreements,0,5137,4861,276
+2012,Human resources,Human resources,,838265,822529,821935,594
+2012,Human resources,Registration and election,Salaries,693937,731012,731006,6
+2012,Human resources,Registration and election,Operations,64797,56418,56406,12
+2012,Human resources,Registration and election,Contractual agreements,72672,77772,77764,8
+2012,Human resources,Registration and election,,831406,865202,865176,26
+2012,Human resources,Human relations,Salaries,134406,134889,134885,4
+2012,Human resources,Human relations,Operations,6179,6234,6227,7
+2012,Human resources,Human relations,Contractual agreements,3283,3283,3279,4
+2012,Human resources,Human relations,,143868,144406,144391,15
+2012,Human resources,Veterans affairs,Salaries,277630,281089,281084,5
+2012,Human resources,Veterans affairs,Operations,9820,6498,6483,15
+2012,Human resources,Veterans affairs,Contractual agreements,2425,3371,3370,1
+2012,Human resources,Veterans affairs,,289875,290958,290937,21
+2012,Human resources,,,2103414,2123095,2122439,656
+2012,Public works,Engineering,Salaries,4393587,4199729,4199708,21
+2012,Public works,Engineering,Operations,1028554,1212326,1161238,51088
+2012,Public works,Engineering,Contractual agreements,54216,53069,46435,6634
+2012,Public works,Engineering,Capital outlay,14295,14295,6589,7706
+2012,Public works,Engineering,,5490652,5479419,5413970,65449
+2012,Public works,Property management,Salaries,1702517,1649218,1649217,1
+2012,Public works,Property management,Operations,3480273,3448402,3126169,322233
+2012,Public works,Property management,Contractual agreements,899536,931104,868795,62309
+2012,Public works,Property management,,6082326,6028724,5644181,384543
+2012,Public works,Codes enforcement,Salaries,2128151,2191056,2191052,4
+2012,Public works,Codes enforcement,Operations,352106,326454,326410,44
+2012,Public works,Codes enforcement,Contractual agreements,88447,90246,72260,17986
+2012,Public works,Codes enforcement,,2568704,2607756,2589722,18034
+2012,Public works,Animal Care Services,Salaries,1379372,1401031,1398764,2267
+2012,Public works,Animal Care Services,Operations,867942,870312,788217,82095
+2012,Public works,Animal Care Services,Contractual agreements,243574,198959,150691,48268
+2012,Public works,Animal Care Services,,2490888,2470302,2337672,132630
+2012,Public works,,,16632570,16586201,15985545,600656
+2012,Public safety,Records,Salaries,1960867,2036620,2036616,4
+2012,Public safety,Records,Operations,40015,22534,22530,4
+2012,Public safety,Records,Contractual agreements,11461,11300,11300,0
+2012,Public safety,Records,,2012343,2070454,2070446,8
+2012,Public safety,Detention center,Salaries,15520582,15292466,15292461,5
+2012,Public safety,Detention center,Operations,1827177,1767815,1766721,1094
+2012,Public safety,Detention center,Contractual agreements,339596,329596,328155,1441
+2012,Public safety,Detention center,,17687355,17389877,17387337,2540
+2012,Public safety,Emergency medical services,Salaries,13437714,13989281,13989276,5
+2012,Public safety,Emergency medical services,Operations,1480740,1681018,1681012,6
+2012,Public safety,Emergency medical services,Contractual agreements,308797,308654,308654,0
+2012,Public safety,Emergency medical services,,15227251,15978953,15978942,11
+2012,Public safety,Indigent defense,Salaries,147768,148512,148507,5
+2012,Public safety,Indigent defense,Operations,1982,1594,1593,1
+2012,Public safety,Indigent defense,Contractual agreements,462,462,461,1
+2012,Public safety,Indigent defense,,150212,150568,150561,7
+2012,Public safety,Forensics,Salaries,1808332,1877250,1877247,3
+2012,Public safety,Forensics,Operations,115629,114438,113143,1295
+2012,Public safety,Forensics,Contractual agreements,69662,69020,69019,1
+2012,Public safety,Forensics,,1993623,2060708,2059409,1299
+2012,Public safety,,,37070784,37650560,37646695,3865
+2012,Elected officials - Judicial,Circuit Solicitor,Salaries,5420019,5337827,5324641,13186
+2012,Elected officials - Judicial,Circuit Solicitor,Operations,116090,141999,136179,5820
+2012,Elected officials - Judicial,Circuit Solicitor,Contractual agreements,147593,126893,118384,8509
+2012,Elected officials - Judicial,Circuit Solicitor,,5683702,5606719,5579204,27515
+2012,Elected officials - Judicial,Clerk of Court,Salaries,3083852,3047485,3047481,4
+2012,Elected officials - Judicial,Clerk of Court,Operations,194335,194249,183936,10313
+2012,Elected officials - Judicial,Clerk of Court,Contractual agreements,40415,40415,35364,5051
+2012,Elected officials - Judicial,Clerk of Court,,3318602,3282149,3266781,15368
+2012,Elected officials - Judicial,Probate Court,Salaries,1125364,1166736,1166733,3
+2012,Elected officials - Judicial,Probate Court,Operations,42252,60156,60154,2
+2012,Elected officials - Judicial,Probate Court,Contractual agreements,47397,29303,29189,114
+2012,Elected officials - Judicial,Probate Court,,1215013,1256195,1256076,119
+2012,Elected officials - Judicial,Master in equity,Salaries,495976,491662,491656,6
+2012,Elected officials - Judicial,Master in equity,Operations,9403,9403,7334,2069
+2012,Elected officials - Judicial,Master in equity,Contractual agreements,1800,1800,1800,0
+2012,Elected officials - Judicial,Master in equity,,507179,502865,500790,2075
+2012,Elected officials - Judicial,Magistrates,Salaries,3872871,4009419,4009367,52
+2012,Elected officials - Judicial,Magistrates,Operations,280228,277631,276539,1092
+2012,Elected officials - Judicial,Magistrates,Contractual agreements,44277,32012,28907,3105
+2012,Elected officials - Judicial,Magistrates,,4197376,4319062,4314813,4249
+2012,Elected officials - Judicial,Public Defender,Operations,1922,66922,66716,206
+2012,Elected officials - Judicial,Public Defender,Contractual agreements,512000,447000,445500,1500
+2012,Elected officials - Judicial,Public Defender,,513922,513922,512216,1706
+2012,Elected officials - Judicial,,,15435794,15480912,15429880,51032
+2012,Elected officials - Fiscal,Treasurer,Salaries,371299,367112,367108,4
+2012,Elected officials - Fiscal,Treasurer,Operations,11321,11321,10681,640
+2012,Elected officials - Fiscal,Treasurer,Contractual agreements,500,500,479,21
+2012,Elected officials - Fiscal,Treasurer,,383120,378933,378268,665
+2012,Elected officials - Fiscal,Register of Deeds,Salaries,992139,889784,889778,6
+2012,Elected officials - Fiscal,Register of Deeds,Operations,97997,97591,94095,3496
+2012,Elected officials - Fiscal,Register of Deeds,Contractual agreements,20840,20840,20807,33
+2012,Elected officials - Fiscal,Register of Deeds,,1110976,1008215,1004680,3535
+2012,Elected officials - Fiscal,Auditor,Salaries,912111,986447,986443,4
+2012,Elected officials - Fiscal,Auditor,Operations,25899,26305,26294,11
+2012,Elected officials - Fiscal,Auditor,,938010,1012752,1012737,15
+2012,Elected officials - Fiscal,Board of Appeals,Operations,18962,18962,590,18372
+2012,Elected officials - Fiscal,Board of Appeals,,18962,18962,590,18372
+2012,Elected officials - Fiscal,,,2451068,2418862,2396275,22587
+2012,Elected officials - Law Enforcement,Sheriff,Salaries,31462638,30820619,30820611,8
+2012,Elected officials - Law Enforcement,Sheriff,Operations,3318900,3921577,3861689,59888
+2012,Elected officials - Law Enforcement,Sheriff,Contractual agreements,235150,235150,234870,280
+2012,Elected officials - Law Enforcement,Sheriff,Capital outlay,66447,158672,158671,1
+2012,Elected officials - Law Enforcement,Sheriff,,35083135,35136018,35075841,60177
+2012,Elected officials - Law Enforcement,Coroner                                                                                                                                                           TF,Salaries,466242,534847,534841,6
+2012,Elected officials - Law Enforcement,Coroner                                                                                                                                                           TF,Operations,56270,69081,69073,8
+2012,Elected officials - Law Enforcement,Coroner                                                                                                                                                           TF,,522512,603928,603914,14
+2012,Elected officials - Law Enforcement,County Medical Examiner,Operations,350000,350000,348065,1935
+2012,Elected officials - Law Enforcement,County Medical Examiner,,350000,350000,348065,1935
+2012,Elected officials - Law Enforcement,,,35955647,36089946,36027820,62126
+2012,"Boards, commissions and others",Legislative Delegation,Salaries,31077,25087,25085,2
+2012,"Boards, commissions and others",Legislative Delegation,Operations,5059,5059,4735,324
+2012,"Boards, commissions and others",Legislative Delegation,,36136,30146,29820,326
+2012,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,1227817,1227817,1177895,49922
+2012,"Boards, commissions and others",Agencies and social service agencies,,1227817,1227817,1177895,49922
+2012,"Boards, commissions and others",Planning,Salaries,1111317,1092854,1092850,4
+2012,"Boards, commissions and others",Planning,Operations,38657,38657,28552,10105
+2012,"Boards, commissions and others",Planning,Contractual agreements,20087,20087,12042,8045
+2012,"Boards, commissions and others",Planning,,1170061,1151598,1133444,18154
+2012,"Boards, commissions and others",Non-departmental,Salaries,21598,0,0,0
+2012,"Boards, commissions and others",Non-departmental,Operations,2780477,2515828,2081940,433888
+2012,"Boards, commissions and others",Non-departmental,Contractual agreements,135000,135000,32306,102694
+2012,"Boards, commissions and others",Non-departmental,Capital outlay,0,17920,17920,0
+2012,"Boards, commissions and others",Non-departmental,,2937075,2668748,2132166,536582
+2012,"Boards, commissions and others",Employee benefit fund,Salaries,390300,306003,149533,156470
+2012,"Boards, commissions and others",Employee benefit fund,Operations,27200,29200,26250,2950
+2012,"Boards, commissions and others",Employee benefit fund,,417500,335203,175783,159420
+2012,"Boards, commissions and others",,,5788589,5413512,4649108,764404
+2013,Administrative,County administrator,Salaries,585515,638807,638801,6
+2013,Administrative,County administrator,Operations,26774,25873,25868,5
+2013,Administrative,County administrator,,612289,664680,664669,11
+2013,Administrative,County Attorney,Salaries,646284,659013,659010,3
+2013,Administrative,County Attorney,Operations,52293,44335,44332,3
+2013,Administrative,County Attorney,,698577,703348,703342,6
+2013,Administrative,County Council,Salaries,662803,670806,670800,6
+2013,Administrative,County Council,Operations,183350,151843,151832,11
+2013,Administrative,County Council,Contractual agreements,7100,0,0,0
+2013,Administrative,County Council,,853253,822649,822632,17
+2013,Administrative,,,2164119,2190677,2190643,34
+2013,General services,Procurement Services,Salaries,367815,326139,326135,4
+2013,General services,Procurement Services,Operations,15148,15967,15961,6
+2013,General services,Procurement Services,Contractual agreements,2033,2033,2033,0
+2013,General services,Procurement Services,,384996,344139,344129,10
+2013,General services,Financial operations,Salaries,1307794,1330877,1330849,28
+2013,General services,Financial operations,Operations,33112,20963,20959,4
+2013,General services,Financial operations,Contractual agreements,4147,3549,3549,0
+2013,General services,Financial operations,,1345053,1355389,1355357,32
+2013,General services,Information systems,Salaries,2832546,2891614,2891609,5
+2013,General services,Information systems,Operations,1812656,1794953,1794950,3
+2013,General services,Information systems,Contractual agreements,304000,292947,292947,0
+2013,General services,Information systems,,4949202,4979514,4979506,8
+2013,General services,Tax services,Salaries,2822021,2599298,2599288,10
+2013,General services,Tax services,Operations,335361,312186,312178,8
+2013,General services,Tax services,Contractual agreements,36611,25235,25233,2
+2013,General services,Tax services,,3193993,2936719,2936699,20
+2013,General services,Geographical Information Systems,Salaries,457316,471443,471438,5
+2013,General services,Geographical Information Systems,Operations,29290,23743,23742,1
+2013,General services,Geographical Information Systems,Contractual agreements,48834,48762,48762,0
+2013,General services,Geographical Information Systems,,535440,543948,543942,6
+2013,General services,Human resources,Salaries,822204,793019,793016,3
+2013,General services,Human resources,Operations,39889,45536,45532,4
+2013,General services,Human resources,Contractual agreements,0,6320,6320,0
+2013,General services,Human resources,,862093,844875,844868,7
+2013,General services,Registration and election,Salaries,714667,967214,967211,3
+2013,General services,Registration and election,Operations,64797,4515,4510,5
+2013,General services,Registration and election,Contractual agreements,72672,77676,77676,0
+2013,General services,Registration and election,,852136,1049405,1049397,8
+2013,General services,Human relations,Salaries,138413,141835,141830,5
+2013,General services,Human relations,Operations,6179,7325,7321,4
+2013,General services,Human relations,Contractual agreements,3283,3270,3270,0
+2013,General services,Human relations,,147875,152430,152421,9
+2013,General services,Veterans affairs,Salaries,285895,292701,292695,6
+2013,General services,Veterans affairs,Operations,9820,5987,5985,2
+2013,General services,Veterans affairs,Contractual agreements,2425,1586,1585,1
+2013,General services,Veterans affairs,,298140,300274,300265,9
+2013,General services,,,12568928,12506693,12506584,109
+2013,Community development and planning,"Engineering, Roads/Bridges",Salaries,4524328,4306131,4306115,16
+2013,Community development and planning,"Engineering, Roads/Bridges",Operations,1028554,1143227,1143202,25
+2013,Community development and planning,"Engineering, Roads/Bridges",Contractual agreements,54216,48079,48078,1
+2013,Community development and planning,"Engineering, Roads/Bridges",Capital outlay,14295,36237,36237,0
+2013,Community development and planning,"Engineering, Roads/Bridges",,5621393,5533674,5533632,42
+2013,Community development and planning,Property maintenance,Salaries,1753204,1591016,1591009,7
+2013,Community development and planning,Property maintenance,Operations,3480273,3256237,3258743,-2506
+2013,Community development and planning,Property maintenance,Contractual agreements,901085,900945,900945,0
+2013,Community development and planning,Property maintenance,,6134562,5748198,5750697,-2499
+2013,Community development and planning,Planning and code enforcement,Salaries,3349270,3375329,3375323,6
+2013,Community development and planning,Planning and code enforcement,Operations,390763,341084,341068,16
+2013,Community development and planning,Planning and code enforcement,Contractual agreements,108534,100223,100221,2
+2013,Community development and planning,Planning and code enforcement,,3848567,3816636,3816612,24
+2013,Community development and planning,Animal care services,Salaries,1524823,1612434,1612428,6
+2013,Community development and planning,Animal care services,Operations,867942,933715,933703,12
+2013,Community development and planning,Animal care services,Contractual agreements,135589,41561,41561,0
+2013,Community development and planning,Animal care services,,2528354,2587710,2587692,18
+2013,Community development and planning,,,18132876,17686218,17688633,-2415
+2013,Public safety,Records management services division,Salaries,2019237,2007401,2007400,1
+2013,Public safety,Records management services division,Operations,42010,26038,26031,7
+2013,Public safety,Records management services division,Contractual agreements,9466,9386,9386,0
+2013,Public safety,Records management services division,,2070713,2042825,2042817,8
+2013,Public safety,Detention division,Salaries,15982440,16460766,16460760,6
+2013,Public safety,Detention division,Operations,1824370,1731880,1731868,12
+2013,Public safety,Detention division,Contractual agreements,342403,352619,352617,2
+2013,Public safety,Detention division,,18149213,18545265,18545245,20
+2013,Public safety,Forensic division,Salaries,1861582,1869319,1869311,8
+2013,Public safety,Forensic division,Operations,115629,74224,74216,8
+2013,Public safety,Forensic division,Contractual agreements,69662,69243,69242,1
+2013,Public safety,Forensic division,Capital outlay,0,15925,15925,0
+2013,Public safety,Forensic division,,2046873,2028711,2028694,17
+2013,Public safety,Indigent defense,Salaries,151701,156113,156109,4
+2013,Public safety,Indigent defense,Operations,1941,1855,1855,0
+2013,Public safety,Indigent defense,Contractual agreements,503,503,502,1
+2013,Public safety,Indigent defense,,154145,158471,158466,5
+2013,Public safety,,,22420944,22775272,22775222,50
+2013,Emergency medical services,,Salaries,13867409,14369396,14369391,5
+2013,Emergency medical services,,Operations,1480730,1683109,1683102,7
+2013,Emergency medical services,,Contractual agreements,308797,308390,308388,2
+2013,Emergency medical services,,,15656936,16360895,16360881,14
+2013,Elected officials - Judicial,Circuit solicitor,Salaries,5581493,5596671,5596666,5
+2013,Elected officials - Judicial,Circuit solicitor,Operations,116090,124213,124210,3
+2013,Elected officials - Judicial,Circuit solicitor,Contractual agreements,147593,143998,143996,2
+2013,Elected officials - Judicial,Circuit solicitor,,5845176,5864882,5864872,10
+2013,Elected officials - Judicial,Clerk of court,Salaries,3175679,3167808,3167801,7
+2013,Elected officials - Judicial,Clerk of court,Operations,194335,185903,185896,7
+2013,Elected officials - Judicial,Clerk of court,Contractual agreements,40415,33692,33691,1
+2013,Elected officials - Judicial,Clerk of court,,3410429,3387403,3387388,15
+2013,Elected officials - Judicial,Probate court,Salaries,1158634,1178416,1178410,6
+2013,Elected officials - Judicial,Probate court,Operations,42252,42577,42574,3
+2013,Elected officials - Judicial,Probate court,Contractual agreements,47397,40257,40255,2
+2013,Elected officials - Judicial,Probate court,,1248283,1261250,1261239,11
+2013,Elected officials - Judicial,Master in equity,Salaries,510767,522576,522572,4
+2013,Elected officials - Judicial,Master in equity,Operations,9403,6002,6000,2
+2013,Elected officials - Judicial,Master in equity,Contractual agreements,1800,0,0,0
+2013,Elected officials - Judicial,Master in equity,,521970,528578,528572,6
+2013,Elected officials - Judicial,Magistrates,Salaries,3988331,4093338,4093289,49
+2013,Elected officials - Judicial,Magistrates,Operations,280128,284148,284123,25
+2013,Elected officials - Judicial,Magistrates,Contractual agreements,44277,18813,18810,3
+2013,Elected officials - Judicial,Magistrates,,4312736,4396299,4396222,77
+2013,Elected officials - Judicial,Public defender,Operations,1922,75356,75355,1
+2013,Elected officials - Judicial,Public defender,Contractual agreements,512000,438250,438250,0
+2013,Elected officials - Judicial,Public defender,,513922,513606,513605,1
+2013,Elected officials - Judicial,,,15852516,15952018,15951898,120
+2013,Elected officials - Fiscal,Treasurer,Salaries,382364,385922,385919,3
+2013,Elected officials - Fiscal,Treasurer,Operations,11321,10722,10720,2
+2013,Elected officials - Fiscal,Treasurer,Contractual agreements,500,480,479,1
+2013,Elected officials - Fiscal,Treasurer,,394185,397124,397118,6
+2013,Elected officials - Fiscal,Register of deeds,Salaries,927665,951224,951218,6
+2013,Elected officials - Fiscal,Register of deeds,Operations,97997,94464,94460,4
+2013,Elected officials - Fiscal,Register of deeds,Contractual agreements,20840,17746,17746,0
+2013,Elected officials - Fiscal,Register of deeds,,1046502,1063434,1063424,10
+2013,Elected officials - Fiscal,Auditor,Salaries,1033266,1039246,1039243,3
+2013,Elected officials - Fiscal,Auditor,Operations,25899,25557,25554,3
+2013,Elected officials - Fiscal,Auditor,,1059165,1064803,1064797,6
+2013,Elected officials - Fiscal,Board of appeals,Operations,10162,1739,1738,1
+2013,Elected officials - Fiscal,Board of appeals,,10162,1739,1738,1
+2013,Elected officials - Fiscal,,,2510014,2527100,2527077,23
+2013,Elected officials - Law enforcement,Sheriff,Salaries,32542038,32244650,32244644,6
+2013,Elected officials - Law enforcement,Sheriff,Operations,3403262,3974842,3974831,11
+2013,Elected officials - Law enforcement,Sheriff,Contractual agreements,238520,232318,232317,1
+2013,Elected officials - Law enforcement,Sheriff,,36183820,36451810,36451792,18
+2013,Elected officials - Law enforcement,Coroner,Salaries,480137,611805,611800,5
+2013,Elected officials - Law enforcement,Coroner,Operations,56270,61277,61273,4
+2013,Elected officials - Law enforcement,Coroner,,536407,673082,673073,9
+2013,Elected officials - Law enforcement,County medical examiner,Operations,350000,363695,363695,0
+2013,Elected officials - Law enforcement,County medical examiner,,350000,363695,363695,0
+2013,Elected officials - Law enforcement,,,37070227,37488587,37488560,27
+2013,"Boards, commissions and others",Legislative delegation,Salaries,32010,38636,38631,5
+2013,"Boards, commissions and others",Legislative delegation,Operations,5059,4981,4980,1
+2013,"Boards, commissions and others",Legislative delegation,,37069,43617,43611,6
+2013,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,1227817,1248267,1248266,1
+2013,"Boards, commissions and others",Agencies and social service agencies,,1227817,1248267,1248266,1
+2013,"Boards, commissions and others",Non-departmental,Salaries,21600,0,0,0
+2013,"Boards, commissions and others",Non-departmental,Operations,2780477,2263987,2263985,2
+2013,"Boards, commissions and others",Non-departmental,Contractual agreements,135000,132248,132247,1
+2013,"Boards, commissions and others",Non-departmental,,2937077,2396235,2396232,3
+2013,"Boards, commissions and others",Employee benefit fund,Salaries,390300,70501,70501,0
+2013,"Boards, commissions and others",Employee benefit fund,Operations,27200,25575,25575,0
+2013,"Boards, commissions and others",Employee benefit fund,,417500,96076,96076,0
+2013,"Boards, commissions and others",,,4619463,3784195,3784185,10
+2014,Administrative,County administrator,Salaries,668638,658422,658416,6
+2014,Administrative,County administrator,Operations,29435,29435,26225,3210
+2014,Administrative,County administrator,,698073,687857,684641,3216
+2014,Administrative,County Attorney,Salaries,707653,705024,705014,10
+2014,Administrative,County Attorney,Operations,49678,46410,32800,13610
+2014,Administrative,County Attorney,Contractual agreements,0,7300,289,7011
+2014,Administrative,County Attorney,,757331,758734,738103,20631
+2014,Administrative,County Council,Salaries,721330,687238,687235,3
+2014,Administrative,County Council,Operations,182233,427705,275015,152690
+2014,Administrative,County Council,Contractual agreements,7000,7000,7000,0
+2014,Administrative,County Council,,910563,1121943,969250,152693
+2014,Administrative,,,2365967,2568534,2391994,176540
+2014,General services,Procurement Services,Salaries,389690,346520,346514,6
+2014,General services,Procurement Services,Operations,14391,19440,19320,120
+2014,General services,Procurement Services,Contractual agreements,2033,2033,2033,0
+2014,General services,Procurement Services,,406114,367993,367867,126
+2014,General services,Financial operations,Salaries,1377582,1380549,1380541,8
+2014,General services,Financial operations,Operations,31620,32844,25115,7729
+2014,General services,Financial operations,Contractual agreements,3984,228,228,0
+2014,General services,Financial operations,,1413186,1413621,1405884,7737
+2014,General services,Information systems,Salaries,3021219,3476738,3476731,7
+2014,General services,Information systems,Operations,1812150,1535377,1531624,3753
+2014,General services,Information systems,Contractual agreements,248000,279773,256790,22983
+2014,General services,Information systems,,5081369,5291888,5265145,26743
+2014,General services,Tax services,Salaries,3108728,2686715,2686705,10
+2014,General services,Tax services,Operations,392691,392691,361496,31195
+2014,General services,Tax services,Contractual agreements,31911,31911,20835,11076
+2014,General services,Tax services,,3533330,3111317,3069036,42281
+2014,General services,Geographical Information Systems,Salaries,486927,497701,497694,7
+2014,General services,Geographical Information Systems,Operations,27826,33419,29539,3880
+2014,General services,Geographical Information Systems,Contractual agreements,54598,49005,49004,1
+2014,General services,Geographical Information Systems,,569351,580125,576237,3888
+2014,General services,Human resources,Salaries,839673,843082,843075,7
+2014,General services,Human resources,Operations,42895,42895,31612,11283
+2014,General services,Human resources,Contractual agreements,6000,6000,5991,9
+2014,General services,Human resources,,888568,891977,880678,11299
+2014,General services,Registration and election,Salaries,781744,763665,763657,8
+2014,General services,Registration and election,Operations,111557,100295,90588,9707
+2014,General services,Registration and election,Contractual agreements,72672,83934,83933,1
+2014,General services,Registration and election,,965973,947894,938178,9716
+2014,General services,Human relations,Salaries,146679,146880,146875,5
+2014,General services,Human relations,Operations,6179,7498,7497,1
+2014,General services,Human relations,Contractual agreements,3321,2120,2119,1
+2014,General services,Human relations,,156179,156498,156491,7
+2014,General services,Veterans affairs,Salaries,302857,303464,303460,4
+2014,General services,Veterans affairs,Operations,9329,9329,9116,213
+2014,General services,Veterans affairs,Contractual agreements,2425,2425,1732,693
+2014,General services,Veterans affairs,,314611,315218,314308,910
+2014,General services,,,13328681,13076531,12973824,102707
+2014,Community development and planning,"Engineering, Roads/Bridges",Salaries,4665862,4402468,4400703,1765
+2014,Community development and planning,"Engineering, Roads/Bridges",Operations,1198795,1268924,1220012,48912
+2014,Community development and planning,"Engineering, Roads/Bridges",Contractual agreements,69216,122571,111682,10889
+2014,Community development and planning,"Engineering, Roads/Bridges",Capital outlay,41350,30578,23595,6983
+2014,Community development and planning,"Engineering, Roads/Bridges",,5975223,5824541,5755992,68549
+2014,Community development and planning,Property maintenance,Salaries,1781663,1716187,1716184,3
+2014,Community development and planning,Property maintenance,Operations,3386882,3390343,3374133,16210
+2014,Community development and planning,Property maintenance,Contractual agreements,938027,918771,917512,1259
+2014,Community development and planning,Property maintenance,,6106572,6025301,6007829,17472
+2014,Community development and planning,Planning and code enforcement,Salaries,3729218,3215548,3215535,13
+2014,Community development and planning,Planning and code enforcement,Operations,529192,515192,348857,166335
+2014,Community development and planning,Planning and code enforcement,Contractual agreements,95808,95808,63670,32138
+2014,Community development and planning,Planning and code enforcement,Capital outlay,43270,43270,42607,663
+2014,Community development and planning,Planning and code enforcement,,4397488,3869818,3670669,199149
+2014,Community development and planning,Animal care services,Salaries,1963877,1644747,1643795,952
+2014,Community development and planning,Animal care services,Operations,1040152,985452,806843,178609
+2014,Community development and planning,Animal care services,Contractual agreements,0,164123,153666,10457
+2014,Community development and planning,Animal care services,,3004029,2794322,2604304,190018
+2014,Community development and planning,,,19483312,18513982,18038794,475188
+2014,Public safety,Records management services division,Salaries,2204812,2137298,2137294,4
+2014,Public safety,Records management services division,Operations,33835,33835,25770,8065
+2014,Public safety,Records management services division,Contractual agreements,15541,15541,14979,562
+2014,Public safety,Records management services division,,2254188,2186674,2178043,8631
+2014,Public safety,Detention division,Salaries,16844746,17634083,17634075,8
+2014,Public safety,Detention division,Operations,1743425,1636934,1614727,22207
+2014,Public safety,Detention division,Contractual agreements,332130,138465,138364,101
+2014,Public safety,Detention division,,18920301,19409482,19387166,22316
+2014,Public safety,Forensic division,Salaries,2087126,2006302,2004629,1673
+2014,Public safety,Forensic division,Operations,109848,117936,117612,324
+2014,Public safety,Forensic division,Contractual agreements,83975,81475,81464,11
+2014,Public safety,Forensic division,,2280949,2205713,2203705,2008
+2014,Public safety,Indigent defense,Salaries,161667,161742,161736,6
+2014,Public safety,Indigent defense,Operations,2347,2321,2320,1
+2014,Public safety,Indigent defense,,164014,164063,164056,7
+2014,Public safety,,,23619452,23965932,23932970,32962
+2014,Emergency medical services,,Salaries,14395115,14933404,14933397,7
+2014,Emergency medical services,,Operations,1571730,1683952,1683760,192
+2014,Emergency medical services,,Contractual agreements,378628,378628,371723,6905
+2014,Emergency medical services,,,16345473,16995984,16988880,7104
+2014,Elected officials - Judicial,Circuit solicitor,Salaries,5960458,5996945,5987183,9762
+2014,Elected officials - Judicial,Circuit solicitor,Operations,113890,109208,109090,118
+2014,Elected officials - Judicial,Circuit solicitor,Contractual agreements,149493,158493,158493,0
+2014,Elected officials - Judicial,Circuit solicitor,,6223841,6264646,6254766,9880
+2014,Elected officials - Judicial,Clerk of court,Salaries,3272320,3234791,3234782,9
+2014,Elected officials - Judicial,Clerk of court,Operations,195391,204880,200182,4698
+2014,Elected officials - Judicial,Clerk of court,Contractual agreements,34500,24500,24390,110
+2014,Elected officials - Judicial,Clerk of court,,3502211,3464171,3459354,4817
+2014,Elected officials - Judicial,Probate court,Salaries,1288888,1306320,1306314,6
+2014,Elected officials - Judicial,Probate court,Operations,47139,49812,47683,2129
+2014,Elected officials - Judicial,Probate court,Contractual agreements,97397,94724,94622,102
+2014,Elected officials - Judicial,Probate court,,1433424,1450856,1448619,2237
+2014,Elected officials - Judicial,Master in equity,Salaries,559369,534995,534992,3
+2014,Elected officials - Judicial,Master in equity,Operations,8933,8933,4907,4026
+2014,Elected officials - Judicial,Master in equity,Contractual agreements,1800,1800,1500,300
+2014,Elected officials - Judicial,Master in equity,,570102,545728,541399,4329
+2014,Elected officials - Judicial,Magistrates,Salaries,4156006,4283468,4283408,60
+2014,Elected officials - Judicial,Magistrates,Operations,288798,291302,271601,19701
+2014,Elected officials - Judicial,Magistrates,Contractual agreements,38480,27144,22666,4478
+2014,Elected officials - Judicial,Magistrates,,4483284,4601914,4577675,24239
+2014,Elected officials - Judicial,Public defender,Salaries,0,68630,68630,0
+2014,Elected officials - Judicial,Public defender,Operations,65825,77195,74548,2647
+2014,Elected officials - Judicial,Public defender,Contractual agreements,548000,468000,468000,0
+2014,Elected officials - Judicial,Public defender,,613825,613825,611178,2647
+2014,Elected officials - Judicial,,,16826687,16941140,16892991,48149
+2014,Elected officials - Fiscal,Treasurer,Salaries,405403,405972,405967,5
+2014,Elected officials - Fiscal,Treasurer,Operations,11321,10539,8599,1940
+2014,Elected officials - Fiscal,Treasurer,Contractual agreements,500,713,606,107
+2014,Elected officials - Fiscal,Treasurer,,417224,417224,415172,2052
+2014,Elected officials - Fiscal,Register of deeds,Salaries,1015157,973181,973179,2
+2014,Elected officials - Fiscal,Register of deeds,Operations,93172,88687,87402,1285
+2014,Elected officials - Fiscal,Register of deeds,Contractual agreements,18840,23325,23263,62
+2014,Elected officials - Fiscal,Register of deeds,,1127169,1085193,1083844,1349
+2014,Elected officials - Fiscal,Auditor,Salaries,1093977,1089490,1089484,6
+2014,Elected officials - Fiscal,Auditor,Operations,24604,24604,21962,2642
+2014,Elected officials - Fiscal,Auditor,,1118581,1114094,1111446,2648
+2014,Elected officials - Fiscal,Board of appeals,Operations,9000,9000,1827,7173
+2014,Elected officials - Fiscal,Board of appeals,,9000,9000,1827,7173
+2014,Elected officials - Fiscal,,,2671974,2625511,2612289,13222
+2014,Elected officials - Law enforcement,Sheriff,Salaries,34394214,33649413,33649407,6
+2014,Elected officials - Law enforcement,Sheriff,Operations,3341641,4216995,4210059,6936
+2014,Elected officials - Law enforcement,Sheriff,Contractual agreements,220470,242278,242200,78
+2014,Elected officials - Law enforcement,Sheriff,,37956325,38108686,38101666,7020
+2014,Elected officials - Law enforcement,Coroner,Salaries,647278,703736,703730,6
+2014,Elected officials - Law enforcement,Coroner,Operations,100600,113212,112704,508
+2014,Elected officials - Law enforcement,Coroner,,747878,816948,816434,514
+2014,Elected officials - Law enforcement,County medical examiner,Operations,353839,353839,343471,10368
+2014,Elected officials - Law enforcement,County medical examiner,,353839,353839,343471,10368
+2014,Elected officials - Law enforcement,,,39058042,39279473,39261571,17902
+2014,"Boards, commissions and others",Legislative delegation,Salaries,51995,54335,54329,6
+2014,"Boards, commissions and others",Legislative delegation,Operations,4806,4806,4415,391
+2014,"Boards, commissions and others",Legislative delegation,,56801,59141,58744,397
+2014,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,1288017,1301540,1300752,788
+2014,"Boards, commissions and others",Agencies and social service agencies,,1288017,1301540,1300752,788
+2014,"Boards, commissions and others",Non-departmental,Salaries,21600,0,0,0
+2014,"Boards, commissions and others",Non-departmental,Operations,3196526,2438718,2098172,340546
+2014,"Boards, commissions and others",Non-departmental,Contractual agreements,120000,147000,96256,50744
+2014,"Boards, commissions and others",Non-departmental,,3338126,2585718,2194428,391290
+2014,"Boards, commissions and others",Employee benefit fund,Salaries,390300,859346,65163,794183
+2014,"Boards, commissions and others",Employee benefit fund,Operations,38000,38000,37725,275
+2014,"Boards, commissions and others",Employee benefit fund,,428300,897346,102888,794458
+2014,"Boards, commissions and others",,,5111244,4843745,3656812,1186933
+2015,Administrative,County administrator,Salaries,690287,665137,665130,7
+2015,Administrative,County administrator,Operations,25435,29304,29302,2
+2015,Administrative,County administrator,,715722,694441,694432,9
+2015,Administrative,County attorney,Salaries,729430,744744,744738,6
+2015,Administrative,County attorney,Operations,49678,45445,45444,1
+2015,Administrative,County attorney,Contractual agreements,17500,16914,16913,1
+2015,Administrative,County attorney,,796608,807103,807095,8
+2015,Administrative,County council,Salaries,744280,709672,709667,5
+2015,Administrative,County council,Operations,429705,415797,298662,117135
+2015,Administrative,County council,Contractual agreements,7000,0,0,0
+2015,Administrative,County council,,1180985,1125469,1008329,117140
+2015,Administrative,,,2693315,2627013,2509856,117157
+2015,General services,Procurement Services,Salaries,402167,402170,402166,4
+2015,General services,Procurement Services,Operations,14391,16983,16981,2
+2015,General services,Procurement Services,Contractual agreements,2033,2033,2033,0
+2015,General services,Procurement Services,,418591,421186,421180,6
+2015,General services,Financial operations,Salaries,1421932,1430004,1429996,8
+2015,General services,Financial operations,Operations,31434,14507,14478,29
+2015,General services,Financial operations,Contractual agreements,4170,3686,3685,1
+2015,General services,Financial operations,,1457536,1448197,1448159,38
+2015,General services,Information systems,Salaries,3118396,3682541,3682536,5
+2015,General services,Information systems,Operations,1812150,1470031,1469891,140
+2015,General services,Information systems,Contractual agreements,248000,217816,217785,31
+2015,General services,Information systems,,5178546,5370388,5370212,176
+2015,General services,Tax services,Salaries,3207978,2760775,2760761,14
+2015,General services,Tax services,Operations,395098,331361,331353,8
+2015,General services,Tax services,Contractual agreements,31911,21083,21082,1
+2015,General services,Tax services,,3634987,3113219,3113196,23
+2015,General services,Geographical information systems,Salaries,502576,526918,526913,5
+2015,General services,Geographical information systems,Operations,27826,27013,27012,1
+2015,General services,Geographical information systems,Contractual agreements,54598,50174,50174,0
+2015,General services,Geographical information systems,,585000,604105,604099,6
+2015,General services,Human resources,Salaries,866474,841711,841703,8
+2015,General services,Human resources,Operations,39895,30282,30279,3
+2015,General services,Human resources,Contractual agreements,6000,5754,5754,0
+2015,General services,Human resources,,912369,877747,877736,11
+2015,General services,Registration and election,Salaries,806970,923898,923889,9
+2015,General services,Registration and election,Operations,111557,93938,93934,4
+2015,General services,Registration and election,Contractual agreements,72672,87382,87382,0
+2015,General services,Registration and election,,991199,1105218,1105205,13
+2015,General services,Human relations,Salaries,151385,159677,159674,3
+2015,General services,Human relations,Operations,6179,9757,9743,14
+2015,General services,Human relations,Contractual agreements,3321,3310,3309,1
+2015,General services,Human relations,,160885,172744,172726,18
+2015,General services,Veterans affairs,Salaries,312543,312895,312893,2
+2015,General services,Veterans affairs,Operations,9329,9319,9313,6
+2015,General services,Veterans affairs,Contractual agreements,2425,2293,2292,1
+2015,General services,Veterans affairs,,324297,324507,324498,9
+2015,General services,,,13663410,13437311,13437011,300
+2015,Community development and planning,"Engineering, Roads/Bridges",Salaries,4814420,4516311,4516296,15
+2015,Community development and planning,"Engineering, Roads/Bridges",Operations,1200863,1198626,1198332,294
+2015,Community development and planning,"Engineering, Roads/Bridges",Contractual agreements,67648,45831,45829,2
+2015,Community development and planning,"Engineering, Roads/Bridges",Capital outlay,26850,39204,39204,0
+2015,Community development and planning,"Engineering, Roads/Bridges",,6109781,5799972,5799661,311
+2015,Community development and planning,Property maintenance,Salaries,1838481,1774444,1774441,3
+2015,Community development and planning,Property maintenance,Operations,3445890,3417163,3415387,1776
+2015,Community development and planning,Property maintenance,Contractual agreements,942370,930505,930504,1
+2015,Community development and planning,Property maintenance,,6226741,6122112,6120332,1780
+2015,Community development and planning,Planning and code enforcement,Salaries,3849963,3353713,3353708,5
+2015,Community development and planning,Planning and code enforcement,Operations,511862,424828,422754,2074
+2015,Community development and planning,Planning and code enforcement,Contractual agreements,96191,92891,92796,95
+2015,Community development and planning,Planning and code enforcement,,4458016,3871432,3869258,2174
+2015,Community development and planning,Animal care services,Salaries,2026241,1955750,1955742,8
+2015,Community development and planning,Animal care services,Operations,1040152,1027183,929598,97585
+2015,Community development and planning,Animal care services,Capital outlay,0,22500,22354,146
+2015,Community development and planning,Animal care services,,3066393,3005433,2907694,97739
+2015,Community development and planning,,,19860931,18798949,18696945,102004
+2015,Public safety,Records management services division,Salaries,2314571,2239017,2239009,8
+2015,Public safety,Records management services division,Operations,33593,33892,33891,1
+2015,Public safety,Records management services division,Contractual agreements,15783,15523,15523,0
+2015,Public safety,Records management services division,,2363947,2288432,2288423,9
+2015,Public safety,Detention division,Salaries,17605883,18757469,18757458,11
+2015,Public safety,Detention division,Operations,1737893,1789034,1765501,23533
+2015,Public safety,Detention division,Contractual agreements,337462,337545,337545,0
+2015,Public safety,Detention division,,19681238,20884048,20860504,23544
+2015,Public safety,Forensic division,Salaries,2157010,2106153,2106147,6
+2015,Public safety,Forensic division,Operations,109848,198250,198244,6
+2015,Public safety,Forensic division,Contractual agreements,83975,83221,83221,0
+2015,Public safety,Forensic division,Capital outlay,0,60186,60186,0
+2015,Public safety,Forensic division,,2350833,2447810,2447798,12
+2015,Public safety,Indigent defense,Salaries,166865,167542,167536,6
+2015,Public safety,Indigent defense,Operations,1844,2131,2130,1
+2015,Public safety,Indigent defense,,168709,169673,169666,7
+2015,Public safety,,,24564727,25789963,25766391,23572
+2015,Emergency medical services,,Salaries,14807109,15225156,15225151,5
+2015,Emergency medical services,,Operations,1571730,1636053,1636037,16
+2015,Emergency medical services,,Contractual agreements,378628,373068,373068,0
+2015,Emergency medical services,,Capital outlay,0,99143,99143,0
+2015,Emergency medical services,,,16757467,17333420,17333399,21
+2015,Elected officials - Judicial,Circuit solicitor,Salaries,6191783,6220238,6220232,6
+2015,Elected officials - Judicial,Circuit solicitor,Operations,113890,114825,114773,52
+2015,Elected officials - Judicial,Circuit solicitor,Contractual agreements,149493,99419,99418,1
+2015,Elected officials - Judicial,Circuit solicitor,,6455166,6434482,6434423,59
+2015,Elected officials - Judicial,Clerk of court,Salaries,3377297,3354696,3354692,4
+2015,Elected officials - Judicial,Clerk of court,Operations,195391,179919,179916,3
+2015,Elected officials - Judicial,Clerk of court,Contractual agreements,34500,22389,22388,1
+2015,Elected officials - Judicial,Clerk of court,,3607188,3557004,3556996,8
+2015,Elected officials - Judicial,Probate court,Salaries,1369746,1402687,1402682,5
+2015,Elected officials - Judicial,Probate court,Operations,54139,54194,54191,3
+2015,Elected officials - Judicial,Probate court,Contractual agreements,97397,82706,82706,0
+2015,Elected officials - Judicial,Probate court,,1521282,1539587,1539579,8
+2015,Elected officials - Judicial,Master in equity,Salaries,577347,540207,540203,4
+2015,Elected officials - Judicial,Master in equity,Operations,8933,6173,6171,2
+2015,Elected officials - Judicial,Master in equity,Contractual agreements,1800,500,500,0
+2015,Elected officials - Judicial,Master in equity,,588080,546880,546874,6
+2015,Elected officials - Judicial,Magistrates,Salaries,4293447,4451550,4451488,62
+2015,Elected officials - Judicial,Magistrates,Operations,288798,277826,277800,26
+2015,Elected officials - Judicial,Magistrates,Contractual agreements,38480,16966,16959,7
+2015,Elected officials - Judicial,Magistrates,,4620725,4746342,4746247,95
+2015,Elected officials - Judicial,Public defender,Salaries,68630,111873,111110,763
+2015,Elected officials - Judicial,Public defender,Operations,77195,84957,84955,2
+2015,Elected officials - Judicial,Public defender,Contractual agreements,468000,417000,417000,0
+2015,Elected officials - Judicial,Public defender,,613825,613830,613065,765
+2015,Elected officials - Judicial,,,17406266,17438125,17437184,941
+2015,Elected officials - Fiscal,Treasurer,Salaries,418396,414202,414199,3
+2015,Elected officials - Fiscal,Treasurer,Operations,11321,10264,10261,3
+2015,Elected officials - Fiscal,Treasurer,Contractual agreements,500,667,667,0
+2015,Elected officials - Fiscal,Treasurer,,430217,425133,425127,6
+2015,Elected officials - Fiscal,Register of deeds,Salaries,1047440,1020491,1020485,6
+2015,Elected officials - Fiscal,Register of deeds,Operations,93172,89051,89028,23
+2015,Elected officials - Fiscal,Register of deeds,Contractual agreements,18840,22604,22603,1
+2015,Elected officials - Fiscal,Register of deeds,,1159452,1132146,1132116,30
+2015,Elected officials - Fiscal,Auditor,Salaries,1128923,1145076,1145071,5
+2015,Elected officials - Fiscal,Auditor,Operations,24604,24661,24658,3
+2015,Elected officials - Fiscal,Auditor,,1153527,1169737,1169729,8
+2015,Elected officials - Fiscal,Board of appeals,Operations,9000,1316,1316,0
+2015,Elected officials - Fiscal,Board of appeals,,9000,1316,1316,0
+2015,Elected officials - Fiscal,,,2752196,2728332,2728288,44
+2015,Elected officials - Law enforcement,Sheriff,Salaries,35846541,35004809,35004451,358
+2015,Elected officials - Law enforcement,Sheriff,Operations,3341641,3784036,3766825,17211
+2015,Elected officials - Law enforcement,Sheriff,Contractual agreements,220470,221928,221927,1
+2015,Elected officials - Law enforcement,Sheriff,Capital outlay,0,5341,5341,0
+2015,Elected officials - Law enforcement,Sheriff,,39408652,39016114,38998544,17570
+2015,Elected officials - Law enforcement,Coroner,Salaries,668777,726273,726267,6
+2015,Elected officials - Law enforcement,Coroner,Operations,100600,92176,92168,8
+2015,Elected officials - Law enforcement,Coroner,,769377,818449,818435,14
+2015,Elected officials - Law enforcement,County medical examiner,Operations,353839,351686,351683,3
+2015,Elected officials - Law enforcement,County medical examiner,,353839,351686,351683,3
+2015,Elected officials - Law enforcement,,,40531868,40186249,40168662,17587
+2015,"Boards, commissions and others",Legislative delegation,Salaries,53653,56013,56009,4
+2015,"Boards, commissions and others",Legislative delegation,Operations,4806,2838,2838,0
+2015,"Boards, commissions and others",Legislative delegation,,58459,58851,58847,4
+2015,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,1338217,1332327,1331126,1201
+2015,"Boards, commissions and others",Agencies and social service agencies,,1338217,1332327,1331126,1201
+2015,"Boards, commissions and others",Non-departmental,Salaries,21600,1416,1416,0
+2015,"Boards, commissions and others",Non-departmental,Operations,2933554,3047955,2256970,790985
+2015,"Boards, commissions and others",Non-departmental,Contractual agreements,120000,220680,220680,0
+2015,"Boards, commissions and others",Non-departmental,,3075154,3270051,2479066,790985
+2015,"Boards, commissions and others",Employee benefit fund,Salaries,390300,81494,81493,1
+2015,"Boards, commissions and others",Employee benefit fund,Operations,38000,48225,48225,0
+2015,"Boards, commissions and others",Employee benefit fund,,428300,129719,129718,1
+2015,"Boards, commissions and others",,,4900130,4790948,3998757,792191
+2016,Administrative,County administrator,Salaries,712580,697005,686255,10750
+2016,Administrative,County administrator,Operations,25435,25508,24466,1042
+2016,Administrative,County administrator,,738015,722513,710721,11792
+2016,Administrative,County attorney,Salaries,768477,811398,811346,52
+2016,Administrative,County attorney,Operations,49678,38748,38746,2
+2016,Administrative,County attorney,Contractual agreements,18500,2011,2010,1
+2016,Administrative,County attorney,,836655,852157,852102,55
+2016,Administrative,County council,Salaries,756502,756502,749168,7334
+2016,Administrative,County council,Operations,394105,394105,272254,121851
+2016,Administrative,County council,Contractual agreements,7000,7000,839,6161
+2016,Administrative,County council,,1157607,1157607,1022261,135346
+2016,Administrative,,,2732277,2732277,2585084,147193
+2016,General services,Procurement Services,Salaries,472878,474415,474410,5
+2016,General services,Procurement Services,Operations,16391,16391,16389,2
+2016,General services,Procurement Services,Contractual agreements,2033,2033,2033,0
+2016,General services,Procurement Services,,491302,492839,492832,7
+2016,General services,Financial operations,Salaries,1476663,1479960,1479954,6
+2016,General services,Financial operations,Operations,35009,30175,23512,6663
+2016,General services,Financial operations,Contractual agreements,595,595,0,595
+2016,General services,Financial operations,,1512267,1510730,1503466,7264
+2016,General services,Information systems,Salaries,3799530,3824060,3824054,6
+2016,General services,Information systems,Operations,1650000,1625470,1625441,29
+2016,General services,Information systems,,5449530,5449530,5449495,35
+2016,General services,Tax services,Salaries,3322162,2766807,2766792,15
+2016,General services,Tax services,Operations,562493,641993,555352,86641
+2016,General services,Tax services,Contractual agreements,29616,29616,10537,19079
+2016,General services,Tax services,,3914271,3438416,3332681,105735
+2016,General services,Geographical information systems,Salaries,545217,547364,547364,0
+2016,General services,Geographical information systems,Operations,29475,29475,25216,4259
+2016,General services,Geographical information systems,Contractual agreements,56635,54488,53817,671
+2016,General services,Geographical information systems,,631327,631327,626397,4930
+2016,General services,Human resources,Salaries,891496,894441,894435,6
+2016,General services,Human resources,Operations,39895,36481,34247,2234
+2016,General services,Human resources,Contractual agreements,6000,6000,6000,0
+2016,General services,Human resources,,937391,936922,934682,2240
+2016,General services,Registration and election,Salaries,825072,1148222,1148216,6
+2016,General services,Registration and election,Operations,111557,83833,83830,3
+2016,General services,Registration and election,Contractual agreements,90002,89106,89105,1
+2016,General services,Registration and election,,1026631,1321161,1321151,10
+2016,General services,Human relations,Salaries,145384,151645,151641,4
+2016,General services,Human relations,Operations,6179,10977,10973,4
+2016,General services,Human relations,Contractual agreements,3321,3244,3244,0
+2016,General services,Human relations,,154884,165866,165858,8
+2016,General services,Veterans affairs,Salaries,324445,330046,330045,1
+2016,General services,Veterans affairs,Operations,9329,4917,4911,6
+2016,General services,Veterans affairs,Contractual agreements,2425,3092,3092,0
+2016,General services,Veterans affairs,,336199,338055,338048,7
+2016,General services,,,14453802,14284846,14164610,120236
+2016,Community development and planning,"Engineering, Roads/Bridges",Salaries,4788100,4745780,4745746,34
+2016,Community development and planning,"Engineering, Roads/Bridges",Operations,1215700,1281368,1281345,23
+2016,Community development and planning,"Engineering, Roads/Bridges",Contractual agreements,67810,61426,61413,13
+2016,Community development and planning,"Engineering, Roads/Bridges",Capital outlay,11850,0,0,0
+2016,Community development and planning,"Engineering, Roads/Bridges",,6083460,6088574,6088504,70
+2016,Community development and planning,Property maintenance,Salaries,1894704,1795639,1785602,10037
+2016,Community development and planning,Property maintenance,Operations,3514066,3571223,3537896,33327
+2016,Community development and planning,Property maintenance,Contractual agreements,922394,865237,425971,439266
+2016,Community development and planning,Property maintenance,,6331164,6232099,5749469,482630
+2016,Community development and planning,Planning and code enforcement,Salaries,3501076,3375010,3308796,66214
+2016,Community development and planning,Planning and code enforcement,Operations,472257,471837,395728,76109
+2016,Community development and planning,Planning and code enforcement,Contractual agreements,90491,90911,90892,19
+2016,Community development and planning,Planning and code enforcement,,4063824,3937758,3795416,142342
+2016,Community development and planning,Animal care services,Salaries,2657939,2598821,2573735,25086
+2016,Community development and planning,Animal care services,Operations,1272757,1272757,1132772,139985
+2016,Community development and planning,Animal care services,Contractual agreements,2400,2400,410,1990
+2016,Community development and planning,Animal care services,,3933096,3873978,3706917,167061
+2016,Community development and planning,,,20411544,20132409,19340306,792103
+2016,Public safety,Records management services division,Salaries,2427077,2230222,2230216,6
+2016,Public safety,Records management services division,Operations,33593,33183,31322,1861
+2016,Public safety,Records management services division,Contractual agreements,16833,17243,17229,14
+2016,Public safety,Records management services division,,2477503,2280648,2278767,1881
+2016,Public safety,Detention division,Salaries,18529402,19303356,19299673,3683
+2016,Public safety,Detention division,Operations,1785893,1739060,1733769,5291
+2016,Public safety,Detention division,Contractual agreements,365513,177998,177987,11
+2016,Public safety,Detention division,Capital outlay,0,0,438746,-438746
+2016,Public safety,Detention division,,20680808,21220414,21650175,-429761
+2016,Public safety,Forensic division,Salaries,2312312,2259606,2259601,5
+2016,Public safety,Forensic division,Operations,159848,162575,159872,2703
+2016,Public safety,Forensic division,Contractual agreements,83975,78975,78912,63
+2016,Public safety,Forensic division,,2556135,2501156,2498385,2771
+2016,Public safety,Indigent defense,Salaries,212249,199116,199112,4
+2016,Public safety,Indigent defense,Operations,2347,2074,2057,17
+2016,Public safety,Indigent defense,,214596,201190,201169,21
+2016,Public safety,,,25929042,26203408,26628496,-425088
+2016,Emergency medical services,,Salaries,15710284,15895403,15895399,4
+2016,Emergency medical services,,Operations,1649530,2036909,2033790,3119
+2016,Emergency medical services,,Contractual agreements,1007709,433371,433371,0
+2016,Emergency medical services,,Capital outlay,0,42000,41437,563
+2016,Emergency medical services,,,18367523,18407683,18403997,3686
+2016,Elected officials - Judicial,Circuit solicitor,Salaries,6358630,6508859,6508853,6
+2016,Elected officials - Judicial,Circuit solicitor,Operations,124334,127994,127990,4
+2016,Elected officials - Judicial,Circuit solicitor,Contractual agreements,141493,109242,109240,2
+2016,Elected officials - Judicial,Circuit solicitor,,6624457,6746095,6746083,12
+2016,Elected officials - Judicial,Clerk of court,Salaries,3481579,3450102,3450099,3
+2016,Elected officials - Judicial,Clerk of court,Operations,207328,205761,190608,15153
+2016,Elected officials - Judicial,Clerk of court,Contractual agreements,22563,22063,22041,22
+2016,Elected officials - Judicial,Clerk of court,,3711470,3677926,3662748,15178
+2016,Elected officials - Judicial,Probate court,Salaries,1506363,1554558,1554552,6
+2016,Elected officials - Judicial,Probate court,Operations,54536,78583,78579,4
+2016,Elected officials - Judicial,Probate court,Contractual agreements,97000,69414,69413,1
+2016,Elected officials - Judicial,Probate court,,1657899,1702555,1702544,11
+2016,Elected officials - Judicial,Master in equity,Salaries,584700,540044,539270,774
+2016,Elected officials - Judicial,Master in equity,Operations,8733,8733,7101,1632
+2016,Elected officials - Judicial,Master in equity,Contractual agreements,2000,2000,562,1438
+2016,Elected officials - Judicial,Master in equity,,595433,550777,546933,3844
+2016,Elected officials - Judicial,Magistrates,Salaries,4609904,4689421,4689275,146
+2016,Elected officials - Judicial,Magistrates,Operations,305944,282927,282913,14
+2016,Elected officials - Judicial,Magistrates,Contractual agreements,49058,26102,26094,8
+2016,Elected officials - Judicial,Magistrates,,4964906,4998450,4998282,168
+2016,Elected officials - Judicial,Public defender,Salaries,189630,249630,249630,0
+2016,Elected officials - Judicial,Public defender,Operations,118195,98195,95004,3191
+2016,Elected officials - Judicial,Public defender,Contractual agreements,440000,400000,400000,0
+2016,Elected officials - Judicial,Public defender,,747825,747825,744634,3191
+2016,Elected officials - Judicial,,,18301990,18423628,18401224,22404
+2016,Elected officials - Fiscal,Treasurer,Salaries,434668,434668,425706,8962
+2016,Elected officials - Fiscal,Treasurer,Operations,13921,13881,11732,2149
+2016,Elected officials - Fiscal,Treasurer,Contractual agreements,700,740,734,6
+2016,Elected officials - Fiscal,Treasurer,,449289,449289,438172,11117
+2016,Elected officials - Fiscal,Register of deeds,Salaries,1062893,1062893,1042735,20158
+2016,Elected officials - Fiscal,Register of deeds,Operations,91910,91910,91409,501
+2016,Elected officials - Fiscal,Register of deeds,Contractual agreements,18250,18250,18001,249
+2016,Elected officials - Fiscal,Register of deeds,,1173053,1173053,1152145,20908
+2016,Elected officials - Fiscal,Auditor,Salaries,1199124,1199124,1180815,18309
+2016,Elected officials - Fiscal,Auditor,Operations,26604,26604,26152,452
+2016,Elected officials - Fiscal,Auditor,,1225728,1225728,1206967,18761
+2016,Elected officials - Fiscal,Board of appeals,Operations,9000,9000,773,8227
+2016,Elected officials - Fiscal,Board of appeals,,9000,9000,773,8227
+2016,Elected officials - Fiscal,,,2857070,2857070,2798057,59013
+2016,Elected officials - Law enforcement,Sheriff,Salaries,37389033,37010340,36812841,197499
+2016,Elected officials - Law enforcement,Sheriff,Operations,3411674,3644907,3649530,-4623
+2016,Elected officials - Law enforcement,Sheriff,Contractual agreements,256437,256437,255282,1155
+2016,Elected officials - Law enforcement,Sheriff,,41057144,40911684,40717653,194031
+2016,Elected officials - Law enforcement,Coroner,Salaries,694538,851123,851118,5
+2016,Elected officials - Law enforcement,Coroner,Operations,132875,121750,121747,3
+2016,Elected officials - Law enforcement,Coroner,,827413,972873,972865,8
+2016,Elected officials - Law enforcement,County medical examiner,Operations,353839,353839,347325,6514
+2016,Elected officials - Law enforcement,County medical examiner,,353839,353839,347325,6514
+2016,Elected officials - Law enforcement,,,42238396,42238396,42037843,200553
+2016,"Boards, commissions and others",Legislative delegation,Salaries,57992,58333,58328,5
+2016,"Boards, commissions and others",Legislative delegation,Operations,4806,4465,611,3854
+2016,"Boards, commissions and others",Legislative delegation,,62798,62798,58939,3859
+2016,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,1340829,1394530,1401553,-7023
+2016,"Boards, commissions and others",Agencies and social service agencies,,1340829,1394530,1401553,-7023
+2016,"Boards, commissions and others",Non-departmental,Salaries,21600,1036,1036,0
+2016,"Boards, commissions and others",Non-departmental,Operations,3152105,3367630,2440422,927208
+2016,"Boards, commissions and others",Non-departmental,Contractual agreements,120000,201805,201804,1
+2016,"Boards, commissions and others",Non-departmental,,3293705,3570471,2643262,927209
+2016,"Boards, commissions and others",Employee benefit fund,Salaries,390738,56048,44120,11928
+2016,"Boards, commissions and others",Employee benefit fund,Operations,38000,54150,54150,0
+2016,"Boards, commissions and others",Employee benefit fund,,428738,110198,98270,11928
+2016,"Boards, commissions and others",,,5126070,5137997,4202024,935973
+2017,Administrative,County administrator,Salaries,726912,740176,740173,3
+2017,Administrative,County administrator,Operations,25435,27456,26598,858
+2017,Administrative,County administrator,,752347,767632,766771,861
+2017,Administrative,County attorney,Salaries,786251,851850,851846,4
+2017,Administrative,County attorney,Operations,26178,26985,26983,2
+2017,Administrative,County attorney,Contractual agreements,42000,21591,21591,0
+2017,Administrative,County attorney,,854429,900426,900420,6
+2017,Administrative,County council,Salaries,782322,782322,777937,4385
+2017,Administrative,County council,Operations,404105,404105,293577,110528
+2017,Administrative,County council,Contractual agreements,7000,7000,2711,4289
+2017,Administrative,County council,,1193427,1193427,1074225,119202
+2017,Administrative,,,2800203,2861485,2741416,120069
+2017,General services,Procurement Services,Salaries,478759,478680,464816,13864
+2017,General services,Procurement Services,Operations,16391,16470,16414,56
+2017,General services,Procurement Services,Contractual agreements,2033,2033,1753,280
+2017,General services,Procurement Services,,497183,497183,482983,14200
+2017,General services,Financial operations,Salaries,1501532,1513576,1513091,485
+2017,General services,Financial operations,Operations,34934,22890,19484,3406
+2017,General services,Financial operations,Contractual agreements,670,670,0,670
+2017,General services,Financial operations,,1537136,1537136,1532575,4561
+2017,General services,Information systems,Salaries,3873712,3944355,3944352,3
+2017,General services,Information systems,Operations,1650000,1581062,1540854,40208
+2017,General services,Information systems,,5523712,5525417,5485206,40211
+2017,General services,Tax services,Salaries,3386508,2982375,2719921,262454
+2017,General services,Tax services,Operations,434771,454771,376147,78624
+2017,General services,Tax services,Contractual agreements,29616,29616,27332,2284
+2017,General services,Tax services,,3850895,3466762,3123400,343362
+2017,General services,Geographical information systems,Salaries,553960,556300,556175,125
+2017,General services,Geographical information systems,Operations,29475,23985,20868,3117
+2017,General services,Geographical information systems,Contractual agreements,56635,59785,58169,1616
+2017,General services,Geographical information systems,,640070,640070,635212,4858
+2017,General services,Human resources,Salaries,980704,970574,964112,6462
+2017,General services,Human resources,Operations,39895,39895,29273,10622
+2017,General services,Human resources,Contractual agreements,6000,6000,2235,3765
+2017,General services,Human resources,,1026599,1016469,995620,20849
+2017,General services,Registration and election,Salaries,840280,1234929,1234923,6
+2017,General services,Registration and election,Operations,111557,99748,94961,4787
+2017,General services,Registration and election,Contractual agreements,90002,89590,89589,1
+2017,General services,Registration and election,,1041839,1424267,1419473,4794
+2017,General services,Human relations,Salaries,147336,157466,157466,0
+2017,General services,Human relations,Operations,6179,6179,5653,526
+2017,General services,Human relations,Contractual agreements,3321,3321,3270,51
+2017,General services,Human relations,,156836,166966,166389,577
+2017,General services,Veterans affairs,Salaries,328086,334235,329503,4732
+2017,General services,Veterans affairs,Operations,9329,6458,6221,237
+2017,General services,Veterans affairs,Contractual agreements,2425,3197,3188,9
+2017,General services,Veterans affairs,,339840,343890,338912,4978
+2017,General services,,,14614110,14618160,14179770,438390
+2017,Community development and planning,"Engineering, Roads/Bridges",Salaries,4852252,4852310,4746532,105778
+2017,Community development and planning,"Engineering, Roads/Bridges",Operations,1212550,1396205,1267389,128816
+2017,Community development and planning,"Engineering, Roads/Bridges",Contractual agreements,67810,62933,54121,8812
+2017,Community development and planning,"Engineering, Roads/Bridges",Capital outlay,15000,12221,30309,-18088
+2017,Community development and planning,"Engineering, Roads/Bridges",,6147612,6323669,6098351,225318
+2017,Community development and planning,Property maintenance,Salaries,1926177,1926177,1823491,102686
+2017,Community development and planning,Property maintenance,Operations,3490866,3529143,3302518,226625
+2017,Community development and planning,Property maintenance,Contractual agreements,922394,884117,879430,4687
+2017,Community development and planning,Property maintenance,,6339437,6339437,6005439,333998
+2017,Community development and planning,Planning and code enforcement,Salaries,3599569,3586569,3252797,333772
+2017,Community development and planning,Planning and code enforcement,Operations,454457,467457,339478,127979
+2017,Community development and planning,Planning and code enforcement,Contractual agreements,90491,90491,87950,2541
+2017,Community development and planning,Planning and code enforcement,,4144517,4144517,3680225,464292
+2017,Community development and planning,Animal care services,Salaries,2713047,2747971,2747965,6
+2017,Community development and planning,Animal care services,Operations,1272757,1221498,1077080,144418
+2017,Community development and planning,Animal care services,Contractual agreements,2400,18735,18730,5
+2017,Community development and planning,Animal care services,,3988204,3988204,3843775,144429
+2017,Community development and planning,,,20619770,20795827,19627790,1168037
+2017,Public safety,Records management services division,Salaries,2491371,2253137,2253135,2
+2017,Public safety,Records management services division,Operations,33593,33466,32132,1334
+2017,Public safety,Records management services division,Contractual agreements,16833,16833,16353,480
+2017,Public safety,Records management services division,,2541797,2303436,2301620,1816
+2017,Public safety,Detention division,Salaries,18898991,19580714,19580711,3
+2017,Public safety,Detention division,Operations,1785893,1943725,1935874,7851
+2017,Public safety,Detention division,Contractual agreements,369013,351027,157562,193465
+2017,Public safety,Detention division,,21053897,21875466,21674147,201319
+2017,Public safety,Forensic division,Salaries,2369616,2316730,2280071,36659
+2017,Public safety,Forensic division,Operations,159848,179534,172011,7523
+2017,Public safety,Forensic division,Contractual agreements,89975,70289,69868,421
+2017,Public safety,Forensic division,,2619439,2566553,2521950,44603
+2017,Public safety,Indigent defense,Salaries,215363,213741,202909,10832
+2017,Public safety,Indigent defense,Operations,2347,2074,1806,268
+2017,Public safety,Indigent defense,,217710,215815,204715,11100
+2017,Public safety,,,26432843,26961270,26702432,258838
+2017,Emergency medical services,,Salaries,16226187,16226187,16171191,54996
+2017,Emergency medical services,,Operations,1625730,1729378,1701613,27765
+2017,Emergency medical services,,Contractual agreements,1031509,927861,909249,18612
+2017,Emergency medical services,,Capital outlay,0,0,12000,-12000
+2017,Emergency medical services,,,18883426,18883426,18794053,89373
+2017,Elected officials - Judicial,Circuit solicitor,Salaries,6567367,6567367,6554663,12704
+2017,Elected officials - Judicial,Circuit solicitor,Operations,124334,132149,132090,59
+2017,Elected officials - Judicial,Circuit solicitor,Contractual agreements,141493,133678,108445,25233
+2017,Elected officials - Judicial,Circuit solicitor,,6833194,6833194,6795198,37996
+2017,Elected officials - Judicial,Clerk of court,Salaries,3532601,3532601,3394129,138472
+2017,Elected officials - Judicial,Clerk of court,Operations,207328,207328,199415,7913
+2017,Elected officials - Judicial,Clerk of court,Contractual agreements,22563,22563,21789,774
+2017,Elected officials - Judicial,Clerk of court,,3762492,3762492,3615333,147159
+2017,Elected officials - Judicial,Probate court,Salaries,1532426,1535421,1535415,6
+2017,Elected officials - Judicial,Probate court,Operations,54536,66541,53681,12860
+2017,Elected officials - Judicial,Probate court,Contractual agreements,97000,82000,75681,6319
+2017,Elected officials - Judicial,Probate court,,1683962,1683962,1664777,19185
+2017,Elected officials - Judicial,Master in equity,Salaries,602605,602605,549691,52914
+2017,Elected officials - Judicial,Master in equity,Operations,8733,8733,6606,2127
+2017,Elected officials - Judicial,Master in equity,Contractual agreements,2000,2000,791,1209
+2017,Elected officials - Judicial,Master in equity,,613338,613338,557088,56250
+2017,Elected officials - Judicial,Magistrates,Salaries,4714630,4754418,4731075,23343
+2017,Elected officials - Judicial,Magistrates,Operations,305944,298275,288642,9633
+2017,Elected officials - Judicial,Magistrates,Contractual agreements,49058,17161,15554,1607
+2017,Elected officials - Judicial,Magistrates,,5069632,5069854,5035271,34583
+2017,Elected officials - Judicial,Public defender,Salaries,189630,269632,269630,2
+2017,Elected officials - Judicial,Public defender,Operations,103195,103193,102702,491
+2017,Elected officials - Judicial,Public defender,Contractual agreements,440000,360000,360000,0
+2017,Elected officials - Judicial,Public defender,,732825,732825,732332,493
+2017,Elected officials - Judicial,,,18695443,18695665,18399999,295666
+2017,Elected officials - Fiscal,Treasurer,Salaries,440488,444851,444848,3
+2017,Elected officials - Fiscal,Treasurer,Operations,14621,12979,13005,-26
+2017,Elected officials - Fiscal,Treasurer,Contractual agreements,700,807,807,0
+2017,Elected officials - Fiscal,Treasurer,,455809,458637,458660,-23
+2017,Elected officials - Fiscal,Register of deeds,Salaries,1090052,1082852,1082851,1
+2017,Elected officials - Fiscal,Register of deeds,Operations,91910,103307,103317,-10
+2017,Elected officials - Fiscal,Register of deeds,Contractual agreements,18250,20250,20243,7
+2017,Elected officials - Fiscal,Register of deeds,,1200212,1206409,1206411,-2
+2017,Elected officials - Fiscal,Auditor,Salaries,1212719,1212719,1208151,4568
+2017,Elected officials - Fiscal,Auditor,Operations,26604,26604,26002,602
+2017,Elected officials - Fiscal,Auditor,,1239323,1239323,1234153,5170
+2017,Elected officials - Fiscal,Board of appeals,Operations,9000,9000,0,9000
+2017,Elected officials - Fiscal,Board of appeals,,9000,9000,0,9000
+2017,Elected officials - Fiscal,,,2904344,2913369,2899224,14145
+2017,Elected officials - Law enforcement,Sheriff,Salaries,38591071,38426092,38423379,2713
+2017,Elected officials - Law enforcement,Sheriff,Operations,3511674,3696652,3639179,57473
+2017,Elected officials - Law enforcement,Sheriff,Contractual agreements,262437,262437,250996,11441
+2017,Elected officials - Law enforcement,Sheriff,Capital outlay,0,4700,4622,78
+2017,Elected officials - Law enforcement,Sheriff,,42365182,42389881,42318176,71705
+2017,Elected officials - Law enforcement,Coroner,Salaries,777738,917819,917816,3
+2017,Elected officials - Law enforcement,Coroner,Operations,131200,106800,108931,-2131
+2017,Elected officials - Law enforcement,Coroner,,908938,1024619,1026747,-2128
+2017,Elected officials - Law enforcement,County medical examiner,Operations,353839,342395,336292,6103
+2017,Elected officials - Law enforcement,County medical examiner,,353839,342395,336292,6103
+2017,Elected officials - Law enforcement,,,43627959,43756895,43681215,75680
+2017,"Boards, commissions and others",Legislative delegation,Salaries,58578,58901,58900,1
+2017,"Boards, commissions and others",Legislative delegation,Operations,4806,4483,469,4014
+2017,"Boards, commissions and others",Legislative delegation,,63384,63384,59369,4015
+2017,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,1375545,1482947,1481695,1252
+2017,"Boards, commissions and others",Agencies and social service agencies,,1375545,1482947,1481695,1252
+2017,"Boards, commissions and others",Non-departmental,Salaries,21600,10766,10763,3
+2017,"Boards, commissions and others",Non-departmental,Operations,3242171,2300056,2752246,-452190
+2017,"Boards, commissions and others",Non-departmental,Contractual agreements,120000,150000,122688,27312
+2017,"Boards, commissions and others",Non-departmental,Capital outlay,0,220851,120851,100000
+2017,"Boards, commissions and others",Non-departmental,,3383771,2681673,3006548,-324875
+2017,"Boards, commissions and others",Employee benefit fund,Salaries,390300,53344,53344,0
+2017,"Boards, commissions and others",Employee benefit fund,Operations,38000,61875,61875,0
+2017,"Boards, commissions and others",Employee benefit fund,,428300,115219,115219,0
+2017,"Boards, commissions and others",,,5251000,4343223,4662831,-319608
+2018,Administrative services,County administrator,Salaries,771933,771933,684670,87263
+2018,Administrative services,County administrator,Operations,25880,25880,18153,7727
+2018,Administrative services,County administrator,,797813,797813,702823,94990
+2018,Administrative services,County attorney,Salaries,920488,920488,904157,16331
+2018,Administrative services,County attorney,Operations,29000,34000,28727,5273
+2018,Administrative services,County attorney,Contractual agreements,40371,35371,27471,7900
+2018,Administrative services,County attorney,,989859,989859,960355,29504
+2018,Administrative services,County council,Salaries,824704,824704,754782,69922
+2018,Administrative services,County council,Operations,418355,418355,278408,139947
+2018,Administrative services,County council,Contractual agreements,7000,7000,3051,3949
+2018,Administrative services,County council,,1250059,1250059,1036241,213818
+2018,Administrative services,,,3037731,3037731,2699419,338312
+2018,General services,Procurement services,Salaries,495047,393400,393392,8
+2018,General services,Procurement services,Operations,17402,20346,18191,2155
+2018,General services,Procurement services,Contractual agreements,2570,1775,1200,575
+2018,General services,Procurement services,,515019,415521,412783,2738
+2018,General services,Financial operations,Salaries,1567242,1507591,1507583,8
+2018,General services,Financial operations,Operations,35876,34156,33586,570
+2018,General services,Financial operations,Contractual agreements,351,371,369,2
+2018,General services,Financial operations,,1603469,1542118,1541538,580
+2018,General services,Information systems,Salaries,3927888,4238753,4238393,360
+2018,General services,Information systems,Operations,1678875,1529083,1336384,192699
+2018,General services,Information systems,,5606763,5767836,5574777,193059
+2018,General services,Tax services,Salaries,3398902,2964262,2864410,99852
+2018,General services,Tax services,Operations,448648,448648,373595,75053
+2018,General services,Tax services,Contractual agreements,52866,52866,27885,24981
+2018,General services,Tax services,,3900416,3465776,3265890,199886
+2018,General services,Geographical information systems,Salaries,573649,573649,572662,987
+2018,General services,Geographical information systems,Operations,30806,26706,26286,420
+2018,General services,Geographical information systems,Contractual agreements,56811,60911,60895,16
+2018,General services,Geographical information systems,,661266,661266,659843,1423
+2018,General services,Human resources,Salaries,1023396,1023396,1011557,11839
+2018,General services,Human resources,Operations,39295,39295,34596,4699
+2018,General services,Human resources,Contractual agreements,6000,6000,5245,755
+2018,General services,Human resources,,1068691,1068691,1051398,17293
+2018,General services,Registration and election,Salaries,852417,1154333,1154315,18
+2018,General services,Registration and election,Operations,111557,111557,75815,35742
+2018,General services,Registration and election,Contractual agreements,93529,93529,89441,4088
+2018,General services,Registration and election,,1057503,1359419,1319571,39848
+2018,General services,Human relations,Salaries,152412,163387,163379,8
+2018,General services,Human relations,Operations,6345,3953,2936,1017
+2018,General services,Human relations,Contractual agreements,3321,0,0,0
+2018,General services,Human relations,,162078,167340,166315,1025
+2018,General services,Veterans affairs,Salaries,366165,349316,346467,2849
+2018,General services,Veterans affairs,Operations,9535,7058,5382,1676
+2018,General services,Veterans affairs,Contractual agreements,2425,4902,4844,58
+2018,General services,Veterans affairs,,378125,361276,356693,4583
+2018,General services,,,14953330,14809243,14348808,460435
+2018,Community development and planning,"Engineering, roads and bridges",Salaries,5053451,4834817,4816574,18243
+2018,Community development and planning,"Engineering, roads and bridges",Operations,1228622,1491090,1327091,163999
+2018,Community development and planning,"Engineering, roads and bridges",Contractual agreements,71013,60184,49288,10896
+2018,Community development and planning,"Engineering, roads and bridges",Capital outlay,37893,37893,12893,25000
+2018,Community development and planning,"Engineering, roads and bridges",,6390979,6423984,6205846,218138
+2018,Community development and planning,Property maintenance,Salaries,1895149,1905149,1893826,11323
+2018,Community development and planning,Property maintenance,Operations,3643671,3713852,3717576,-3724
+2018,Community development and planning,Property maintenance,Contractual agreements,978822,923499,920602,2897
+2018,Community development and planning,Property maintenance,,6517642,6542500,6532004,10496
+2018,Community development and planning,Planning and code enforcement,Salaries,3890822,3832960,3666402,166558
+2018,Community development and planning,Planning and code enforcement,Operations,634253,631853,471224,160629
+2018,Community development and planning,Planning and code enforcement,Contractual agreements,90491,92891,48024,44867
+2018,Community development and planning,Planning and code enforcement,,4615566,4557704,4185650,372054
+2018,Community development and planning,Animal care services,Salaries,3088815,3088347,3039624,48723
+2018,Community development and planning,Animal care services,Operations,1302222,1302691,1161318,141373
+2018,Community development and planning,Animal care services,Capital outlay,0,0,48312,-48312
+2018,Community development and planning,Animal care services,,4391037,4391038,4249254,141784
+2018,Community development and planning,,,21915224,21915226,21172754,742472
+2018,Public safety,Records management services division,Salaries,2599220,2314713,2314706,7
+2018,Public safety,Records management services division,Operations,34710,33860,32885,975
+2018,Public safety,Records management services division,Contractual agreements,17693,18543,17967,576
+2018,Public safety,Records management services division,,2651623,2367116,2365558,1558
+2018,Public safety,Detention division,Salaries,19585590,20131727,20056419,75308
+2018,Public safety,Detention division,Operations,2020372,2020532,1944454,76078
+2018,Public safety,Detention division,Contractual agreements,374307,374307,195075,179232
+2018,Public safety,Detention division,,21980269,22526566,22195948,330618
+2018,Public safety,Forensic division,Salaries,2394791,2394791,2354096,40695
+2018,Public safety,Forensic division,Operations,164220,174220,155611,18609
+2018,Public safety,Forensic division,Contractual agreements,99975,89975,81406,8569
+2018,Public safety,Forensic division,,2658986,2658986,2591113,67873
+2018,Public safety,Indigent defense,Salaries,209179,209179,208606,573
+2018,Public safety,Indigent defense,Operations,2388,2228,1538,690
+2018,Public safety,Indigent defense,,211567,211407,210144,1263
+2018,Public safety,,,,,27362763,401312
+2018,Emergency medical services,,Salaries,17530609,17530609,16662940,867669
+2018,Emergency medical services,,Operations,2075101,2053351,1905588,147763
+2018,Emergency medical services,,Contractual agreements,435649,457399,420713,36686
+2018,Emergency medical services,,,20041359,20041359,18989241,1052118
+2018,Elected officials - judicial services,Circuit solicitor,Salaries,6943128,6933084,6865673,67411
+2018,Elected officials - judicial services,Circuit solicitor,Operations,132508,147952,146332,1620
+2018,Elected officials - judicial services,Circuit solicitor,Contractual agreements,137971,132571,104601,27970
+2018,Elected officials - judicial services,Circuit solicitor,,7213607,7213607,7116606,97001
+2018,Elected officials - judicial services,Clerk of court,Salaries,3655144,3655144,3471642,183502
+2018,Elected officials - judicial services,Clerk of court,Operations,211351,211351,186611,24740
+2018,Elected officials - judicial services,Clerk of court,Contractual agreements,22563,22563,22042,521
+2018,Elected officials - judicial services,Clerk of court,,3889058,3889058,3680295,208763
+2018,Elected officials - judicial services,Probate court,Salaries,1603695,1603695,1593581,10114
+2018,Elected officials - judicial services,Probate court,Operations,72336,72336,58880,13456
+2018,Elected officials - judicial services,Probate court,Contractual agreements,102000,102000,85148,16852
+2018,Elected officials - judicial services,Probate court,,1778031,1778031,1737609,40422
+2018,Elected officials - judicial services,Master in equity,Salaries,572980,572980,566757,6223
+2018,Elected officials - judicial services,Master in equity,Operations,8733,8733,7451,1282
+2018,Elected officials - judicial services,Master in equity,Contractual agreements,2000,2000,529,1471
+2018,Elected officials - judicial services,Master in equity,,583713,583713,574737,8976
+2018,Elected officials - judicial services,Magistrates,Salaries,4841696,4985843,4985716,127
+2018,Elected officials - judicial services,Magistrates,Operations,319004,312944,264496,48448
+2018,Elected officials - judicial services,Magistrates,Contractual agreements,35296,41296,16853,24443
+2018,Elected officials - judicial services,Magistrates,,5195996,5340083,5267065,73018
+2018,Elected officials - judicial services,Public defender,Salaries,0,224692,224692,0
+2018,Elected officials - judicial services,Public defender,Operations,141636,136636,126607,10029
+2018,Elected officials - judicial services,Public defender,Contractual agreements,440000,330000,330000,0
+2018,Elected officials - judicial services,Public defender,,581636,691328,681299,10029
+2018,Elected officials - judicial services,,,19242041,19495820,19057611,438209
+2018,Elected officials - fiscal services,Treasurer,Salaries,456959,456959,432180,24779
+2018,Elected officials - fiscal services,Treasurer,Operations,20616,20616,13681,6935
+2018,Elected officials - fiscal services,Treasurer,Contractual agreements,968,968,887,81
+2018,Elected officials - fiscal services,Treasurer,,478543,478543,446748,31795
+2018,Elected officials - fiscal services,Register of deeds,Salaries,1189305,1189155,1168566,20589
+2018,Elected officials - fiscal services,Register of deeds,Operations,118910,109060,108840,220
+2018,Elected officials - fiscal services,Register of deeds,Contractual agreements,14750,24750,24735,15
+2018,Elected officials - fiscal services,Register of deeds,,1322965,1322965,1302141,20824
+2018,Elected officials - fiscal services,Auditor,Salaries,1271356,1271356,1245780,25576
+2018,Elected officials - fiscal services,Auditor,Operations,27070,27070,22008,5062
+2018,Elected officials - fiscal services,Auditor,,1298426,1298426,1267788,30638
+2018,Elected officials - fiscal services,Board of appeals,Operations,9000,9000,0,9000
+2018,Elected officials - fiscal services,Board of appeals,,9000,9000,0,9000
+2018,Elected officials - fiscal services,,,3108934,3108934,3016677,92257
+2018,Elected officials - law enforcement,Sheriff,Salaries,41160195,40935912,40270417,665495
+2018,Elected officials - law enforcement,Sheriff,Operations,3792155,3792155,3633178,158977
+2018,Elected officials - law enforcement,Sheriff,Contractual agreements,265858,265858,245254,20604
+2018,Elected officials - law enforcement,Sheriff,,45218208,44993925,44148849,845076
+2018,Elected officials - law enforcement,Coroner,Salaries,920217,1144500,1144490,10
+2018,Elected officials - law enforcement,Coroner,Operations,158696,158696,131715,26981
+2018,Elected officials - law enforcement,Coroner,,1078913,1303196,1276205,26991
+2018,Elected officials - law enforcement,County medical examiner,Operations,503839,505139,491667,13472
+2018,Elected officials - law enforcement,County medical examiner,,503839,505139,491667,13472
+2018,Elected officials - law enforcement,,,46800960,46802260,45916721,885539
+2018,"Boards, commissions and others",Legislative delegation,Salaries,60513,60750,60748,2
+2018,"Boards, commissions and others",Legislative delegation,Operations,4890,4890,4539,351
+2018,"Boards, commissions and others",Legislative delegation,,65403,65640,65287,353
+2018,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,1538716,1538716,1523454,15262
+2018,"Boards, commissions and others",Agencies and social service agencies,,1538716,1538716,1523454,15262
+2018,"Boards, commissions and others",Non-departmental,Salaries,21600,0,0,0
+2018,"Boards, commissions and others",Non-departmental,Operations,3409009,2906427,2897763,8664
+2018,"Boards, commissions and others",Non-departmental,Contractual agreements,120000,228240,192875,35365
+2018,"Boards, commissions and others",Non-departmental,Capital outlay,0,152942,152942,0
+2018,"Boards, commissions and others",Non-departmental,,3550609,3287609,3243580,44029
+2018,"Boards, commissions and others",Employee benefit fund,Salaries,340300,195516,38634,156882
+2018,"Boards, commissions and others",Employee benefit fund,Operations,38000,72925,66399,6526
+2018,"Boards, commissions and others",Employee benefit fund,,378300,268441,105033,163408
+2018,"Boards, commissions and others",,,5533028,5160406,4937354,223052
+2019,Administrative services:,County administrator,Salaries,792778,792778,782771,10007
+2019,Administrative services:,County administrator,Operations,25880,25880,25219,661
+2019,Administrative services:,County administrator,,818658,818658,807990,10668
+2019,Administrative services:,County attorney,Salaries,944785,939785,931047,8738
+2019,Administrative services:,County attorney,Operations,29000,25300,21706,3594
+2019,Administrative services:,County attorney,Contractual agreements,40371,49071,29688,19383
+2019,Administrative services:,County attorney,,1014156,1014156,982441,31715
+2019,Administrative services:,County council,Salaries,844083,844083,772581,71502
+2019,Administrative services:,County council,Operations,418355,418355,344247,74108
+2019,Administrative services:,County council,Contractual agreements,7000,7000,3275,3725
+2019,Administrative services:,County council,,1269438,1269438,1120103,149335
+2019,Administrative services:,,,3102252,3102252,2910534,191718
+2019,General services:,Procurement services,Salaries,507222,507191,493156,14035
+2019,General services:,Procurement services,Operations,17402,18893,18515,378
+2019,General services:,Procurement services,Contractual agreements,2570,2570,1757,813
+2019,General services:,Procurement services,,527194,528654,513428,15226
+2019,General services:,Financial operations,Salaries,1607709,1591024,1549276,41748
+2019,General services:,Financial operations,Operations,35858,35238,20708,14530
+2019,General services:,Financial operations,Contractual agreements,369,389,387,2
+2019,General services:,Financial operations,,1643936,1626651,1570371,56280
+2019,General services:,Information systems,Salaries,4027437,4401648,4401644,4
+2019,General services:,Information systems,Operations,1678875,1221530,1209416,12114
+2019,General services:,Information systems,Capital outlay,0,83134,83134,0
+2019,General services:,Information systems,,5706312,5706312,5694194,12118
+2019,General services:,Tax services,Salaries,3481450,3112071,2864985,247086
+2019,General services:,Tax services,Operations,439648,473532,411716,61816
+2019,General services:,Tax services,Contractual agreements,82366,48482,41601,6881
+2019,General services:,Tax services,,4003464,3634085,3318302,315783
+2019,General services:,Geographical information systems,Salaries,588326,588326,587381,945
+2019,General services:,Geographical information systems,Operations,30806,31806,26871,4935
+2019,General services:,Geographical information systems,Contractual agreements,56811,55811,54541,1270
+2019,General services:,Geographical information systems,,675943,675943,668793,7150
+2019,General services:,Human resources,Salaries,1049501,1060439,1060436,3
+2019,General services:,Human resources,Operations,39295,34028,33743,285
+2019,General services:,Human resources,Contractual agreements,6000,4997,4996,1
+2019,General services:,Human resources,,1094796,1099464,1099175,289
+2019,General services:,Registration and election,Salaries,874735,1273827,1273820,7
+2019,General services:,Registration and election,Operations,111557,83706,73631,10075
+2019,General services:,Registration and election,Contractual agreements,93529,91667,91667,0
+2019,General services:,Registration and election,,1079821,1449200,1439118,10082
+2019,General services:,Human relations,Salaries,156202,174537,174532,5
+2019,General services:,Human relations,Operations,6345,3354,3351,3
+2019,General services:,Human relations,Contractual agreements,3321,594,594,0
+2019,General services:,Human relations,,165868,178485,178477,8
+2019,General services:,Veterans affairs,Salaries,374450,374079,362538,11541
+2019,General services:,Veterans affairs,Operations,9535,8736,6999,1737
+2019,General services:,Veterans affairs,Contractual agreements,2425,3595,3593,2
+2019,General services:,Veterans affairs,,386410,386410,373130,13280
+2019,General services:,,,15283744,15285204,14854988,430216
+2019,Community development and planning:,"Engineering, roads and bridges",Salaries,5172699,4840869,4838845,2024
+2019,Community development and planning:,"Engineering, roads and bridges",Operations,1228622,1524564,1372028,152536
+2019,Community development and planning:,"Engineering, roads and bridges",Contractual agreements,71013,55468,49537,5931
+2019,Community development and planning:,"Engineering, roads and bridges",Capital outlay,27893,5293,5293,0
+2019,Community development and planning:,"Engineering, roads and bridges",,6500227,6426194,6265703,160491
+2019,Community development and planning:,Property maintenance,Salaries,1939844,1860267,1860263,4
+2019,Community development and planning:,Property maintenance,Operations,3688188,3679056,3670506,8550
+2019,Community development and planning:,Property maintenance,Contractual agreements,983665,918870,918727,143
+2019,Community development and planning:,Property maintenance,Capital outlay,0,76573,76573,0
+2019,Community development and planning:,Property maintenance,,6611697,6534766,6526069,8697
+2019,Community development and planning:,Planning and code enforcement,Salaries,3986698,4016295,4016287,8
+2019,Community development and planning:,Planning and code enforcement,Operations,613636,573661,456198,117463
+2019,Community development and planning:,Planning and code enforcement,Contractual agreements,90491,91176,84912,6264
+2019,Community development and planning:,Planning and code enforcement,,4690825,4681132,4557397,123735
+2019,Community development and planning:,Animal care services,Salaries,3163188,3369023,3369015,8
+2019,Community development and planning:,Animal care services,Operations,1302222,1280472,1253412,27060
+2019,Community development and planning:,Animal care services,Capital outlay,0,22900,22900,0
+2019,Community development and planning:,Animal care services,,4465410,4672395,4645327,27068
+2019,Community development and planning:,,,22268159,22314487,21994496,319991
+2019,Public safety:,Records management services division,Salaries,2660317,2622032,2420646,201386
+2019,Public safety:,Records management services division,Operations,34475,34475,32778,1697
+2019,Public safety:,Records management services division,Contractual agreements,17928,17928,16577,1351
+2019,Public safety:,Records management services division,,2712720,2674435,2470001,204434
+2019,Public safety:,Detention division,Salaries,20359143,20397428,20397422,6
+2019,Public safety:,Detention division,Operations,2020372,2105364,2050744,54620
+2019,Public safety:,Detention division,Contractual agreements,374307,168103,168103,0
+2019,Public safety:,Detention division,Capital outlay,0,121372,121372,0
+2019,Public safety:,Detention division,,22753822,22792267,22737641,54626
+2019,Public safety:,Emergency Management division,Salaries,0,246789,195172,51617
+2019,Public safety:,Emergency Management division,Operations,0,9338,9249,89
+2019,Public safety:,Emergency Management division,Contractual agreements,0,90,0,90
+2019,Public safety:,Emergency Management division,,0,256217,204421,51796
+2019,Public safety:,Forensic division,Salaries,2452269,2452269,2344092,108177
+2019,Public safety:,Forensic division,Operations,164220,195603,194324,1279
+2019,Public safety:,Forensic division,Contractual agreements,118975,105905,105905,0
+2019,Public safety:,Forensic division,Capital outlay,0,100000,99621,379
+2019,Public safety:,Forensic division,,2735464,2853777,2743942,109835
+2019,Public safety:,Indigent defense,Salaries,214309,214309,213845,464
+2019,Public safety:,Indigent defense,Operations,2388,2228,2028,200
+2019,Public safety:,Indigent defense,,216697,216537,215873,664
+2019,Public safety:,,,28418703,28793233,28371878,421355
+2019,Emergency medical services,,Salaries,17943091,17943091,16585484,1357607
+2019,Emergency medical services,,Operations,2071547,2001334,1690369,310965
+2019,Emergency medical services,,Contractual agreements,435649,447649,421140,26509
+2019,Emergency medical services,,Capital outlay,0,58213,58125,88
+2019,Emergency medical services,,,20450287,20450287,18755118,1695169
+2019,Elected officials - judicial services:,Circuit solicitor,Salaries,7117954,6985954,6922422,63532
+2019,Elected officials - judicial services:,Circuit solicitor,Operations,132508,138508,107815,30693
+2019,Elected officials - judicial services:,Circuit solicitor,Contractual agreements,137971,131971,106716,25255
+2019,Elected officials - judicial services:,Circuit solicitor,Capital outlay,0,20000,20000,0
+2019,Elected officials - judicial services:,Circuit solicitor,,7388433,7276433,7156953,119480
+2019,Elected officials - judicial services:,Clerk of court,Salaries,3744012,3554665,3516188,38477
+2019,Elected officials - judicial services:,Clerk of court,Operations,211351,147914,113196,34718
+2019,Elected officials - judicial services:,Clerk of court,Contractual agreements,22563,22563,19575,2988
+2019,Elected officials - judicial services:,Clerk of court,Capital outlay,0,63437,63437,0
+2019,Elected officials - judicial services:,Clerk of court,,3977926,3788579,3712396,76183
+2019,Elected officials - judicial services:,Probate court,Salaries,1641997,1641997,1627520,14477
+2019,Elected officials - judicial services:,Probate court,Operations,59536,59536,59366,170
+2019,Elected officials - judicial services:,Probate court,Contractual agreements,97000,97000,95963,1037
+2019,Elected officials - judicial services:,Probate court,,1798533,1798533,1782849,15684
+2019,Elected officials - judicial services:,Master in equity,Salaries,587369,587369,554022,33347
+2019,Elected officials - judicial services:,Master in equity,Operations,8733,8733,6243,2490
+2019,Elected officials - judicial services:,Master in equity,Contractual agreements,2000,2000,945,1055
+2019,Elected officials - judicial services:,Master in equity,,598102,598102,561210,36892
+2019,Elected officials - judicial services:,Magistrates,Salaries,4959234,5197628,5197621,7
+2019,Elected officials - judicial services:,Magistrates,Operations,319004,311746,311339,407
+2019,Elected officials - judicial services:,Magistrates,Contractual agreements,35296,18571,18528,43
+2019,Elected officials - judicial services:,Magistrates,,5313534,5527945,5527488,457
+2019,Elected officials - judicial services:,Public defender,Salaries,0,301392,301392,0
+2019,Elected officials - judicial services:,Public defender,Operations,112701,110942,110155,787
+2019,Elected officials - judicial services:,Public defender,Contractual agreements,440000,270000,270000,0
+2019,Elected officials - judicial services:,Public defender,,552701,682334,681547,787
+2019,Elected officials - judicial services:,,,19629229,19671926,19422443,249483
+2019,Elected officials - fiscal services:,Treasurer,Salaries,468321,469963,469954,9
+2019,Elected officials - fiscal services:,Treasurer,Operations,20616,18965,18004,961
+2019,Elected officials - fiscal services:,Treasurer,Contractual agreements,968,977,976,1
+2019,Elected officials - fiscal services:,Treasurer,,489905,489905,488934,971
+2019,Elected officials - fiscal services:,Register of deeds,Salaries,1216990,1218135,1191527,26608
+2019,Elected officials - fiscal services:,Register of deeds,Operations,118910,111911,110594,1317
+2019,Elected officials - fiscal services:,Register of deeds,Contractual agreements,14750,16250,16230,20
+2019,Elected officials - fiscal services:,Register of deeds,Capital outlay,0,5499,5499,0
+2019,Elected officials - fiscal services:,Register of deeds,,1350650,1351795,1323850,27945
+2019,Elected officials - fiscal services:,Auditor,Salaries,1302337,1302087,1278544,23543
+2019,Elected officials - fiscal services:,Auditor,Operations,27070,27320,19764,7556
+2019,Elected officials - fiscal services:,Auditor,,1329407,1329407,1298308,31099
+2019,Elected officials - fiscal services:,Board of appeals,Operations,9000,9000,0,9000
+2019,Elected officials - fiscal services:,Board of appeals,,9000,9000,0,9000
+2019,Elected officials - fiscal services:,,,3178962,3180107,3111092,69015
+2019,Elected officials - law enforcement:,Sheriff,Salaries,42751531,42068480,40713842,1354638
+2019,Elected officials - law enforcement:,Sheriff,Operations,3882510,4016368,3909869,106499
+2019,Elected officials - law enforcement:,Sheriff,Contractual agreements,268358,289203,288946,257
+2019,Elected officials - law enforcement:,Sheriff,Capital outlay,0,39978,39978,0
+2019,Elected officials - law enforcement:,Sheriff,,46902399,46414029,44952635,1461394
+2019,Elected officials - law enforcement:,Coroner,Salaries,942186,1222908,1222888,20
+2019,Elected officials - law enforcement:,Coroner,Operations,158696,158696,124811,33885
+2019,Elected officials - law enforcement:,Coroner,,1100882,1381604,1347699,33905
+2019,Elected officials - law enforcement:,County medical examiner,Operations,503839,503839,479451,24388
+2019,Elected officials - law enforcement:,County medical examiner,,503839,503839,479451,24388
+2019,Elected officials - law enforcement:,,,48507120,48299472,46779785,1519687
+2019,"Boards, commissions and others",Legislative delegation,Salaries,61963,64453,64450,3
+2019,"Boards, commissions and others",Legislative delegation,Operations,4890,2400,802,1598
+2019,"Boards, commissions and others",Legislative delegation,,66853,66853,65252,1601
+2019,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,1563640,1515071,1511787,3284
+2019,"Boards, commissions and others",Agencies and social service agencies,,1563640,1515071,1511787,3284
+2019,"Boards, commissions and others",Nondepartmental,Retiree claims,21600,0,2906233,-2906233
+2019,"Boards, commissions and others",Nondepartmental,Operations,3409009,3457841,3168850,288991
+2019,"Boards, commissions and others",Nondepartmental,Contractual agreements,120000,107000,51811,55189
+2019,"Boards, commissions and others",Nondepartmental,,3550609,3564841,6126894,-2562053
+2019,"Boards, commissions and others",Employee benefits,Salaries,340300,79758,29758,50000
+2019,"Boards, commissions and others",Employee benefits,Operations,38000,75825,75675,150
+2019,"Boards, commissions and others",Employee benefits,,378300,155583,105433,50150
+2019,"Boards, commissions and others",,,5559402,5302348,7809366,-2507018
+2020,Administrative services:,County administrator,Salaries,848998,870810,870807,3
+2020,Administrative services:,County administrator,Operations,25880,15654,15649,5
+2020,Administrative services:,County administrator,,874878,886464,886456,8
+2020,Administrative services:,County attorney,Salaries,932355,971816,971812,4
+2020,Administrative services:,County attorney,Operations,29000,17543,17542,1
+2020,Administrative services:,County attorney,Contractual agreements,40371,26365,26363,2
+2020,Administrative services:,County attorney,,1001726,1015724,1015717,7
+2020,Administrative services:,County council,Salaries,780360,800789,800786,3
+2020,Administrative services:,County council,Operations,417355,380428,273575,106853
+2020,Administrative services:,County council,Contractual agreements,8000,2810,2809,1
+2020,Administrative services:,County council,,1205715,1184027,1077170,106857
+2020,Administrative services:,,,3082319,3086215,2979343,106872
+2020,General services:,Procurement services,Salaries,474793,435811,435808,3
+2020,General services:,Procurement services,Operations,19512,19539,19529,10
+2020,General services:,Procurement services,Contractual agreements,2570,2780,2682,98
+2020,General services:,Procurement services,,496875,458130,458019,111
+2020,General services:,Financial operations,Salaries,1567478,1629868,1629865,3
+2020,General services:,Financial operations,Operations,35820,22746,22738,8
+2020,General services:,Financial operations,Contractual agreements,407,503,502,1
+2020,General services:,Financial operations,,1603705,1653117,1653105,12
+2020,General services:,Information systems,Salaries,4214725,4500036,4500031,5
+2020,General services:,Information systems,Operations,1738875,1375798,1375794,4
+2020,General services:,Information systems,Capital outlay,0,23079,23079,0
+2020,General services:,Information systems,,5953600,5898913,5898904,9
+2020,General services:,Tax services,Salaries,3451414,3119058,3119055,3
+2020,General services:,Tax services,Operations,490883,432376,427110,5266
+2020,General services:,Tax services,Contractual agreements,80106,36944,36943,1
+2020,General services:,Tax services,,4022403,3588378,3583108,5270
+2020,General services:,Geographical information systems,Salaries,592658,608809,608808,1
+2020,General services:,Geographical information systems,Operations,30355,22941,22940,1
+2020,General services:,Geographical information systems,Contractual agreements,57262,55855,55855,0
+2020,General services:,Geographical information systems,,680275,687605,687603,2
+2020,General services:,Human resources,Salaries,1072406,1113515,1113511,4
+2020,General services:,Human resources,Operations,39295,31841,31838,3
+2020,General services:,Human resources,Contractual agreements,6000,4734,4733,1
+2020,General services:,Human resources,,1117701,1150090,1150082,8
+2020,General services:,Registration and election,Salaries,924006,1873764,1873759,5
+2020,General services:,Registration and election,Operations,111557,162063,161565,498
+2020,General services:,Registration and election,Contractual agreements,93529,2293,2293,0
+2020,General services:,Registration and election,Capital outlay,0,38656,38656,0
+2020,General services:,Registration and election,,1129092,2076776,2076273,503
+2020,General services:,Human relations,Salaries,170675,178189,178184,5
+2020,General services:,Human relations,Operations,13496,5140,5139,1
+2020,General services:,Human relations,Contractual agreements,4370,2687,2687,0
+2020,General services:,Human relations,,188541,186016,186010,6
+2020,General services:,Veterans affairs,Salaries,373596,363695,363684,11
+2020,General services:,Veterans affairs,Operations,8167,6570,6568,2
+2020,General services:,Veterans affairs,Contractual agreements,3793,3939,3939,0
+2020,General services:,Veterans affairs,,385556,374204,374191,13
+2020,General services:,,,15577748,16073229,16067295,5934
+2020,Community development and planning:,"Engineering, roads and bridges",Salaries,5150353,5009597,5009575,22
+2020,Community development and planning:,"Engineering, roads and bridges",Operations,1317065,1116323,1072057,44266
+2020,Community development and planning:,"Engineering, roads and bridges",Contractual agreements,77003,71488,63770,7718
+2020,Community development and planning:,"Engineering, roads and bridges",Capital outlay,27893,0,0,0
+2020,Community development and planning:,"Engineering, roads and bridges",,6572314,6197408,6145402,52006
+2020,Community development and planning:,Property maintenance,Salaries,1914610,1925169,1925163,6
+2020,Community development and planning:,Property maintenance,Operations,3861239,3412189,3411889,300
+2020,Community development and planning:,Property maintenance,Contractual agreements,910614,835488,835125,363
+2020,Community development and planning:,Property maintenance,Capital outlay,0,51290,51290,0
+2020,Community development and planning:,Property maintenance,,6686463,6224136,6223467,669
+2020,Community development and planning:,Planning and code enforcement,Salaries,4109533,3941592,3941114,478
+2020,Community development and planning:,Planning and code enforcement,Operations,640722,399731,389703,10028
+2020,Community development and planning:,Planning and code enforcement,Contractual agreements,157500,140507,140506,1
+2020,Community development and planning:,Planning and code enforcement,,4907755,4481830,4471323,10507
+2020,Community development and planning:,Animal care services,Salaries,3654960,3705117,3705113,4
+2020,Community development and planning:,Animal care services,Operations,1302000,1268830,1231315,37515
+2020,Community development and planning:,Animal care services,,4956960,4973947,4936428,37519
+2020,Community development and planning:,,,23123492,21877321,21776620,100701
+2020,Public safety:,Records management services division,Salaries,2581792,2505866,2505863,3
+2020,Public safety:,Records management services division,Operations,34475,33160,33156,4
+2020,Public safety:,Records management services division,Contractual agreements,17928,18492,18492,0
+2020,Public safety:,Records management services division,,2634195,2557518,2557511,7
+2020,Public safety:,Detention division,Salaries,20708442,24305874,24118395,187479
+2020,Public safety:,Detention division,Operations,2060372,2125096,2097260,27836
+2020,Public safety:,Detention division,Contractual agreements,374307,171434,171434,0
+2020,Public safety:,Detention division,Capital outlay,0,7721,7721,0
+2020,Public safety:,Detention division,,23143121,26610125,26394810,215315
+2020,Public safety:,Emergency Management division,Salaries,517546,507848,334959,172889
+2020,Public safety:,Emergency Management division,Operations,18600,16114,16111,3
+2020,Public safety:,Emergency Management division,,536146,523962,351070,172892
+2020,Public safety:,Forensic division,Salaries,2567758,2512564,2512560,4
+2020,Public safety:,Forensic division,Operations,164220,158198,158191,7
+2020,Public safety:,Forensic division,Contractual agreements,118975,108547,108547,0
+2020,Public safety:,Forensic division,Capital outlay,0,2591,2591,0
+2020,Public safety:,Forensic division,,2850953,2781900,2781889,11
+2020,Public safety:,Indigent defense,Salaries,215820,221352,221347,5
+2020,Public safety:,Indigent defense,Operations,2388,2069,2068,1
+2020,Public safety:,Indigent defense,,218208,223421,223415,6
+2020,Public safety:,,,29382623,32696926,32308695,388231
+2020,Emergency medical services,,Salaries,17382952,19761580,13542010,6219570
+2020,Emergency medical services,,Operations,2071547,2102326,2049059,53267
+2020,Emergency medical services,,Contractual agreements,435649,413438,413421,17
+2020,Emergency medical services,,Capital outlay,0,36510,36510,0
+2020,Emergency medical services,,,19890148,22313854,16041000,6272854
+2020,Elected officials - judicial services:,Circuit solicitor,Salaries,7259030,7189405,7189402,3
+2020,Elected officials - judicial services:,Circuit solicitor,Operations,159896,176522,176516,6
+2020,Elected officials - judicial services:,Circuit solicitor,Contractual agreements,124583,56686,71086,-14400
+2020,Elected officials - judicial services:,Circuit solicitor,Capital outlay,15000,0,0,0
+2020,Elected officials - judicial services:,Circuit solicitor,,7558509,7422613,7437004,-14391
+2020,Elected officials - judicial services:,Clerk of court,Salaries,3665518,3566647,3566640,7
+2020,Elected officials - judicial services:,Clerk of court,Operations,221314,152435,152428,7
+2020,Elected officials - judicial services:,Clerk of court,Contractual agreements,12600,10094,9058,1036
+2020,Elected officials - judicial services:,Clerk of court,,3899432,3729176,3728126,1050
+2020,Elected officials - judicial services:,Probate court,Salaries,1679398,1776690,1776684,6
+2020,Elected officials - judicial services:,Probate court,Operations,61168,99136,98153,983
+2020,Elected officials - judicial services:,Probate court,Contractual agreements,122000,95522,95521,1
+2020,Elected officials - judicial services:,Probate court,,1862566,1971348,1970358,990
+2020,Elected officials - judicial services:,Master in equity,Salaries,591473,583200,583192,8
+2020,Elected officials - judicial services:,Master in equity,Operations,8733,6499,6498,1
+2020,Elected officials - judicial services:,Master in equity,Contractual agreements,2000,1328,678,650
+2020,Elected officials - judicial services:,Master in equity,,602206,591027,590368,659
+2020,Elected officials - judicial services:,Magistrates,Salaries,5149047,5279277,5279273,4
+2020,Elected officials - judicial services:,Magistrates,Operations,332628,251160,250384,776
+2020,Elected officials - judicial services:,Magistrates,Contractual agreements,38996,19301,19001,300
+2020,Elected officials - judicial services:,Magistrates,,5520671,5549738,5548658,1080
+2020,Elected officials - judicial services:,Public defender,Salaries,406630,373755,373754,1
+2020,Elected officials - judicial services:,Public defender,Operations,112701,137026,135629,1397
+2020,Elected officials - judicial services:,Public defender,Contractual agreements,440000,270833,270833,0
+2020,Elected officials - judicial services:,Public defender,Capital outlay,0,52866,27976,24890
+2020,Elected officials - judicial services:,Public defender,,959331,834480,808192,26288
+2020,Elected officials - judicial services:,,,20402715,20098382,20082706,15676
+2020,Elected officials - fiscal services:,Treasurer,Salaries,474851,482892,482887,5
+2020,Elected officials - fiscal services:,Treasurer,Operations,20576,14960,14659,301
+2020,Elected officials - fiscal services:,Treasurer,Contractual agreements,1008,651,650,1
+2020,Elected officials - fiscal services:,Treasurer,,496435,498503,498196,307
+2020,Elected officials - fiscal services:,Register of deeds,Salaries,1182215,1220018,1220013,5
+2020,Elected officials - fiscal services:,Register of deeds,Operations,110044,96933,96926,7
+2020,Elected officials - fiscal services:,Register of deeds,Contractual agreements,23616,31603,31603,0
+2020,Elected officials - fiscal services:,Register of deeds,,1315875,1348554,1348542,12
+2020,Elected officials - fiscal services:,Auditor,Salaries,1328207,1390934,1390932,2
+2020,Elected officials - fiscal services:,Auditor,Operations,27070,26296,26293,3
+2020,Elected officials - fiscal services:,Auditor,,1355277,1417230,1417225,5
+2020,Elected officials - fiscal services:,Board of appeals,Operations,9000,0,0,0
+2020,Elected officials - fiscal services:,Board of appeals,,9000,0,0,0
+2020,Elected officials - fiscal services:,,,3176587,3264287,3263963,324
+2020,Elected officials - law enforcement:,Sheriff,Salaries,43002540,46695342,46695336,6
+2020,Elected officials - law enforcement:,Sheriff,Operations,3996103,4496784,4493348,3436
+2020,Elected officials - law enforcement:,Sheriff,Contractual agreements,291620,445408,445407,1
+2020,Elected officials - law enforcement:,Sheriff,Capital outlay,169920,146554,146538,16
+2020,Elected officials - law enforcement:,Sheriff,,47460183,51784088,51780629,3459
+2020,Elected officials - law enforcement:,Coroner,Salaries,1088375,1547186,1065347,481839
+2020,Elected officials - law enforcement:,Coroner,Operations,186436,162404,159831,2573
+2020,Elected officials - law enforcement:,Coroner,,1274811,1709590,1225178,484412
+2020,Elected officials - law enforcement:,County medical examiner,Operations,679810,677585,638518,39067
+2020,Elected officials - law enforcement:,County medical examiner,Contractual agreements,55000,55000,55000,0
+2020,Elected officials - law enforcement:,County medical examiner,,734810,732585,693518,39067
+2020,Elected officials - law enforcement:,,,49469804,54226263,53699325,526938
+2020,"Boards, commissions and others",Legislative delegation,Salaries,62391,66246,66243,3
+2020,"Boards, commissions and others",Legislative delegation,Operations,4890,1583,1582,1
+2020,"Boards, commissions and others",Legislative delegation,,67281,67829,67825,4
+2020,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,4337648,4264642,4264552,90
+2020,"Boards, commissions and others",Agencies and social service agencies,,4337648,4264642,4264552,90
+2020,"Boards, commissions and others",Nondepartmental,Retiree claims,21601,715216,1936986,-1221770
+2020,"Boards, commissions and others",Nondepartmental,Operations,3963434,3685852,3680949,4903
+2020,"Boards, commissions and others",Nondepartmental,Contractual agreements,120000,183521,159280,24241
+2020,"Boards, commissions and others",Nondepartmental,Capital outlay,0,28476,28476,0
+2020,"Boards, commissions and others",Nondepartmental,,4105035,4613065,5805691,-1192626
+2020,"Boards, commissions and others",Employee benefits,Salaries,5158837,25206,25204,2
+2020,"Boards, commissions and others",Employee benefits,Operations,38000,74850,74850,0
+2020,"Boards, commissions and others",Employee benefits,,5196837,100056,100054,2
+2020,"Boards, commissions and others",,,13706801,9045592,10238122,-1192530
+2021,Administrative services:,County administrator,Salaries,855563,938537,938532,5
+2021,Administrative services:,County administrator,Operations,25880,12228,12255,-27
+2021,Administrative services:,County administrator,,881443,950765,950787,-22
+2021,Administrative services:,County attorney,Salaries,939277,1010676,1010672,4
+2021,Administrative services:,County attorney,Operations,29000,23248,23246,2
+2021,Administrative services:,County attorney,Contractual agreements,40371,35339,35339,0
+2021,Administrative services:,County attorney,,1008648,1069263,1069257,6
+2021,Administrative services:,County council,Salaries,785526,815842,815841,1
+2021,Administrative services:,County council,Operations,417355,386264,291096,95168
+2021,Administrative services:,County council,Contractual agreements,8000,3587,3587,0
+2021,Administrative services:,County council,,1210881,1205693,1110524,95169
+2021,Administrative services:,,,3100972,3225721,3130568,95153
+2021,General services:,Procurement services,Salaries,478101,482780,482775,5
+2021,General services:,Procurement services,Operations,19512,15996,15993,3
+2021,General services:,Procurement services,Contractual agreements,2570,1750,1750,0
+2021,General services:,Procurement services,,500183,500526,500518,8
+2021,General services:,Financial operations,Salaries,1579091,1730606,1730603,3
+2021,General services:,Financial operations,Operations,35799,19422,19417,5
+2021,General services:,Financial operations,Contractual agreements,428,428,427,1
+2021,General services:,Financial operations,,1615318,1750456,1750447,9
+2021,General services:,Information systems,Salaries,4309089,4671917,4670914,1003
+2021,General services:,Information systems,Operations,1738875,1366508,1362326,4182
+2021,General services:,Information systems,Capital outlay,0,9539,9539,0
+2021,General services:,Information systems,,6047964,6047964,6042779,5185
+2021,General services:,Tax services,Salaries,3475262,3455283,3132476,322807
+2021,General services:,Tax services,Operations,526908,526908,496977,29931
+2021,General services:,Tax services,Contractual agreements,80106,80106,44872,35234
+2021,General services:,Tax services,,4082276,4062297,3674325,387972
+2021,General services:,Geographical information systems,Salaries,596997,620876,620873,3
+2021,General services:,Geographical information systems,Operations,30355,26569,26569,0
+2021,General services:,Geographical information systems,Contractual agreements,57262,57148,57148,0
+2021,General services:,Geographical information systems,,684614,704593,704590,3
+2021,General services:,Human resources,Salaries,1080238,1132334,1132331,3
+2021,General services:,Human resources,Operations,37295,21758,21757,1
+2021,General services:,Human resources,Contractual agreements,6000,4442,4441,1
+2021,General services:,Human resources,,1123533,1158534,1158529,5
+2021,General services:,Registration and election,Salaries,930871,1248987,1248981,6
+2021,General services:,Registration and election,Operations,111557,94157,94153,4
+2021,General services:,Registration and election,Contractual agreements,93529,91838,91837,1
+2021,General services:,Registration and election,,1135957,1434982,1434971,11
+2021,General services:,Human relations,Salaries,171903,183691,183691,0
+2021,General services:,Human relations,Operations,5296,3667,3663,4
+2021,General services:,Human relations,Contractual agreements,4370,2672,2672,0
+2021,General services:,Human relations,,181569,190030,190026,4
+2021,General services:,Veterans affairs,Salaries,376000,388918,348912,40006
+2021,General services:,Veterans affairs,Operations,8167,10167,5120,5047
+2021,General services:,Veterans affairs,Contractual agreements,3793,1793,0,1793
+2021,General services:,Veterans affairs,,387960,400878,354032,46846
+2021,General services:,,,15759374,16250260,15810217,440043
+2021,Community development and planning:,"Engineering, roads and bridges",Salaries,5184860,5158625,5034322,124303
+2021,Community development and planning:,"Engineering, roads and bridges",Operations,1320432,1323692,1225269,98423
+2021,Community development and planning:,"Engineering, roads and bridges",Contractual agreements,77003,77003,45802,31201
+2021,Community development and planning:,"Engineering, roads and bridges",Capital outlay,27893,40849,7786,33063
+2021,Community development and planning:,"Engineering, roads and bridges",,6610188,6600169,6313179,286990
+2021,Community development and planning:,Property maintenance,Salaries,1927413,1927413,1898634,28779
+2021,Community development and planning:,Property maintenance,Operations,3961239,3821756,3250762,570994
+2021,Community development and planning:,Property maintenance,Contractual agreements,773092,837692,825469,12223
+2021,Community development and planning:,Property maintenance,Capital outlay,0,74883,74883,0
+2021,Community development and planning:,Property maintenance,,6661744,6661744,6049748,611996
+2021,Community development and planning:,Planning and code enforcement,Salaries,4138166,4081418,3966508,114910
+2021,Community development and planning:,Planning and code enforcement,Operations,631722,698489,645094,53395
+2021,Community development and planning:,Planning and code enforcement,Contractual agreements,137500,137500,93677,43823
+2021,Community development and planning:,Planning and code enforcement,,4907388,4917407,4705279,212128
+2021,Community development and planning:,Animal care services,Salaries,3678755,3678415,3636705,41710
+2021,Community development and planning:,Animal care services,Operations,1302000,1293719,1209723,83996
+2021,Community development and planning:,Animal care services,Capital outlay,0,8621,8621,0
+2021,Community development and planning:,Animal care services,,4980755,4980755,4855049,125706
+2021,Community development and planning:,,,23160075,23160075,21923255,1236820
+2021,Public safety:,Records management services division,Salaries,2597446,2545975,2545972,3
+2021,Public safety:,Records management services division,Operations,34475,34142,34137,5
+2021,Public safety:,Records management services division,Contractual agreements,17928,17255,17254,1
+2021,Public safety:,Records management services division,,2649849,2597372,2597363,9
+2021,Public safety:,Detention division,Salaries,21461931,25661507,25661500,7
+2021,Public safety:,Detention division,Operations,2060372,1851512,1853134,-1622
+2021,Public safety:,Detention division,Contractual agreements,374307,185457,185456,1
+2021,Public safety:,Detention division,Capital outlay,0,43963,43963,0
+2021,Public safety:,Detention division,,23896610,27742439,27744053,-1614
+2021,Public safety:,Emergency Management division,Salaries,521100,498442,358126,140316
+2021,Public safety:,Emergency Management division,Operations,18600,41258,41258,0
+2021,Public safety:,Emergency Management division,,539700,539700,399384,140316
+2021,Public safety:,Forensic division,Salaries,2714047,2880334,2880329,5
+2021,Public safety:,Forensic division,Operations,164220,155767,155792,-25
+2021,Public safety:,Forensic division,Contractual agreements,118975,118653,118652,1
+2021,Public safety:,Forensic division,,2997242,3154754,3154773,-19
+2021,Public safety:,Indigent defense,Salaries,217333,225569,225564,5
+2021,Public safety:,Indigent defense,Operations,2388,2130,2130,0
+2021,Public safety:,Indigent defense,,219721,227699,227694,5
+2021,Public safety:,,,30303122,34261964,34123267,138697
+2021,Emergency medical services,,Salaries,18488511,11836782,8685529,3151253
+2021,Emergency medical services,,Operations,2071547,2238492,2233978,4514
+2021,Emergency medical services,,Contractual agreements,435649,408149,405850,2299
+2021,Emergency medical services,,Capital outlay,0,45938,45938,0
+2021,Emergency medical services,,,20995707,14529361,11371295,3158066
+2021,Elected officials - judicial services:,Circuit solicitor,Salaries,7312594,7391158,7391152,6
+2021,Elected officials - judicial services:,Circuit solicitor,Operations,159896,186321,186666,-345
+2021,Elected officials - judicial services:,Circuit solicitor,Contractual agreements,124583,58072,58071,1
+2021,Elected officials - judicial services:,Circuit solicitor,,7597073,7635551,7635889,-338
+2021,Elected officials - judicial services:,Clerk of court,Salaries,3691109,3467506,3467502,4
+2021,Elected officials - judicial services:,Clerk of court,Operations,221314,355935,343569,12366
+2021,Elected officials - judicial services:,Clerk of court,Contractual agreements,12600,8941,8941,0
+2021,Elected officials - judicial services:,Clerk of court,,3925023,3832382,3820012,12370
+2021,Elected officials - judicial services:,Probate court,Salaries,1690847,1900501,1900497,4
+2021,Elected officials - judicial services:,Probate court,Operations,59536,68235,68230,5
+2021,Elected officials - judicial services:,Probate court,Contractual agreements,122000,88124,88122,2
+2021,Elected officials - judicial services:,Probate court,,1872383,2056860,2056849,11
+2021,Elected officials - judicial services:,Master in equity,Salaries,595722,591596,591593,3
+2021,Elected officials - judicial services:,Master in equity,Operations,8733,8733,5691,3042
+2021,Elected officials - judicial services:,Master in equity,Contractual agreements,2000,2000,1009,991
+2021,Elected officials - judicial services:,Master in equity,,606455,602329,598293,4036
+2021,Elected officials - judicial services:,Magistrates,Salaries,5184381,5442925,5442916,9
+2021,Elected officials - judicial services:,Magistrates,Operations,332628,169322,169335,-13
+2021,Elected officials - judicial services:,Magistrates,Contractual agreements,38996,20369,20351,18
+2021,Elected officials - judicial services:,Magistrates,,5556005,5632616,5632602,14
+2021,Elected officials - judicial services:,Public defender,Salaries,686630,1145330,1145330,0
+2021,Elected officials - judicial services:,Public defender,Operations,112701,64001,63305,696
+2021,Elected officials - judicial services:,Public defender,Contractual agreements,440000,30000,30000,0
+2021,Elected officials - judicial services:,Public defender,,1239331,1239331,1238635,696
+2021,Elected officials - judicial services:,,,20796270,20999069,20982280,16789
+2021,Elected officials - fiscal services:,Treasurer,Salaries,478234,497617,497611,6
+2021,Elected officials - fiscal services:,Treasurer,Operations,20576,6043,6042,1
+2021,Elected officials - fiscal services:,Treasurer,Contractual agreements,1008,66,65,1
+2021,Elected officials - fiscal services:,Treasurer,,499818,503726,503718,8
+2021,Elected officials - fiscal services:,Register of deeds,Salaries,1189983,1166754,1120153,46601
+2021,Elected officials - fiscal services:,Register of deeds,Operations,110044,110044,107647,2397
+2021,Elected officials - fiscal services:,Register of deeds,Contractual agreements,23616,23616,23599,17
+2021,Elected officials - fiscal services:,Register of deeds,,1323643,1300414,1251399,49015
+2021,Elected officials - fiscal services:,Auditor,Salaries,1337539,1524056,1524052,4
+2021,Elected officials - fiscal services:,Auditor,Operations,27070,25100,25092,8
+2021,Elected officials - fiscal services:,Auditor,,1364609,1549156,1549144,12
+2021,Elected officials - fiscal services:,Board of appeals,Operations,9000,9000,0,9000
+2021,Elected officials - fiscal services:,Board of appeals,,9000,9000,0,9000
+2021,Elected officials - fiscal services:,,,3197070,3362296,3304261,58035
+2021,Elected officials - law enforcement:,Sheriff,Salaries,44085828,49388058,49384180,3878
+2021,Elected officials - law enforcement:,Sheriff,Operations,4294413,4341364,4323627,17737
+2021,Elected officials - law enforcement:,Sheriff,Contractual agreements,297620,453171,452972,199
+2021,Elected officials - law enforcement:,Sheriff,Capital outlay,169920,772193,772193,0
+2021,Elected officials - law enforcement:,Sheriff,,48847781,54954786,54932972,21814
+2021,Elected officials - law enforcement:,Coroner,Salaries,1159457,946025,946021,4
+2021,Elected officials - law enforcement:,Coroner,Operations,191106,191106,167461,23645
+2021,Elected officials - law enforcement:,Coroner,,1350563,1137131,1113482,23649
+2021,Elected officials - law enforcement:,County medical examiner,Operations,679810,624769,624764,5
+2021,Elected officials - law enforcement:,County medical examiner,Contractual agreements,55000,55000,55000,0
+2021,Elected officials - law enforcement:,County medical examiner,,734810,679769,679764,5
+2021,Elected officials - law enforcement:,,,50933154,56771686,56726218,45468
+2021,"Boards, commissions and others",Legislative delegation,Salaries,62819,65427,65424,3
+2021,"Boards, commissions and others",Legislative delegation,Operations,4890,1632,1631,1
+2021,"Boards, commissions and others",Legislative delegation,,67709,67059,67055,4
+2021,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,4837648,4837648,3820748,1016900
+2021,"Boards, commissions and others",Agencies and social service agencies,,4837648,4837648,3820748,1016900
+2021,"Boards, commissions and others",Nondepartmental,Retiree claims,21601,1795029,1795029,0
+2021,"Boards, commissions and others",Nondepartmental,Operations,4458934,4662193,4623688,38505
+2021,"Boards, commissions and others",Nondepartmental,Contractual agreements,120000,257595,257595,0
+2021,"Boards, commissions and others",Nondepartmental,Capital outlay,0,104987,104987,0
+2021,"Boards, commissions and others",Nondepartmental,,4600535,6819804,6781299,38505
+2021,"Boards, commissions and others",Employee benefits,Salaries,6781595,190663,190662,1
+2021,"Boards, commissions and others",Employee benefits,Operations,38000,95625,95625,0
+2021,"Boards, commissions and others",Employee benefits,,6819595,286288,286287,1
+2021,"Boards, commissions and others",,,16325487,12010799,10955389,1055410
+2022,Administrative services:,County administrator,Salaries,935580,1006945,1006941,4
+2022,Administrative services:,County administrator,Operations,25880,17123,16777,346
+2022,Administrative services:,County administrator,,961460,1024068,1023718,350
+2022,Administrative services:,County attorney,Salaries,1062577,1100236,1100232,4
+2022,Administrative services:,County attorney,Operations,29000,31000,23327,7673
+2022,Administrative services:,County attorney,Contractual agreements,40371,38371,34754,3617
+2022,Administrative services:,County attorney,,1131948,1169607,1158313,11294
+2022,Administrative services:,County council,Salaries,841619,831989,831989,0
+2022,Administrative services:,County council,Operations,417355,417355,285345,132010
+2022,Administrative services:,County council,Contractual agreements,8000,8000,659,7341
+2022,Administrative services:,County council,,1266974,1257344,1117993,139351
+2022,Administrative services:,,,3360382,3451019,3300024,150995
+2022,General services:,Procurement services,Salaries,559895,538104,538718,-614
+2022,General services:,Procurement services,Operations,20920,20920,19766,1154
+2022,General services:,Procurement services,Contractual agreements,2700,2700,1723,977
+2022,General services:,Procurement services,,583515,561724,560207,1517
+2022,General services:,Financial operations,Salaries,1784468,1825099,1825097,2
+2022,General services:,Financial operations,Operations,35777,35777,17483,18294
+2022,General services:,Financial operations,Contractual agreements,450,450,427,23
+2022,General services:,Financial operations,,1820695,1861326,1843007,18319
+2022,General services:,Information systems,Salaries,4541393,4752359,4752355,4
+2022,General services:,Information systems,Operations,1738875,1552334,1491969,60365
+2022,General services:,Information systems,,6280268,6304693,6244324,60369
+2022,General services:,Tax services,Salaries,3537439,3211023,3211018,5
+2022,General services:,Tax services,Operations,452065,377882,349943,27939
+2022,General services:,Tax services,Contractual agreements,80106,30913,30912,1
+2022,General services:,Tax services,,4069610,3619818,3591873,27945
+2022,General services:,Geographical information systems,Salaries,638483,639814,639812,2
+2022,General services:,Geographical information systems,Operations,30355,30355,11949,18406
+2022,General services:,Geographical information systems,Contractual agreements,62410,62410,62256,154
+2022,General services:,Geographical information systems,,731248,732579,714017,18562
+2022,General services:,Human resources,Salaries,1201826,1157810,1157808,2
+2022,General services:,Human resources,Operations,37295,37295,31556,5739
+2022,General services:,Human resources,Contractual agreements,8000,8000,4031,3969
+2022,General services:,Human resources,,1247121,1203105,1193395,9710
+2022,General services:,Registration and election,Salaries,978384,1155077,1155071,6
+2022,General services:,Registration and election,Operations,140557,140557,126208,14349
+2022,General services:,Registration and election,Contractual agreements,288227,286806,220316,66490
+2022,General services:,Registration and election,,1407168,1582440,1501595,80845
+2022,General services:,Human relations,Salaries,189054,235254,235250,4
+2022,General services:,Human relations,Operations,5296,2661,2004,657
+2022,General services:,Human relations,Contractual agreements,4370,0,0,0
+2022,General services:,Human relations,,198720,237915,237254,661
+2022,General services:,Veterans affairs,Salaries,407659,346312,346308,4
+2022,General services:,Veterans affairs,Operations,13336,12312,2233,10079
+2022,General services:,Veterans affairs,Contractual agreements,6793,7817,2894,4923
+2022,General services:,Veterans affairs,,427788,366441,351435,15006
+2022,General services:,,,16766133,16470041,16237107,232934
+2022,Community development and planning:,"Engineering, roads and bridges",Salaries,5347218,5011784,5011761,23
+2022,Community development and planning:,"Engineering, roads and bridges",Operations,1373835,1311476,1270535,40941
+2022,Community development and planning:,"Engineering, roads and bridges",Contractual agreements,77600,60547,59492,1055
+2022,Community development and planning:,"Engineering, roads and bridges",Capital outlay,27893,12893,0,12893
+2022,Community development and planning:,"Engineering, roads and bridges",,6826546,6396700,6341788,54912
+2022,Community development and planning:,Property maintenance,Salaries,2017043,1821302,1819603,1699
+2022,Community development and planning:,Property maintenance,Operations,4109553,3928064,3839344,88720
+2022,Community development and planning:,Property maintenance,Contractual agreements,858404,1029668,941393,88275
+2022,Community development and planning:,Property maintenance,Capital outlay,0,75208,273310,-198102
+2022,Community development and planning:,Property maintenance,,6985000,6854242,6873650,-19408
+2022,Community development and planning:,Planning and code enforcement,Salaries,4166882,3985098,3950630,34468
+2022,Community development and planning:,Planning and code enforcement,Operations,641722,705608,656627,48981
+2022,Community development and planning:,Planning and code enforcement,Contractual agreements,157500,130904,130904,0
+2022,Community development and planning:,Planning and code enforcement,Capital outlay,14000,15131,13459,1672
+2022,Community development and planning:,Planning and code enforcement,,4980104,4836741,4751620,85121
+2022,Community development and planning:,Animal care services,Salaries,4235672,3899656,3899649,7
+2022,Community development and planning:,Animal care services,Operations,1302200,1311515,1283763,27752
+2022,Community development and planning:,Animal care services,,5537872,5211171,5183412,27759
+2022,Community development and planning:,,,24329522,23298854,23150470,148384
+2022,Public safety:,Records management services division,Salaries,2131468,1921255,1921250,5
+2022,Public safety:,Records management services division,Operations,34475,101958,86086,15872
+2022,Public safety:,Records management services division,Contractual agreements,15678,24469,23244,1225
+2022,Public safety:,Records management services division,,2181621,2047682,2030580,17102
+2022,Public safety:,Detention division,Salaries,26521808,25012099,25012094,5
+2022,Public safety:,Detention division,Operations,2060372,2283220,2239179,44041
+2022,Public safety:,Detention division,Contractual agreements,376557,208461,204199,4262
+2022,Public safety:,Detention division,,28958737,27503780,27455472,48308
+2022,Public safety:,Emergency Management division,Salaries,584633,553060,553057,3
+2022,Public safety:,Emergency Management division,Operations,27400,32400,28027,4373
+2022,Public safety:,Emergency Management division,,612033,585460,581084,4376
+2022,Public safety:,Forensic division,Salaries,2941756,2924648,2895774,28874
+2022,Public safety:,Forensic division,Operations,194220,219041,212784,6257
+2022,Public safety:,Forensic division,Contractual agreements,141975,123975,123234,741
+2022,Public safety:,Forensic division,,3277951,3267664,3231792,35872
+2022,Public safety:,Indigent defense,Salaries,231836,233229,233224,5
+2022,Public safety:,Indigent defense,Operations,2388,1858,1487,371
+2022,Public safety:,Indigent defense,,234224,235087,234711,376
+2022,Public safety:,,,35264566,33639673,33533639,106034
+2022,Emergency medical services,,Salaries,22200491,20732925,20732918,7
+2022,Emergency medical services,,Operations,2221547,2901197,2900990,207
+2022,Emergency medical services,,Contractual agreements,435649,1123896,1121739,2157
+2022,Emergency medical services,,Capital outlay,0,15000,15000,0
+2022,Emergency medical services,,,24857687,24773018,24770647,2371
+2022,Elected officials - judicial services:,Circuit solicitor,Salaries,8035549,7336678,7336674,4
+2022,Elected officials - judicial services:,Circuit solicitor,Operations,159896,195896,179138,16758
+2022,Elected officials - judicial services:,Circuit solicitor,Contractual agreements,124583,60583,55906,4677
+2022,Elected officials - judicial services:,Circuit solicitor,,8320028,7593157,7571718,21439
+2022,Elected officials - judicial services:,Clerk of court,Salaries,3865354,3540838,3540581,257
+2022,Elected officials - judicial services:,Clerk of court,Operations,268314,265278,214508,50770
+2022,Elected officials - judicial services:,Clerk of court,Contractual agreements,12000,12000,8565,3435
+2022,Elected officials - judicial services:,Clerk of court,Capital outlay,0,4207,4207,0
+2022,Elected officials - judicial services:,Clerk of court,,4145668,3822323,3767861,54462
+2022,Elected officials - judicial services:,Probate court,Salaries,1941703,1991157,1991153,4
+2022,Elected officials - judicial services:,Probate court,Operations,59536,188191,188166,25
+2022,Elected officials - judicial services:,Probate court,Contractual agreements,122000,98397,95868,2529
+2022,Elected officials - judicial services:,Probate court,,2123239,2277745,2275187,2558
+2022,Elected officials - judicial services:,Master in equity,Salaries,684752,586284,585705,579
+2022,Elected officials - judicial services:,Master in equity,Operations,7733,7733,4687,3046
+2022,Elected officials - judicial services:,Master in equity,Contractual agreements,3000,3000,412,2588
+2022,Elected officials - judicial services:,Master in equity,,695485,597017,590804,6213
+2022,Elected officials - judicial services:,Magistrates,Salaries,5800706,6044157,6044147,10
+2022,Elected officials - judicial services:,Magistrates,Operations,339103,297442,292304,5138
+2022,Elected officials - judicial services:,Magistrates,Contractual agreements,32521,32521,22288,10233
+2022,Elected officials - judicial services:,Magistrates,Capital outlay,0,8092,8092,0
+2022,Elected officials - judicial services:,Magistrates,,6172330,6382212,6366831,15381
+2022,Elected officials - judicial services:,Public defender,Salaries,891496,1331496,1331496,0
+2022,Elected officials - judicial services:,Public defender,Operations,91101,91482,83177,8305
+2022,Elected officials - judicial services:,Public defender,Contractual agreements,440000,0,0,0
+2022,Elected officials - judicial services:,Public defender,,1422597,1422978,1414673,8305
+2022,Elected officials - judicial services:,,,22879347,22095432,21987074,108358
+2022,Elected officials - fiscal services:,Treasurer,Salaries,510407,534516,534371,145
+2022,Elected officials - fiscal services:,Treasurer,Operations,20576,14300,12592,1708
+2022,Elected officials - fiscal services:,Treasurer,Contractual agreements,300,762,760,2
+2022,Elected officials - fiscal services:,Treasurer,,531283,549578,547723,1855
+2022,Elected officials - fiscal services:,Register of deeds,Salaries,1269664,1217412,1217406,6
+2022,Elected officials - fiscal services:,Register of deeds,Operations,107500,91602,87957,3645
+2022,Elected officials - fiscal services:,Register of deeds,Contractual agreements,26000,45100,44420,680
+2022,Elected officials - fiscal services:,Register of deeds,,1403164,1354114,1349783,4331
+2022,Elected officials - fiscal services:,Auditor,Salaries,1463434,1554397,1554394,3
+2022,Elected officials - fiscal services:,Auditor,Operations,27070,27070,17403,9667
+2022,Elected officials - fiscal services:,Auditor,,1490504,1581467,1571797,9670
+2022,Elected officials - fiscal services:,Board of appeals,Operations,9000,1100,0,1100
+2022,Elected officials - fiscal services:,Board of appeals,,9000,1100,0,1100
+2022,Elected officials - fiscal services:,,,3433951,3486259,3469303,16956
+2022,Elected officials - law enforcement:,Sheriff,Salaries,52629646,53382949,53393771,-10822
+2022,Elected officials - law enforcement:,Sheriff,Operations,4221950,5725877,5690812,35065
+2022,Elected officials - law enforcement:,Sheriff,Contractual agreements,542253,462093,459386,2707
+2022,Elected officials - law enforcement:,Sheriff,Capital outlay,0,166119,166119,0
+2022,Elected officials - law enforcement:,Sheriff,,57393849,59737038,59710088,26950
+2022,Elected officials - law enforcement:,Coroner,Salaries,1344425,1804900,1804891,9
+2022,Elected officials - law enforcement:,Coroner,Operations,224106,218967,217365,1602
+2022,Elected officials - law enforcement:,Coroner,,1568531,2023867,2022256,1611
+2022,Elected officials - law enforcement:,County medical examiner,Operations,841974,926072,925756,316
+2022,Elected officials - law enforcement:,County medical examiner,Contractual agreements,55000,55000,55000,0
+2022,Elected officials - law enforcement:,County medical examiner,,896974,981072,980756,316
+2022,Elected officials - law enforcement:,,,59859354,62741977,62713100,28877
+2022,"Boards, commissions and others",Legislative delegation,Salaries,66917,67019,67014,5
+2022,"Boards, commissions and others",Legislative delegation,Operations,4890,81,80,1
+2022,"Boards, commissions and others",Legislative delegation,,71807,67100,67094,6
+2022,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,4966648,4967055,4967054,1
+2022,"Boards, commissions and others",Agencies and social service agencies,Capital outlay,0,10788,10788,0
+2022,"Boards, commissions and others",Agencies and social service agencies,,4966648,4977843,4977842,1
+2022,"Boards, commissions and others",Nondepartmental,Retiree claims,21571,1221808,2290603,-1068795
+2022,"Boards, commissions and others",Nondepartmental,Operations,5441434,4908456,5570244,-661788
+2022,"Boards, commissions and others",Nondepartmental,Contractual agreements,120000,326604,326602,2
+2022,"Boards, commissions and others",Nondepartmental,Capital outlay,0,127838,127838,0
+2022,"Boards, commissions and others",Nondepartmental,,5583005,6584706,8315287,-1730581
+2022,"Boards, commissions and others",Employee benefits,Salaries,249931,4055,4055,0
+2022,"Boards, commissions and others",Employee benefits,Operations,78000,97725,97725,0
+2022,"Boards, commissions and others",Employee benefits,,327931,101780,101780,0
+2022,"Boards, commissions and others",,,10949391,11731429,13462003,-1730574
+2022,Debt service,,Principal,0,0,174592,-174592
+2022,Debt service,,,0,0,174592,-174592
+2023,Administrative services:,County administrator,Salaries,965349,1139903,1139892,11
+2023,Administrative services:,County administrator,Operations,25880,19927,19520,407
+2023,Administrative services:,County administrator,,991229,1159830,1159412,418
+2023,Administrative services:,County attorney,Salaries,1095129,1037900,1037896,4
+2023,Administrative services:,County attorney,Operations,29000,31930,31930,0
+2023,Administrative services:,County attorney,Contractual agreements,40371,33861,33860,1
+2023,Administrative services:,County attorney,,1164500,1103691,1103686,5
+2023,Administrative services:,County council,Salaries,864783,862052,862047,5
+2023,Administrative services:,County council,Operations,417355,351997,247607,104390
+2023,Administrative services:,County council,Contractual agreements,8000,4004,1612,2392
+2023,Administrative services:,County council,,1290138,1218053,1111266,106787
+2023,Administrative services:,,,3445867,3481574,3374364,107210
+2023,General services:,Procurement services,Salaries,574789,618307,618303,4
+2023,General services:,Procurement services,Operations,20920,17703,15211,2492
+2023,General services:,Procurement services,Contractual agreements,2700,1915,1833,82
+2023,General services:,Procurement services,,598409,637925,635347,2578
+2023,General services:,Financial operations,Salaries,1838929,2015127,2015123,4
+2023,General services:,Financial operations,Operations,35752,22364,22362,2
+2023,General services:,Financial operations,Contractual agreements,475,428,427,1
+2023,General services:,Financial operations,,1875156,2037919,2037912,7
+2023,General services:,Information systems,Salaries,4676002,4738566,5186332,-447766
+2023,General services:,Information systems,Operations,1738875,1737810,1739143,-1333
+2023,General services:,Information systems,Contractual agreements,0,25986,21789,4197
+2023,General services:,Information systems,,6414877,6502362,6947264,-444902
+2023,General services:,Tax services,Salaries,3641476,3413606,3413600,6
+2023,General services:,Tax services,Operations,470215,490940,485135,5805
+2023,General services:,Tax services,Contractual agreements,159906,60363,60362,1
+2023,General services:,Tax services,,4271597,3964909,3959097,5812
+2023,General services:,Geographical information systems,Salaries,657770,694846,694844,2
+2023,General services:,Geographical information systems,Operations,30355,21669,21668,1
+2023,General services:,Geographical information systems,Contractual agreements,62410,60289,60289,0
+2023,General services:,Geographical information systems,,750535,776804,776801,3
+2023,General services:,Human resources,Salaries,1237266,1243228,1243222,6
+2023,General services:,Human resources,Operations,37495,37391,37390,1
+2023,General services:,Human resources,Contractual agreements,8000,7753,-40924,48677
+2023,General services:,Human resources,,1282761,1288372,1239688,48684
+2023,General services:,Registration and election,Salaries,1008311,1081740,1643930,-562190
+2023,General services:,Registration and election,Operations,130557,63086,59100,3986
+2023,General services:,Registration and election,Contractual agreements,338689,323740,323739,1
+2023,General services:,Registration and election,,1477557,1468566,2026769,-558203
+2023,General services:,Human relations,Salaries,194337,272992,272989,3
+2023,General services:,Human relations,Operations,5296,3476,3476,0
+2023,General services:,Human relations,Contractual agreements,4370,106,105,1
+2023,General services:,Human relations,,204003,276574,276570,4
+2023,General services:,Veterans affairs,Salaries,418671,371852,371848,4
+2023,General services:,Veterans affairs,Operations,13336,3526,3525,1
+2023,General services:,Veterans affairs,Contractual agreements,6793,1756,1756,0
+2023,General services:,Veterans affairs,,438800,377134,377129,5
+2023,General services:,,,17313695,17330565,18276577,-946012
+2023,Community development and planning:,"Engineering, roads and bridges",Salaries,5496406,5517883,5517857,26
+2023,Community development and planning:,"Engineering, roads and bridges",Operations,1368835,1382502,1392811,-10309
+2023,Community development and planning:,"Engineering, roads and bridges",Contractual agreements,77600,98864,96635,2229
+2023,Community development and planning:,"Engineering, roads and bridges",Capital outlay,27893,0,0,0
+2023,Community development and planning:,"Engineering, roads and bridges",,6970734,6999249,7007303,-8054
+2023,Community development and planning:,Property maintenance,Salaries,2072720,1255474,2016097,-760623
+2023,Community development and planning:,Property maintenance,Operations,4165587,4589650,4597351,-7701
+2023,Community development and planning:,Property maintenance,Contractual agreements,858404,1428194,1365503,62691
+2023,Community development and planning:,Property maintenance,Capital outlay,0,0,3164209,-3164209
+2023,Community development and planning:,Property maintenance,,7096711,7273318,11143160,-3869842
+2023,Community development and planning:,Planning and code enforcement,Salaries,4286935,4397149,4397145,4
+2023,Community development and planning:,Planning and code enforcement,Operations,641722,837073,730608,106465
+2023,Community development and planning:,Planning and code enforcement,Contractual agreements,137500,111344,111343,1
+2023,Community development and planning:,Planning and code enforcement,,5066157,5345566,5239096,106470
+2023,Community development and planning:,Animal care services,Salaries,4361517,4376221,4692651,-316430
+2023,Community development and planning:,Animal care services,Operations,1302200,1252244,1248182,4062
+2023,Community development and planning:,Animal care services,,5663717,5628465,5940833,-312368
+2023,Community development and planning:,,,24797319,25246598,29330392,-4083794
+2023,Public safety:,Records management services division,Salaries,2208920,2177306,2177303,3
+2023,Public safety:,Records management services division,Operations,34475,77554,77787,-233
+2023,Public safety:,Records management services division,Contractual agreements,15678,23156,23096,60
+2023,Public safety:,Records management services division,,2259073,2278016,2278186,-170
+2023,Public safety:,Detention division,Salaries,27455367,26872242,26872237,5
+2023,Public safety:,Detention division,Operations,2060372,2542899,2540356,2543
+2023,Public safety:,Detention division,Contractual agreements,376557,312628,310778,1850
+2023,Public safety:,Detention division,,29892296,29727769,29723371,4398
+2023,Public safety:,Emergency Management division,Salaries,601704,707607,707602,5
+2023,Public safety:,Emergency Management division,Operations,27400,47706,48827,-1121
+2023,Public safety:,Emergency Management division,,629104,755313,756429,-1116
+2023,Public safety:,Forensic division,Salaries,3025905,3279583,3279581,2
+2023,Public safety:,Forensic division,Operations,194220,206113,215384,-9271
+2023,Public safety:,Forensic division,Contractual agreements,141975,128797,128796,1
+2023,Public safety:,Forensic division,,3362100,3614493,3623761,-9268
+2023,Public safety:,Indigent defense,Salaries,238567,247512,247509,3
+2023,Public safety:,Indigent defense,Operations,2388,2032,2030,2
+2023,Public safety:,Indigent defense,,240955,249544,249539,5
+2023,Public safety:,,,36383528,36625135,36631286,-6151
+2023,Emergency medical services,,Salaries,23368370,21864461,23388145,-1523684
+2023,Emergency medical services,,Operations,2221147,2949945,3089420,-139475
+2023,Emergency medical services,,Contractual agreements,485649,1263563,1308237,-44674
+2023,Emergency medical services,,,26075166,26077969,27785802,-1707833
+2023,Elected officials - judicial services:,Circuit solicitor,Salaries,8275176,7796529,7806272,-9743
+2023,Elected officials - judicial services:,Circuit solicitor,Operations,159896,210105,210289,-184
+2023,Elected officials - judicial services:,Circuit solicitor,Contractual agreements,124583,60102,55071,5031
+2023,Elected officials - judicial services:,Circuit solicitor,,8559655,8066736,8071632,-4896
+2023,Elected officials - judicial services:,Clerk of court,Salaries,3978004,4159274,4159266,8
+2023,Elected officials - judicial services:,Clerk of court,Operations,265814,268643,268837,-194
+2023,Elected officials - judicial services:,Clerk of court,Contractual agreements,12000,8711,8175,536
+2023,Elected officials - judicial services:,Clerk of court,,4255818,4436628,4436278,350
+2023,Elected officials - judicial services:,Probate court,Salaries,2044919,2125083,2125079,4
+2023,Elected officials - judicial services:,Probate court,Operations,59536,152441,126254,26187
+2023,Elected officials - judicial services:,Probate court,Contractual agreements,122000,116149,113185,2964
+2023,Elected officials - judicial services:,Probate court,,2226455,2393673,2364518,29155
+2023,Elected officials - judicial services:,Master in equity,Salaries,705261,615784,615782,2
+2023,Elected officials - judicial services:,Master in equity,Operations,7733,7485,7330,155
+2023,Elected officials - judicial services:,Master in equity,Contractual agreements,3000,0,29,-29
+2023,Elected officials - judicial services:,Master in equity,,715994,623269,623141,128
+2023,Elected officials - judicial services:,Magistrates,Salaries,5964268,6698744,6698739,5
+2023,Elected officials - judicial services:,Magistrates,Operations,339103,326722,326714,8
+2023,Elected officials - judicial services:,Magistrates,Contractual agreements,32521,25809,23373,2436
+2023,Elected officials - judicial services:,Magistrates,,6335892,7051275,7048826,2449
+2023,Elected officials - judicial services:,Public defender,Salaries,891496,1531496,1531496,0
+2023,Elected officials - judicial services:,Public defender,Operations,91101,90952,89960,992
+2023,Elected officials - judicial services:,Public defender,Contractual agreements,440000,0,0,0
+2023,Elected officials - judicial services:,Public defender,,1422597,1622448,1621456,992
+2023,Elected officials - judicial services:,,,23516411,24194029,24165851,28178
+2023,Elected officials - fiscal services:,Treasurer,Salaries,525445,553343,553340,3
+2023,Elected officials - fiscal services:,Treasurer,Operations,20576,12065,12064,1
+2023,Elected officials - fiscal services:,Treasurer,Contractual agreements,300,0,0,0
+2023,Elected officials - fiscal services:,Treasurer,,546321,565408,565404,4
+2023,Elected officials - fiscal services:,Register of deeds,Salaries,1306944,1528594,1528589,5
+2023,Elected officials - fiscal services:,Register of deeds,Operations,107500,95020,60285,34735
+2023,Elected officials - fiscal services:,Register of deeds,Contractual agreements,26000,22108,21941,167
+2023,Elected officials - fiscal services:,Register of deeds,,1440444,1645722,1610815,34907
+2023,Elected officials - fiscal services:,Auditor,Salaries,1506265,1574595,1574591,4
+2023,Elected officials - fiscal services:,Auditor,Operations,27070,21880,21879,1
+2023,Elected officials - fiscal services:,Auditor,,1533335,1596475,1596470,5
+2023,Elected officials - fiscal services:,Board of appeals,Operations,9000,0,0,0
+2023,Elected officials - fiscal services:,Board of appeals,,9000,0,0,0
+2023,Elected officials - fiscal services:,,,3529100,3807605,3772689,34916
+2023,Elected officials - law enforcement:,Sheriff,Salaries,54909108,54909108,59255232,-4346124
+2023,Elected officials - law enforcement:,Sheriff,Operations,4352450,4398786,5734785,-1335999
+2023,Elected officials - law enforcement:,Sheriff,Contractual agreements,542253,564872,505474,59398
+2023,Elected officials - law enforcement:,Sheriff,Capital outlay,0,8700,8692,8
+2023,Elected officials - law enforcement:,Sheriff,,59803811,59881466,65504183,-5622717
+2023,Elected officials - law enforcement:,Coroner,Salaries,1508541,1639381,2195301,-555920
+2023,Elected officials - law enforcement:,Coroner,Operations,224106,255806,226475,29331
+2023,Elected officials - law enforcement:,Coroner,,1732647,1895187,2421776,-526589
+2023,Elected officials - law enforcement:,County medical examiner,Operations,841974,802608,776998,25610
+2023,Elected officials - law enforcement:,County medical examiner,Contractual agreements,0,55000,55000,0
+2023,Elected officials - law enforcement:,County medical examiner,,841974,857608,831998,25610
+2023,Elected officials - law enforcement:,,,62378432,62634261,68757957,-6123696
+2023,"Boards, commissions and others",Legislative delegation,Salaries,68821,76881,76877,4
+2023,"Boards, commissions and others",Legislative delegation,Operations,4890,1521,1521,0
+2023,"Boards, commissions and others",Legislative delegation,,73711,78402,78398,4
+2023,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,4966648,3966379,3966640,-261
+2023,"Boards, commissions and others",Agencies and social service agencies,,4966648,3966379,3966640,-261
+2023,"Boards, commissions and others",Nondepartmental,Retiree claims,21679,0,2607699,-2607699
+2023,"Boards, commissions and others",Nondepartmental,Operations,5721304,5097119,6296353,-1199234
+2023,"Boards, commissions and others",Nondepartmental,Contractual agreements,120130,20733,20732,1
+2023,"Boards, commissions and others",Nondepartmental,,5863113,5117852,8924784,-3806932
+2023,"Boards, commissions and others",Employee benefits,Salaries,253656,10853,10853,0
+2023,"Boards, commissions and others",Employee benefits,Operations,78000,103424,103423,1
+2023,"Boards, commissions and others",Employee benefits,,331656,114277,114276,1
+2023,"Boards, commissions and others",,,11235128,9276910,13084098,-3807188
+2023,Debt service,,Principal,0,0,187561,-187561
+2023,Debt service,,,0,0,187561,-187561
+2024,Administrative services:,County administrator,Salaries,1160794,1147562,1088382,59180
+2024,Administrative services:,County administrator,Operations,28080,38914,36508,2406
+2024,Administrative services:,County administrator,,1188874,1186476,1124890,61586
+2024,Administrative services:,County attorney,Salaries,1224538,1221077,1083998,137079
+2024,Administrative services:,County attorney,Operations,32500,32500,17890,14610
+2024,Administrative services:,County attorney,Contractual agreements,40371,43832,44822,-990
+2024,Administrative services:,County attorney,,1297409,1297409,1146710,150699
+2024,Administrative services:,County council,Salaries,944079,937932,929364,8568
+2024,Administrative services:,County council,Operations,451545,458672,327085,131587
+2024,Administrative services:,County council,Contractual agreements,6000,9647,7544,2103
+2024,Administrative services:,County council,,1401624,1406251,1263993,142258
+2024,Administrative services:,,,3887907,3890136,3535593,354543
+2024,General services:,Procurement services,Salaries,671258,665111,657795,7316
+2024,General services:,Procurement services,Operations,45440,50723,50374,349
+2024,General services:,Procurement services,Contractual agreements,400,400,390,10
+2024,General services:,Procurement services,,717098,716234,708559,7675
+2024,General services:,Financial operations,Salaries,1903368,1734094,1680228,53866
+2024,General services:,Financial operations,Operations,39306,44676,28649,16027
+2024,General services:,Financial operations,Contractual agreements,0,430,427,3
+2024,General services:,Financial operations,,1942674,1779200,1709304,69896
+2024,General services:,Information systems,Salaries,5382325,5544216,5544093,123
+2024,General services:,Information systems,Operations,2006500,1922287,1208368,713919
+2024,General services:,Information systems,Contractual agreements,0,22953,22804,149
+2024,General services:,Information systems,,7388825,7489456,6775265,714191
+2024,General services:,Tax services,Salaries,4243680,4100915,3778035,322880
+2024,General services:,Tax services,Operations,523215,738068,659670,78398
+2024,General services:,Tax services,Contractual agreements,78591,75805,50260,25545
+2024,General services:,Tax services,,4845486,4914788,4487965,426823
+2024,General services:,Geographical information systems,Salaries,735547,739198,739167,31
+2024,General services:,Geographical information systems,Operations,33441,39345,30645,8700
+2024,General services:,Geographical information systems,Contractual agreements,67209,67209,66870,339
+2024,General services:,Geographical information systems,,836197,845752,836682,9070
+2024,General services:,Human resources,Salaries,1329330,1320958,1307474,13484
+2024,General services:,Human resources,Operations,40995,49367,37982,11385
+2024,General services:,Human resources,Contractual agreements,6000,6000,-45971,51971
+2024,General services:,Human resources,,1376325,1376325,1299485,76840
+2024,General services:,Registration and election,Salaries,1441756,1441540,1906906,-465366
+2024,General services:,Registration and election,Operations,170443,173142,163401,9741
+2024,General services:,Registration and election,Contractual agreements,338689,338689,338689,0
+2024,General services:,Registration and election,,1950888,1953371,2408996,-455625
+2024,General services:,Human relations,Salaries,283229,304561,304559,2
+2024,General services:,Human relations,Operations,5296,8873,8870,3
+2024,General services:,Human relations,Contractual agreements,4370,68,68,0
+2024,General services:,Human relations,,292895,313502,313497,5
+2024,General services:,Veterans affairs,Salaries,480352,459429,413115,46314
+2024,General services:,Veterans affairs,Operations,21540,21856,9803,12053
+2024,General services:,Veterans affairs,Contractual agreements,1600,1600,1179,421
+2024,General services:,Veterans affairs,,503492,482885,424097,58788
+2024,General services:,,,19853880,19871513,18963850,907663
+2024,Community development and planning:,"Engineering, roads and bridges",Salaries,6398607,6196197,5633297,562900
+2024,Community development and planning:,"Engineering, roads and bridges",Operations,1494793,1691518,1330667,360851
+2024,Community development and planning:,"Engineering, roads and bridges",Contractual agreements,90529,98029,91300,6729
+2024,Community development and planning:,"Engineering, roads and bridges",Capital outlay,27893,26078,0,26078
+2024,Community development and planning:,"Engineering, roads and bridges",,8011822,8011822,7055264,956558
+2024,Community development and planning:,Property maintenance,Salaries,2349139,2317992,2188829,129163
+2024,Community development and planning:,Property maintenance,Operations,4492474,4471437,5220175,-748738
+2024,Community development and planning:,Property maintenance,Contractual agreements,2116163,2168347,1710717,457630
+2024,Community development and planning:,Property maintenance,,8957776,8957776,9119721,-161945
+2024,Community development and planning:,Planning and code enforcement,Salaries,4712239,4619584,4617229,2355
+2024,Community development and planning:,Planning and code enforcement,Operations,646628,732518,541889,190629
+2024,Community development and planning:,Planning and code enforcement,Contractual agreements,137500,144265,142763,1502
+2024,Community development and planning:,Planning and code enforcement,,5496367,5496367,5301881,194486
+2024,Community development and planning:,Animal care services,Salaries,5315744,5314914,4733673,581241
+2024,Community development and planning:,Animal care services,Operations,1412887,1413717,1307586,106131
+2024,Community development and planning:,Animal care services,,6728631,6728631,6041259,687372
+2024,Community development and planning:,,,29194596,29194596,27518125,1676471
+2024,Public safety:,Records management services division,Salaries,2441098,2440957,2260576,180381
+2024,Public safety:,Records management services division,Operations,34475,58396,27136,31260
+2024,Public safety:,Records management services division,Contractual agreements,22441,23287,23231,56
+2024,Public safety:,Records management services division,,2498014,2522640,2310943,211697
+2024,Public safety:,Detention division,Salaries,29374455,28502365,28502360,5
+2024,Public safety:,Detention division,Operations,2222917,3039007,2861490,177517
+2024,Public safety:,Detention division,Contractual agreements,421151,477151,418682,58469
+2024,Public safety:,Detention division,,32018523,32018523,31782532,235991
+2024,Public safety:,Emergency Management division,Salaries,800427,767378,767353,25
+2024,Public safety:,Emergency Management division,Operations,152220,185269,180951,4318
+2024,Public safety:,Emergency Management division,,952647,952647,948304,4343
+2024,Public safety:,Forensic division,Salaries,3585708,3571828,3300206,271622
+2024,Public safety:,Forensic division,Operations,262797,243677,239594,4083
+2024,Public safety:,Forensic division,Contractual agreements,141975,174975,174913,62
+2024,Public safety:,Forensic division,,3990480,3990480,3714713,275767
+2024,Public safety:,Indigent defense,Salaries,256734,256734,255499,1235
+2024,Public safety:,Indigent defense,Operations,2591,2591,2230,361
+2024,Public safety:,Indigent defense,,259325,259325,257729,1596
+2024,Public safety:,,,39718989,39743615,39014221,729394
+2024,Emergency medical services,,Salaries,25056219,24276446,25832442,-1555996
+2024,Emergency medical services,,Operations,2886425,3271012,3271012,0
+2024,Emergency medical services,,Contractual agreements,635649,1225155,1198218,26937
+2024,Emergency medical services,,,28578293,28772613,30301672,-1529059
+2024,Elected officials - judicial services:,Circuit solicitor,Salaries,8777589,8773790,8173754,600036
+2024,Elected officials - judicial services:,Circuit solicitor,Operations,184077,251076,243971,7105
+2024,Elected officials - judicial services:,Circuit solicitor,Contractual agreements,124583,61383,52269,9114
+2024,Elected officials - judicial services:,Circuit solicitor,,9086249,9086249,8469994,616255
+2024,Elected officials - judicial services:,Clerk of court,Salaries,4359239,4359239,4113551,245688
+2024,Elected officials - judicial services:,Clerk of court,Operations,357639,357639,226375,131264
+2024,Elected officials - judicial services:,Clerk of court,Contractual agreements,88350,88350,85523,2827
+2024,Elected officials - judicial services:,Clerk of court,Capital outlay,23039,23039,0,23039
+2024,Elected officials - judicial services:,Clerk of court,,4828267,4828267,4425449,402818
+2024,Elected officials - judicial services:,Probate court,Salaries,2117979,2285336,2285333,3
+2024,Elected officials - judicial services:,Probate court,Operations,74967,175736,175391,345
+2024,Elected officials - judicial services:,Probate court,Contractual agreements,122000,84519,83394,1125
+2024,Elected officials - judicial services:,Probate court,,2314946,2545591,2544118,1473
+2024,Elected officials - judicial services:,Master in equity,Salaries,787886,723726,669499,54227
+2024,Elected officials - judicial services:,Master in equity,Operations,8645,11514,8518,2996
+2024,Elected officials - judicial services:,Master in equity,Contractual agreements,3000,200,0,200
+2024,Elected officials - judicial services:,Master in equity,,799531,735440,678017,57423
+2024,Elected officials - judicial services:,Magistrates,Salaries,6544795,6606262,7125124,-518862
+2024,Elected officials - judicial services:,Magistrates,Operations,375612,328703,334844,-6141
+2024,Elected officials - judicial services:,Magistrates,Contractual agreements,37600,28973,28648,325
+2024,Elected officials - judicial services:,Magistrates,,6958007,6963938,7488616,-524678
+2024,Elected officials - judicial services:,Public defender,Salaries,1410499,1851453,1851452,1
+2024,Elected officials - judicial services:,Public defender,Operations,136245,135291,133398,1893
+2024,Elected officials - judicial services:,Public defender,Contractual agreements,440000,0,0,0
+2024,Elected officials - judicial services:,Public defender,,1986744,1986744,1984850,1894
+2024,Elected officials - judicial services:,,,25973744,26146229,25591044,555185
+2024,Elected officials - fiscal services:,Treasurer,Salaries,598076,626134,626131,3
+2024,Elected officials - fiscal services:,Treasurer,Operations,20576,27407,19637,7770
+2024,Elected officials - fiscal services:,Treasurer,Contractual agreements,900,0,0,0
+2024,Elected officials - fiscal services:,Treasurer,,619552,653541,645768,7773
+2024,Elected officials - fiscal services:,Register of deeds,Salaries,1561950,1532298,1457668,74630
+2024,Elected officials - fiscal services:,Register of deeds,Operations,109848,110742,56323,54419
+2024,Elected officials - fiscal services:,Register of deeds,Contractual agreements,26000,26700,25109,1591
+2024,Elected officials - fiscal services:,Register of deeds,,1697798,1669740,1539100,130640
+2024,Elected officials - fiscal services:,Auditor,Salaries,1710320,1707136,1695330,11806
+2024,Elected officials - fiscal services:,Auditor,Operations,29371,32555,31877,678
+2024,Elected officials - fiscal services:,Auditor,,1739691,1739691,1727207,12484
+2024,Elected officials - fiscal services:,Board of appeals,Operations,9000,9000,0,9000
+2024,Elected officials - fiscal services:,Board of appeals,,9000,9000,0,9000
+2024,Elected officials - fiscal services:,,,4066041,4071972,3912075,159897
+2024,Elected officials - law enforcement:,Sheriff,Salaries,62721348,62721348,63863785,-1142437
+2024,Elected officials - law enforcement:,Sheriff,Operations,4897465,5481820,6240711,-758891
+2024,Elected officials - law enforcement:,Sheriff,Contractual agreements,640268,750928,742055,8873
+2024,Elected officials - law enforcement:,Sheriff,,68259081,68954096,70846551,-1892455
+2024,Elected officials - law enforcement:,Coroner,Salaries,1860204,1929851,2470938,-541087
+2024,Elected officials - law enforcement:,Coroner,Operations,301057,231410,230495,915
+2024,Elected officials - law enforcement:,Coroner,,2161261,2161261,2701433,-540172
+2024,Elected officials - law enforcement:,County medical examiner,Operations,913267,861876,860787,1089
+2024,Elected officials - law enforcement:,County medical examiner,Contractual agreements,59950,59950,59950,0
+2024,Elected officials - law enforcement:,County medical examiner,,973217,921826,920737,1089
+2024,Elected officials - law enforcement:,,,71393559,72037183,74468721,-2431538
+2024,"Boards, commissions and others",Legislative delegation,Salaries,82547,82759,82753,6
+2024,"Boards, commissions and others",Legislative delegation,Operations,7306,7398,7334,64
+2024,"Boards, commissions and others",Legislative delegation,,89853,90157,90087,70
+2024,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,4370858,4370858,4370858,0
+2024,"Boards, commissions and others",Agencies and social service agencies,,4370858,4370858,4370858,0
+2024,"Boards, commissions and others",Nondepartmental,Salaries,22248,0,0,0
+2024,"Boards, commissions and others",Nondepartmental,Retiree claims,0,0,2403089,-2403089
+2024,"Boards, commissions and others",Nondepartmental,Operations,5884706,5009720,4514404,495316
+2024,"Boards, commissions and others",Nondepartmental,Contractual agreements,250000,227847,227847,0
+2024,"Boards, commissions and others",Nondepartmental,,6156954,5237567,7145340,-1907773
+2024,"Boards, commissions and others",Employee benefits,Salaries,221761,27492,17599,9893
+2024,"Boards, commissions and others",Employee benefits,Operations,84630,115454,115454,0
+2024,"Boards, commissions and others",Employee benefits,,306391,142946,133053,9893
+2024,"Boards, commissions and others",,,10924056,9841528,11739338,-1897810
+2024,Debt service,,Principal,0,0,828434,-828434
+2024,Debt service,,,0,0,828434,-828434
+2025,Administrative services:,County administrator,Salaries,1193920,1184116,993328,190788
+2025,Administrative services:,County administrator,Operations,28080,35486,29320,6166
+2025,Administrative services:,County administrator,,1222000,1219602,1022648,196954
+2025,Administrative services:,County attorney,Salaries,1258110,1258110,1128729,129381
+2025,Administrative services:,County attorney,Operations,32500,26642,20131,6511
+2025,Administrative services:,County attorney,Contractual agreements,40371,46229,44295,1934
+2025,Administrative services:,County attorney,,1330981,1330981,1193155,137826
+2025,Administrative services:,County council,Salaries,966743,971816,971812,4
+2025,Administrative services:,County council,Operations,450545,438366,340086,98280
+2025,Administrative services:,County council,Contractual agreements,6000,10914,7106,3808
+2025,Administrative services:,County council,,1423288,1421096,1319004,102092
+2025,Administrative services:,,,3976269,3971679,3534807,436872
+2025,General services:,Procurement services,Salaries,688343,681167,624727,56440
+2025,General services:,Procurement services,Operations,42440,48752,48034,718
+2025,General services:,Procurement services,Contractual agreements,400,400,375,25
+2025,General services:,Procurement services,,731183,730319,673136,57183
+2025,General services:,Financial operations,Salaries,1959262,1952156,1871325,80831
+2025,General services:,Financial operations,Operations,39306,43965,23211,20754
+2025,General services:,Financial operations,,1998568,1996121,1894536,101585
+2025,General services:,Information systems,Salaries,5522294,5547140,5547135,5
+2025,General services:,Information systems,Operations,2006500,1866432,1846990,19442
+2025,General services:,Information systems,Contractual agreements,0,22875,22875,0
+2025,General services:,Information systems,Capital outlay,0,15756,15755,1
+2025,General services:,Information systems,,7528794,7452203,7432755,19448
+2025,General services:,Tax services,Salaries,4351172,4100498,3881314,219184
+2025,General services:,Tax services,Operations,530215,758223,720028,38195
+2025,General services:,Tax services,Contractual agreements,729191,106392,44413,61979
+2025,General services:,Tax services,Capital outlay,0,742500,742500,0
+2025,General services:,Tax services,,5610578,5707613,5388255,319358
+2025,General services:,Geographical information systems,Salaries,755275,748169,739194,8975
+2025,General services:,Geographical information systems,Operations,33441,38047,24918,13129
+2025,General services:,Geographical information systems,Contractual agreements,67209,69709,69646,63
+2025,General services:,Geographical information systems,,855925,855925,833758,22167
+2025,General services:,Human resources,Salaries,1364928,1458267,1458264,3
+2025,General services:,Human resources,Operations,37495,37222,37219,3
+2025,General services:,Human resources,Contractual agreements,6000,4427,-47033,51460
+2025,General services:,Human resources,,1408423,1499916,1448450,51466
+2025,General services:,Registration and election,Salaries,1476084,1502518,2154745,-652227
+2025,General services:,Registration and election,Operations,170443,154112,154107,5
+2025,General services:,Registration and election,Contractual agreements,338689,328856,328854,2
+2025,General services:,Registration and election,,1985216,1985486,2637706,-652220
+2025,General services:,Human relations,Salaries,290575,303966,303962,4
+2025,General services:,Human relations,Operations,5296,8204,8202,2
+2025,General services:,Human relations,Contractual agreements,4370,0,0,0
+2025,General services:,Human relations,,300241,312170,312164,6
+2025,General services:,Veterans affairs,Salaries,492843,427615,427612,3
+2025,General services:,Veterans affairs,Operations,21540,11804,11802,2
+2025,General services:,Veterans affairs,Contractual agreements,1600,877,877,0
+2025,General services:,Veterans affairs,,515983,440296,440291,5
+2025,General services:,,,20934911,20980049,21061051,-81002
+2025,Community development and planning:,"Engineering, roads and bridges",Salaries,6555198,6558762,6122005,436757
+2025,Community development and planning:,"Engineering, roads and bridges",Operations,1509793,1564741,1474646,90095
+2025,Community development and planning:,"Engineering, roads and bridges",Contractual agreements,90529,95529,63858,31671
+2025,Community development and planning:,"Engineering, roads and bridges",Capital outlay,132893,69381,0,69381
+2025,Community development and planning:,"Engineering, roads and bridges",,8288413,8288413,7660509,627904
+2025,Community development and planning:,Property maintenance,Salaries,2406630,1870353,2418979,-548626
+2025,Community development and planning:,Property maintenance,Operations,4481920,4718404,5081784,-363380
+2025,Community development and planning:,Property maintenance,Contractual agreements,2129363,2383206,1971625,411581
+2025,Community development and planning:,Property maintenance,Capital outlay,0,45950,45950,0
+2025,Community development and planning:,Property maintenance,,9017913,9017913,9518338,-500425
+2025,Community development and planning:,Planning and code enforcement,Salaries,4831763,4770777,4755640,15137
+2025,Community development and planning:,Planning and code enforcement,Operations,646628,707625,576684,130941
+2025,Community development and planning:,Planning and code enforcement,Contractual agreements,137500,137500,84000,53500
+2025,Community development and planning:,Planning and code enforcement,,5615891,5615902,5416324,199578
+2025,Community development and planning:,Animal care services,Salaries,5454030,5329030,5173243,155787
+2025,Community development and planning:,Animal care services,Operations,1412887,1517431,1287319,230112
+2025,Community development and planning:,Animal care services,Capital outlay,0,20456,20456,0
+2025,Community development and planning:,Animal care services,,6866917,6866917,6481018,385899
+2025,Community development and planning:,,,29789134,29789145,29076189,712956
+2025,Public safety:,Records management services division,Salaries,2503178,2487182,2487178,4
+2025,Public safety:,Records management services division,Operations,34475,98475,98293,182
+2025,Public safety:,Records management services division,Contractual agreements,22441,17594,17593,1
+2025,Public safety:,Records management services division,,2560094,2603251,2603064,187
+2025,Public safety:,Detention division,Salaries,30105142,29601124,29601120,4
+2025,Public safety:,Detention division,Operations,2177166,3222001,3213726,8275
+2025,Public safety:,Detention division,Contractual agreements,426902,384402,382145,2257
+2025,Public safety:,Detention division,,32709210,33207527,33196991,10536
+2025,Public safety:,Emergency Management division,Salaries,821585,755385,860659,-105274
+2025,Public safety:,Emergency Management division,Operations,192220,245420,216271,29149
+2025,Public safety:,Emergency Management division,,1013805,1000805,1076930,-76125
+2025,Public safety:,Forensic division,Salaries,3751609,3401624,3401619,5
+2025,Public safety:,Forensic division,Operations,262797,207331,203112,4219
+2025,Public safety:,Forensic division,Contractual agreements,141975,195459,195459,0
+2025,Public safety:,Forensic division,,4156381,3804414,3800190,4224
+2025,Public safety:,Indigent defense,Salaries,263278,263648,263644,4
+2025,Public safety:,Indigent defense,Operations,2591,2221,2216,5
+2025,Public safety:,Indigent defense,,265869,265869,265860,9
+2025,Public safety:,,,40705359,40881866,40943035,-61169
+2025,Emergency medical services,,Salaries,25918112,25805825,27730422,-1924597
+2025,Emergency medical services,,Operations,2886425,3078663,3136281,-57618
+2025,Emergency medical services,,Contractual agreements,635649,555649,524926,30723
+2025,Emergency medical services,,Capital outlay,0,49,48,1
+2025,Emergency medical services,,,29440186,29440186,31391677,-1951491
+2025,Elected officials - judicial services:,Circuit solicitor,Salaries,9007435,8438697,8424706,13991
+2025,Elected officials - judicial services:,Circuit solicitor,Operations,184077,392645,371163,21482
+2025,Elected officials - judicial services:,Circuit solicitor,Contractual agreements,124583,81083,74071,7012
+2025,Elected officials - judicial services:,Circuit solicitor,,9316095,8912425,8869940,42485
+2025,Elected officials - judicial services:,Clerk of court,Salaries,4469806,4469806,4209414,260392
+2025,Elected officials - judicial services:,Clerk of court,Operations,357639,333494,274923,58571
+2025,Elected officials - judicial services:,Clerk of court,Contractual agreements,88350,88350,44727,43623
+2025,Elected officials - judicial services:,Clerk of court,Capital outlay,23039,47184,0,47184
+2025,Elected officials - judicial services:,Clerk of court,,4938834,4938834,4529064,409770
+2025,Elected officials - judicial services:,Probate court,Salaries,2181045,2629769,2629765,4
+2025,Elected officials - judicial services:,Probate court,Operations,74967,121903,189543,-67640
+2025,Elected officials - judicial services:,Probate court,Contractual agreements,122000,80759,79320,1439
+2025,Elected officials - judicial services:,Probate court,,2378012,2832431,2898628,-66197
+2025,Elected officials - judicial services:,Master in equity,Salaries,799736,747576,707749,39827
+2025,Elected officials - judicial services:,Master in equity,Operations,8645,10645,6786,3859
+2025,Elected officials - judicial services:,Master in equity,Contractual agreements,3000,1000,0,1000
+2025,Elected officials - judicial services:,Master in equity,,811381,759221,714535,44686
+2025,Elected officials - judicial services:,Magistrates,Salaries,6719109,6664203,7435985,-771782
+2025,Elected officials - judicial services:,Magistrates,Operations,375612,387325,362157,25168
+2025,Elected officials - judicial services:,Magistrates,Contractual agreements,37600,33132,28326,4806
+2025,Elected officials - judicial services:,Magistrates,Capital outlay,0,46106,0,46106
+2025,Elected officials - judicial services:,Magistrates,,7132321,7130766,7826468,-695702
+2025,Elected officials - judicial services:,Public defender,Salaries,1573329,2013329,2013329,0
+2025,Elected officials - judicial services:,Public defender,Operations,136245,136245,134202,2043
+2025,Elected officials - judicial services:,Public defender,Contractual agreements,440000,0,0,0
+2025,Elected officials - judicial services:,Public defender,,2149574,2149574,2147531,2043
+2025,Elected officials - judicial services:,,,26726217,26723251,26986166,-262915
+2025,Elected officials - fiscal services:,Treasurer,Salaries,619998,700000,699997,3
+2025,Elected officials - fiscal services:,Treasurer,Operations,20576,27582,15378,12204
+2025,Elected officials - fiscal services:,Treasurer,Contractual agreements,900,1000,909,91
+2025,Elected officials - fiscal services:,Treasurer,,641474,728582,716284,12298
+2025,Elected officials - fiscal services:,Register of deeds,Salaries,1595377,1435131,1422032,13099
+2025,Elected officials - fiscal services:,Register of deeds,Operations,109848,121995,95226,26769
+2025,Elected officials - fiscal services:,Register of deeds,Contractual agreements,26000,26000,11396,14604
+2025,Elected officials - fiscal services:,Register of deeds,,1731225,1583126,1528654,54472
+2025,Elected officials - fiscal services:,Auditor,Salaries,1754719,1815309,1815305,4
+2025,Elected officials - fiscal services:,Auditor,Operations,29371,36878,36803,75
+2025,Elected officials - fiscal services:,Auditor,,1784090,1852187,1852108,79
+2025,Elected officials - fiscal services:,Board of appeals,Operations,9000,9000,0,9000
+2025,Elected officials - fiscal services:,Board of appeals,,9000,9000,0,9000
+2025,Elected officials - fiscal services:,,,4165789,4172895,4097046,75849
+2025,Elected officials - law enforcement:,Sheriff,Salaries,65376722,65348488,68377246,-3028758
+2025,Elected officials - law enforcement:,Sheriff,Operations,4897465,4593434,7255688,-2662254
+2025,Elected officials - law enforcement:,Sheriff,Contractual agreements,640268,881442,858801,22641
+2025,Elected officials - law enforcement:,Sheriff,Capital outlay,0,84511,84509,2
+2025,Elected officials - law enforcement:,Sheriff,,70914455,70907875,76576244,-5668369
+2025,Elected officials - law enforcement:,Coroner,Salaries,2053241,2041374,2740421,-699047
+2025,Elected officials - law enforcement:,Coroner,Operations,309057,309057,251476,57581
+2025,Elected officials - law enforcement:,Coroner,Contractual agreements,0,11867,11867,0
+2025,Elected officials - law enforcement:,Coroner,,2362298,2362298,3003764,-641466
+2025,Elected officials - law enforcement:,County medical examiner,Operations,913267,960087,952161,7926
+2025,Elected officials - law enforcement:,County medical examiner,Contractual agreements,59950,62450,61711,739
+2025,Elected officials - law enforcement:,County medical examiner,,973217,1022537,1013872,8665
+2025,Elected officials - law enforcement:,,,74249970,74292710,80593880,-6301170
+2025,"Boards, commissions and others",Legislative delegation,Salaries,84638,85393,85388,5
+2025,"Boards, commissions and others",Legislative delegation,Operations,7306,12246,8986,3260
+2025,"Boards, commissions and others",Legislative delegation,,91944,97639,94374,3265
+2025,"Boards, commissions and others",Agencies and social service agencies,Lump sum appropriations,4870858,4870858,4870858,0
+2025,"Boards, commissions and others",Agencies and social service agencies,,4870858,4870858,4870858,0
+2025,"Boards, commissions and others",Nondepartmental,Retiree claims,22912,0,2092137,-2092137
+2025,"Boards, commissions and others",Nondepartmental,Operations,6112956,5507972,4953297,554675
+2025,"Boards, commissions and others",Nondepartmental,Contractual agreements,250000,337338,1013412,-676074
+2025,"Boards, commissions and others",Nondepartmental,Capital outlay,0,62790,62790,0
+2025,"Boards, commissions and others",Nondepartmental,,6385868,5908100,8121636,-2213536
+2025,"Boards, commissions and others",Employee benefits,Salaries,228421,395928,0,395928
+2025,"Boards, commissions and others",Employee benefits,Operations,84630,125250,125250,0
+2025,"Boards, commissions and others",Employee benefits,,313051,521178,125250,395928
+2025,"Boards, commissions and others",,,11661721,11397775,13212118,-1814343
+2025,Debt service,,Principal,0,0,824428,-824428
+2025,Debt service,,,0,0,824428,-824428

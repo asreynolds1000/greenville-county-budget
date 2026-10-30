@@ -1,0 +1,16 @@
+fiscal_year,method,cells_sampled,cells_exact,cells_dash_as_nil,cells_mismatched,anomalies_reported,status_note
+2011,blind_resample,30,30,0,0,3,PASS
+2012,blind_resample,30,30,0,0,5,"PASS (no text layer, read visually)"
+2013,blind_resample,30,29,1,0,10,PASS
+2014,blind_resample,30,30,0,0,6,PASS
+2015,blind_resample,30,30,0,0,4,PASS
+2016,blind_resample,30,30,0,0,6,PASS (pilot)
+2017,blind_resample,30,29,1,0,8,PASS
+2018,blind_resample,30,30,0,0,3,PASS (after correction)
+2019,blind_resample,30,30,0,0,5,PASS
+2020,blind_resample,30,29,1,0,6,PASS
+2021,blind_resample,30,30,0,0,8,PASS
+2022,blind_resample,31,30,1,0,3,PASS
+2023,blind_resample,31,30,1,0,3,PASS
+2024,blind_resample,31,28,3,0,3,PASS
+2025,dual_independent_extraction,,,,,,verified by dual independent extraction

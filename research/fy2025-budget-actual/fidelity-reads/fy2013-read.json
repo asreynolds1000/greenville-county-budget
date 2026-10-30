@@ -1,0 +1,90 @@
+{
+  "year": 2013,
+  "pdf_pages": "104-109",
+  "printed_pages": "92-97",
+  "cells": [
+    {"id": 1, "printed_label": "Total administrative", "pdf_page": 105, "printed_value": "2,164,119", "confidence": "high"},
+    {"id": 2, "printed_label": "Total general services", "pdf_page": 106, "printed_value": "12,568,928", "confidence": "high"},
+    {"id": 3, "printed_label": "Total community and development planning", "pdf_page": 107, "printed_value": "18,132,876", "confidence": "high"},
+    {"id": 4, "printed_label": "Total public safety", "pdf_page": 107, "printed_value": "22,420,944", "confidence": "high"},
+    {"id": 5, "printed_label": "Total Emergency medical services", "pdf_page": 107, "printed_value": "15,656,936", "confidence": "high"},
+    {"id": 6, "printed_label": "Total elected officials - Judicial", "pdf_page": 108, "printed_value": "15,852,516", "confidence": "high"},
+    {"id": 7, "printed_label": "Total elected officials - Fiscal", "pdf_page": 109, "printed_value": "2,510,014", "confidence": "high"},
+    {"id": 8, "printed_label": "Total elected officials - law enforcement", "pdf_page": 109, "printed_value": "37,070,227", "confidence": "high"},
+    {"id": 9, "printed_label": "Total boards, commissions and others", "pdf_page": 109, "printed_value": "4,619,463", "confidence": "high"},
+    {"id": 10, "printed_label": "Total elected officials - Fiscal", "pdf_page": 109, "printed_value": "2,527,077", "confidence": "high"},
+    {"id": 11, "printed_label": "Total administrative", "pdf_page": 105, "printed_value": "2,190,643", "confidence": "high"},
+    {"id": 12, "printed_label": "Total boards, commissions and others", "pdf_page": 109, "printed_value": "3,784,185", "confidence": "high"},
+    {"id": 13, "printed_label": "Public defender", "pdf_page": 108, "printed_value": "513,605", "confidence": "high"},
+    {"id": 14, "printed_label": "Clerk of court", "pdf_page": 108, "printed_value": "3,387,388", "confidence": "high"},
+    {"id": 15, "printed_label": "Magistrates", "pdf_page": 108, "printed_value": "4,396,222", "confidence": "high"},
+    {"id": 16, "printed_label": "County medical examiner", "pdf_page": 109, "printed_value": "363,695", "confidence": "high"},
+    {"id": 17, "printed_label": "Auditor", "pdf_page": 108, "printed_value": "1,064,797", "confidence": "high"},
+    {"id": 18, "printed_label": "Treasurer", "pdf_page": 108, "printed_value": "394,185", "confidence": "high"},
+    {"id": 19, "printed_label": "Information systems / Salaries", "pdf_page": 105, "printed_value": "2,891,609", "confidence": "high"},
+    {"id": 20, "printed_label": "Detention division / Salaries", "pdf_page": 107, "printed_value": "15,982,440", "confidence": "high"},
+    {"id": 21, "printed_label": "Property maintenance / Contractual agreements", "pdf_page": 106, "printed_value": "900,945", "confidence": "high"},
+    {"id": 22, "printed_label": "Financial operations / Salaries", "pdf_page": 105, "printed_value": "1,330,877", "confidence": "high"},
+    {"id": 23, "printed_label": "Non-departmental / Salaries", "pdf_page": 109, "printed_value": "-", "confidence": "high"},
+    {"id": 24, "printed_label": "Veterans affairs / Salaries", "pdf_page": 106, "printed_value": "292,701", "confidence": "high"},
+    {"id": 25, "printed_label": "Sheriff / Salaries", "pdf_page": 109, "printed_value": "32,244,650", "confidence": "high"},
+    {"id": 26, "printed_label": "Indigent defense / Contractual agreements", "pdf_page": 107, "printed_value": "503", "confidence": "high"},
+    {"id": 27, "printed_label": "County offices / Magistrates", "pdf_page": 104, "printed_value": "3,141,623", "confidence": "high"},
+    {"id": 28, "printed_label": "Intergovernmental revenues / Multi-county park", "pdf_page": 104, "printed_value": "1,191,083", "confidence": "high"},
+    {"id": 29, "printed_label": "County offices / Detention center", "pdf_page": 104, "printed_value": "145,381", "confidence": "high"},
+    {"id": 30, "printed_label": "County offices / Register of deeds", "pdf_page": 104, "printed_value": "3,695,723", "confidence": "high"}
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 106,
+      "observation": "Property maintenance sub-department: Operations actual ($3,258,743) exceeds its own Final Budget ($3,256,237), producing a NEGATIVE variance on an expenditure line (actual spending ran over the legally adopted final budget by $2,506). This pushes the Property maintenance sub-department total and the Community development and planning department total into negative variance as well.",
+      "printed_line": "Operations   3,480,273   3,256,237   3,258,743   (2,506)"
+    },
+    {
+      "pdf_page": 109,
+      "observation": "Fund-level Total expenditures: Actual ($131,273,683) exceeds Final Budget ($131,271,655) by $2,028, giving a negative (over-budget) variance at the whole-schedule level. Arithmetic reconciles cleanly to the department totals above it (all nine department totals sum exactly to this figure in all three budget columns), so this is a real reported over-expenditure relative to the final budget, not a computation error, and it traces back to the Property maintenance Operations line flagged above.",
+      "printed_line": "Total expenditures   130,996,023   131,271,655   131,273,683   (2,028)"
+    },
+    {
+      "pdf_page": 107,
+      "observation": "The section header for this department reads 'Community development and planning' but the total row that closes the section three pages later reads 'Total community and development planning' -- the word order of 'community' and 'development' relative to 'and' is inverted between the header and its own total line.",
+      "printed_line": "Total community and development planning   18,132,876   17,686,218   17,688,633   (2,415)"
+    },
+    {
+      "pdf_page": 109,
+      "observation": "The section header reads 'Elected officials - Law enforcement' (capital L in Law), but the total row that closes the same section reads 'Total elected officials - law enforcement' with a lowercase 'l'.",
+      "printed_line": "Total elected officials - law enforcement   37,070,227   37,488,587   37,488,560   27"
+    },
+    {
+      "pdf_page": 109,
+      "observation": "Non-departmental Salaries line: Original Budget shows a figure ($21,600) but Final Budget and Actual are both printed as a dash, and the variance column is also a dash rather than a computed number equal to the original budget. The position's budget was apparently zeroed out mid-year.",
+      "printed_line": "Salaries   21,600   -   -   -"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "County Council Contractual agreements line: Original Budget $7,100, but Final Budget, Actual, and Variance are all printed as a dash.",
+      "printed_line": "Contractual agreements   7,100   -   -   -"
+    },
+    {
+      "pdf_page": 108,
+      "observation": "Master in equity Contractual agreements line: same pattern as County Council above -- Original Budget $1,800, Final Budget/Actual/Variance all dashes.",
+      "printed_line": "Contractual agreements   1,800   -   -   -"
+    },
+    {
+      "pdf_page": 106,
+      "observation": "Human resources Contractual agreements line shows the reverse pattern: Original Budget is a dash (no original appropriation) but Final Budget and Actual both show $6,320, added entirely mid-year.",
+      "printed_line": "Contractual agreements   -   6,320   6,320   -"
+    },
+    {
+      "pdf_page": 107,
+      "observation": "Forensic division Capital outlay line shows the same reverse pattern as Human resources above: Original Budget is a dash, Final Budget and Actual both show $15,925.",
+      "printed_line": "Capital outlay   -   15,925   15,925   -"
+    },
+    {
+      "pdf_page": 109,
+      "observation": "Employee benefit fund Salaries line shows a large mid-year budget reduction: Original Budget $390,300 cut to Final Budget $70,501 (an 82% reduction), with Actual landing exactly at the reduced Final Budget.",
+      "printed_line": "Salaries   390,300   70,501   70,501   -"
+    }
+  ],
+  "notes": "Schedule located at PDF pages 104-109 (printed pages 92-97): page 104/92 is the revenue detail (Property taxes, County offices, Intergovernmental revenues, Other revenues, Total revenues); pages 105-109/93-97 are the expenditure detail by department > sub-department > object (Salaries / Operations / Contractual agreements / Capital outlay), followed by Total expenditures, Excess (deficiency) of revenues over expenditures, Other financing sources (uses), and the final Excess of revenues and other financing sources line. All nine sampled department-total rows (Administrative, General services, Community development and planning, Public safety, Emergency medical services, Elected officials - Judicial, Elected officials - Fiscal, Elected officials - Law enforcement, Boards commissions and others) were found under their expected names on this page range -- I saw no evidence of the reorganization renaming or relocating any of the sampled departments/sub-departments for FY2013; every sampled row was found on first look at its expected position. Arithmetic check: every sub-department total (Salaries+Operations+Contractual agreements[+Capital outlay]) reconciles exactly to its printed subtotal in all three budget columns, and all nine department totals reconcile exactly to the fund-level Total expenditures in all three columns (Original 130,996,023 / Final 131,271,655 / Actual 131,273,683) -- the only exception is the Property maintenance Operations line flagged above, where Actual exceeds Final Budget, and that overage is exactly what produces the negative Total expenditures variance. On the revenue page (104), Original Budget equals Final Budget on literally every line -- no revenue-side budget amendments were adopted during the year, in contrast to the expenditure side where nearly every sub-department's final budget differs from its original. All four PDF-page-image renders I checked (104-109) matched the pdftotext -layout extraction exactly; no column-shift or OCR-style misreads were found."
+}

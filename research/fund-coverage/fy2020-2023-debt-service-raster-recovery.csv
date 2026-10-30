@@ -1,0 +1,30 @@
+statement_section,original_label,fy2020,fy2021,fy2022,fy2023
+inflow,Property Taxes,4749877,4913709,3700511,3848532
+inflow,County Offices,0,0,0,0
+inflow,Intergovernmental,5060224,5010940,5622890,5617952
+inflow,Other,84145,59517,38600,38600
+inflow,Total Estimated Financial Sources,9894246,9984166,9362001,9505084
+outflow,Administrative Services,0,0,0,0
+outflow,General Services,0,0,0,0
+outflow,Strategic Operations,0,0,0,0
+outflow,Community Development and Planning,0,0,0,0
+outflow,Public Safety,0,0,0,0
+outflow,Judicial Services,0,0,0,0
+outflow,Fiscal Services,0,0,0,0
+outflow,Law Enforcement Services,0,0,0,0
+outflow,"Parks, Recreation & Tourism",0,0,0,0
+outflow,"Boards, Commissions & Others",0,0,0,0
+outflow,Capital Outlay,0,0,0,0
+outflow,Principal Retirement,15036966,15815369,14641618,15339621
+outflow,Interest and Fiscal Charges,3749309,3415220,2663456,2339548
+outflow,Total Expenditures,18786275,19230589,17305074,17679169
+operating_result,Excess (deficiency) of revenues over(under) expenditures,-8892029,-9246423,-7943073,-8174085
+financing,Sale of Property,0,0,0,0
+financing,Capital Lease Issuance,0,0,0,0
+financing,Bonded Issuances/Premiums/Discounts,4187407,0,0,0
+financing,Transfers In,9814765,10058708,10481400,11317029
+financing,Transfers Out,0,-1730100,0,0
+financing,Total Other Sources (Uses),14002172,8328608,10481400,11317029
+net_position_change,Net Increase (Decrease) in Fund Balance,5110143,-917815,2538327,3142944
+position,Fund Balance July 1,5674876,10785019,9867204,12405531
+position,Fund Balance June 30,10785019,9867204,12405531,15548475

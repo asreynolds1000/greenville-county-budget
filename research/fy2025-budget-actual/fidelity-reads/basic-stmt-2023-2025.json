@@ -1,0 +1,70 @@
+{
+  "years": [
+    {
+      "year": 2023,
+      "statement_title": "General Fund - Statement of Revenues, Expenditures and Changes in Fund Balances - Budget and Actual (Budget Basis)",
+      "printed_page": "24",
+      "pdf_page": 39,
+      "total_revenues": {
+        "original": "190,745,333",
+        "final": "190,745,333",
+        "actual": "193,567,951"
+      },
+      "total_expenditures": {
+        "original": "208,674,646",
+        "final": "208,674,646",
+        "actual": "225,366,577"
+      },
+      "capital_outlay": {
+        "original": "27,893",
+        "final": "8,700",
+        "actual": "3,172,901"
+      },
+      "notes": "Located in the Basic Financial Statements (Fund Financial Statements) section, immediately after the reconciliation of the governmental-funds SRECFB to the Statement of Activities. Report source file: CompleteCAFR.pdf, source URL as provided. Has all three budget columns (Original, Final, Actual) plus a Variance-with-Final-Budget column. Also includes a 'Debt service: Principal' line below Capital outlay ($187,561 actual; no budget). Verified against rendered page image at 200 DPI -- text layer matched exactly."
+    },
+    {
+      "year": 2024,
+      "statement_title": "General Fund - Statement of Revenues, Expenditures and Changes in Fund Balances - Budget and Actual (Budget Basis)",
+      "printed_page": "24",
+      "pdf_page": 39,
+      "total_revenues": {
+        "original": "215,360,360",
+        "final": "215,360,360",
+        "actual": "226,192,784"
+      },
+      "total_expenditures": {
+        "original": "233,591,065",
+        "final": "233,569,385",
+        "actual": "235,873,073"
+      },
+      "capital_outlay": {
+        "original": "50,932",
+        "final": "49,117",
+        "actual": "-"
+      },
+      "notes": "Located in the Basic Financial Statements section, same position/format as FY2023 (Original and Final budget columns differ this year, unlike FY2023 where they were identical). Capital outlay Actual is printed as a dash ('-') -- confirmed on the rendered page image, not a text-extraction artifact. 'Debt service: Principal' actual was $828,434 (no budget). No COVID Relief fund column this year at this statement (COVID Relief still appears as its own separate statement on printed page 25, not part of this extraction). Verified against rendered page image at 200 DPI."
+    },
+    {
+      "year": 2025,
+      "statement_title": "General Fund - Schedule of Revenues, Expenditures and Changes in Fund Balances - Budget and Actual (Budget Basis)",
+      "printed_page": "85",
+      "pdf_page": 102,
+      "total_revenues": {
+        "original": "223,764,269",
+        "final": "223,764,269",
+        "actual": "246,871,125"
+      },
+      "total_expenditures": {
+        "original": "241,649,556",
+        "final": "241,649,556",
+        "actual": "251,720,397"
+      },
+      "capital_outlay": {
+        "original": "155,932",
+        "final": "1,134,683",
+        "actual": "972,008"
+      },
+      "notes": "PRESENTATION CHANGE vs FY2023/FY2024: in the FY2025 ACFR this statement is no longer part of the Basic Financial Statements -- it has moved to Required Supplementary Information (RSI), immediately after Notes to Financial Statements, and its title uses 'SCHEDULE' rather than 'STATEMENT' (page header reads 'SCHEDULE OF REVENUES, EXPENDITURES AND CHANGES IN FUND BALANCES - BUDGET AND ACTUAL (BUDGET BASIS)'). The table of contents lists it as 'General Fund - Schedules of Revenues, Expenditures and Changes in Fund Balances - Budget and Actual (Budget Basis)' (plural 'Schedules' because the TOC entry covers both the General Fund page and the following Miscellaneous Other Grants Fund page). This is NOT the detailed per-object supplementary schedule (Salaries/Operations/Contractual/Capital outlay by department) -- that is a separate, later schedule titled 'Schedule of Revenues and Expenditures - Budget and Actual (Budget Basis) - General Fund' spanning printed/PDF pages 91-97 (PDF 109-115) under 'Other Supplementary Information', which was explicitly excluded per instructions. Same function-level grouping and same 'Debt service: Principal' line ($824,428 actual) as prior years. Verified against rendered page image at 200 DPI."
+    }
+  ]
+}

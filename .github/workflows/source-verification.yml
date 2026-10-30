@@ -1,0 +1,41 @@
+name: Source verification
+
+on:
+  schedule:
+    # Weekly network check; the UTC time avoids the DST shift in Alex's local timezone.
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: source-verification
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Re-fetch cited source documents
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version-file: ".python-version"
+
+      # This is deliberately the networked mode. It hashes every cited budget book and
+      # ACFR and exits non-zero for a changed or unreachable document.
+      - name: Verify published source hashes
+        run: python3 -m scripts.verify_sources --json > source-verification.json
+
+      - name: Preserve the machine-readable report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: source-verification-${{ github.run_id }}
+          path: source-verification.json
+          if-no-files-found: error
+          retention-days: 30

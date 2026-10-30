@@ -1,0 +1,45 @@
+{
+  "taxYear": 2025,
+  "verifiedOn": "2026-09-07",
+  "sourceUrl": "https://www.greenvillecounty.org/Auditor/Forms/millage_2025.pdf",
+  "sourceTitle": "Greenville County Auditor \u2014 2025 Millage Sheet",
+  "sourceSha256": "250df3a0b23615953609e3fbed70080147fd13e6186b0ef9af5c62ee0fa3bc74",
+  "indexUrl": "https://www.greenvillecounty.org/Auditor/MillageSheets.aspx",
+  "expectedDistricts": 120,
+  "componentSourcePage": 4,
+  "countyComponents": [
+    {
+      "id": "county-operations",
+      "label": "Greenville County operations",
+      "mills": 47.3
+    },
+    {
+      "id": "county-debt",
+      "label": "Greenville County debt",
+      "mills": 0.4
+    },
+    {
+      "id": "library",
+      "label": "Greenville County Library System",
+      "mills": 6.7
+    },
+    {
+      "id": "technical-college",
+      "label": "Greenville Technical College",
+      "mills": 4.4
+    },
+    {
+      "id": "museum-operations",
+      "label": "Art museum operations",
+      "mills": 1.2
+    },
+    {
+      "id": "museum-debt",
+      "label": "Art museum debt",
+      "mills": 0.1
+    }
+  ],
+  "greenvilleSchoolOperationsMills": 141.2,
+  "greenvilleSchoolDebtMills": 48.5,
+  "homesteadMarketValueDeduction": 50000
+}

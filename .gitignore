@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.next/
+.vercel/
+coverage/
+data/raw/
+build/
+dist/
+tmp/
+
+# Local working state
+/var/
+.claude/

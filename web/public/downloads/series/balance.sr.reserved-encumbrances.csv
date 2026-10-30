@@ -1,0 +1,13 @@
+fiscal_year,value,printed_form,status_class,canonical_status,source_code,printed_page,pdf_page,source_url,note_ids
+2014,0,-,actual,single,FY2016-17,46,46,https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf,note.budget-to-gaap;note.printed-dash;note.sources-statement-not-printed
+2015,0,-,actual,single,FY2016-17,46,46,https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf,note.budget-to-gaap;note.printed-dash;note.sources-statement-not-printed
+2016,0,-,actual,single,FY2018-19,45,45,https://www.greenvillecounty.org/ManagementandBudget/pdf/2017/BudgetCombined.pdf,note.budget-to-gaap;note.flow-residual;note.printed-dash;note.sources-statement-not-printed
+2017,0,-,actual,single,FY2018-19,45,45,https://www.greenvillecounty.org/ManagementandBudget/pdf/2017/BudgetCombined.pdf,note.budget-to-gaap;note.flow-residual;note.printed-dash;note.sources-statement-not-printed
+2018,0,-,actual,single,FY2020-21,47,47,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,note.printed-dash
+2019,0,-,actual,single,FY2020-21,47,47,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,note.printed-dash
+2016,410990,,adopted,single,FY2016-17,46,46,https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf,note.budget-to-gaap;note.flow-residual;note.sources-statement-not-printed
+2017,0,-,adopted,single,FY2016-17,46,46,https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf,note.budget-to-gaap;note.flow-residual;note.printed-dash;note.sources-statement-not-printed
+2018,5800000,,adopted,single,FY2018-19,45,45,https://www.greenvillecounty.org/ManagementandBudget/pdf/2017/BudgetCombined.pdf,
+2019,0,-,adopted,single,FY2018-19,45,45,https://www.greenvillecounty.org/ManagementandBudget/pdf/2017/BudgetCombined.pdf,note.printed-dash
+2020,9194216,,adopted,single,FY2020-21,47,47,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,
+2021,0,-,adopted,single,FY2020-21,47,47,https://www.greenvillecounty.org/ManagementandBudget/pdf/2019/BudgetCombined.pdf,note.printed-dash

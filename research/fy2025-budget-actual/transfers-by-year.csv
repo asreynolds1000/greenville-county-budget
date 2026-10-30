@@ -1,0 +1,100 @@
+fiscal_year,direction,general_fund_counterparty,amount,source
+2011,transfer_out,To Federal and State Grant Fund,88962,FY2011 ACFR interfund transfers note (fy2011.txt:4472-4482 (Transfers In:/Transfers Out: matrix))
+2011,transfer_out,To Nonmajor Governmental Funds,5000000,FY2011 ACFR interfund transfers note (fy2011.txt:4472-4482 (Transfers In:/Transfers Out: matrix))
+2011,transfer_out,TOTAL transfers out of General Fund,5088962,FY2011 ACFR interfund transfers note
+2011,transfer_in,From Federal and State Grant Fund,22712,FY2011 ACFR interfund transfers note (fy2011.txt:4472-4482 (Transfers In:/Transfers Out: matrix))
+2011,transfer_in,From Nonmajor Governmental Funds,7248479,FY2011 ACFR interfund transfers note (fy2011.txt:4472-4482 (Transfers In:/Transfers Out: matrix))
+2011,transfer_in,TOTAL transfers into General Fund,7271191,FY2011 ACFR interfund transfers note
+2012,transfer_out,To Federal and State Grant Fund,165462,FY2012 ACFR interfund transfers note (fy2012_ocr.txt:3542-3551 (OCR; Transfers In:/Transfers Out: matrix))
+2012,transfer_out,To Nonmajor Governmental Funds,202500,FY2012 ACFR interfund transfers note (fy2012_ocr.txt:3542-3551 (OCR; Transfers In:/Transfers Out: matrix))
+2012,transfer_out,TOTAL transfers out of General Fund,367962,FY2012 ACFR interfund transfers note
+2012,transfer_in,From Federal and State Grant Fund,1157,FY2012 ACFR interfund transfers note (fy2012_ocr.txt:3542-3551 (OCR; Transfers In:/Transfers Out: matrix))
+2012,transfer_in,From Nonmajor Governmental Funds,4104512,FY2012 ACFR interfund transfers note (fy2012_ocr.txt:3542-3551 (OCR; Transfers In:/Transfers Out: matrix))
+2012,transfer_in,From Enterprise Funds,400000,FY2012 ACFR interfund transfers note (fy2012_ocr.txt:3542-3551 (OCR; Transfers In:/Transfers Out: matrix))
+2012,transfer_in,TOTAL transfers into General Fund,4505669,FY2012 ACFR interfund transfers note
+2013,transfer_out,To Federal and State Grant Fund,88379,FY2013 ACFR interfund transfers note (fy2013.txt:4586-4607 (Transfers In:/Transfers Out: matrix))
+2013,transfer_out,To Nonmajor Governmental Funds,283045,FY2013 ACFR interfund transfers note (fy2013.txt:4586-4607 (Transfers In:/Transfers Out: matrix))
+2013,transfer_out,TOTAL transfers out of General Fund,371424,FY2013 ACFR interfund transfers note
+2013,transfer_in,From Nonmajor Governmental Funds,4134602,FY2013 ACFR interfund transfers note (fy2013.txt:4586-4607 (Transfers In:/Transfers Out: matrix))
+2013,transfer_in,From Enterprise Funds,402517,FY2013 ACFR interfund transfers note (fy2013.txt:4586-4607 (Transfers In:/Transfers Out: matrix))
+2013,transfer_in,TOTAL transfers into General Fund,4537119,FY2013 ACFR interfund transfers note
+2014,transfer_out,To Federal and State Grant Fund,76257,FY2014 ACFR interfund transfers note (fy2014.txt:4583-4602 (Transfers In:/Transfers Out: matrix))
+2014,transfer_out,"To Parks, Recreation & Tourism",2500,FY2014 ACFR interfund transfers note (fy2014.txt:4583-4602 (Transfers In:/Transfers Out: matrix))
+2014,transfer_out,To Nonmajor Governmental Funds,1189077,FY2014 ACFR interfund transfers note (fy2014.txt:4583-4602 (Transfers In:/Transfers Out: matrix))
+2014,transfer_out,TOTAL transfers out of General Fund,1267834,FY2014 ACFR interfund transfers note
+2014,transfer_in,From Nonmajor Governmental Funds,5565294,FY2014 ACFR interfund transfers note (fy2014.txt:4583-4602 (Transfers In:/Transfers Out: matrix))
+2014,transfer_in,From Enterprise Funds,1000000,FY2014 ACFR interfund transfers note (fy2014.txt:4583-4602 (Transfers In:/Transfers Out: matrix))
+2014,transfer_in,TOTAL transfers into General Fund,6565294,FY2014 ACFR interfund transfers note
+2015,transfer_out,To Federal and State Grant Fund,127799,FY2015 ACFR interfund transfers note (fy2015.txt:5014-5032 (Transfers In:/Transfers Out: matrix))
+2015,transfer_out,To Nonmajor Governmental Funds,1483841,FY2015 ACFR interfund transfers note (fy2015.txt:5014-5032 (Transfers In:/Transfers Out: matrix))
+2015,transfer_out,TOTAL transfers out of General Fund,1611640,FY2015 ACFR interfund transfers note
+2015,transfer_in,From Nonmajor Governmental Funds,6495986,FY2015 ACFR interfund transfers note (fy2015.txt:5014-5032 (Transfers In:/Transfers Out: matrix))
+2015,transfer_in,TOTAL transfers into General Fund,6495986,FY2015 ACFR interfund transfers note
+2016,transfer_out,To Federal and State Grant Fund,156879,FY2016 ACFR interfund transfers note (fy2016.txt:4924-4944 (Transfers In:/Transfers Out: matrix))
+2016,transfer_out,To Nonmajor Governmental Funds,4044728,FY2016 ACFR interfund transfers note (fy2016.txt:4924-4944 (Transfers In:/Transfers Out: matrix))
+2016,transfer_out,TOTAL transfers out of General Fund,4201607,FY2016 ACFR interfund transfers note
+2016,transfer_in,From Nonmajor Governmental Funds,6027906,FY2016 ACFR interfund transfers note (fy2016.txt:4924-4944 (Transfers In:/Transfers Out: matrix))
+2016,transfer_in,From Internal Service Funds,250000,FY2016 ACFR interfund transfers note (fy2016.txt:4924-4944 (Transfers In:/Transfers Out: matrix))
+2016,transfer_in,TOTAL transfers into General Fund,6277906,FY2016 ACFR interfund transfers note
+2017,transfer_out,To Federal and State Grant Fund,120122,FY2017 ACFR interfund transfers note (fy2017.txt:4696-4711 (Transfers In:/Transfers Out: matrix))
+2017,transfer_out,To Capital Projects,2015000,FY2017 ACFR interfund transfers note (fy2017.txt:4696-4711 (Transfers In:/Transfers Out: matrix))
+2017,transfer_out,To Internal Service Funds,2100000,FY2017 ACFR interfund transfers note (fy2017.txt:4696-4711 (Transfers In:/Transfers Out: matrix))
+2017,transfer_out,To Nonmajor Governmental Funds,2515192,FY2017 ACFR interfund transfers note (fy2017.txt:4696-4711 (Transfers In:/Transfers Out: matrix))
+2017,transfer_out,TOTAL transfers out of General Fund,6750314,FY2017 ACFR interfund transfers note
+2017,transfer_in,From Federal and State Grant Fund,15332,FY2017 ACFR interfund transfers note (fy2017.txt:4696-4711 (Transfers In:/Transfers Out: matrix))
+2017,transfer_in,From Nonmajor Governmental Funds,6060464,FY2017 ACFR interfund transfers note (fy2017.txt:4696-4711 (Transfers In:/Transfers Out: matrix))
+2017,transfer_in,TOTAL transfers into General Fund,6075796,FY2017 ACFR interfund transfers note
+2018,transfer_out,To Federal and State Grant Fund,132578,FY2018 ACFR interfund transfers note (fy2018.txt:4307-4323 (Transfers In:/Transfers Out: matrix))
+2018,transfer_out,To Internal Service Funds,3897860,FY2018 ACFR interfund transfers note (fy2018.txt:4307-4323 (Transfers In:/Transfers Out: matrix))
+2018,transfer_out,To Nonmajor Governmental Funds,2504061,FY2018 ACFR interfund transfers note (fy2018.txt:4307-4323 (Transfers In:/Transfers Out: matrix))
+2018,transfer_out,TOTAL transfers out of General Fund,6534499,FY2018 ACFR interfund transfers note
+2018,transfer_in,From Federal and State Grant Fund,42860,FY2018 ACFR interfund transfers note (fy2018.txt:4307-4323 (Transfers In:/Transfers Out: matrix))
+2018,transfer_in,From Nonmajor Governmental Funds,9100000,FY2018 ACFR interfund transfers note (fy2018.txt:4307-4323 (Transfers In:/Transfers Out: matrix))
+2018,transfer_in,From Internal Service Funds,500000,FY2018 ACFR interfund transfers note (fy2018.txt:4307-4323 (Transfers In:/Transfers Out: matrix))
+2018,transfer_in,TOTAL transfers into General Fund,9642860,FY2018 ACFR interfund transfers note
+2019,transfer_out,To Nonmajor Governmental Funds,2984608,"FY2019 ACFR interfund transfers note (fy2019.txt:3508-3528 (Transfer To/Transfer From matrix, Note 7))"
+2019,transfer_out,To Internal Service Funds,4826403,"FY2019 ACFR interfund transfers note (fy2019.txt:3508-3528 (Transfer To/Transfer From matrix, Note 7))"
+2019,transfer_out,TOTAL transfers out of General Fund,7811011,FY2019 ACFR interfund transfers note
+2019,transfer_in,From Nonmajor Governmental Funds,9462923,"FY2019 ACFR interfund transfers note (fy2019.txt:3508-3528 (Transfer To/Transfer From matrix, Note 7))"
+2019,transfer_in,From Internal Service Funds,500000,"FY2019 ACFR interfund transfers note (fy2019.txt:3508-3528 (Transfer To/Transfer From matrix, Note 7))"
+2019,transfer_in,TOTAL transfers into General Fund,9962923,FY2019 ACFR interfund transfers note
+2020,transfer_out,To Nonmajor Governmental Funds,3402958,"FY2020 ACFR interfund transfers note (fy2020.txt:3678-3696 (Transfer To/Transfer From matrix, Note 7))"
+2020,transfer_out,TOTAL transfers out of General Fund,3402958,FY2020 ACFR interfund transfers note
+2020,transfer_in,From Nonmajor Governmental Funds,12899633,"FY2020 ACFR interfund transfers note (fy2020.txt:3678-3696 (Transfer To/Transfer From matrix, Note 7))"
+2020,transfer_in,From Internal Service Funds,2000000,"FY2020 ACFR interfund transfers note (fy2020.txt:3678-3696 (Transfer To/Transfer From matrix, Note 7))"
+2020,transfer_in,TOTAL transfers into General Fund,14899633,FY2020 ACFR interfund transfers note
+2021,transfer_out,To Capital Projects,19674743,"FY2021 ACFR interfund transfers note (fy2021.txt:3682-3700 (Transfer To/Transfer From matrix, Note 7))"
+2021,transfer_out,To Nonmajor Governmental Funds,3387868,"FY2021 ACFR interfund transfers note (fy2021.txt:3682-3700 (Transfer To/Transfer From matrix, Note 7))"
+2021,transfer_out,TOTAL transfers out of General Fund,23062611,FY2021 ACFR interfund transfers note
+2021,transfer_in,From Greenville Co. Redevelopment Corporation,10936139,"FY2021 ACFR interfund transfers note (fy2021.txt:3682-3700 (Transfer To/Transfer From matrix, Note 7))"
+2021,transfer_in,From Nonmajor Governmental Funds,12040128,"FY2021 ACFR interfund transfers note (fy2021.txt:3682-3700 (Transfer To/Transfer From matrix, Note 7))"
+2021,transfer_in,From Internal Service Funds,500000,"FY2021 ACFR interfund transfers note (fy2021.txt:3682-3700 (Transfer To/Transfer From matrix, Note 7))"
+2021,transfer_in,TOTAL transfers into General Fund,23476267,FY2021 ACFR interfund transfers note
+2022,transfer_out,To Nonmajor Governmental Funds,6067896,"FY2022 ACFR interfund transfers note (fy2022.txt:4109-4128 (Transfer To/Transfer From matrix, Note 8))"
+2022,transfer_out,To Internal Service Funds,10476212,"FY2022 ACFR interfund transfers note (fy2022.txt:4109-4128 (Transfer To/Transfer From matrix, Note 8))"
+2022,transfer_out,TOTAL transfers out of General Fund,16544108,FY2022 ACFR interfund transfers note
+2022,transfer_in,From COVID Relief Fund,41245916,"FY2022 ACFR interfund transfers note (fy2022.txt:4109-4128 (Transfer To/Transfer From matrix, Note 8))"
+2022,transfer_in,From Nonmajor Governmental Funds,12436218,"FY2022 ACFR interfund transfers note (fy2022.txt:4109-4128 (Transfer To/Transfer From matrix, Note 8))"
+2022,transfer_in,From Internal Service Funds,2000000,"FY2022 ACFR interfund transfers note (fy2022.txt:4109-4128 (Transfer To/Transfer From matrix, Note 8))"
+2022,transfer_in,TOTAL transfers into General Fund,55682134,FY2022 ACFR interfund transfers note
+2023,transfer_out,To Capital Projects,700951,"FY2023 ACFR interfund transfers note (fy2023.txt:3960-3979 (Transfer To/Transfer From matrix, Note 8))"
+2023,transfer_out,To Nonmajor Governmental Funds,5899016,"FY2023 ACFR interfund transfers note (fy2023.txt:3960-3979 (Transfer To/Transfer From matrix, Note 8))"
+2023,transfer_out,TOTAL transfers out of General Fund,6599967,FY2023 ACFR interfund transfers note
+2023,transfer_in,From Revenue Bonds,30336733,"FY2023 ACFR interfund transfers note (fy2023.txt:3960-3979 (Transfer To/Transfer From matrix, Note 8))"
+2023,transfer_in,From Nonmajor Governmental Funds,12710307,"FY2023 ACFR interfund transfers note (fy2023.txt:3960-3979 (Transfer To/Transfer From matrix, Note 8))"
+2023,transfer_in,From Internal Service Funds,2000000,"FY2023 ACFR interfund transfers note (fy2023.txt:3960-3979 (Transfer To/Transfer From matrix, Note 8))"
+2023,transfer_in,TOTAL transfers into General Fund,45047040,FY2023 ACFR interfund transfers note
+2024,transfer_out,To Capital Projects,2404544,"FY2024 ACFR interfund transfers note (fy2024.txt:3804-3823 (Transfer To/Transfer From matrix, Note 8))"
+2024,transfer_out,To Nonmajor Governmental Funds,6456845,"FY2024 ACFR interfund transfers note (fy2024.txt:3804-3823 (Transfer To/Transfer From matrix, Note 8))"
+2024,transfer_out,TOTAL transfers out of General Fund,8861389,FY2024 ACFR interfund transfers note
+2024,transfer_in,From COVID Relief Fund,2423126,"FY2024 ACFR interfund transfers note (fy2024.txt:3804-3823 (Transfer To/Transfer From matrix, Note 8))"
+2024,transfer_in,From Nonmajor Governmental Funds,11874450,"FY2024 ACFR interfund transfers note (fy2024.txt:3804-3823 (Transfer To/Transfer From matrix, Note 8))"
+2024,transfer_in,From Internal Service Funds,2250000,"FY2024 ACFR interfund transfers note (fy2024.txt:3804-3823 (Transfer To/Transfer From matrix, Note 8))"
+2024,transfer_in,TOTAL transfers into General Fund,16547576,FY2024 ACFR interfund transfers note
+2025,transfer_out,To Capital Projects Fund,2344855,FY2025 ACFR interfund transfers note (fy2025-transfers.csv (existing verified file; Note 8))
+2025,transfer_out,To Miscellaneous Other Grants Fund,76699,FY2025 ACFR interfund transfers note (fy2025-transfers.csv (existing verified file; Note 8))
+2025,transfer_out,To Nonmajor Governmental Funds,7223054,FY2025 ACFR interfund transfers note (fy2025-transfers.csv (existing verified file; Note 8))
+2025,transfer_out,TOTAL transfers out of General Fund,9644608,FY2025 ACFR interfund transfers note
+2025,transfer_in,From Nonmajor Governmental Funds,13167995,FY2025 ACFR interfund transfers note (fy2025-transfers.csv (existing verified file; Note 8))
+2025,transfer_in,From Internal Service Funds,2250000,FY2025 ACFR interfund transfers note (fy2025-transfers.csv (existing verified file; Note 8))
+2025,transfer_in,TOTAL transfers into General Fund,15417995,FY2025 ACFR interfund transfers note

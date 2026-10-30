@@ -1,0 +1,440 @@
+original_label,match_scope,table_section,raw_operating_category,source_code,entity_id,effective_from_fy,effective_to_fy,mapping_note,review_status
+TOTAL GENERAL FUND BUDGET,label,,,,fund.general,,,General Fund total,human_confirmed
+TOTAL SPECIAL REVENUE FUND,label,,,,fund.special-revenue,,,Special Revenue total,human_confirmed
+TOTAL SPECIAL REV ENUE FUND,label,,,,fund.special-revenue,,,Special Revenue total OCR variant,human_confirmed
+TOTAL DEBT SERVICE FUND,label,,,,fund.debt-service,,,Debt Service total,human_confirmed
+TOTAL DEBT SERV ICE FUND,label,,,,fund.debt-service,,,Debt Service total OCR variant,human_confirmed
+TOTAL ENTERPRISE FUND,label,,,,fund.enterprise,,,Enterprise total,human_confirmed
+TOTAL INTERNAL SERVICE FUND,label,,,,fund.internal-service,,,Internal Service total,human_confirmed
+TOTAL INTERNAL SERV ICE FUND,label,,,,fund.internal-service,,,Internal Service total OCR variant,human_confirmed
+TOTAL BUDGET,label,,,,budget.total,,,County-reported whole budget total,human_confirmed
+Fleet Management,label,,,,isf.fleet-management,,,Internal Service fleet management,human_confirmed
+Fleet Management *,label,,,,isf.fleet-management,,,Internal Service fleet management asterisk variant,human_confirmed
+Total Estimated Financial Sources,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,rev.total-estimated-financial-sources,,,GF total estimated financial sources,human_confirmed
+Total Estimated Financial Sources,label+section,Consolidated Fund Summary,,,rev.total-estimated-financial-sources,,,GF total estimated financial sources,human_confirmed
+Property Taxes,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,rev.property-taxes,,,GF property tax revenue,human_confirmed
+Property Taxes,label+section,Consolidated Fund Summary,,,rev.property-taxes,,,GF property tax revenue,human_confirmed
+Intergovernmental,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,rev.intergovernmental,,,GF intergovernmental revenue,human_confirmed
+Intergovernmental,label+section,Consolidated Fund Summary,,,rev.intergovernmental,,,GF intergovernmental revenue,human_confirmed
+County Offices,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,rev.county-offices,2002,2017,County Offices renamed to County Offices/Fees in FY2018,human_confirmed
+County Offices,label+section,Consolidated Fund Summary,,,rev.county-offices,2002,2017,County Offices renamed to County Offices/Fees in FY2018,human_confirmed
+County Offices/Fees,label,,,,rev.county-offices,2018,2026,County Offices/Fees was County Offices through FY2017,human_confirmed
+Other,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,rev.other,,,GF other financing sources,human_confirmed
+Other,label+section,Consolidated Fund Summary,,,rev.other,,,GF other financing sources,human_confirmed
+Capital Projects Reserve,label,,,,rev.capital-projects-reserve,,,FY2023 broad revenue category,human_confirmed
+Charges for Services,label+section,Consolidated Fund Summary,,,rev.charges-for-services,2023,2023,FY2023 broad revenue category,human_confirmed
+Premiums,label,,,,rev.premiums,,,FY2023 broad revenue category,human_confirmed
+Stormwater Fees,label+section,Consolidated Fund Summary,,,rev.stormwater-fees,2023,2023,FY2023 broad revenue category,human_confirmed
+A ccommodations Tax,label,,,,fund.sr.accommodations-tax,,,SR named fund,human_confirmed
+Accommodations Tax,label+section,Budget Expenditure Overview,,,fund.sr.accommodations-tax,,,SR named fund,human_confirmed
+E-911,label,,,,fund.sr.e911,,,SR named fund,human_confirmed
+E911,label,,,,fund.sr.e911,,,SR named fund,human_confirmed
+E911 *,label,,,,fund.sr.e911,,,SR named fund,human_confirmed
+Infrastructure Bank,label+section,Budget Expenditure Overview,,,fund.sr.infrastructure-bank,,,SR named fund,human_confirmed
+Infrastructure Bank *,label,,,,fund.sr.infrastructure-bank,,,SR named fund,human_confirmed
+Medical Charities,label,,,,fund.sr.medical-charities,,,SR named fund,human_confirmed
+Medical Charities *,label,,,,fund.sr.medical-charities,,,SR named fund,human_confirmed
+Road Program,label,,,,fund.sr.road-program,,,SR named fund,human_confirmed
+Road Program *,label,,,,fund.sr.road-program,,,SR named fund,human_confirmed
+V ictim' s Rights,label,,,,fund.sr.victims-rights,,,SR named fund,human_confirmed
+Victim's Rights,label,,,,fund.sr.victims-rights,,,SR named fund,human_confirmed
+Road Paving,label,,,,fund.sr.road-paving,,,SR named fund,human_confirmed
+Road Paving *,label,,,,fund.sr.road-paving,,,SR named fund,human_confirmed
+Hospitality Tax,label+section,Budget Expenditure Overview,,,fund.sr.hospitality-tax,,,SR named fund,human_confirmed
+Hospitality Tax *,label,,,,fund.sr.hospitality-tax,,,SR named fund,human_confirmed
+"Parks, Recreation, and Tourism",label,,,,fund.sr.parks-recreation-tourism,,,SR named fund,human_confirmed
+"Parks, Recreation, and Tourism *",label,,,,fund.sr.parks-recreation-tourism,,,SR named fund,human_confirmed
+Local Accommodations Tax,label,,,,fund.sr.local-accommodations-tax,,,SR named fund,human_confirmed
+Public Safety Interoperable Communications,label,,,,fund.sr.public-safety-interop,,,SR named fund,human_confirmed
+State Accommodations Tax,label,,,,fund.sr.state-accommodations-tax,,,SR named fund,human_confirmed
+Affordable Housing,label,,,,fund.sr.affordable-housing,,,SR named fund,human_confirmed
+Natural Resources,label,,,,fund.sr.natural-resources,,,SR named fund,human_confirmed
+Natural Resources *,label,,,,fund.sr.natural-resources,,,SR named fund,human_confirmed
+Health/ Dental Insurance Premiums,label,,,,isf.health-dental-premiums,,,ISF component,human_confirmed
+Health/Dental Insurance Premiums,label,,,,isf.health-dental-premiums,,,ISF component,human_confirmed
+Workers Compensation,label+section,Budget Expenditure Overview,,,isf.workers-compensation,,,ISF component,human_confirmed
+Workers Compensation *,label,,,,isf.workers-compensation,,,ISF component,human_confirmed
+Health/Dental Insurance Program,label,,,,isf.health-dental-program,,,ISF component,human_confirmed
+Health/Dental Insurance Program *,label,,,,isf.health-dental-program,,,ISF component,human_confirmed
+Building Services,label,,,,isf.building-services,,,ISF component,human_confirmed
+A UDITOR,label+section,General Fund Appropriations Summary,,,dept.auditor,,,GF department appropriations,human_confirmed
+ANIMAL CARE SERVICES,label+section,General Fund Appropriations Summary,,,dept.animalcareservices,,,GF department appropriations,human_confirmed
+AUDITOR,label+section,General Fund Appropriations Summary,,,dept.auditor,,,GF department appropriations,human_confirmed
+Animal Care Services,label+section,General Fund Appropriations Summary,,,dept.animalcareservices,,,GF department appropriations,human_confirmed
+Auditor,label+section,General Fund Appropriations Summary,,,dept.auditor,,,GF department appropriations,human_confirmed
+BOA RD OF A PPEA LS,label+section,General Fund Appropriations Summary,,,dept.boardofappeals,,,GF department appropriations,human_confirmed
+BOARD OF APPEALS,label+section,General Fund Appropriations Summary,,,dept.boardofappeals,,,GF department appropriations,human_confirmed
+Board of Appeals,label+section,General Fund Appropriations Summary,,,dept.boardofappeals,,,GF department appropriations,human_confirmed
+CIRCUIT SOLICITOR,label+section,General Fund Appropriations Summary,,,dept.circuitsolicitor,,,GF department appropriations,human_confirmed
+CLERK OF COURT,label+section,General Fund Appropriations Summary,,,dept.clerkofcourt,,,GF department appropriations,human_confirmed
+CODE ENFORCEMENT,label+section,General Fund Appropriations Summary,,,dept.codeenforcement,,,GF department appropriations,human_confirmed
+CODES ENFORCEMENT,label+section,General Fund Appropriations Summary,,,dept.codesenforcement,,,GF department appropriations,human_confirmed
+CORONER,label+section,General Fund Appropriations Summary,,,dept.coroner,,,GF department appropriations,human_confirmed
+COUNTY A DMINISTRA TOR,label+section,General Fund Appropriations Summary,,,dept.countyadministrator,,,GF department appropriations,human_confirmed
+COUNTY A TTORNEY,label+section,General Fund Appropriations Summary,,,dept.countyattorney,,,GF department appropriations,human_confirmed
+COUNTY ADMINISTRATOR,label+section,General Fund Appropriations Summary,,,dept.countyadministrator,,,GF department appropriations,human_confirmed
+COUNTY ATTORNEY,label+section,General Fund Appropriations Summary,,,dept.countyattorney,,,GF department appropriations,human_confirmed
+COUNTY COUNCIL,label+section,General Fund Appropriations Summary,,,dept.countycouncil,,,GF department appropriations,human_confirmed
+Circuit Solicitor,label+section,General Fund Appropriations Summary,,,dept.circuitsolicitor,,,GF department appropriations,human_confirmed
+Clerk of Court,label+section,General Fund Appropriations Summary,,,dept.clerkofcourt,,,GF department appropriations,human_confirmed
+Code Enforcement,label+section,General Fund Appropriations Summary,,,dept.codeenforcement,,,GF department appropriations,human_confirmed
+Coroner,label+section,General Fund Appropriations Summary,,,dept.coroner,,,GF department appropriations,human_confirmed
+Council Administrator,label+section,General Fund Appropriations Summary,,,dept.counciladministrator,,,GF department appropriations,human_confirmed
+County Attorney,label+section,General Fund Appropriations Summary,,,dept.countyattorney,,,GF department appropriations,human_confirmed
+County Council,label+section,General Fund Appropriations Summary,,,dept.countycouncil,,,GF department appropriations,human_confirmed
+DEPARTMENT OF PLANNING,label+section,General Fund Appropriations Summary,,,dept.departmentofplanning,,,GF department appropriations,human_confirmed
+DETENTION CENTER,label+section,General Fund Appropriations Summary,,,dept.detentioncenter,,,GF department appropriations,human_confirmed
+Detention Center,label+section,General Fund Appropriations Summary,,,dept.detentioncenter,,,GF department appropriations,human_confirmed
+EM ERGENCY MEDICA L SERV ICES,label+section,General Fund Appropriations Summary,,,dept.emergencymedicalservices,,,GF department appropriations,human_confirmed
+EM PLOYEE BENEFIT FUND,label+section,General Fund Appropriations Summary,,,dept.employeebenefitfund,,,GF department appropriations,human_confirmed
+EMERGENCY MEDICAL SERVICES,label+section,General Fund Appropriations Summary,,,dept.emergencymedicalservices,,,GF department appropriations,human_confirmed
+EMPLOYEE BENEFIT FUND,label+section,General Fund Appropriations Summary,,,dept.employeebenefitfund,,,GF department appropriations,human_confirmed
+"ENG,-PAVING/DRAINAGE",label+section,General Fund Appropriations Summary,,,dept.engpavingdrainage,,,GF department appropriations,human_confirmed
+ENG.-ADMINISTRATION,label+section,General Fund Appropriations Summary,,,dept.engadministration,,,GF department appropriations,human_confirmed
+ENG.-ENGINEERING,label+section,General Fund Appropriations Summary,,,dept.engengineering,,,GF department appropriations,human_confirmed
+ENG.-NORTHERN BUREAU,label+section,General Fund Appropriations Summary,,,dept.engnorthernbureau,,,GF department appropriations,human_confirmed
+ENG.-SOUTHERN BUREAU,label+section,General Fund Appropriations Summary,,,dept.engsouthernbureau,,,GF department appropriations,human_confirmed
+ENGINEERING,label+section,General Fund Appropriations Summary,,,dept.engineering,,,GF department appropriations,human_confirmed
+ENGINEERING - NORTHERN BUREAU,label+section,General Fund Appropriations Summary,,,dept.engineeringnorthernbureau,,,GF department appropriations,human_confirmed
+ENGINEERING - SOUTHERN BUREAU,label+section,General Fund Appropriations Summary,,,dept.engineeringsouthernbureau,,,GF department appropriations,human_confirmed
+Emergency Management,label+section,General Fund Appropriations Summary,,,dept.emergencymanagement,,,GF department appropriations,human_confirmed
+Emergency Medical Services,label+section,General Fund Appropriations Summary,,,dept.emergencymedicalservices,,,GF department appropriations,human_confirmed
+Employee Benefit Fund,label+section,General Fund Appropriations Summary,,,dept.employeebenefitfund,,,GF department appropriations,human_confirmed
+Engineering,label+section,General Fund Appropriations Summary,,,dept.engineering,,,GF department appropriations,human_confirmed
+Engineering and Road Bureaus,label+section,General Fund Appropriations Summary,,,dept.engineeringandroadbureaus,,,GF department appropriations,human_confirmed
+FINA NCIA L OPERA TIONS,label+section,General Fund Appropriations Summary,,,dept.financialoperations,,,GF department appropriations,human_confirmed
+FINANCIAL OPERATIONS,label+section,General Fund Appropriations Summary,,,dept.financialoperations,,,GF department appropriations,human_confirmed
+FMV Adjustment,label+section,General Fund Appropriations Summary,,,dept.fmvadjustment,,,GF department appropriations,human_confirmed
+FORENSICS,label+section,General Fund Appropriations Summary,,,dept.forensics,,,GF department appropriations,human_confirmed
+Financial Operations,label+section,General Fund Appropriations Summary,,,dept.financialoperations,,,GF department appropriations,human_confirmed
+Forensics,label+section,General Fund Appropriations Summary,,,dept.forensics,,,GF department appropriations,human_confirmed
+GEOGRA PHIC INFORMA TION SYSTEM,label+section,General Fund Appropriations Summary,,,dept.geographicinformationsystem,,,GF department appropriations,human_confirmed
+GEOGRAPHIC INFORMATION SYSTEM,label+section,General Fund Appropriations Summary,,,dept.geographicinformationsystem,,,GF department appropriations,human_confirmed
+Geographic Information Systems,label+section,General Fund Appropriations Summary,,,dept.geographicinformationsystems,,,GF department appropriations,human_confirmed
+HUMA N RELA TIONS,label+section,General Fund Appropriations Summary,,,dept.humanrelations,,,GF department appropriations,human_confirmed
+HUMA N RESOURCES,label+section,General Fund Appropriations Summary,,,dept.humanresources,,,GF department appropriations,human_confirmed
+HUMAN RELATIONS,label+section,General Fund Appropriations Summary,,,dept.humanrelations,,,GF department appropriations,human_confirmed
+HUMAN RESOURCES,label+section,General Fund Appropriations Summary,,,dept.humanresources,,,GF department appropriations,human_confirmed
+Human Relations,label+section,General Fund Appropriations Summary,,,dept.humanrelations,,,GF department appropriations,human_confirmed
+Human Resources,label+section,General Fund Appropriations Summary,,,dept.humanresources,,,GF department appropriations,human_confirmed
+INDIGENT DEFENSE,label+section,General Fund Appropriations Summary,,,dept.indigentdefense,,,GF department appropriations,human_confirmed
+INFORMA TION SYSTEMS A ND SERV ICES,label+section,General Fund Appropriations Summary,,,dept.informationsystemsandservices,,,GF department appropriations,human_confirmed
+INFORMATION SYSTEMS AND SERVICES,label+section,General Fund Appropriations Summary,,,dept.informationsystemsandservices,,,GF department appropriations,human_confirmed
+Indigent Defense,label+section,General Fund Appropriations Summary,,,dept.indigentdefense,,,GF department appropriations,human_confirmed
+Information Systems and Services,label+section,General Fund Appropriations Summary,,,dept.informationsystemsandservices,,,GF department appropriations,human_confirmed
+Information Sytems,label+section,General Fund Appropriations Summary,,,dept.informationsytems,,,GF department appropriations,human_confirmed
+LEGISLA TIV E DELEGA TION,label+section,General Fund Appropriations Summary,,,dept.legislativedelegation,,,GF department appropriations,human_confirmed
+LEGISLATIVE DELEGATION,label+section,General Fund Appropriations Summary,,,dept.legislativedelegation,,,GF department appropriations,human_confirmed
+Legislative Delegation,label+section,General Fund Appropriations Summary,,,dept.legislativedelegation,,,GF department appropriations,human_confirmed
+MA GISTRA TES,label+section,General Fund Appropriations Summary,,,dept.magistrates,,,GF department appropriations,human_confirmed
+MA NA GEMENT & BUDGET,label+section,General Fund Appropriations Summary,,,dept.managementbudget,,,GF department appropriations,human_confirmed
+MA STER IN EQUITY,label+section,General Fund Appropriations Summary,,,dept.masterinequity,,,GF department appropriations,human_confirmed
+MA TCHING FUND GRA NTS,label+section,General Fund Appropriations Summary,,,dept.matchingfundgrants,,,GF department appropriations,human_confirmed
+MAGISTRATES,label+section,General Fund Appropriations Summary,,,dept.magistrates,,,GF department appropriations,human_confirmed
+MANAGEMENT & BUDGET,label+section,General Fund Appropriations Summary,,,dept.managementbudget,,,GF department appropriations,human_confirmed
+MASTER IN EQUITY,label+section,General Fund Appropriations Summary,,,dept.masterinequity,,,GF department appropriations,human_confirmed
+MATCHING FUND GRANTS,label+section,General Fund Appropriations Summary,,,dept.matchingfundgrants,,,GF department appropriations,human_confirmed
+MEDICA L EXA MINER,label+section,General Fund Appropriations Summary,,,dept.medicalexaminer,,,GF department appropriations,human_confirmed
+MEDICAL EXAMINER,label+section,General Fund Appropriations Summary,,,dept.medicalexaminer,,,GF department appropriations,human_confirmed
+Magistrates,label+section,General Fund Appropriations Summary,,,dept.magistrates,,,GF department appropriations,human_confirmed
+Master in Equity,label+section,General Fund Appropriations Summary,,,dept.masterinequity,,,GF department appropriations,human_confirmed
+Matching Funds/Grants,label+section,General Fund Appropriations Summary,,,dept.matchingfundsgrants,,,GF department appropriations,human_confirmed
+Medical Examienr,label+section,General Fund Appropriations Summary,,,dept.medicalexaminer,,,The county's printed label for this year differs from its usual one; the verbatim label stays on the observation's citation.,human_confirmed
+Medical Examiner,label+section,General Fund Appropriations Summary,,,dept.medicalexaminer,,,GF department appropriations,human_confirmed
+NON-DEPA RTMENTA L,label+section,General Fund Appropriations Summary,,,dept.nondepartmental,,,GF department appropriations,human_confirmed
+NON-DEPARTMENTAL,label+section,General Fund Appropriations Summary,,,dept.nondepartmental,,,GF department appropriations,human_confirmed
+Non-Departmenatl,label+section,General Fund Appropriations Summary,,,dept.nondepartmental,,,The county's printed label for this year differs from its usual one; the verbatim label stays on the observation's citation.,human_confirmed
+Non-Departmental,label+section,General Fund Appropriations Summary,,,dept.nondepartmental,,,GF department appropriations,human_confirmed
+Non-Departmental Funds,label+section,General Fund Appropriations Summary,,,dept.nondepartmentalfunds,,,GF department appropriations,human_confirmed
+OPERA TING TRA NSFERS - CA PITA L PROJECTS,label+section,General Fund Appropriations Summary,,,dept.operatingtransferscapitalprojects,,,GF department appropriations,human_confirmed
+OPERA TING TRA NSFERS - DEBT SERV ICE,label+section,General Fund Appropriations Summary,,,dept.operatingtransfersdebtservice,,,GF department appropriations,human_confirmed
+OPERA TING TRA NSFERS - SPECIA L REV ENUE,label+section,General Fund Appropriations Summary,,,dept.operatingtransfersspecialrevenue,,,GF department appropriations,human_confirmed
+OUTSIDE A GENCIES,label+section,General Fund Appropriations Summary,,,dept.outsideagencies,,,GF department appropriations,human_confirmed
+OUTSIDE AGENCIES,label+section,General Fund Appropriations Summary,,,dept.outsideagencies,,,GF department appropriations,human_confirmed
+Other Financing Uses/Capital Project,label+section,General Fund Appropriations Summary,,,dept.otherfinancingusescapitalproject,,,GF department appropriations,human_confirmed
+Other Financing Uses/Capital Projects,label+section,General Fund Appropriations Summary,,,dept.otherfinancingusescapitalprojects,,,GF department appropriations,human_confirmed
+Other Financing Uses/Debt Service,label+section,General Fund Appropriations Summary,,,dept.otherfinancingusesdebtservice,,,GF department appropriations,human_confirmed
+Other Financing Uses/Internal Services,label+section,General Fund Appropriations Summary,,,dept.otherfinancingusesinternalservices,,,GF department appropriations,human_confirmed
+Other Financing Uses/Special Revenue,label+section,General Fund Appropriations Summary,,,dept.otherfinancingusesspecialrevenue,,,GF department appropriations,human_confirmed
+Outside Agencies,label+section,General Fund Appropriations Summary,,,dept.outsideagencies,,,GF department appropriations,human_confirmed
+PLA NNING COMMISSION,label+section,General Fund Appropriations Summary,,,dept.planningcommission,,,GF department appropriations,human_confirmed
+PLANNING AND CODE COMPLIANCE,label+section+category,General Fund Appropriations Summary,COMMUNITY DEVELOPMENT AND PLANNING,,dept.planningandcodecompliance.communitydevelopmentandplanning,,,GF department appropriations,human_confirmed
+PLANNING AND CODE COMPLIANCE,label+section+category,General Fund Appropriations Summary,OTHER SERVICES,,dept.planningandcodecompliance.otherservices,,,GF department appropriations,human_confirmed
+PLANNING COMMISSION,label+section,General Fund Appropriations Summary,,,dept.planningcommission,,,GF department appropriations,human_confirmed
+PLANNING DEPARTMENT,label+section,General Fund Appropriations Summary,,,dept.planningdepartment,,,GF department appropriations,human_confirmed
+PROBA TE COURT,label+section,General Fund Appropriations Summary,,,dept.probatecourt,,,GF department appropriations,human_confirmed
+PROBATE COURT,label+section,General Fund Appropriations Summary,,,dept.probatecourt,,,GF department appropriations,human_confirmed
+PROCUREMENT SERVICES,label+section,General Fund Appropriations Summary,,,dept.procurementservices,,,GF department appropriations,human_confirmed
+PROPERTY MA NA GEM ENT,label+section,General Fund Appropriations Summary,,,dept.propertymanagement,,,GF department appropriations,human_confirmed
+PROPERTY MANAGEMENT,label+section,General Fund Appropriations Summary,,,dept.propertymanagement,,,GF department appropriations,human_confirmed
+PUBLIC DEFENDER,label+section,General Fund Appropriations Summary,,,dept.publicdefender,,,GF department appropriations,human_confirmed
+PUBLIC WORKS ADMINISTRATION,label+section,General Fund Appropriations Summary,,,dept.publicworksadministration,,,GF department appropriations,human_confirmed
+PURCHA SING,label+section,General Fund Appropriations Summary,,,dept.purchasing,,,GF department appropriations,human_confirmed
+PURCHASING,label+section,General Fund Appropriations Summary,,,dept.purchasing,,,GF department appropriations,human_confirmed
+Planning,label+section,General Fund Appropriations Summary,,,dept.planning,,,GF department appropriations,human_confirmed
+Probate Court,label+section,General Fund Appropriations Summary,,,dept.probatecourt,,,GF department appropriations,human_confirmed
+Procurement Services,label+section,General Fund Appropriations Summary,,,dept.procurementservices,,,GF department appropriations,human_confirmed
+Property Maintenance,label+section,General Fund Appropriations Summary,,,dept.propertymaintenance,,,GF department appropriations,human_confirmed
+Property Management,label+section,General Fund Appropriations Summary,,,dept.propertymanagement,,,GF department appropriations,human_confirmed
+Public Defender,label+section,General Fund Appropriations Summary,,,dept.publicdefender,,,GF department appropriations,human_confirmed
+Public Works Administration,label+section,General Fund Appropriations Summary,,,dept.publicworksadministration,,,GF department appropriations,human_confirmed
+Public Works Administrator,label+section,General Fund Appropriations Summary,,,dept.publicworksadministration,,,The county's printed label for this year differs from its usual one; the verbatim label stays on the observation's citation.,human_confirmed
+REA L PROPERTY SERV ICES,label+section,General Fund Appropriations Summary,,,dept.realpropertyservices,,,GF department appropriations,human_confirmed
+REAL PROPERTY SERVICES,label+section,General Fund Appropriations Summary,,,dept.realpropertyservices,,,GF department appropriations,human_confirmed
+RECORDS,label+section,General Fund Appropriations Summary,,,dept.records,,,GF department appropriations,human_confirmed
+REGISTER OF DEEDS,label+section,General Fund Appropriations Summary,,,dept.registerofdeeds,,,GF department appropriations,human_confirmed
+REGISTRA TION A ND ELECTION,label+section,General Fund Appropriations Summary,,,dept.registrationandelection,,,GF department appropriations,human_confirmed
+REGISTRATION AND ELECTION,label+section,General Fund Appropriations Summary,,,dept.registrationandelection,,,GF department appropriations,human_confirmed
+Records,label+section,General Fund Appropriations Summary,,,dept.records,,,GF department appropriations,human_confirmed
+Register of Deeds,label+section,General Fund Appropriations Summary,,,dept.registerofdeeds,,,GF department appropriations,human_confirmed
+Registration and Election,label+section,General Fund Appropriations Summary,,,dept.registrationandelection,,,GF department appropriations,human_confirmed
+SHERIFF,label+section,General Fund Appropriations Summary,,,dept.sheriff,,,GF department appropriations,human_confirmed
+SOIL A ND WA TER,label+section,General Fund Appropriations Summary,,,dept.soilandwater,,,GF department appropriations,human_confirmed
+Sheriff,label+section,General Fund Appropriations Summary,,,dept.sheriff,,,GF department appropriations,human_confirmed
+TA X COLLECTOR,label+section,General Fund Appropriations Summary,,,dept.taxcollector,,,GF department appropriations,human_confirmed
+TAX COLLECTOR,label+section,General Fund Appropriations Summary,,,dept.taxcollector,,,GF department appropriations,human_confirmed
+TAX SERVICES,label+section,General Fund Appropriations Summary,,,dept.taxservices,,,GF department appropriations,human_confirmed
+TO TAL ADM INISTRATIV E,label+section,General Fund Appropriations Summary,,,opcat.administrative,,,GF department appropriations,human_confirmed
+TO TAL FISCAL SERV ICES,label+section,General Fund Appropriations Summary,,,opcat.fiscal,,,GF department appropriations,human_confirmed
+TO TAL GENERAL FUND EXPENDITURES,label+section,General Fund Appropriations Summary,,,gf.expenditures,,,GF department appropriations,human_confirmed
+TO TAL GENERAL SERV ICES,label+section,General Fund Appropriations Summary,,,opcat.general-services,,,GF department appropriations,human_confirmed
+TO TAL HUM AN RESOURCES,label+section,General Fund Appropriations Summary,,,opcat.human-resources,,,GF department appropriations,human_confirmed
+TO TAL JUDICIAL SERV ICES,label+section,General Fund Appropriations Summary,,,opcat.judicial,,,GF department appropriations,human_confirmed
+TO TAL LAW EN FO RCEM ENT SERV ICES,label+section,General Fund Appropriations Summary,,,opcat.law-enforcement,,,GF department appropriations,human_confirmed
+TO TAL O PERATING TRAN SFERS,label+section,General Fund Appropriations Summary,,,opcat.operating-transfers,,,GF department appropriations,human_confirmed
+TO TAL O THER SERV ICES,label+section,General Fund Appropriations Summary,,,opcat.other-services,,,GF department appropriations,human_confirmed
+TO TAL PUBLIC SAFETY,label+section,General Fund Appropriations Summary,,,opcat.public-safety,,,GF department appropriations,human_confirmed
+TO TAL PUBLIC WORKS,label+section,General Fund Appropriations Summary,,,opcat.public-works,,,GF department appropriations,human_confirmed
+TOTAL ADMINISTRATIVE,label+section,General Fund Appropriations Summary,,,opcat.administrative,,,GF department appropriations,human_confirmed
+TOTAL ADMINISTRATIVE SERVICES,label+section,General Fund Appropriations Summary,,,opcat.administrative,,,GF department appropriations,human_confirmed
+TOTAL COMMUNITY DEVELOPMENT & PLNG,label+section,General Fund Appropriations Summary,,,opcat.community-development-planning,,,GF department appropriations,human_confirmed
+TOTAL COMMUNITY PLANNING AND DEV,label+section,General Fund Appropriations Summary,,,opcat.community-development-planning,,,GF department appropriations,human_confirmed
+TOTAL DEPT OF ADMINISTRATION,label+section,General Fund Appropriations Summary,,,opcat.department-of-administration,,,GF department appropriations,human_confirmed
+TOTAL EMERGENECY MANAGEMENT $,label+section,General Fund Appropriations Summary,,,opcat.emergency-management,,,GF department appropriations,human_confirmed
+TOTAL EMS,label+section,General Fund Appropriations Summary,,,opcat.emergency-medical-services,,,GF department appropriations,human_confirmed
+TOTAL FISCAL SERVICES,label+section,General Fund Appropriations Summary,,,opcat.fiscal,,,GF department appropriations,human_confirmed
+TOTAL GENERAL FUND EXPENDITURES,label+section,General Fund Appropriations Summary,,,gf.expenditures,,,GF department appropriations,human_confirmed
+TOTAL GENERAL SERVICES,label+section,General Fund Appropriations Summary,,,opcat.general-services,,,GF department appropriations,human_confirmed
+TOTAL HUMAN RESOURCES,label+section,General Fund Appropriations Summary,,,opcat.human-resources,,,GF department appropriations,human_confirmed
+TOTAL JUDICIAL SERVICES,label+section,General Fund Appropriations Summary,,,opcat.judicial,,,GF department appropriations,human_confirmed
+TOTAL LAW ENFORCEMENT,label+section,General Fund Appropriations Summary,,,opcat.law-enforcement,,,GF department appropriations,human_confirmed
+TOTAL OPERATING TRANSFERS,label+section,General Fund Appropriations Summary,,,opcat.operating-transfers,,,GF department appropriations,human_confirmed
+TOTAL OTHER FINANCING USES,label+section,General Fund Appropriations Summary,,,opcat.other-financing-uses,,,GF department appropriations,human_confirmed
+TOTAL OTHER SERVICES,label+section,General Fund Appropriations Summary,,,opcat.other-services,,,GF department appropriations,human_confirmed
+TOTAL PLANNING AND DEVELOPMENT,label+section,General Fund Appropriations Summary,,,opcat.community-development-planning,,,GF department appropriations,human_confirmed
+TOTAL PUBLIC SAFETY,label+section,General Fund Appropriations Summary,,,opcat.public-safety,,,GF department appropriations,human_confirmed
+TOTAL PUBLIC WORKS,label+section,General Fund Appropriations Summary,,,opcat.public-works,,,GF department appropriations,human_confirmed
+TOTAL STRATEGIC OPERATIONS,label+section,General Fund Appropriations Summary,,,opcat.strategic-operations,,,GF department appropriations,human_confirmed
+TRANSFERS - CAPITAL PROJECTS,label+section,General Fund Appropriations Summary,,,dept.transferscapitalprojects,,,GF department appropriations,human_confirmed
+TRANSFERS - DEBT SERVICE,label+section,General Fund Appropriations Summary,,,dept.transfersdebtservice,,,GF department appropriations,human_confirmed
+TRANSFERS - INTERNAL SERVICE,label+section,General Fund Appropriations Summary,,,dept.transfersinternalservice,,,GF department appropriations,human_confirmed
+TRANSFERS - SPECIAL REVENUE,label+section,General Fund Appropriations Summary,,,dept.transfersspecialrevenue,,,GF department appropriations,human_confirmed
+TREA SURER,label+section,General Fund Appropriations Summary,,,dept.treasurer,,,GF department appropriations,human_confirmed
+TREASURER,label+section,General Fund Appropriations Summary,,,dept.treasurer,,,GF department appropriations,human_confirmed
+Tax Services,label+section,General Fund Appropriations Summary,,,dept.taxservices,,,GF department appropriations,human_confirmed
+Treasurer,label+section,General Fund Appropriations Summary,,,dept.treasurer,,,GF department appropriations,human_confirmed
+V ETERA NS A FFA IRS,label+section,General Fund Appropriations Summary,,,dept.veteransaffairs,,,GF department appropriations,human_confirmed
+VETERANS AFFAIRS,label+section,General Fund Appropriations Summary,,,dept.veteransaffairs,,,GF department appropriations,human_confirmed
+Veterans Affairs,label+section,General Fund Appropriations Summary,,,dept.veteransaffairs,,,GF department appropriations,human_confirmed
+Fund Balance July 1,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,balance.gf.beginning,,,GF consolidated sources and uses,human_confirmed
+Fund Balance July 1,label+section,Consolidated Fund Summary,,,balance.gf.beginning,,,GF consolidated sources and uses,human_confirmed
+Fund Balance June 30,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,balance.gf.ending,,,GF consolidated sources and uses,human_confirmed
+Fund Balance June 30,label+section,Consolidated Fund Summary,,,balance.gf.ending,,,GF consolidated sources and uses,human_confirmed
+Net Increase (Decrease) in Fund Balance,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,balance.gf.net-change,,,GF consolidated sources and uses,human_confirmed
+Net Increase (Decrease) in Fund Balance,label+section,Consolidated Fund Summary,,,balance.gf.net-change,,,GF consolidated sources and uses,human_confirmed
+Estimated Revenue Replacement (CSLFRF),label+section,Consolidated Fund Summary,,,balance.gf.revenue-replacement,,,GF consolidated sources and uses,human_confirmed
+Reserved for Encumbrances,label+section,Consolidated Fund Summary,,,balance.gf.reserved-encumbrances,,,GF consolidated sources and uses,human_confirmed
+Other Transfers *,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,fin.gf.other-transfers,,,GF consolidated sources and uses,human_confirmed
+Other Transfers *,label+section,Consolidated Fund Summary,,,fin.gf.other-transfers,,,GF consolidated sources and uses,human_confirmed
+Transfers,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,fin.gf.transfers-net,,,GF consolidated sources and uses,human_confirmed
+Transfers,label+section,Consolidated Fund Summary,,,fin.gf.transfers-net,,,GF consolidated sources and uses,human_confirmed
+Transfers In,label+section,Consolidated Fund Summary,,,fin.gf.transfers-in,,,GF consolidated sources and uses,human_confirmed
+Transfers Out,label+section,Consolidated Fund Summary,,,fin.gf.transfers-out,,,GF consolidated sources and uses,human_confirmed
+"Fund balance, beginning of year",label+section,General Fund Budget and Actual,,,balance.gf.beginning,2011,2025,Audited General Fund beginning position,human_confirmed
+Net change in fund balances,label+section,General Fund Budget and Actual,,,balance.gf.net-change,2011,2025,Audited General Fund change,human_confirmed
+"Fund balance, end of year",label+section,General Fund Budget and Actual,,,balance.gf.ending,2011,2025,Audited General Fund ending position,human_confirmed
+Total revenues,label+section,General Fund Budget and Actual,,FY2025-ACFR,rev.total-estimated-financial-sources,2025,2025,Audited General Fund revenues,human_confirmed
+Total expenditures,label+section,General Fund Budget and Actual,,FY2025-ACFR,use.gf.operating-total,2025,2025,Audited General Fund expenditures,human_confirmed
+Transfers in,label+section,General Fund Budget and Actual,,FY2025-ACFR,fin.gf.transfers-in,2025,2025,Audited General Fund transfers in,human_confirmed
+Transfers out,label+section,General Fund Budget and Actual,,FY2025-ACFR,fin.gf.transfers-out,2025,2025,Audited General Fund transfers out,human_confirmed
+Hospitality Tax,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.hospitality-tax,2026,2026,FY2026 transfer into the General Fund,human_confirmed
+Accommodations Tax,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.state-accommodations,2026,2026,FY2026 transfer into the General Fund,human_confirmed
+Infrastructure Bank,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.infrastructure-bank,2026,2026,FY2026 transfer into the General Fund,human_confirmed
+Workers Compensation,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.workers-compensation,2026,2026,FY2026 transfer into the General Fund,human_confirmed
+Total Other Sources (Uses),label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,fin.gf.total-other-sources-uses,,,GF consolidated sources and uses,human_confirmed
+Total Other Sources (Uses),label+section,Consolidated Fund Summary,,,fin.gf.total-other-sources-uses,,,GF consolidated sources and uses,human_confirmed
+Capital Lease Issuance,label+section,Consolidated Fund Summary,,,fin.gf.capital-lease-issuance,,,GF consolidated sources and uses,human_confirmed
+Sale of Property,label+section,Consolidated Fund Summary,,,fin.gf.sale-of-property,,,GF consolidated sources and uses,human_confirmed
+TOTAL OPERATING BUDGET,label+section,Budget Expenditure Overview,,,use.gf.operating-total,,,GF operating overview statement,human_confirmed
+Interfund Transfers,label+section,Budget Expenditure Overview,,,fin.gf.transfers-out,,,GF operating overview statement,human_confirmed
+A dministrative Services,label+section,Budget Expenditure Overview,,,overview.gf.administrative,,,GF operating overview category,human_confirmed
+Administrative Services,label+section,Budget Expenditure Overview,,,overview.gf.administrative,,,GF operating overview category,human_confirmed
+Elected & A ppointed Offices/ Fiscal,label+section,Budget Expenditure Overview,,,overview.gf.fiscal,,,GF operating overview category,human_confirmed
+Elected & Appointed Offices/ Fiscal,label+section,Budget Expenditure Overview,,,overview.gf.fiscal,,,GF operating overview category,human_confirmed
+Elected & A ppointed Offices/ Jucicial,label+section,Budget Expenditure Overview,,,overview.gf.judicial,,,GF operating overview category,human_confirmed
+Elected & Appointed Offices/ Jucicial,label+section,Budget Expenditure Overview,,,overview.gf.judicial,,,GF operating overview category,human_confirmed
+Elected & Appointed Offices/ Judicial,label+section,Budget Expenditure Overview,,,overview.gf.judicial,,,GF operating overview category,human_confirmed
+Elected & A ppointed Offices/ Law Enforc.,label+section,Budget Expenditure Overview,,,overview.gf.law-enforcement,,,GF operating overview category,human_confirmed
+Elected & Appointed Offices/Law Enforc.,label+section,Budget Expenditure Overview,,,overview.gf.law-enforcement,,,GF operating overview category,human_confirmed
+Elected & Appointed Offices/Law Enforc,label+section,Budget Expenditure Overview,,,overview.gf.law-enforcement,,,GF operating overview category,human_confirmed
+Elected & Appointed Offices/Law Enforcement,label+section,Budget Expenditure Overview,,,overview.gf.law-enforcement,,,GF operating overview category,human_confirmed
+Elected & Appointed Offices/Law Enforcemen,label+section,Budget Expenditure Overview,,,overview.gf.law-enforcement,,,GF operating overview category,human_confirmed
+General Services,label+section,Budget Expenditure Overview,,,overview.gf.general-services,,,GF operating overview category,human_confirmed
+Department of General Services,label+section,Budget Expenditure Overview,,,overview.gf.general-services,,,GF operating overview category,human_confirmed
+Human Resources,label+section,Budget Expenditure Overview,,,overview.gf.human-resources,,,GF operating overview category,human_confirmed
+Human Resources **,label+section,Budget Expenditure Overview,,,overview.gf.human-resources,,,GF operating overview category,human_confirmed
+Other Services,label+section,Budget Expenditure Overview,,,overview.gf.other-services,,,GF operating overview category,human_confirmed
+Public Safety,label+section,Budget Expenditure Overview,,,overview.gf.public-safety,,,GF operating overview category,human_confirmed
+Public Works,label+section,Budget Expenditure Overview,,,overview.gf.public-works,,,GF operating overview category,human_confirmed
+Department of Public Works,label+section,Budget Expenditure Overview,,,overview.gf.public-works,,,GF operating overview category,human_confirmed
+Community Development and Planning,label+section,Budget Expenditure Overview,,,overview.gf.community-planning-development,,,GF operating overview category,human_confirmed
+Community Planning and Development,label+section,Budget Expenditure Overview,,,overview.gf.community-planning-development,,,GF operating overview category,human_confirmed
+Department of Planning and Development,label+section,Budget Expenditure Overview,,,overview.gf.community-planning-development,,,GF operating overview category,human_confirmed
+Emergency Medical Services,label+section,Budget Expenditure Overview,,,overview.gf.emergency-medical-services,,,GF operating overview category,human_confirmed
+Emergency Management,label+section,Budget Expenditure Overview,,,overview.gf.emergency-management,,,GF operating overview category,human_confirmed
+Strategic Operations,label+section,Budget Expenditure Overview,,,overview.gf.strategic-operations,,,GF operating overview category,human_confirmed
+Department of Administration,label+section,Budget Expenditure Overview,,,overview.gf.department-administration,,,GF operating overview category,human_confirmed
+Railroad Right-of-Way,label+section,General Fund Revenue Summary,,,rev.other.railroad-row,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Interest,label+section,General Fund Revenue Summary,,,rev.other.interest,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Unrealized Gain/Loss in Investment,label+section,General Fund Revenue Summary,,,rev.other.unrealized-investment,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Indirect Cost,label+section,General Fund Revenue Summary,,,rev.other.indirect-cost,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Miscellaneous Revenue,label+section,General Fund Revenue Summary,,,rev.other.miscellaneous,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Tax Sale Revenue,label+section,General Fund Revenue Summary,,,rev.other.tax-sale,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Cable Franchise Fees,label+section,General Fund Revenue Summary,,,rev.other.cable-franchise,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Administrative Cost,label+section,General Fund Revenue Summary,,,rev.other.administrative-cost,2026,2026,FY2026 Other Revenue detail,human_confirmed
+County Health Retirees,label+section,General Fund Revenue Summary,,,rev.other.county-health-retirees,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Rents,label+section,General Fund Revenue Summary,,,rev.other.rents,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Adjustment: Budget to GAAP basis (Note 1-D),label+section,General Fund Budget and Actual,,,balance.gf.budget-to-gaap-adjustment,2011,2017,Audited General Fund budget-to-GAAP reconciliation,human_confirmed
+Total revenues,label+section,General Fund Budget and Actual,,,rev.total-estimated-financial-sources,2011,2024,Audited General Fund total revenues,human_confirmed
+Total expenditures,label+section,General Fund Budget and Actual,,,use.gf.operating-total,2011,2024,Audited General Fund total expenditures,human_confirmed
+Transfers in,label+section,General Fund Budget and Actual,,,fin.gf.transfers-in,2011,2024,Audited General Fund transfers in,human_confirmed
+Transfers out,label+section,General Fund Budget and Actual,,,fin.gf.transfers-out,2011,2024,Audited General Fund transfers out,human_confirmed
+Fund balance - Nonspendable,label+section,General Fund Balance Sheet,,,balance.gf.nonspendable,2011,2025,Audited General Fund balance classification,human_confirmed
+Fund balance - Committed,label+section,General Fund Balance Sheet,,,balance.gf.committed,2011,2025,Audited General Fund balance classification,human_confirmed
+Fund balance - Assigned,label+section,General Fund Balance Sheet,,,balance.gf.assigned,2011,2017,Audited General Fund balance classification,human_confirmed
+Fund balance - Unassigned,label+section,General Fund Balance Sheet,,,balance.gf.unassigned,2011,2025,Audited General Fund balance classification,human_confirmed
+Total Estimated Financial Sources,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.total,2010,2026,Special Revenue summary financial-sources total,human_confirmed
+Property Taxes,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.property-taxes,2010,2026,Special Revenue summary source,human_confirmed
+County Offices,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.county-offices,2010,2017,Special Revenue summary source,human_confirmed
+Intergovernmental,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.intergovernmental,2010,2026,Special Revenue summary source,human_confirmed
+Fees,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.fees,2016,2026,Special Revenue summary source,human_confirmed
+Other,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.other,2010,2026,Special Revenue summary source,human_confirmed
+Total Expenditures,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.total,2010,2026,Special Revenue summary expenditure total,human_confirmed
+Administrative Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.administrative-services,2010,2026,Special Revenue summary expenditure,human_confirmed
+General Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.general-services,2010,2025,Special Revenue summary expenditure,human_confirmed
+Strategic Operations,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.strategic-operations,2020,2025,Special Revenue summary expenditure,human_confirmed
+Community Development and Planning,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.community-development-planning,2012,2025,Special Revenue summary expenditure,human_confirmed
+Human Resources,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.human-resources,2010,2013,Special Revenue source-era expenditure,human_confirmed
+Public Works,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.public-works-early,2010,2013,Special Revenue earlier source-era expenditure,human_confirmed
+Public Works,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.public-works,2022,2025,Special Revenue summary expenditure,human_confirmed
+Public Safety,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.public-safety,2010,2025,Special Revenue summary expenditure,human_confirmed
+Emergency Medical Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.emergency-medical-services,2016,2021,Special Revenue summary expenditure,human_confirmed
+Judicial Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.judicial-services,2010,2026,Special Revenue summary expenditure,human_confirmed
+Fiscal Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.fiscal-services,2012,2026,Special Revenue summary expenditure,human_confirmed
+Law Enforcement Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.law-enforcement-services,2010,2026,Special Revenue summary expenditure,human_confirmed
+"Parks, Recreation & Tourism",label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.parks-recreation-tourism,2016,2026,Special Revenue summary expenditure,human_confirmed
+"Boards, Commissions & Others",label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.boards-commissions-others,2010,2026,Special Revenue summary expenditure,human_confirmed
+Capital Outlay,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.capital-outlay,2010,2026,Special Revenue summary expenditure,human_confirmed
+Interest and Fiscal Charges,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.interest-fiscal-charges,2010,2026,Special Revenue summary expenditure,human_confirmed
+Principal Retirement,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.principal-retirement,2010,2026,Special Revenue summary expenditure,human_confirmed
+Department of Administration,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-administration,2024,2026,Special Revenue summary expenditure,human_confirmed
+Department of General Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-general-services,2024,2026,Special Revenue summary expenditure,human_confirmed
+Department of Planning & Development,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-planning-development,2024,2026,Special Revenue summary expenditure,human_confirmed
+Department of Public Works,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-public-works,2024,2026,Special Revenue summary expenditure,human_confirmed
+Department of Public Safety,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-public-safety,2024,2026,Special Revenue summary expenditure,human_confirmed
+Excess(deficiency) of revenues over(under) expenditures,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,operating_result,,change.sr.operating-result,2010,2026,Special Revenue operating result,human_confirmed
+Sale of Property,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.sale-of-property,2010,2026,Special Revenue financing source,human_confirmed
+Capital Lease Proceeds,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.capital-lease-proceeds,2010,2026,Special Revenue financing source,human_confirmed
+Bonded Sale/Debt Secuity issuance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.bonded-issuances,2010,2015,Source-printed spelling for earlier Special Revenue bond proceeds,human_confirmed
+Other Transfers *,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.other-transfers,2010,2015,Source-era other-transfer line,human_confirmed
+Transfers,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.transfers-net,2010,2017,Special Revenue net transfers,human_confirmed
+Transfers In,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.transfers-in,2016,2026,Special Revenue transfers in,human_confirmed
+Transfers Out,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.transfers-out,2016,2026,Special Revenue transfers out,human_confirmed
+Total Other Sources (Uses),label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.total-other-sources-uses,2010,2026,Special Revenue net financing total,human_confirmed
+Net Increase (Decrease )in Fund Balance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,net_position_change,,balance.sr.net-change,2014,2026,Special Revenue net fund-balance change,human_confirmed
+Net Increase (Decrease) in Fund Balance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,net_position_change,,balance.sr.net-change,2010,2026,Special Revenue net fund-balance change,human_confirmed
+Fund Balance July 1,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position,,balance.sr.beginning,2010,2026,Special Revenue beginning fund balance,human_confirmed
+Fund Balance - June 30,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position,,balance.sr.ending,2010,2026,Special Revenue ending fund balance,human_confirmed
+Adjustment Budget to GAAP,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_adjustment,,balance.sr.budget-to-gaap-adjustment,2015,2015,Special Revenue source-printed adjustment,human_confirmed
+Reserved for Encumbrances,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_adjustment,,balance.sr.reserved-encumbrances-adjustment,2020,2023,Special Revenue source-printed position adjustment,human_confirmed
+Reserved for Enccumbrances,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_component,,balance.sr.reserved-encumbrances,2014,2017,Special Revenue balance component spelling variant,human_confirmed
+Reserved for Encumbrances,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_component,,balance.sr.reserved-encumbrances,2014,2021,Special Revenue balance component,human_confirmed
+Reserved for Capital Projects,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_component,,balance.sr.reserved-capital-projects,2014,2017,Special Revenue balance component,human_confirmed
+Unreserved Fund Balance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_component,,balance.sr.unreserved,2014,2021,Special Revenue balance component,human_confirmed
+Total Estimated Financial Sources,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.total,2010,2026,Debt Service financial-sources total,human_confirmed
+Property Taxes,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.property-taxes,2010,2026,Debt Service source,human_confirmed
+County Offices,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.county-offices,2010,2026,Debt Service source,human_confirmed
+Intergovernmental,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.intergovernmental,2010,2026,Debt Service source,human_confirmed
+Other,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.other,2010,2026,Debt Service source,human_confirmed
+Total Expenditures,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.total,2010,2026,Debt Service expenditure total,human_confirmed
+Administrative Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.administrative-services,2010,2026,Debt Service expenditure,human_confirmed
+General Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.general-services,2010,2025,Debt Service expenditure,human_confirmed
+Strategic Operations,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.strategic-operations,2020,2025,Debt Service expenditure,human_confirmed
+Community Development and Planning,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.community-development-planning,2012,2025,Debt Service expenditure,human_confirmed
+Human Resources,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.human-resources,2010,2013,Debt Service source-era expenditure,human_confirmed
+Public Works,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.public-works-early,2010,2013,Debt Service earlier source-era expenditure,human_confirmed
+Pass Through Funding - Gvl Tech,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.pass-through-gvl-tech,2012,2015,Debt Service source-era pass-through expenditure,human_confirmed
+Public Works,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.public-works,2022,2025,Debt Service expenditure,human_confirmed
+Public Safety,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.public-safety,2010,2025,Debt Service expenditure,human_confirmed
+Emergency Medical Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.emergency-medical-services,2016,2021,Debt Service expenditure,human_confirmed
+Judicial Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.judicial-services,2010,2026,Debt Service expenditure,human_confirmed
+Fiscal Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.fiscal-services,2014,2026,Debt Service expenditure,human_confirmed
+Law Enforcement Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.law-enforcement-services,2010,2026,Debt Service expenditure,human_confirmed
+"Parks, Recreation & Tourism",label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.parks-recreation-tourism,2020,2026,Debt Service expenditure,human_confirmed
+"Boards, Commissions & Others",label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.boards-commissions-others,2010,2026,Debt Service expenditure,human_confirmed
+Capital Outlay,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.capital-outlay,2010,2026,Debt Service expenditure,human_confirmed
+Principal Retirement,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.principal-retirement,2010,2026,Debt Service expenditure,human_confirmed
+Interest and Fiscal Charges,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.interest-fiscal-charges,2010,2026,Debt Service expenditure,human_confirmed
+Department of Administration,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-administration,2024,2026,Debt Service expenditure,human_confirmed
+Department of General Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-general-services,2024,2026,Debt Service expenditure,human_confirmed
+Department of Planning & Development,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-planning-development,2024,2026,Debt Service expenditure,human_confirmed
+Department of Public Works,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-public-works,2024,2026,Debt Service expenditure,human_confirmed
+Department of Public Safety,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-public-safety,2024,2026,Debt Service expenditure,human_confirmed
+Excess (deficiency) of revenues over(under) expenditures,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,operating_result,,change.debt.operating-result,2010,2026,Debt Service operating result,human_confirmed
+Sale of Property,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.sale-of-property,2010,2026,Debt Service financing source,human_confirmed
+Capital Lease Issuance,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.capital-lease-issuance,2010,2026,Debt Service financing source,human_confirmed
+Bonded Sale/Debt Security issuance,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.bonded-issuances,2010,2013,Earlier source label for Debt Service bond proceeds,human_confirmed
+Bonded Issuances/Premiums/Discounts,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.bonded-issuances,2012,2026,Debt Service financing source,human_confirmed
+Transfers,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.transfers-net,2010,2017,Debt Service net transfers,human_confirmed
+Transfers In,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.transfers-in,2016,2026,Debt Service transfers in,human_confirmed
+Transfers Out,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.transfers-out,2016,2026,Debt Service transfers out,human_confirmed
+Total Other Sources (Uses),label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.total-other-sources-uses,2010,2026,Debt Service net financing total,human_confirmed
+Net Increase (Decrease) in Fund Balance,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,net_position_change,,balance.debt.net-change,2010,2026,Debt Service net fund-balance change,human_confirmed
+Fund Balance July 1,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,position,,balance.debt.beginning,2010,2026,Debt Service beginning fund balance,human_confirmed
+Fund Balance June 30,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,position,,balance.debt.ending,2010,2026,Debt Service ending fund balance,human_confirmed
+PROPERTY TAXES,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.property-taxes,2002,2019,Enterprise Solid Waste outside revenue,human_confirmed
+Property Taxes,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.property-taxes,2018,2026,Enterprise Solid Waste outside revenue,human_confirmed
+CHARGES FOR SERVICES,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.charges-services,2002,2019,Enterprise Solid Waste outside revenue,human_confirmed
+Charges for Services,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.charges-services,2018,2026,Enterprise Solid Waste outside revenue,human_confirmed
+OTHER,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.other-solid-waste,2002,2019,Enterprise Solid Waste outside revenue,human_confirmed
+Other Revenue,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.other-solid-waste,2018,2026,Enterprise Solid Waste outside revenue,human_confirmed
+STORMWATER FEES,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.stormwater-fees,2002,2019,Enterprise Stormwater outside revenue,human_confirmed
+Stomwater Fees,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.stormwater-fees,2018,2026,Source-printed Stormwater spelling error,human_confirmed
+Stormwater Fees,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.stormwater-fees,2020,2023,Enterprise raster-table label,human_confirmed
+STORMWATER OTHER,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.other-stormwater,2008,2019,Enterprise Stormwater outside revenue,human_confirmed
+Other Revenue,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.other-stormwater,2018,2026,Enterprise Stormwater outside revenue,human_confirmed
+SOLID WASTE F/B CONTRIBUTION,label+section+category,Enterprise Funds Operating Budgets,position_change_solid_waste,,balance.enterprise.solid-waste-usage,2003,2011,Source-era Solid Waste usage or contribution,human_confirmed
+FUND BALANCE USAGE (CONTRIBUTION),label+section+category,Enterprise Funds Operating Budgets,position_change_solid_waste,,balance.enterprise.solid-waste-usage,2010,2019,Enterprise Solid Waste position change,human_confirmed
+Fund Balance Usage (Contribution),label+section+category,Enterprise Funds Operating Budgets,position_change_solid_waste,,balance.enterprise.solid-waste-usage,2018,2026,Enterprise Solid Waste position change,human_confirmed
+STORMWATER F/B CONTRIBUTION,label+section+category,Enterprise Funds Operating Budgets,position_change_stormwater,,balance.enterprise.stormwater-usage,2006,2011,Source-era Stormwater usage or contribution,human_confirmed
+FUND BALANCE USAGE (CONTRIBUTION),label+section+category,Enterprise Funds Operating Budgets,position_change_stormwater,,balance.enterprise.stormwater-usage,2010,2019,Enterprise Stormwater position change,human_confirmed
+Fund Balance Usage (Contribution),label+section+category,Enterprise Funds Operating Budgets,position_change_stormwater,,balance.enterprise.stormwater-usage,2018,2026,Enterprise Stormwater position change,human_confirmed
+Other Financing Sources,label+section+category,Enterprise Funds Operating Budgets,financing_solid_waste,,fin.enterprise.other-sources-solid-waste,2024,2026,Enterprise Solid Waste financing,human_confirmed
+Total Solid Waste,label+section+category,Enterprise Funds Operating Budgets,total_solid_waste_revenue,,funding.enterprise.solid-waste-total,2010,2026,Enterprise Solid Waste funding total,human_confirmed
+Total Stormwater,label+section+category,Enterprise Funds Operating Budgets,total_stormwater_revenue,,funding.enterprise.stormwater-total,2010,2026,Enterprise Stormwater funding total,human_confirmed
+TOTAL FUNDS,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_revenue,,funding.enterprise.total,2002,2019,Enterprise revenue and funding total,human_confirmed
+Total Revenues,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_revenue,,funding.enterprise.total,2018,2026,Enterprise revenue and funding total,human_confirmed
+SOLID WASTE,label+section+category,Enterprise Funds Operating Budgets,outflow_solid_waste,,use.enterprise.solid-waste,2002,2019,Enterprise Solid Waste expense,human_confirmed
+Solid Waste,label+section+category,Enterprise Funds Operating Budgets,outflow_solid_waste,,use.enterprise.solid-waste,2018,2026,Enterprise Solid Waste expense,human_confirmed
+SOLID WASTE F/B CONTRIBUTION,label+section+category,Enterprise Funds Operating Budgets,outflow_solid_waste,,use.enterprise.solid-waste-fb-contribution,2006,2009,Source-era Enterprise expenditure line,human_confirmed
+STORMWATER MANAGEMENT,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.stormwater-management,2002,2009,Aggregate Stormwater expense,human_confirmed
+FLOODPLAIN MANAGEMENT,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.floodplain-management,2010,2019,Stormwater division expense,human_confirmed
+Floodplain Management,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.floodplain-management,2018,2026,Stormwater division expense,human_confirmed
+LAND DEVELOPMENT,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.land-development,2008,2019,Stormwater division expense,human_confirmed
+Land Development,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.land-development,2018,2026,Stormwater division expense,human_confirmed
+SOIL AND WATER,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.soil-water,2008,2019,Stormwater division expense,human_confirmed
+Soil and Water,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.soil-water,2018,2026,Stormwater division expense,human_confirmed
+Subdivision Administration,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.subdivision-administration,2022,2026,Stormwater division expense,human_confirmed
+Total Stormwater,label+section+category,Enterprise Funds Operating Budgets,total_stormwater_expense,,use.enterprise.stormwater-total,2010,2026,Enterprise Stormwater expense subtotal,human_confirmed
+TOTAL EXPENDITURES,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_expense,,use.enterprise.total,2002,2019,Enterprise expense total,human_confirmed
+Total Expenses,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_expense,,use.enterprise.total,2018,2026,Enterprise expense total,human_confirmed

@@ -1,0 +1,246 @@
+[
+ {
+  "level": "department_total",
+  "department": "Administrative services:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 1
+ },
+ {
+  "level": "department_total",
+  "department": "General services:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 2
+ },
+ {
+  "level": "department_total",
+  "department": "Community development and planning:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 3
+ },
+ {
+  "level": "department_total",
+  "department": "Public safety:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 4
+ },
+ {
+  "level": "department_total",
+  "department": "Emergency medical services",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 5
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - judicial services:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 6
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - fiscal services:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 7
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - law enforcement:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 8
+ },
+ {
+  "level": "department_total",
+  "department": "Boards, commissions and others",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 9
+ },
+ {
+  "level": "department_total",
+  "department": "Debt service",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 10
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - fiscal services:",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 11
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - law enforcement:",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 12
+ },
+ {
+  "level": "department_total",
+  "department": "Debt service",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 13
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Public safety:",
+  "subdepartment": "Indigent defense",
+  "object": "",
+  "column": "actual",
+  "id": 14
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Boards, commissions and others",
+  "subdepartment": "Nondepartmental",
+  "object": "",
+  "column": "actual",
+  "id": 15
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Elected officials - judicial services:",
+  "subdepartment": "Circuit solicitor",
+  "object": "",
+  "column": "actual",
+  "id": 16
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "General services:",
+  "subdepartment": "Tax services",
+  "object": "",
+  "column": "actual",
+  "id": 17
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "General services:",
+  "subdepartment": "Geographical information systems",
+  "object": "",
+  "column": "final_budget",
+  "id": 18
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Public safety:",
+  "subdepartment": "Forensic division",
+  "object": "",
+  "column": "original_budget",
+  "id": 19
+ },
+ {
+  "level": "object",
+  "department": "General services:",
+  "subdepartment": "Human relations",
+  "object": "Salaries",
+  "column": "original_budget",
+  "id": 20
+ },
+ {
+  "level": "object",
+  "department": "General services:",
+  "subdepartment": "Geographical information systems",
+  "object": "Contractual agreements",
+  "column": "actual",
+  "id": 21
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - judicial services:",
+  "subdepartment": "Public defender",
+  "object": "Contractual agreements",
+  "column": "original_budget",
+  "id": 22
+ },
+ {
+  "level": "object",
+  "department": "Administrative services:",
+  "subdepartment": "County attorney",
+  "object": "Salaries",
+  "column": "original_budget",
+  "id": 23
+ },
+ {
+  "level": "object",
+  "department": "General services:",
+  "subdepartment": "Registration and election",
+  "object": "Salaries",
+  "column": "original_budget",
+  "id": 24
+ },
+ {
+  "level": "object",
+  "department": "Community development and planning:",
+  "subdepartment": "Animal care services",
+  "object": "Salaries",
+  "column": "final_budget",
+  "id": 25
+ },
+ {
+  "level": "object",
+  "department": "General services:",
+  "subdepartment": "Procurement services",
+  "object": "Salaries",
+  "column": "final_budget",
+  "id": 26
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - judicial services:",
+  "subdepartment": "Public defender",
+  "object": "Salaries",
+  "column": "actual",
+  "id": 27
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "General services",
+  "column": "final_budget",
+  "id": 28
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Planning and code enforcement",
+  "column": "final_budget",
+  "id": 29
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Register of deeds",
+  "column": "original_budget",
+  "id": 30
+ },
+ {
+  "level": "revenue_subline",
+  "category": "Intergovernmental",
+  "subline": "State allocations",
+  "column": "original_budget",
+  "id": 31
+ }
+]

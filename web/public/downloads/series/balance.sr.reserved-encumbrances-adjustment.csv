@@ -1,0 +1,5 @@
+fiscal_year,value,printed_form,status_class,canonical_status,source_code,printed_page,pdf_page,source_url,note_ids
+2020,0,-,actual,single,FY2022-23,46,47,https://www.greenvillecounty.org/ManagementandBudget/pdf/2022/BudgetCombined.pdf,note.printed-dash
+2021,0,-,actual,single,FY2022-23,46,47,https://www.greenvillecounty.org/ManagementandBudget/pdf/2022/BudgetCombined.pdf,note.printed-dash
+2022,1141125,,adopted,single,FY2022-23,46,47,https://www.greenvillecounty.org/ManagementandBudget/pdf/2022/BudgetCombined.pdf,note.flow-residual-late
+2023,0,-,adopted,single,FY2022-23,46,47,https://www.greenvillecounty.org/ManagementandBudget/pdf/2022/BudgetCombined.pdf,note.flow-residual-late;note.printed-dash

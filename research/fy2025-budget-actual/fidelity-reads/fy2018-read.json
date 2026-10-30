@@ -1,0 +1,236 @@
+{
+  "year": 2018,
+  "pdf_pages": "92-96",
+  "cells": [
+    {
+      "id": 1,
+      "printed_label": "Total administrative services",
+      "pdf_page": 93,
+      "printed_value": "3,037,731",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "printed_label": "Total general services",
+      "pdf_page": 94,
+      "printed_value": "14,953,330",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "printed_label": "Total community development and planning",
+      "pdf_page": 94,
+      "printed_value": "21,915,224",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "printed_label": "Total public safety",
+      "pdf_page": 94,
+      "printed_value": "-",
+      "confidence": "high",
+      "reason": "Cell is literally printed as a dash. Not a true zero -- see anomaly on this same row; the actual figure implied by the grand total below is 27,502,445."
+    },
+    {
+      "id": 5,
+      "printed_label": "Total emergency medical services",
+      "pdf_page": 94,
+      "printed_value": "20,041,359",
+      "confidence": "high"
+    },
+    {
+      "id": 6,
+      "printed_label": "Total elected officials - judicial services",
+      "pdf_page": 95,
+      "printed_value": "19,242,041",
+      "confidence": "high"
+    },
+    {
+      "id": 7,
+      "printed_label": "Total elected officials - fiscal services",
+      "pdf_page": 95,
+      "printed_value": "3,108,934",
+      "confidence": "high"
+    },
+    {
+      "id": 8,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 96,
+      "printed_value": "46,800,960",
+      "confidence": "high"
+    },
+    {
+      "id": 9,
+      "printed_label": "Total boards, commissions and others",
+      "pdf_page": 96,
+      "printed_value": "5,533,028",
+      "confidence": "high"
+    },
+    {
+      "id": 10,
+      "printed_label": "Total boards, commissions and others",
+      "pdf_page": 96,
+      "printed_value": "4,937,354",
+      "confidence": "high"
+    },
+    {
+      "id": 11,
+      "printed_label": "Total community development and planning",
+      "pdf_page": 94,
+      "printed_value": "21,172,754",
+      "confidence": "high"
+    },
+    {
+      "id": 12,
+      "printed_label": "Total administrative services",
+      "pdf_page": 93,
+      "printed_value": "2,699,419",
+      "confidence": "high"
+    },
+    {
+      "id": 13,
+      "printed_label": "Public defender",
+      "pdf_page": 95,
+      "printed_value": "581,636",
+      "confidence": "high"
+    },
+    {
+      "id": 14,
+      "printed_label": "County medical examiner",
+      "pdf_page": 96,
+      "printed_value": "503,839",
+      "confidence": "high"
+    },
+    {
+      "id": 15,
+      "printed_label": "Indigent defense",
+      "pdf_page": 94,
+      "printed_value": "211,567",
+      "confidence": "high"
+    },
+    {
+      "id": 16,
+      "printed_label": "Geographical information systems",
+      "pdf_page": 93,
+      "printed_value": "661,266",
+      "confidence": "high"
+    },
+    {
+      "id": 17,
+      "printed_label": "Register of deeds",
+      "pdf_page": 95,
+      "printed_value": "1,322,965",
+      "confidence": "high"
+    },
+    {
+      "id": 18,
+      "printed_label": "Animal care services",
+      "pdf_page": 94,
+      "printed_value": "4,249,254",
+      "confidence": "high"
+    },
+    {
+      "id": 19,
+      "printed_label": "Probate court > Salaries",
+      "pdf_page": 95,
+      "printed_value": "1,593,581",
+      "confidence": "high"
+    },
+    {
+      "id": 20,
+      "printed_label": "County attorney > Contractual agreements",
+      "pdf_page": 93,
+      "printed_value": "40,371",
+      "confidence": "high"
+    },
+    {
+      "id": 21,
+      "printed_label": "Emergency medical services > Salaries",
+      "pdf_page": 94,
+      "printed_value": "17,530,609",
+      "confidence": "high",
+      "reason": "Emergency medical services has no subdepartment line in this schedule -- Salaries/Operations/Contractual agreements appear directly under the department header, rolling straight into 'Total emergency medical services'."
+    },
+    {
+      "id": 22,
+      "printed_label": "Non-departmental > Operations",
+      "pdf_page": 96,
+      "printed_value": "3,409,009",
+      "confidence": "high"
+    },
+    {
+      "id": 23,
+      "printed_label": "Treasurer > Contractual agreements",
+      "pdf_page": 95,
+      "printed_value": "968",
+      "confidence": "high"
+    },
+    {
+      "id": 24,
+      "printed_label": "Public defender > Operations",
+      "pdf_page": 95,
+      "printed_value": "126,607",
+      "confidence": "high"
+    },
+    {
+      "id": 25,
+      "printed_label": "County attorney > Salaries",
+      "pdf_page": 93,
+      "printed_value": "904,157",
+      "confidence": "high"
+    },
+    {
+      "id": 26,
+      "printed_label": "Procurement services > Contractual agreements",
+      "pdf_page": 93,
+      "printed_value": "1,200",
+      "confidence": "high"
+    },
+    {
+      "id": 27,
+      "printed_label": "County offices > General services",
+      "pdf_page": 92,
+      "printed_value": "86,700",
+      "confidence": "high"
+    },
+    {
+      "id": 28,
+      "printed_label": "Intergovernmental revenues > State of South Carolina: > Accommodations tax",
+      "pdf_page": 92,
+      "printed_value": "70,000",
+      "confidence": "high"
+    },
+    {
+      "id": 29,
+      "printed_label": "County offices > Sheriff",
+      "pdf_page": 92,
+      "printed_value": "156,153",
+      "confidence": "high"
+    },
+    {
+      "id": 30,
+      "printed_label": "County offices > Tax services",
+      "pdf_page": 92,
+      "printed_value": "15,096",
+      "confidence": "high"
+    }
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 94,
+      "observation": "The 'Total public safety' subtotal row prints a dash ('-') in both the Original Budget and Final Budget columns, while Actual (Budget Basis) and Variance print normal figures (27,362,763 and 401,312). Every other department/subdepartment total row on this schedule carries a real figure in all four columns. Summing the four public-safety subdepartment totals above it (Records management services division, Detention division, Forensic division, Indigent defense) gives Original Budget = 27,502,445 and Final Budget = 27,764,075 -- neither of which is printed on the subtotal line. Back-solving the schedule's grand 'Total expenditures' row (162,135,052 / 162,135,054 / 157,501,348 / 4,633,706) against the sum of all OTHER department totals confirms the missing figures: subtracting every other printed department total from the grand total leaves exactly 27,502,445 (Original) and 27,764,075 (Final) as the residual -- matching the hand-summed subdepartment figures. So the correct totals are recoverable and are used correctly in the grand total below, but this specific subtotal row itself prints dashes instead of the figures in two of its four columns.",
+      "printed_line": "Total public safety                                            -            -         27,362,763      401,312"
+    },
+    {
+      "pdf_page": 95,
+      "observation": "Within the 'Public defender' subdepartment (under Elected officials - judicial services), the Salaries object line prints a dash for Original Budget while Final Budget and Actual (Budget Basis) both print 224,692 -- i.e., a line item with no original budget that carries a full final-budget and actual figure by year end. The dash is consistent with the subdepartment's totals (581,636 / 691,328 / 681,299), so it reconciles arithmetically as a zero, but it is a large in-year swing on a single object line worth flagging.",
+      "printed_line": "Salaries                                                                  -           224,692      224,692       -"
+    },
+    {
+      "pdf_page": 96,
+      "observation": "Within 'Non-departmental' (under Boards, commissions and others), the Salaries object line prints an Original Budget of 21,600 but Final Budget, Actual (Budget Basis), and Variance all print dashes -- a budget line fully zeroed out by year end. Reconciles arithmetically with the subdepartment total, but is a full de-funding of an object line worth flagging.",
+      "printed_line": "Salaries                                                                      21,600             -                  -               -"
+    }
+  ],
+  "notes": "Schedule spans PDF pages 92-96 (printed page numbers 87-91), confirmed via the printed page-footer numbers visible on each page. Page 92 is revenues; pages 93-96 are expenditures by department > subdepartment > object, ending with the fund-balance/other-financing-sources section on page 96. All department and subdepartment labels in the FY2018 sample matched the printed wording exactly -- no naming drift detected this year (unlike some other years' pulls). Every cell in Task 1 was cross-checked three ways: pdftotext -layout extraction, a rendered page image at 200dpi, and (where the cell was part of a total/subtotal) full arithmetic reconciliation of the section it belongs to. All 30 cells transcribed at high confidence; none were 'not found'. Every subtotal, department total, and the grand 'Total expenditures' / 'Total revenues' / 'Excess of revenues over expenditures' lines on pages 92-96 reconcile arithmetically to the object-level and subdepartment-level figures above them, with the single exception noted in the anomalies list (Total public safety's Original/Final Budget cells print as dashes despite the correct totals being embedded correctly in the grand total below). Minor, non-anomalous curiosity: 'Total community development and planning' Final Budget (21,915,226) is $2 more than its Original Budget (21,915,224), traceable to a $1 rounding difference in the Animal care services subdepartment ($4,391,037 orig vs $4,391,038 final) -- did not flag this as an anomaly since it fully reconciles and is a trivial dollar-level rounding artifact, not a missing or contradictory figure."
+}

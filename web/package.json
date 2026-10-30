@@ -1,0 +1,46 @@
+{
+  "name": "gvl-county-budget-web",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "tsx scripts/validate-data.ts",
+    "build": "next build",
+    "prepare:deploy": "node scripts/prepare-vercel-output.mjs",
+    "validate-data": "tsx scripts/validate-data.ts",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "baselines:render": "node scripts/render-page-baseline.mjs",
+    "typecheck": "tsc --noEmit",
+    "check:links": "python3 ../scripts/check_links.py"
+  },
+  "dependencies": {
+    "@types/d3-scale": "^4.0.9",
+    "@types/d3-shape": "^3.1.8",
+    "d3-scale": "^4.0.2",
+    "d3-shape": "^3.2.0",
+    "next": "16.4.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.58.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.1",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
+  }
+}

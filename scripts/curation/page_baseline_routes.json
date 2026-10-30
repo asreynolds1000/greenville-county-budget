@@ -1,0 +1,34 @@
+{
+  "_comment": [
+    "The complete route manifest for the page-baseline gate. Both the Node renderer",
+    "(web/scripts/render-page-baseline.mjs) and the Python comparison",
+    "(scripts/curation/capture_page_baseline.py) read this file, so neither side can",
+    "silently cover fewer routes than the other. tests/test_page_baselines.py asserts",
+    "that this list and the committed fixtures are the same set: a route removed here",
+    "without its fixture, or a fixture added without its route, is a test failure.",
+    "",
+    "render=browser means the route only exists as a rendered DOM. Since commit a5f4045",
+    "the per-year URL is an 883-byte meta-refresh stub and the real page is one",
+    "consolidated route whose year is chosen after hydration, so reading static HTML",
+    "cannot recover a non-latest year at all.",
+    "",
+    "render=static is reserved for routes whose shipped index.html IS the page. There are",
+    "none today. A browser route must never fall back to static HTML: that is how a stale",
+    "or missing capture gets silently accepted."
+  ],
+  "routes": [
+    { "route": "e/fund.general/2025", "render": "browser" },
+    { "route": "e/fund.general/2026", "render": "browser" },
+    { "route": "e/fund.general/2014", "render": "browser" },
+    { "route": "e/fund.special-revenue/2026", "render": "browser" },
+    { "route": "e/fund.debt-service/2014", "render": "browser" },
+    { "route": "e/fund.enterprise/2026", "render": "browser" },
+    { "route": "e/dept.sheriff/2026", "render": "browser" },
+    { "route": "e/dept.indigentdefense/2005", "render": "browser" },
+    { "route": "e/fund.sr.affordable-housing/2023", "render": "browser" },
+    { "route": "e/fund.sr.natural-resources/2023", "render": "browser" },
+    { "route": "e/opcat.public-works/2026", "render": "browser" },
+    { "route": "e/rev.sr.fees/2025", "render": "browser" },
+    { "route": "e/budget.total/2026", "render": "browser" }
+  ]
+}

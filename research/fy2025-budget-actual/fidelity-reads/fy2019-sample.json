@@ -1,0 +1,238 @@
+[
+ {
+  "level": "department_total",
+  "department": "Administrative services:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 1
+ },
+ {
+  "level": "department_total",
+  "department": "General services:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 2
+ },
+ {
+  "level": "department_total",
+  "department": "Community development and planning:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 3
+ },
+ {
+  "level": "department_total",
+  "department": "Public safety:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 4
+ },
+ {
+  "level": "department_total",
+  "department": "Emergency medical services",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 5
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - judicial services:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 6
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - fiscal services:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 7
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - law enforcement:",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 8
+ },
+ {
+  "level": "department_total",
+  "department": "Boards, commissions and others",
+  "subdepartment": "",
+  "object": "",
+  "column": "original_budget",
+  "id": 9
+ },
+ {
+  "level": "department_total",
+  "department": "Community development and planning:",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 10
+ },
+ {
+  "level": "department_total",
+  "department": "Public safety:",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 11
+ },
+ {
+  "level": "department_total",
+  "department": "Elected officials - law enforcement:",
+  "subdepartment": "",
+  "object": "",
+  "column": "actual",
+  "id": 12
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "General services:",
+  "subdepartment": "Human relations",
+  "object": "",
+  "column": "actual",
+  "id": 13
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Community development and planning:",
+  "subdepartment": "Animal care services",
+  "object": "",
+  "column": "original_budget",
+  "id": 14
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Boards, commissions and others",
+  "subdepartment": "Nondepartmental",
+  "object": "",
+  "column": "actual",
+  "id": 15
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Public safety:",
+  "subdepartment": "Indigent defense",
+  "object": "",
+  "column": "final_budget",
+  "id": 16
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Public safety:",
+  "subdepartment": "Emergency Management division",
+  "object": "",
+  "column": "final_budget",
+  "id": 17
+ },
+ {
+  "level": "subdepartment_total",
+  "department": "Elected officials - judicial services:",
+  "subdepartment": "Public defender",
+  "object": "",
+  "column": "original_budget",
+  "id": 18
+ },
+ {
+  "level": "object",
+  "department": "Boards, commissions and others",
+  "subdepartment": "Agencies and social service agencies",
+  "object": "Lump sum appropriations",
+  "column": "original_budget",
+  "id": 19
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - judicial services:",
+  "subdepartment": "Magistrates",
+  "object": "Contractual agreements",
+  "column": "actual",
+  "id": 20
+ },
+ {
+  "level": "object",
+  "department": "Community development and planning:",
+  "subdepartment": "Property maintenance",
+  "object": "Contractual agreements",
+  "column": "final_budget",
+  "id": 21
+ },
+ {
+  "level": "object",
+  "department": "Elected officials - judicial services:",
+  "subdepartment": "Magistrates",
+  "object": "Salaries",
+  "column": "actual",
+  "id": 22
+ },
+ {
+  "level": "object",
+  "department": "Administrative services:",
+  "subdepartment": "County attorney",
+  "object": "Contractual agreements",
+  "column": "original_budget",
+  "id": 23
+ },
+ {
+  "level": "object",
+  "department": "Community development and planning:",
+  "subdepartment": "Animal care services",
+  "object": "Operations",
+  "column": "original_budget",
+  "id": 24
+ },
+ {
+  "level": "object",
+  "department": "Community development and planning:",
+  "subdepartment": "Planning and code enforcement",
+  "object": "Salaries",
+  "column": "actual",
+  "id": 25
+ },
+ {
+  "level": "object",
+  "department": "General services:",
+  "subdepartment": "Veterans affairs",
+  "object": "Contractual agreements",
+  "column": "original_budget",
+  "id": 26
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Information systems",
+  "column": "original_budget",
+  "id": 27
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Engineering, roads and bridges",
+  "column": "original_budget",
+  "id": 28
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Law enforcement support",
+  "column": "original_budget",
+  "id": 29
+ },
+ {
+  "level": "revenue_subline",
+  "category": "County offices",
+  "subline": "Clerk of court",
+  "column": "actual",
+  "id": 30
+ }
+]

@@ -1,0 +1,30 @@
+statement_section,original_label,fy2020,fy2021,fy2022,fy2023
+inflow,Property Taxes,28560912,29235736,31379659,32634845
+inflow,Intergovernmental,5002883,4151305,4759540,4803657
+inflow,Fees,18899913,19494260,21199115,21409022
+inflow,Other,10410564,10706820,10402373,10449644
+inflow,Total Estimated Financial Sources,62874272,63588121,67740687,69297168
+outflow,Administrative Services,0,0,0,0
+outflow,General Services,0,0,0,0
+outflow,Strategic Operations,3723552,3078276,3356510,3356510
+outflow,Community Development and Planning,14169342,12641638,13875975,13875975
+outflow,Public Safety,6683136,5720730,6870055,6999822
+outflow,Judicial Services,567773,545036,447015,459659
+outflow,Fiscal Services,0,0,0,0
+outflow,Law Enforcement Services,3373309,3351616,2918905,2944213
+outflow,"Parks, Recreation & Tourism",14234876,13311172,16173878,15447484
+outflow,"Boards, Commissions & Others",1931032,1183411,1765000,1765000
+outflow,Capital Outlay,85239,127045,200000,200000
+outflow,Interest and Fiscal Charges,0,0,0,0
+outflow,Principal Retirement,0,0,0,0
+outflow,Total Expenditures,44768259,39958924,45607338,45048663
+operating_result,Excess(deficiency) of revenues over(under) expenditures,18106013,23629197,22133349,24248505
+financing,Sale of Property,0,0,0,0
+financing,Capital Lease Proceeds,0,0,0,0
+financing,Transfers In,1347984,1334784,1334784,1334784
+financing,Transfers Out,-26956013,-24023493,-23520327,-24227521
+financing,Total Other Sources (Uses),-25608029,-22688709,-22185543,-22892737
+net_position_change,Net Increase (Decrease) in Fund Balance,-7502016,940488,-52194,1355768
+position,Fund Balance July 1,32280370,24778354,25718842,24525523
+position_adjustment,Reserved for Encumbrances,0,0,1141125,0
+position,Fund Balance - June 30,24778354,25718842,24525523,25881291

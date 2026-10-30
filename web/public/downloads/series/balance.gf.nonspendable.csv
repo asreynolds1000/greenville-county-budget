@@ -1,0 +1,16 @@
+fiscal_year,value,printed_form,status_class,canonical_status,source_code,printed_page,pdf_page,source_url,note_ids
+2011,156026,,actual,single,FY2011-ACFR,24,38,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2011/cafr_complete.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2012,136934,,actual,single,FY2012-ACFR,25,30,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2012/cafr_complete.pdf,note.budget-to-gaap;note.fy2012-extraction;note.sources-statement-not-printed
+2013,123083,,actual,single,FY2013-ACFR,26,36,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2013/cafr_complete.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2014,214328,,actual,single,FY2014-ACFR,27,35,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2014/cafr_complete.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2015,3329288,,actual,single,FY2015-ACFR,27,35,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2015/cafr_complete.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2016,3022699,,actual,single,FY2016-ACFR,27,31,https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2016/cafr_complete.pdf,note.budget-to-gaap;note.flow-residual;note.sources-statement-not-printed
+2017,92453,,actual,single,FY2017-ACFR,27,33,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2017/cafr_complete.pdf,note.budget-to-gaap;note.flow-residual;note.sources-statement-not-printed
+2018,53029,,actual,single,FY2018-ACFR,29,33,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2018/cafr_complete.pdf,
+2019,4379333,,actual,single,FY2019-ACFR,20,42,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2019/cafr_complete.pdf,
+2020,2947141,,actual,single,FY2020-ACFR,20,36,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2020/cafr_complete.pdf,
+2021,3020587,,actual,single,FY2021-ACFR,19,34,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2021/CompleteCAFR.pdf,
+2022,43348,,actual,single,FY2022-ACFR,21,36,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2022/CompleteCAFR.pdf,note.flow-residual-late
+2023,24095,,actual,single,FY2023-ACFR,20,35,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2023/CompleteCAFR.pdf,note.flow-residual-late
+2024,40671,,actual,single,FY2024-ACFR,20,35,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2024/CompleteACFR.pdf,
+2025,11187615,,actual,single,FY2025-ACFR,20,36,https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2025/CompleteACFR.pdf,

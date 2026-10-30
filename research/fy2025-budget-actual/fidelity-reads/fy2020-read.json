@@ -1,0 +1,69 @@
+{
+  "year": 2020,
+  "pdf_pages": "103-109",
+  "notes": "Table of contents lists this schedule at printed pages 85-91; those printed page numbers appear in the page footers and correspond to PDF pages 103-109 (offset of 18). Printed title each page: 'GREENVILLE COUNTY, SOUTH CAROLINA / GENERAL FUND / SCHEDULE OF REVENUE AND EXPENDITURES / BUDGET AND ACTUAL (BUDGET BASIS) / FOR THE FISCAL YEAR ENDED JUNE 30, 2020'. Four columns left to right: Original (Budgeted Amounts), Final (Budgeted Amounts), Actual, Variance with Final Budget. PDF page 103 = revenue detail (printed p.85); PDF pages 104-109 = expenditures by department/subdepartment/object (printed p.86-91), ending with Other financing sources/uses and fund balance reconciliation. Every departmental and grand total on every page (revenues, each department, each subdepartment, total expenditures, deficiency of revenues under expenditures, total other financing sources, net change in fund balances, fund balance end of year) was independently summed and reconciles exactly to the printed total in all four columns — no arithmetic discrepancies found anywhere in the schedule. Each page's raw pdftotext extraction was checked against a 200dpi rendered image; all matched exactly.",
+  "cells": [
+    {"id": 1, "printed_label": "Total administrative services", "pdf_page": 104, "printed_value": "3,082,319", "confidence": "high"},
+    {"id": 2, "printed_label": "Total general services", "pdf_page": 105, "printed_value": "15,577,748", "confidence": "high"},
+    {"id": 3, "printed_label": "Total community development and planning", "pdf_page": 106, "printed_value": "23,123,492", "confidence": "high"},
+    {"id": 4, "printed_label": "Total public safety", "pdf_page": 106, "printed_value": "29,382,623", "confidence": "high"},
+    {"id": 5, "printed_label": "Total emergency medical services", "pdf_page": 106, "printed_value": "19,890,148", "confidence": "high"},
+    {"id": 6, "printed_label": "Total elected officials - judicial services", "pdf_page": 107, "printed_value": "20,402,715", "confidence": "high"},
+    {"id": 7, "printed_label": "Total elected officials - fiscal services", "pdf_page": 108, "printed_value": "3,176,587", "confidence": "high", "reason": "Subdepartment lines (Treasurer) begin on pdf_page 107; this department total line itself prints on pdf_page 108."},
+    {"id": 8, "printed_label": "Total elected officials - law enforcement", "pdf_page": 108, "printed_value": "49,469,804", "confidence": "high"},
+    {"id": 9, "printed_label": "Total boards, commissions and others", "pdf_page": 109, "printed_value": "13,706,801", "confidence": "high"},
+    {"id": 10, "printed_label": "Total community development and planning", "pdf_page": 106, "printed_value": "21,776,620", "confidence": "high"},
+    {"id": 11, "printed_label": "Total elected officials - law enforcement", "pdf_page": 108, "printed_value": "53,699,325", "confidence": "high"},
+    {"id": 12, "printed_label": "Total public safety", "pdf_page": 106, "printed_value": "32,308,695", "confidence": "high"},
+    {"id": 13, "printed_label": "Total board of appeals", "pdf_page": 108, "printed_value": "-", "confidence": "high", "reason": "Printed as a dash; only 'Operations' object line exists for this subdepartment and it too is a dash in the Final column (Original $9,000; Final, Actual, and Variance are all dashes)."},
+    {"id": 14, "printed_label": "Total probate court", "pdf_page": 107, "printed_value": "1,862,566", "confidence": "high"},
+    {"id": 15, "printed_label": "Total public defender", "pdf_page": 107, "printed_value": "959,331", "confidence": "high"},
+    {"id": 16, "printed_label": "Total legislative delegation", "pdf_page": 109, "printed_value": "67,829", "confidence": "high"},
+    {"id": 17, "printed_label": "Total human relations", "pdf_page": 105, "printed_value": "186,010", "confidence": "high"},
+    {"id": 18, "printed_label": "Total information systems", "pdf_page": 104, "printed_value": "5,953,600", "confidence": "high"},
+    {"id": 19, "printed_label": "Contractual agreements (Probate court)", "pdf_page": 107, "printed_value": "95,522", "confidence": "high"},
+    {"id": 20, "printed_label": "Contractual agreements (Tax services)", "pdf_page": 104, "printed_value": "36,943", "confidence": "high"},
+    {"id": 21, "printed_label": "Contractual agreements (Forensic division)", "pdf_page": 106, "printed_value": "108,547", "confidence": "high"},
+    {"id": 22, "printed_label": "Operations (Emergency Management division)", "pdf_page": 106, "printed_value": "16,111", "confidence": "high"},
+    {"id": 23, "printed_label": "Contractual agreements (Financial operations)", "pdf_page": 104, "printed_value": "503", "confidence": "high"},
+    {"id": 24, "printed_label": "Contractual agreements (Treasurer)", "pdf_page": 107, "printed_value": "1,008", "confidence": "high"},
+    {"id": 25, "printed_label": "Operations (Public defender)", "pdf_page": 107, "printed_value": "137,026", "confidence": "high"},
+    {"id": 26, "printed_label": "Salaries (Geographical information systems)", "pdf_page": 105, "printed_value": "592,658", "confidence": "high"},
+    {"id": 27, "printed_label": "Franchise fees", "pdf_page": 103, "printed_value": "3,863,250", "confidence": "high"},
+    {"id": 28, "printed_label": "Building standards", "pdf_page": 103, "printed_value": "4,570,487", "confidence": "high"},
+    {"id": 29, "printed_label": "Retiree insurance premiums", "pdf_page": 103, "printed_value": "838,480", "confidence": "high"},
+    {"id": 30, "printed_label": "Sheriff", "pdf_page": 103, "printed_value": "124,821", "confidence": "high"}
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 106,
+      "observation": "Subtotal line under the 'Emergency Management division' subdepartment is labeled 'Total detention division' — identical to the label used two lines above it for the actual Detention division subtotal. The Emergency Management division section (Salaries, Operations, then this total line) sits directly under the Detention division section, and the total line naming 'detention division' a second time, under a heading that says 'Emergency Management division', reads as a copy-paste label error rather than a genuine repeat of Detention division figures (the dollar amounts differ from the Detention division total directly above).",
+      "printed_line": "Total detention division                               536,146          523,962           351,070            172,892"
+    },
+    {
+      "pdf_page": 106,
+      "observation": "Misspelling: 'Total Indingent defense' (subdepartment is spelled correctly elsewhere on the page as 'Indigent defense').",
+      "printed_line": "Total Indingent defense                               218,208          223,421           223,415                    6"
+    },
+    {
+      "pdf_page": 105,
+      "observation": "Misspelling: 'Total vererans affairs' (subdepartment heading above it, and the object lines, correctly read 'Veterans affairs').",
+      "printed_line": "Total vererans affairs                                385,556          374,204           374,191                    13"
+    },
+    {
+      "pdf_page": 106,
+      "observation": "Emergency medical services 'Salaries' actual ($13,542,010) is well below both the Original budget ($17,382,952) and the Final budget ($19,761,580), producing a $6,219,570 positive variance on this single line — the largest dollar variance on any line item in the entire schedule (revenue and expenditure pages combined). The department total's own arithmetic reconciles correctly across all four columns; the observation is only that the size of this one variance stands out relative to every other line on the schedule.",
+      "printed_line": "Salaries                                              17,382,952       19,761,580       13,542,010          6,219,570"
+    },
+    {
+      "pdf_page": 109,
+      "observation": "Nondepartmental 'Retiree claims' actual ($1,936,986) is far above both the Original budget ($21,601) and the Final budget ($715,216), producing a $(1,221,770) negative variance on this single line — the largest negative dollar variance on any line item in the entire schedule. Arithmetic for the Nondepartmental and Boards/commissions totals reconciles correctly across all four columns; flagging only because of how far actual departs from both budget columns.",
+      "printed_line": "Retiree claims                                            21,601          715,216         1,936,986         (1,221,770)"
+    },
+    {
+      "pdf_page": 109,
+      "observation": "'Net change in fund balances' is exactly identical between the Original budget column and the Final budget column ($(4,142,014) both), even though Total expenditures, Transfers in, and Transfers out all differ materially between Original and Final. This holds together arithmetically because the increase in Final-budget expenditures over Original ($4,869,832) exactly equals the decrease in Final-budget Transfers out over Original ($4,869,832) — an exact offset. Total revenues are also identical between Original and Final ($168,538,014 both), i.e. the revenue budget was not amended during the year, only expenditure appropriations and the transfers-out budget were. Flagging as a pattern worth a second look, not as an arithmetic error — everything reconciles.",
+      "printed_line": "Net change in fund balances                           (4,142,014)       (4,142,014)         1,382,593          5,524,607"
+    }
+  ]
+}

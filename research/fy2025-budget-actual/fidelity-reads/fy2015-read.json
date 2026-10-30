@@ -1,0 +1,59 @@
+{
+  "year": 2015,
+  "pdf_pages": "106-111",
+  "cells": [
+    {"id": 1, "printed_label": "Total administrative", "pdf_page": 107, "printed_value": "2,693,315", "confidence": "high"},
+    {"id": 2, "printed_label": "Total general services", "pdf_page": 108, "printed_value": "13,663,410", "confidence": "high"},
+    {"id": 3, "printed_label": "Total community and development planning", "pdf_page": 109, "printed_value": "19,860,931", "confidence": "high", "note": "printed label transposes 'development'/'and' vs the section header 'Community development and planning' on the prior page (108) -- see anomalies"},
+    {"id": 4, "printed_label": "Total public safety", "pdf_page": 109, "printed_value": "24,564,727", "confidence": "high"},
+    {"id": 5, "printed_label": "Total Emergency medical services", "pdf_page": 109, "printed_value": "16,757,467", "confidence": "high"},
+    {"id": 6, "printed_label": "Total elected officials - Judicial", "pdf_page": 110, "printed_value": "17,406,266", "confidence": "high"},
+    {"id": 7, "printed_label": "Total elected officials - Fiscal", "pdf_page": 111, "printed_value": "2,752,196", "confidence": "high"},
+    {"id": 8, "printed_label": "Total elected officials - law enforcement", "pdf_page": 111, "printed_value": "40,531,868", "confidence": "high", "note": "printed with lowercase 'law' -- section header on same page reads 'Elected officials - Law enforcement' (capital L); see anomalies"},
+    {"id": 9, "printed_label": "Total boards, commissions and others", "pdf_page": 111, "printed_value": "4,900,130", "confidence": "high"},
+    {"id": 10, "printed_label": "Total general services", "pdf_page": 108, "printed_value": "13,437,011", "confidence": "high"},
+    {"id": 11, "printed_label": "Total administrative", "pdf_page": 107, "printed_value": "2,509,856", "confidence": "high"},
+    {"id": 12, "printed_label": "Total boards, commissions and others", "pdf_page": 111, "printed_value": "3,998,757", "confidence": "high"},
+    {"id": 13, "printed_label": "Information systems", "pdf_page": 107, "printed_value": "5,178,546", "confidence": "high"},
+    {"id": 14, "printed_label": "County medical examiner", "pdf_page": 111, "printed_value": "351,683", "confidence": "high"},
+    {"id": 15, "printed_label": "Treasurer", "pdf_page": 110, "printed_value": "425,127", "confidence": "high"},
+    {"id": 16, "printed_label": "Human resources", "pdf_page": 108, "printed_value": "877,736", "confidence": "high"},
+    {"id": 17, "printed_label": "Register of deeds", "pdf_page": 110, "printed_value": "1,159,452", "confidence": "high", "note": "this is the Elected officials - Fiscal subdepartment subtotal, not the County offices revenue subline of the same name on page 106"},
+    {"id": 18, "printed_label": "Probate court", "pdf_page": 110, "printed_value": "1,539,587", "confidence": "high", "note": "this is the Elected officials - Judicial subdepartment subtotal, not the County offices revenue subline of the same name on page 106"},
+    {"id": 19, "printed_label": "Operations (County administrator)", "pdf_page": 107, "printed_value": "25,435", "confidence": "high"},
+    {"id": 20, "printed_label": "Operations (Magistrates)", "pdf_page": 110, "printed_value": "277,826", "confidence": "high"},
+    {"id": 21, "printed_label": "Contractual agreements (Treasurer)", "pdf_page": 110, "printed_value": "667", "confidence": "high"},
+    {"id": 22, "printed_label": "Contractual agreements (Public defender)", "pdf_page": 110, "printed_value": "417,000", "confidence": "high"},
+    {"id": 23, "printed_label": "Operations (County medical examiner)", "pdf_page": 111, "printed_value": "351,686", "confidence": "high"},
+    {"id": 24, "printed_label": "Operations (Clerk of court)", "pdf_page": 110, "printed_value": "195,391", "confidence": "high"},
+    {"id": 25, "printed_label": "Salaries (Indigent defense)", "pdf_page": 109, "printed_value": "166,865", "confidence": "high"},
+    {"id": 26, "printed_label": "Contractual agreements (Records management services division)", "pdf_page": 109, "printed_value": "15,783", "confidence": "high"},
+    {"id": 27, "printed_label": "Probate court (County offices revenue)", "pdf_page": 106, "printed_value": "940,000", "confidence": "high"},
+    {"id": 28, "printed_label": "Emergency medical services (County offices revenue)", "pdf_page": 106, "printed_value": "12,552,928", "confidence": "high"},
+    {"id": 29, "printed_label": "Accommodations tax (Intergovernmental revenues)", "pdf_page": 106, "printed_value": "60,000", "confidence": "high"},
+    {"id": 30, "printed_label": "Engineering, Roads/Bridges (County offices revenue)", "pdf_page": 106, "printed_value": "22,000", "confidence": "high"}
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 109,
+      "observation": "The total row closing the 'Community development and planning' section (header printed on page 108) prints the words 'development' and 'and' in reversed order relative to its own section header.",
+      "printed_line": "Total community and development planning                       19,860,931    18,798,949      18,696,945       102,004"
+    },
+    {
+      "pdf_page": 111,
+      "observation": "The total row closing the 'Elected officials - Law enforcement' section prints 'law' in lowercase, while the section header on this same page capitalizes it ('Elected officials - Law enforcement').",
+      "printed_line": "Total elected officials - law enforcement                                40,531,868        40,186,249         40,168,662        17,587"
+    },
+    {
+      "pdf_page": 106,
+      "observation": "Revenue line 'Health department' (under County offices) shows a dash (zero) in the Actual column against an Original and Final Budget of 112,211 -- a budgeted revenue category with no recorded actual receipts for the year.",
+      "printed_line": "Health department                                                   112,211        112,211          -            (112,211)"
+    },
+    {
+      "pdf_page": 107,
+      "observation": "Expenditure line 'Contractual agreements' under County council shows an Original Budget of 7,000 but a dash (zero) in both Final Budget and Actual -- the full original appropriation was zeroed out by the final budget.",
+      "printed_line": "  Contractual agreements                                      7,000       -               -             -"
+    }
+  ],
+  "notes": "Schedule spans PDF pages 106-111 (printed page footers 96-101), immediately after the pension-contribution schedule (PDF page 105 / printed 95) and immediately before the Combining Balance Sheet - Federal and State Grant Fund (PDF page 112 / printed 102). Every subtotal and total row on all 6 pages was independently re-summed from its component lines (county offices, intergovernmental revenues, other revenues, total revenues; each of the 9 department totals for Original and Final Budget; total expenditures for Original/Final/Actual; excess of revenues over expenditures; other financing sources/uses; and the bottom-line excess of $354,420) and every one reconciled exactly -- no arithmetic discrepancies found anywhere on these pages. All numeric transcriptions were cross-checked against 200-dpi PNG renders of all 6 pages (pdftoppm), not text extraction alone. Two ids (17 and 18) share a subdepartment label ('Register of deeds', 'Probate court') with an unrelated revenue subline on page 106 under 'County offices' -- these are different rows in a different section of the schedule; I've noted the disambiguation in printed_label. The Emergency medical services and Elected officials - Judicial/Fiscal/Law enforcement/Boards-commissions sections are NOT indented as sub-items of 'Public safety' in the printed layout (they are their own top-level department sections beginning at the left margin), matching how the sample's department-level ids treat them as siblings of Public safety."
+}

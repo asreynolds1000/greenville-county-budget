@@ -1,0 +1,252 @@
+{
+  "year": 2014,
+  "pdf_pages": "107-112",
+  "cells": [
+    {
+      "id": 1,
+      "printed_label": "Total administrative",
+      "pdf_page": 108,
+      "printed_value": "2,365,967",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "printed_label": "Total general services",
+      "pdf_page": 109,
+      "printed_value": "13,328,681",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "printed_label": "Total community and development planning",
+      "pdf_page": 110,
+      "printed_value": "19,483,312",
+      "confidence": "high",
+      "note": "Section header (line above) reads 'Community development and planning'; the total row prints the words in a different order: 'Total community and development planning'. See anomaly."
+    },
+    {
+      "id": 4,
+      "printed_label": "Total public safety",
+      "pdf_page": 110,
+      "printed_value": "23,619,452",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "printed_label": "Total Emergency medical services",
+      "pdf_page": 110,
+      "printed_value": "16,345,473",
+      "confidence": "high"
+    },
+    {
+      "id": 6,
+      "printed_label": "Total elected officials - Judicial",
+      "pdf_page": 111,
+      "printed_value": "16,826,687",
+      "confidence": "high"
+    },
+    {
+      "id": 7,
+      "printed_label": "Total elected officials - Fiscal",
+      "pdf_page": 112,
+      "printed_value": "2,671,974",
+      "confidence": "high"
+    },
+    {
+      "id": 8,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 112,
+      "printed_value": "39,058,042",
+      "confidence": "high",
+      "note": "Section header reads 'Elected officials - Law enforcement' (capital L); the total row prints 'law' lowercase. See anomaly."
+    },
+    {
+      "id": 9,
+      "printed_label": "Total boards, commissions and others",
+      "pdf_page": 112,
+      "printed_value": "5,111,244",
+      "confidence": "high"
+    },
+    {
+      "id": 10,
+      "printed_label": "Total elected officials - Judicial",
+      "pdf_page": 111,
+      "printed_value": "16,892,991",
+      "confidence": "high"
+    },
+    {
+      "id": 11,
+      "printed_label": "Total elected officials - Fiscal",
+      "pdf_page": 112,
+      "printed_value": "2,612,289",
+      "confidence": "high"
+    },
+    {
+      "id": 12,
+      "printed_label": "Total general services",
+      "pdf_page": 109,
+      "printed_value": "12,973,824",
+      "confidence": "high"
+    },
+    {
+      "id": 13,
+      "printed_label": "Clerk of court (subtotal row, unlabeled, under Elected officials - Judicial)",
+      "pdf_page": 111,
+      "printed_value": "3,459,354",
+      "confidence": "high"
+    },
+    {
+      "id": 14,
+      "printed_label": "Property maintenance (subtotal row, unlabeled, under Community development and planning)",
+      "pdf_page": 109,
+      "printed_value": "6,025,301",
+      "confidence": "high"
+    },
+    {
+      "id": 15,
+      "printed_label": "Register of deeds (subtotal row, unlabeled, under Elected officials - Fiscal)",
+      "pdf_page": 111,
+      "printed_value": "1,085,193",
+      "confidence": "high"
+    },
+    {
+      "id": 16,
+      "printed_label": "Agencies and social service agencies (subtotal row, unlabeled, under Boards, commissions and others; single line item 'Lump sum appropriations')",
+      "pdf_page": 112,
+      "printed_value": "1,288,017",
+      "confidence": "high"
+    },
+    {
+      "id": 17,
+      "printed_label": "Coroner (subtotal row, unlabeled, under Elected officials - Law enforcement)",
+      "pdf_page": 112,
+      "printed_value": "816,434",
+      "confidence": "high"
+    },
+    {
+      "id": 18,
+      "printed_label": "County Attorney (subtotal row, unlabeled, under Administrative)",
+      "pdf_page": 108,
+      "printed_value": "738,103",
+      "confidence": "high"
+    },
+    {
+      "id": 19,
+      "printed_label": "Salaries (under Magistrates, under Elected officials - Judicial)",
+      "pdf_page": 111,
+      "printed_value": "4,156,006",
+      "confidence": "high"
+    },
+    {
+      "id": 20,
+      "printed_label": "Operations (under Forensic division, under Public safety)",
+      "pdf_page": 110,
+      "printed_value": "109,848",
+      "confidence": "high"
+    },
+    {
+      "id": 21,
+      "printed_label": "Contractual agreements (under Geographical Information Systems, under General services)",
+      "pdf_page": 109,
+      "printed_value": "49,004",
+      "confidence": "high"
+    },
+    {
+      "id": 22,
+      "printed_label": "Salaries (under Emergency medical services; this department has no subdepartment breakdown)",
+      "pdf_page": 110,
+      "printed_value": "14,395,115",
+      "confidence": "high"
+    },
+    {
+      "id": 23,
+      "printed_label": "Salaries (under Registration and election, under General services)",
+      "pdf_page": 109,
+      "printed_value": "763,657",
+      "confidence": "high"
+    },
+    {
+      "id": 24,
+      "printed_label": "Operations (under Veterans affairs, under General services)",
+      "pdf_page": 109,
+      "printed_value": "9,329",
+      "confidence": "high"
+    },
+    {
+      "id": 25,
+      "printed_label": "Operations (under County Attorney, under Administrative)",
+      "pdf_page": 108,
+      "printed_value": "32,800",
+      "confidence": "high"
+    },
+    {
+      "id": 26,
+      "printed_label": "Salaries (under Financial operations, under General services)",
+      "pdf_page": 108,
+      "printed_value": "1,380,549",
+      "confidence": "high"
+    },
+    {
+      "id": 27,
+      "printed_label": "Emergency medical services (revenue line, under County offices)",
+      "pdf_page": 107,
+      "printed_value": "12,206,910",
+      "confidence": "high"
+    },
+    {
+      "id": 28,
+      "printed_label": "Other (revenue line, under Intergovernmental revenues > State of South Carolina)",
+      "pdf_page": 107,
+      "printed_value": "30,000",
+      "confidence": "high",
+      "note": "There are two revenue sublines named 'Other' on this page: one under Intergovernmental revenues (this one, 30,000/30,000/37,720/7,720) and one under Other revenues (300,000/300,000/143,520/(156,480)). Matched by category per the sample spec."
+    },
+    {
+      "id": 29,
+      "printed_label": "Building standards (revenue line, under County offices)",
+      "pdf_page": 107,
+      "printed_value": "1,897,465",
+      "confidence": "high"
+    },
+    {
+      "id": 30,
+      "printed_label": "Accommodations tax (revenue line, under Intergovernmental revenues > State of South Carolina)",
+      "pdf_page": 107,
+      "printed_value": "61,460",
+      "confidence": "high"
+    }
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 107,
+      "observation": "Health department revenue line (under County offices) shows a dash in the Actual column against a $111,100 Original/Final Budget, producing a full-amount negative variance. Every other line in this section has a nonzero actual.",
+      "printed_line": "Health department                                                    111,100      111,100               -       (111,100)"
+    },
+    {
+      "pdf_page": 108,
+      "observation": "Non-departmental > Salaries: Original Budget is $21,600 but Final Budget, Actual, and Variance are all shown as dashes. The full original salary appropriation was apparently reduced to zero by the final budget, with no residual variance shown.",
+      "printed_line": "Salaries                                                                     21,600               -                -              -"
+    },
+    {
+      "pdf_page": 111,
+      "observation": "Public defender > Salaries: Original Budget is a dash (zero/none budgeted originally), Final Budget and Actual both show $68,630 exactly, and Variance is a dash. A budget line went from nothing to a fully-spent $68,630 final appropriation.",
+      "printed_line": "Salaries                                                                            -        68,630           68,630             -"
+    },
+    {
+      "pdf_page": 112,
+      "observation": "Employee benefit fund > Salaries: Final Budget ($859,346) more than doubles the Original Budget ($390,300), while Actual comes in at only $65,163 -- about 7.6% of the Final Budget -- leaving a $794,183 positive variance, the single largest dollar variance of any line item on any page of this schedule (larger than several entire department totals).",
+      "printed_line": "Salaries                                                                    390,300       859,346           65,163          794,183"
+    },
+    {
+      "pdf_page": 110,
+      "observation": "The section header on this page reads 'Community development and planning' (department name order: development-then-planning), but the total row a few lines down reads 'Total community and development planning' -- the words 'community' and 'development' are transposed relative to the header. Not a value issue, just an internal wording inconsistency in the same schedule.",
+      "printed_line": "Total community and development planning                        19,483,312    18,513,982      18,038,794       475,188"
+    },
+    {
+      "pdf_page": 112,
+      "observation": "The section header reads 'Elected officials - Law enforcement' (capital L in Law), but its total row reads 'Total elected officials - law enforcement' (lowercase l). Minor capitalization inconsistency, no value issue.",
+      "printed_line": "Total elected officials - law enforcement                                39,058,042      39,279,473       39,261,571         17,902"
+    }
+  ],
+  "notes": "All six pages of the schedule (PDF pp. 107-112, printed pp. 97-102) were read via pdftotext -layout and independently checked against 200-dpi PNG renders of every page -- all extracted figures matched the rendered images exactly, no column shifts or misreads found. Every subtotal and total row on every page (department subtotals, section totals, revenue category subtotals, total revenues, total expenditures, the excess/deficiency line, and the other-financing-sources reconciliation down to the final $1,326,366 net excess) was independently summed from its component lines in Python and matched the printed total in every case -- no arithmetic discrepancies anywhere in the schedule. Two revenue lines are both named 'Other' (one under Intergovernmental revenues, one under Other revenues) and two lines are both named 'Emergency medical services' (one a revenue subline under County offices, one an expenditure department) -- disambiguated by category/section per the sample spec, noted inline. Three dash/blank-vs-value oddities and two internal wording inconsistencies were found and are listed under anomalies; no severity judgment is offered on any of them per instructions."
+}

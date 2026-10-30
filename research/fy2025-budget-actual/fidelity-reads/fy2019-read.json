@@ -1,0 +1,244 @@
+{
+  "year": 2019,
+  "pdf_pages": "115-121",
+  "notes": "PDF pages 115-121 = printed pages 87-93 (footer page numbers). This CAFR's schedule title differs from the generic naming used in the sample file: printed header is 'SCHEDULE OF REVENUE AND EXPENDITURES / BUDGET AND ACTUAL (BUDGET BASIS)' (singular 'Revenue', not 'Revenues'), fund heading 'GENERAL FUND', for fiscal year ended June 30, 2019. Four columns confirmed left to right: Original | Final (both under 'Budgeted Amounts') | Actual | 'Variance with Final Budget'. Dollar signs ($) are printed only on the first data row of each new PDF page, per column - not repeated on subsequent lines or totals; this is reflected in printed_value below (only id 25 carries a $ because it happens to be the first row of its page). I independently re-derived every total on every page (revenue category totals, total revenues, every department/subdepartment/object total, total expenditures, excess of revenues over expenditures, other financing sources, net change in fund balances, and fund balance end of year) by summing the printed line items beneath each total; every single total reconciled exactly to the printed figure - no arithmetic errors found anywhere in the schedule. Separately, while locating this schedule I passed through the CAFR's summary 'Statement of Revenues, Expenditures and Changes in Fund Balances - Budget and Actual (Budget Basis) - General Fund' on printed page 24 (outside the assigned 87-93 range, so not treated as a primary finding). Two of its department totals do not match the corresponding totals in the detailed schedule read here: General services Final Budget is $15,202,070 on page 24 vs. $15,285,204 on page 88 (this schedule), a $83,134 difference equal to the Information Systems sub-department's capital outlay line; and Community development and planning Original Budget is $22,240,266 on page 24 vs. $22,268,159 on page 90 (this schedule), a $27,893 difference equal to the Engineering, Roads and Bridges sub-department's capital outlay line. Pattern suggests the page-24 summary statement may exclude certain capital outlay budget amounts that the page 87-93 detailed schedule includes. Flagged for awareness since it's a genuine cross-schedule inconsistency, even though page 24 itself is out of scope.",
+  "cells": [
+    {
+      "id": 1,
+      "printed_label": "Total administrative services",
+      "pdf_page": 116,
+      "printed_value": "3,102,252",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "printed_label": "Total general services",
+      "pdf_page": 117,
+      "printed_value": "15,283,744",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "printed_label": "Total community development and planning",
+      "pdf_page": 118,
+      "printed_value": "22,268,159",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "printed_label": "Total public safety",
+      "pdf_page": 118,
+      "printed_value": "28,418,703",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "printed_label": "Total emergency medical services",
+      "pdf_page": 118,
+      "printed_value": "20,450,287",
+      "confidence": "high"
+    },
+    {
+      "id": 6,
+      "printed_label": "Total elected officials - judicial services",
+      "pdf_page": 119,
+      "printed_value": "19,629,229",
+      "confidence": "high"
+    },
+    {
+      "id": 7,
+      "printed_label": "Total elected officials - fiscal services",
+      "pdf_page": 120,
+      "printed_value": "3,178,962",
+      "confidence": "high"
+    },
+    {
+      "id": 8,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 120,
+      "printed_value": "48,507,120",
+      "confidence": "high"
+    },
+    {
+      "id": 9,
+      "printed_label": "Total boards, commissions and others",
+      "pdf_page": 121,
+      "printed_value": "5,559,402",
+      "confidence": "high"
+    },
+    {
+      "id": 10,
+      "printed_label": "Total community development and planning",
+      "pdf_page": 118,
+      "printed_value": "21,994,496",
+      "confidence": "high"
+    },
+    {
+      "id": 11,
+      "printed_label": "Total public safety",
+      "pdf_page": 118,
+      "printed_value": "28,371,878",
+      "confidence": "high"
+    },
+    {
+      "id": 12,
+      "printed_label": "Total elected officials - law enforcement",
+      "pdf_page": 120,
+      "printed_value": "46,779,785",
+      "confidence": "high"
+    },
+    {
+      "id": 13,
+      "printed_label": "Total human relations (General services > Human relations)",
+      "pdf_page": 117,
+      "printed_value": "178,477",
+      "confidence": "high"
+    },
+    {
+      "id": 14,
+      "printed_label": "Total animal care services (Community development and planning > Animal care services)",
+      "pdf_page": 118,
+      "printed_value": "4,465,410",
+      "confidence": "high"
+    },
+    {
+      "id": 15,
+      "printed_label": "Total nondepartmental (Boards, commissions and others > Nondepartmental)",
+      "pdf_page": 121,
+      "printed_value": "6,126,894",
+      "confidence": "high"
+    },
+    {
+      "id": 16,
+      "printed_label": "Total Indingent defense [sic, misspelled in source] (Public safety > Indigent defense)",
+      "pdf_page": 118,
+      "printed_value": "216,537",
+      "confidence": "high"
+    },
+    {
+      "id": 17,
+      "printed_label": "Total detention division [mislabeled in source - this total sits under the 'Emergency Management division' subheading, not detention; see anomalies] (Public safety > Emergency Management division)",
+      "pdf_page": 118,
+      "printed_value": "256,217",
+      "confidence": "high"
+    },
+    {
+      "id": 18,
+      "printed_label": "Total public defender (Elected officials - judicial services > Public defender)",
+      "pdf_page": 119,
+      "printed_value": "552,701",
+      "confidence": "high"
+    },
+    {
+      "id": 19,
+      "printed_label": "Lump sum appropriations (Boards, commissions and others > Agencies and social service agencies)",
+      "pdf_page": 121,
+      "printed_value": "1,563,640",
+      "confidence": "high"
+    },
+    {
+      "id": 20,
+      "printed_label": "Contractual agreements (Elected officials - judicial services > Magistrates)",
+      "pdf_page": 119,
+      "printed_value": "18,528",
+      "confidence": "high"
+    },
+    {
+      "id": 21,
+      "printed_label": "Contractual agreements (Community development and planning > Property maintenance)",
+      "pdf_page": 117,
+      "printed_value": "918,870",
+      "confidence": "high"
+    },
+    {
+      "id": 22,
+      "printed_label": "Salaries (Elected officials - judicial services > Magistrates)",
+      "pdf_page": 119,
+      "printed_value": "5,197,621",
+      "confidence": "high"
+    },
+    {
+      "id": 23,
+      "printed_label": "Contractual agreements (Administrative services > County attorney)",
+      "pdf_page": 116,
+      "printed_value": "40,371",
+      "confidence": "high"
+    },
+    {
+      "id": 24,
+      "printed_label": "Operations (Community development and planning > Animal care services)",
+      "pdf_page": 118,
+      "printed_value": "1,302,222",
+      "confidence": "high"
+    },
+    {
+      "id": 25,
+      "printed_label": "Salaries (Community development and planning > Planning and code enforcement)",
+      "pdf_page": 118,
+      "printed_value": "$4,016,287",
+      "confidence": "high"
+    },
+    {
+      "id": 26,
+      "printed_label": "Contractual agreements (General services > Veterans affairs)",
+      "pdf_page": 117,
+      "printed_value": "2,425",
+      "confidence": "high"
+    },
+    {
+      "id": 27,
+      "printed_label": "Information systems (Revenues > County offices)",
+      "pdf_page": 115,
+      "printed_value": "92,000",
+      "confidence": "high"
+    },
+    {
+      "id": 28,
+      "printed_label": "Engineering, roads and bridges (Revenues > County offices)",
+      "pdf_page": 115,
+      "printed_value": "64,504",
+      "confidence": "high"
+    },
+    {
+      "id": 29,
+      "printed_label": "Law enforcement support (Revenues > County offices)",
+      "pdf_page": 115,
+      "printed_value": "534,209",
+      "confidence": "high"
+    },
+    {
+      "id": 30,
+      "printed_label": "Clerk of court (Revenues > County offices)",
+      "pdf_page": 115,
+      "printed_value": "2,095,422",
+      "confidence": "high"
+    }
+  ],
+  "anomalies": [
+    {
+      "pdf_page": 118,
+      "observation": "Subtotal row under the 'Emergency Management division' subheading (Public safety department) is labeled 'Total detention division' - the identical label used a few lines above for the actual Detention division subtotal on the same page. Arithmetic is internally consistent (Final 256,217 = 246,789+9,338+90; Actual 204,421 = 195,172+9,249+0; Variance 51,796 = 51,617+89+90), so only the label is wrong, not the figures.",
+      "printed_line": "Total detention division                                      -         256,217           204,421             51,796"
+    },
+    {
+      "pdf_page": 118,
+      "observation": "Subtotal label for the Indigent defense subdivision is misspelled 'Indingent' instead of 'Indigent'. The subheading above it a few lines up is spelled correctly ('Indigent defense').",
+      "printed_line": "Total Indingent defense                               216,697          216,537           215,873                664"
+    },
+    {
+      "pdf_page": 117,
+      "observation": "Subtotal label for the Veterans affairs subdivision is misspelled 'vererans' instead of 'veterans'.",
+      "printed_line": "Total vererans affairs                                386,410          386,410           373,130             13,280"
+    },
+    {
+      "pdf_page": 121,
+      "observation": "Line item 'Retiree claims' under Nondepartmental shows a dash/blank in the Final Budget column while Original Budget is 21,600 and Actual is 2,906,233 - i.e. the final budget was apparently zeroed out for this line, yet actual spending of nearly $2.9 million was recorded against it, producing a variance of (2,906,233). Arithmetic flows through correctly to the Nondepartmental and Boards/commissions/others totals, but the blank final-budget figure paired with a multi-million-dollar actual is worth a second look.",
+      "printed_line": "Retiree claims                                              21,600                  -          2,906,233          (2,906,233)"
+    },
+    {
+      "pdf_page": 118,
+      "observation": "The 'Emergency Management division' subdivision (Public safety) shows a dash/blank for all three line items (Salaries, Operations, Contractual agreements) in the Original Budget column, while Final Budget and Actual both carry real dollar figures - consistent with this division being created or funded only via a mid-year budget amendment rather than existing in the original budget. Not an arithmetic error, but flagged since it's an unusual pattern (a division absent from the original budget entirely).",
+      "printed_line": "Emergency Management division / Salaries - 246,789 195,172 51,617 / Operations - 9,338 9,249 89 / Contractual agreements - 90 - 90"
+    }
+  ]
+}

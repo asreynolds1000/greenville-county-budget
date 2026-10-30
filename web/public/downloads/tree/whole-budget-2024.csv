@@ -1,0 +1,18 @@
+entity_id,canonical_name,entity_type,parent_entity_id,value,printed_form,status_class,source_code,printed_page,pdf_page,source_url,note_ids
+budget.total,Total Budget,whole_budget,,386363355,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,note.interfund-transfers-not-netted;note.transfers-removed-not-calculated
+fund.debt-service,Debt Service Fund,fund_type,budget.total,32218726,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,
+fund.enterprise,Enterprise Fund,fund_type,budget.total,28457302,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,note.enterprise-totals-gap
+fund.general,General Fund,fund_type,budget.total,242740106,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,
+fund.special-revenue,Special Revenue Fund,fund_type,budget.total,82947221,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,
+fund.sr.affordable-housing,Affordable Housing,fund,fund.special-revenue,2000000,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,
+fund.sr.e911,E-911,fund,fund.special-revenue,3184632,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,
+fund.sr.hospitality-tax,Hospitality Tax,fund,fund.special-revenue,9566280,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,note.source-footnote.fund.sr.hospitality-tax.d360a25c49
+fund.sr.infrastructure-bank,Infrastructure Bank,fund,fund.special-revenue,13396227,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,note.source-footnote.fund.sr.infrastructure-bank.8c8829ed4f
+fund.sr.local-accommodations-tax,Local Accommodations Tax,fund,fund.special-revenue,500000,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,
+fund.sr.medical-charities,Medical Charities,fund,fund.special-revenue,8433674,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,
+fund.sr.natural-resources,Natural Resources,fund,fund.special-revenue,4500000,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,note.source-footnote.fund.sr.natural-resources.df190b49f6
+fund.sr.parks-recreation-tourism,"Parks, Recreation, and Tourism",fund,fund.special-revenue,21830651,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,note.source-footnote.fund.sr.parks-recreation-tourism.3368515a6b
+fund.sr.public-safety-interop,Public Safety Interoperable Communications,fund,fund.special-revenue,2000000,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,
+fund.sr.road-program,Road Program,fund,fund.special-revenue,15950000,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,note.source-footnote.fund.sr.road-program.d4f2ce8e80
+fund.sr.state-accommodations-tax,State Accommodations Tax,fund,fund.special-revenue,1070000,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,
+fund.sr.victims-rights,Victim's Rights,fund,fund.special-revenue,515757,,adopted,FY2026,35,36,https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf,

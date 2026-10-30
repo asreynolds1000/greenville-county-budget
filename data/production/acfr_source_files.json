@@ -1,0 +1,143 @@
+{
+  "file_count": 15,
+  "files": [
+    {
+      "bytes": 14297552,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2011",
+      "filename": "Greenville-County-Financial-Report-FY2011.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2011/cafr_complete.pdf",
+      "registry": "extension",
+      "sha256": "ffc54d9e9a16c307dc10f01345d79e885a078a449f33d4c378e3fdf04f71743b",
+      "source_code": "FY2011-ACFR"
+    },
+    {
+      "bytes": 5493034,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2012",
+      "filename": "Greenville-County-Financial-Report-FY2012.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2012/cafr_complete.pdf",
+      "registry": "extension",
+      "sha256": "f05b2f5a9f1fe98d1ab4ba1b2c4480b77da45f08ba96d5984e6e776e8ff0ebc5",
+      "source_code": "FY2012-ACFR"
+    },
+    {
+      "bytes": 8139533,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2013",
+      "filename": "Greenville-County-Financial-Report-FY2013.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2013/cafr_complete.pdf",
+      "registry": "extension",
+      "sha256": "16b90b71d83b9c2fcbba13204846a3976022664ee6d3f31588e012420b9e5198",
+      "source_code": "FY2013-ACFR"
+    },
+    {
+      "bytes": 21955515,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2014",
+      "filename": "Greenville-County-Financial-Report-FY2014.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2014/cafr_complete.pdf",
+      "registry": "extension",
+      "sha256": "781c916e7795ee962b02477cddf1e7f5cca30bcd3ce65b16a8864b9ed05f2f75",
+      "source_code": "FY2014-ACFR"
+    },
+    {
+      "bytes": 78951307,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2015",
+      "filename": "Greenville-County-Financial-Report-FY2015.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2015/cafr_complete.pdf",
+      "registry": "extension",
+      "sha256": "35eb8db29c0491f06b72d7cb789094e26a58fdb9e04a2b787d16b0de2624011a",
+      "source_code": "FY2015-ACFR"
+    },
+    {
+      "bytes": 3277778,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2016",
+      "filename": "Greenville-County-Financial-Report-FY2016.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/pdf_financial_report_2016/cafr_complete.pdf",
+      "registry": "extension",
+      "sha256": "1d20b4cf9b471bd6b803bfdd6d692ae012e0d6636f5bbf8b25f2bef30f6a65b3",
+      "source_code": "FY2016-ACFR"
+    },
+    {
+      "bytes": 4681885,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2017",
+      "filename": "Greenville-County-Financial-Report-FY2017.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2017/cafr_complete.pdf",
+      "registry": "extension",
+      "sha256": "018d4d00f7b951ac2345d7c69546d7563ae1e5d5f4d3a949ae1322345d8831a9",
+      "source_code": "FY2017-ACFR"
+    },
+    {
+      "bytes": 3326232,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2018",
+      "filename": "Greenville-County-Financial-Report-FY2018.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2018/cafr_complete.pdf",
+      "registry": "extension",
+      "sha256": "c53cd5a4131abf2da109d5bc5373a8ecb342497a5a9559a28bbbee1d7c9526dc",
+      "source_code": "FY2018-ACFR"
+    },
+    {
+      "bytes": 4455398,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2019",
+      "filename": "Greenville-County-Financial-Report-FY2019.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2019/cafr_complete.pdf",
+      "registry": "frozen",
+      "sha256": "ac37804dd2ef76790534a621201c1497925b50bdc344317e3da5759ffd7b3231",
+      "source_code": "FY2019-ACFR"
+    },
+    {
+      "bytes": 5481374,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2020",
+      "filename": "Greenville-County-Financial-Report-FY2020.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2020/cafr_complete.pdf",
+      "registry": "extension",
+      "sha256": "97d197d247a83f5261f3570d9ce701eac8e22a1c5702b7118f6978fa3c253b34",
+      "source_code": "FY2020-ACFR"
+    },
+    {
+      "bytes": 2873781,
+      "document_title_version": "Greenville County Comprehensive Annual Financial Report for the Fiscal Year Ended June 30 2021",
+      "filename": "Greenville-County-Financial-Report-FY2021.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2021/CompleteCAFR.pdf",
+      "registry": "frozen",
+      "sha256": "fb555836db8838a82fa8f6516404cf8b4f998a42261054a67d2abcbf71d3f831",
+      "source_code": "FY2021-ACFR"
+    },
+    {
+      "bytes": 8269512,
+      "document_title_version": "Greenville County Annual Comprehensive Financial Report for the Fiscal Year Ended June 30 2022",
+      "filename": "Greenville-County-Financial-Report-FY2022.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2022/CompleteCAFR.pdf",
+      "registry": "extension",
+      "sha256": "d4c15dec70ddcb01fd71c99f95a88a9285e405fffffee279bd16639812c2c24d",
+      "source_code": "FY2022-ACFR"
+    },
+    {
+      "bytes": 6494519,
+      "document_title_version": "Greenville County Annual Comprehensive Financial Report for the Fiscal Year Ended June 30 2023",
+      "filename": "Greenville-County-Financial-Report-FY2023.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2023/CompleteCAFR.pdf",
+      "registry": "frozen",
+      "sha256": "f29b55d1a66785b5fae946622a1c6302c50daac54e98a2ace87a333431f3cfb2",
+      "source_code": "FY2023-ACFR"
+    },
+    {
+      "bytes": 15138504,
+      "document_title_version": "Greenville County Annual Comprehensive Financial Report for the Fiscal Year Ended June 30 2024",
+      "filename": "Greenville-County-Financial-Report-FY2024.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2024/CompleteACFR.pdf",
+      "registry": "frozen",
+      "sha256": "586da0ae01069158afeb7155dd2615bdcd03097b9ec0282044b9cee0383d8816",
+      "source_code": "FY2024-ACFR"
+    },
+    {
+      "bytes": 89876582,
+      "document_title_version": "Greenville County Annual Comprehensive Financial Report for the Fiscal Year Ended June 30 2025",
+      "filename": "Greenville-County-Financial-Report-FY2025.pdf",
+      "official_url": "https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2025/CompleteACFR.pdf",
+      "registry": "frozen",
+      "sha256": "a6102c8447bc5ca0adcfd54bfcf349ad5a8fbc8dad3ba973e9e406f6d04991f0",
+      "source_code": "FY2025-ACFR"
+    }
+  ],
+  "generated": "2026-07-22",
+  "mirror": "Restore with python3 -m scripts.restore_sources (official or archived URL, hash-verified)",
+  "why": "The ACFRs are cited by every budget-versus-actual figure on the site and are NOT in data/raw/ or audit/source-files.json. This records their integrity hashes so a future re-read can prove it is reading the same document."
+}

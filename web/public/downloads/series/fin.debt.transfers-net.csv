@@ -1,0 +1,13 @@
+fiscal_year,value,printed_form,status_class,canonical_status,source_code,printed_page,pdf_page,source_url,note_ids
+2010,5866702,,actual,single,FY2012-13,46,54,https://www.greenvillecounty.org/ManagementandBudget/pdf/2012/budget_combined2012.pdf,note.sources-statement-not-printed
+2011,5837123,,actual,single,FY2012-13,46,54,https://www.greenvillecounty.org/ManagementandBudget/pdf/2012/budget_combined2012.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2012,7796549,,actual,single,FY2014-15,51,51,https://www.greenvillecounty.org/ManagementandBudget/pdf/2014/budget_combined.pdf,note.budget-to-gaap;note.fy2012-extraction;note.sources-statement-not-printed
+2013,6595179,,actual,single,FY2014-15,51,51,https://www.greenvillecounty.org/ManagementandBudget/pdf/2014/budget_combined.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2014,-16318457,,actual,single,FY2016-17,50,50,https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2015,8624744,,actual,single,FY2016-17,50,50,https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2012,5562346,,adopted,single,FY2012-13,46,54,https://www.greenvillecounty.org/ManagementandBudget/pdf/2012/budget_combined2012.pdf,note.budget-to-gaap;note.fy2012-extraction;note.sources-statement-not-printed
+2013,5657058,,adopted,single,FY2012-13,46,54,https://www.greenvillecounty.org/ManagementandBudget/pdf/2012/budget_combined2012.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2014,7345676,,adopted,single,FY2014-15,51,51,https://www.greenvillecounty.org/ManagementandBudget/pdf/2014/budget_combined.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2015,7674001,,adopted,single,FY2014-15,51,51,https://www.greenvillecounty.org/ManagementandBudget/pdf/2014/budget_combined.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2016,9294585,,adopted,single,FY2016-17,50,50,https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf,note.budget-to-gaap;note.flow-residual;note.sources-statement-not-printed
+2017,10371628,,adopted,single,FY2016-17,50,50,https://www.greenvillecounty.org/ManagementandBudget/pdf/2016/budget_combined.pdf,note.budget-to-gaap;note.flow-residual;note.sources-statement-not-printed

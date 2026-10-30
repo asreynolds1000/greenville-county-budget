@@ -1,0 +1,17 @@
+original_label,statement_section,fy2020_budget,fy2020_actual,fy2021_budget,fy2021_actual,fy2022_budget,fy2023_budget
+Property Taxes,inflow_solid_waste,4366749,4425190,4585749,4586659,4757800,4948112
+Charges for Services,inflow_solid_waste,7000000,7067907,7100000,7067959,7254051,7263027
+Other Revenue,inflow_solid_waste,686000,79615,719000,822,55000,55000
+Fund Balance Usage (Contribution),position_change_solid_waste,3756204,1234784,-2014426,4421084,1489793,2420123
+Total Solid Waste,total_solid_waste_revenue,15808953,12807496,10390323,16076524,13556644,14686262
+Stormwater Fees,inflow_stormwater,7864870,7815509,7943519,8236375,7979000,8058790
+Other Revenue,inflow_stormwater,80000,155282,80000,2119,135000,135000
+Fund Balance Usage (Contribution),position_change_stormwater,4149997,-332086,3831342,-508312,4990502,5025381
+Total Stormwater,total_stormwater_revenue,12094867,7638705,11854861,7730182,13104502,13219171
+Total Revenues,total_enterprise_revenue,27903820,20446201,22245184,23806706,26661146,27905433
+Solid Waste,outflow_solid_waste,15808953,12807496,10390323,16076524,13556644,14686262
+Floodplain Management,outflow_stormwater,4590510,3185029,4240561,2169259,4527522,4557718
+Land Development,outflow_stormwater,7009242,4124656,7107810,5241515,8072951,8147138
+Soil and Water,outflow_stormwater,495115,329020,506490,319408,504029,514315
+Total Stormwater,total_stormwater_expense,12094867,7638705,11854861,7730182,13104502,13219171
+Total Expenses,total_enterprise_expense,27903820,20446201,22245184,23806706,26661146,27905433

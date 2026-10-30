@@ -1,0 +1,2303 @@
+{
+ "2011": {
+  "year": 2011,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 74212818,
+    "final": 74212818,
+    "actual": 74449897,
+    "variance": 237079
+   },
+   {
+    "label": "County offices",
+    "original": 24817835,
+    "final": 24817835,
+    "actual": 25600730,
+    "variance": 782895
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 20437509,
+    "final": 20437509,
+    "actual": 16885715,
+    "variance": -3551794
+   },
+   {
+    "label": "Interest and investment income",
+    "original": 2000000,
+    "final": 2000000,
+    "actual": 781940,
+    "variance": -1218060
+   },
+   {
+    "label": "Franchise fees",
+    "original": 2244220,
+    "final": 2244220,
+    "actual": 2860973,
+    "variance": 616753
+   },
+   {
+    "label": "Other",
+    "original": 1708571,
+    "final": 1708571,
+    "actual": 1800037,
+    "variance": 91466
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 2311646,
+    "final": 2311232,
+    "actual": 2183715,
+    "variance": 127517
+   },
+   {
+    "label": "General services",
+    "original": 10363640,
+    "final": 10363640,
+    "actual": 10066022,
+    "variance": 297618
+   },
+   {
+    "label": "Human resources",
+    "original": 2109063,
+    "final": 2106615,
+    "actual": 2103652,
+    "variance": 2963
+   },
+   {
+    "label": "Public works",
+    "original": 15901437,
+    "final": 15899191,
+    "actual": 15371797,
+    "variance": 527394
+   },
+   {
+    "label": "Public safety",
+    "original": 37002637,
+    "final": 37002637,
+    "actual": 36850620,
+    "variance": 152017
+   },
+   {
+    "label": "Judicial services",
+    "original": 15391058,
+    "final": 15391058,
+    "actual": 15227599,
+    "variance": 163459
+   },
+   {
+    "label": "Fiscal services",
+    "original": 2461125,
+    "final": 2436125,
+    "actual": 2394812,
+    "variance": 41313
+   },
+   {
+    "label": "Law enforcement services",
+    "original": 35554275,
+    "final": 35554275,
+    "actual": 34740400,
+    "variance": 813875
+   },
+   {
+    "label": "Boards, commission & others",
+    "original": 5433787,
+    "final": 5433787,
+    "actual": 4400902,
+    "variance": 1032885
+   },
+   {
+    "label": "Capital outlay",
+    "original": 220959,
+    "final": 220959,
+    "actual": 278154,
+    "variance": -57195
+   }
+  ],
+  "total_revenues": {
+   "original": 125420953,
+   "final": 125420953,
+   "actual": 122379292,
+   "variance": -3041661
+  },
+  "total_expenditures": {
+   "original": 126749627,
+   "final": 126719519,
+   "actual": 123617673,
+   "variance": 3101846
+  },
+  "transfers_in": {
+   "original": 7248480,
+   "final": 7248480,
+   "actual": 7271191,
+   "variance": 22711
+  },
+  "transfers_out": {
+   "original": -5913769,
+   "final": -5913769,
+   "actual": -5088962,
+   "variance": 824807
+  },
+  "net_change": {
+   "original": 0,
+   "final": 0,
+   "actual": 943848,
+   "variance": 943848
+  },
+  "fb_begin": {
+   "actual": 49182443
+  },
+  "fb_end": {
+   "actual": 50435663
+  },
+  "gaap_adjustment": 309372
+ },
+ "2012": {
+  "year": 2012,
+  "ocr": true,
+  "total_revenues": {
+   "final": 125407027,
+   "actual": 123592378
+  },
+  "total_expenditures": {
+   "final": 127789349,
+   "actual": 126179766
+  },
+  "transfers_in": {
+   "final": 4504512,
+   "actual": 4505669
+  },
+  "transfers_out": {
+   "final": -402500,
+   "actual": -367962
+  },
+  "net_change": {
+   "final": 1719690,
+   "actual": 1550319
+  },
+  "gaap_adjustment": 233085,
+  "fb_begin": {
+   "actual": 50435663
+  },
+  "fb_end": {
+   "actual": 52219067
+  },
+  "rev_lines": [],
+  "exp_lines": []
+ },
+ "2013": {
+  "year": 2013,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 81948713,
+    "final": 81948713,
+    "actual": 77182912,
+    "variance": -4765801
+   },
+   {
+    "label": "County offices",
+    "original": 25499395,
+    "final": 25499395,
+    "actual": 28131853,
+    "variance": 2632458
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 13594746,
+    "final": 13594746,
+    "actual": 19392129,
+    "variance": 5797383
+   },
+   {
+    "label": "Interest and investment income",
+    "original": 1251731,
+    "final": 1251731,
+    "actual": 83306,
+    "variance": -1168425
+   },
+   {
+    "label": "Franchise fees",
+    "original": 2700000,
+    "final": 2700000,
+    "actual": 3292950,
+    "variance": 592950
+   },
+   {
+    "label": "Other",
+    "original": 1632744,
+    "final": 1632744,
+    "actual": 2088678,
+    "variance": 455934
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 2164119,
+    "final": 2190677,
+    "actual": 2190643,
+    "variance": 34
+   },
+   {
+    "label": "General services",
+    "original": 12568928,
+    "final": 12506693,
+    "actual": 12506584,
+    "variance": 109
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 15656936,
+    "final": 16360895,
+    "actual": 16360881,
+    "variance": 14
+   },
+   {
+    "label": "Community development and planning",
+    "original": 18118581,
+    "final": 17649981,
+    "actual": 17652396,
+    "variance": -2415
+   },
+   {
+    "label": "Pubic safety",
+    "original": 22420944,
+    "final": 22759347,
+    "actual": 22759297,
+    "variance": 50
+   },
+   {
+    "label": "Judicial services",
+    "original": 15852516,
+    "final": 15952018,
+    "actual": 15951898,
+    "variance": 120
+   },
+   {
+    "label": "Fiscal services",
+    "original": 2510014,
+    "final": 2527100,
+    "actual": 2527077,
+    "variance": 23
+   },
+   {
+    "label": "Law enforcement",
+    "original": 37070227,
+    "final": 37488587,
+    "actual": 37488560,
+    "variance": 27
+   },
+   {
+    "label": "Boards, commission & others",
+    "original": 4619463,
+    "final": 3784195,
+    "actual": 3784185,
+    "variance": 10
+   },
+   {
+    "label": "Capital outlay",
+    "original": 14295,
+    "final": 52162,
+    "actual": 52162,
+    "variance": 0
+   }
+  ],
+  "total_revenues": {
+   "original": 126627329,
+   "final": 126627329,
+   "actual": 130171828,
+   "variance": 3544499
+  },
+  "total_expenditures": {
+   "original": 130996023,
+   "final": 131271655,
+   "actual": 131273683,
+   "variance": -2028
+  },
+  "transfers_in": {
+   "original": 4534602,
+   "final": 4534602,
+   "actual": 4537119,
+   "variance": 2517
+  },
+  "transfers_out": {
+   "original": -650000,
+   "final": -374368,
+   "actual": -371424,
+   "variance": 2944
+  },
+  "net_change": {
+   "original": -484092,
+   "final": -484092,
+   "actual": 3063840,
+   "variance": 3547932
+  },
+  "fb_begin": {
+   "actual": 52219067
+  },
+  "fb_end": {
+   "actual": 55507439
+  },
+  "gaap_adjustment": 224532
+ },
+ "2014": {
+  "year": 2014,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 78226747,
+    "final": 78226747,
+    "actual": 78465819,
+    "variance": 239072
+   },
+   {
+    "label": "County offices",
+    "original": 29668022,
+    "final": 29668022,
+    "actual": 28813061,
+    "variance": -854961
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 19944124,
+    "final": 19944124,
+    "actual": 19519400,
+    "variance": -424724
+   },
+   {
+    "label": "Interest and investment income",
+    "original": 918000,
+    "final": 918000,
+    "actual": 468118,
+    "variance": -449882
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3000000,
+    "final": 3000000,
+    "actual": 3548874,
+    "variance": 548874
+   },
+   {
+    "label": "Other",
+    "original": 2137858,
+    "final": 2137858,
+    "actual": 1963759,
+    "variance": -174099
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 2365967,
+    "final": 2568534,
+    "actual": 2391994,
+    "variance": 176540
+   },
+   {
+    "label": "General services",
+    "original": 13328681,
+    "final": 13076531,
+    "actual": 12973824,
+    "variance": 102707
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 16345473,
+    "final": 16995984,
+    "actual": 16988880,
+    "variance": 7104
+   },
+   {
+    "label": "Community development and planning",
+    "original": 19398692,
+    "final": 18440134,
+    "actual": 17972592,
+    "variance": 467542
+   },
+   {
+    "label": "Pubic safety",
+    "original": 23619452,
+    "final": 23965932,
+    "actual": 23932970,
+    "variance": 32962
+   },
+   {
+    "label": "Judicial services",
+    "original": 16826687,
+    "final": 16941140,
+    "actual": 16892991,
+    "variance": 48149
+   },
+   {
+    "label": "Fiscal services",
+    "original": 2671974,
+    "final": 2625511,
+    "actual": 2612289,
+    "variance": 13222
+   },
+   {
+    "label": "Law enforcement",
+    "original": 39058042,
+    "final": 39279473,
+    "actual": 39261571,
+    "variance": 17902
+   },
+   {
+    "label": "Boards, commission & others",
+    "original": 5111244,
+    "final": 4843745,
+    "actual": 3656812,
+    "variance": 1186933
+   },
+   {
+    "label": "Capital outlay",
+    "original": 84620,
+    "final": 73848,
+    "actual": 66202,
+    "variance": 7646
+   }
+  ],
+  "total_revenues": {
+   "original": 133894751,
+   "final": 133894751,
+   "actual": 132779031,
+   "variance": -1115720
+  },
+  "total_expenditures": {
+   "original": 138810832,
+   "final": 138810832,
+   "actual": 136750125,
+   "variance": 2060707
+  },
+  "transfers_in": {
+   "original": 6565294,
+   "final": 6565294,
+   "actual": 6565294,
+   "variance": 0
+  },
+  "transfers_out": {
+   "original": -1385077,
+   "final": -1385077,
+   "actual": -1267834,
+   "variance": 117243
+  },
+  "net_change": {
+   "original": 264136,
+   "final": 264136,
+   "actual": 1326366,
+   "variance": 1062230
+  },
+  "fb_begin": {
+   "actual": 55507439
+  },
+  "fb_end": {
+   "actual": 56882202
+  },
+  "gaap_adjustment": 48397
+ },
+ "2015": {
+  "year": 2015,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 80573549,
+    "final": 80573549,
+    "actual": 80918480,
+    "variance": 344931
+   },
+   {
+    "label": "County offices",
+    "original": 28747652,
+    "final": 28747652,
+    "actual": 28597476,
+    "variance": -150176
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 20988786,
+    "final": 20988786,
+    "actual": 19974950,
+    "variance": -1013836
+   },
+   {
+    "label": "Interest and investment income",
+    "original": 936360,
+    "final": 936360,
+    "actual": 380730,
+    "variance": -555630
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3000000,
+    "final": 3000000,
+    "actual": 3879938,
+    "variance": 879938
+   },
+   {
+    "label": "Other",
+    "original": 3980799,
+    "final": 3980799,
+    "actual": 3794993,
+    "variance": -185806
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 2693315,
+    "final": 2627013,
+    "actual": 2509856,
+    "variance": 117157
+   },
+   {
+    "label": "General services",
+    "original": 13663410,
+    "final": 13437311,
+    "actual": 13437011,
+    "variance": 300
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 16757467,
+    "final": 17234277,
+    "actual": 17234256,
+    "variance": 21
+   },
+   {
+    "label": "Community development and planning",
+    "original": 19834081,
+    "final": 18737245,
+    "actual": 18635387,
+    "variance": 101858
+   },
+   {
+    "label": "Public safety",
+    "original": 24564727,
+    "final": 25729777,
+    "actual": 25706205,
+    "variance": 23572
+   },
+   {
+    "label": "Judicial services",
+    "original": 17406266,
+    "final": 17438125,
+    "actual": 17437184,
+    "variance": 941
+   },
+   {
+    "label": "Fiscal services",
+    "original": 2752196,
+    "final": 2728332,
+    "actual": 2728288,
+    "variance": 44
+   },
+   {
+    "label": "Law enforcement",
+    "original": 40531868,
+    "final": 40180908,
+    "actual": 40163321,
+    "variance": 17587
+   },
+   {
+    "label": "Boards, commission & others",
+    "original": 4900130,
+    "final": 4790948,
+    "actual": 3998757,
+    "variance": 792191
+   },
+   {
+    "label": "Capital outlay",
+    "original": 26850,
+    "final": 226374,
+    "actual": 226228,
+    "variance": 146
+   }
+  ],
+  "total_revenues": {
+   "original": 138227146,
+   "final": 138227146,
+   "actual": 137546567,
+   "variance": -680579
+  },
+  "total_expenditures": {
+   "original": 143130310,
+   "final": 143130310,
+   "actual": 142076493,
+   "variance": 1053817
+  },
+  "transfers_in": {
+   "original": 6595986,
+   "final": 6595986,
+   "actual": 6495986,
+   "variance": -100000
+  },
+  "transfers_out": {
+   "original": -1683841,
+   "final": -1683841,
+   "actual": -1611640,
+   "variance": 72201
+  },
+  "net_change": {
+   "original": 8981,
+   "final": 8981,
+   "actual": 354420,
+   "variance": 345439
+  },
+  "fb_begin": {
+   "actual": 56882202
+  },
+  "fb_end": {
+   "actual": 57314929
+  },
+  "gaap_adjustment": 78307
+ },
+ "2016": {
+  "year": 2016,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 85988715,
+    "final": 85988715,
+    "actual": 84995283,
+    "variance": -993432
+   },
+   {
+    "label": "County offices",
+    "original": 30491140,
+    "final": 30491140,
+    "actual": 30056475,
+    "variance": -434665
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 20713643,
+    "final": 20713643,
+    "actual": 20122707,
+    "variance": -590936
+   },
+   {
+    "label": "Interest and investment income",
+    "original": 475000,
+    "final": 475000,
+    "actual": 695760,
+    "variance": 220760
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3800000,
+    "final": 3800000,
+    "actual": 3996565,
+    "variance": 196565
+   },
+   {
+    "label": "Other",
+    "original": 2727505,
+    "final": 2727505,
+    "actual": 3015939,
+    "variance": 288434
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 2732277,
+    "final": 2732277,
+    "actual": 2585084,
+    "variance": 147193
+   },
+   {
+    "label": "General services",
+    "original": 14453802,
+    "final": 14284846,
+    "actual": 14164610,
+    "variance": 120236
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 18367523,
+    "final": 18365683,
+    "actual": 18362560,
+    "variance": 3123
+   },
+   {
+    "label": "Community development and planning",
+    "original": 20399694,
+    "final": 20132409,
+    "actual": 19340306,
+    "variance": 792103
+   },
+   {
+    "label": "Public safety",
+    "original": 25929042,
+    "final": 26203408,
+    "actual": 26189750,
+    "variance": 13658
+   },
+   {
+    "label": "Judicial services",
+    "original": 18301990,
+    "final": 18423628,
+    "actual": 18401224,
+    "variance": 22404
+   },
+   {
+    "label": "Fiscal services",
+    "original": 2857070,
+    "final": 2857070,
+    "actual": 2798057,
+    "variance": 59013
+   },
+   {
+    "label": "Law enforcement",
+    "original": 42238396,
+    "final": 42238396,
+    "actual": 42037843,
+    "variance": 200553
+   },
+   {
+    "label": "Boards, commission & others",
+    "original": 5126070,
+    "final": 5137997,
+    "actual": 4202024,
+    "variance": 935973
+   },
+   {
+    "label": "Capital outlay",
+    "original": 11850,
+    "final": 42000,
+    "actual": 480183,
+    "variance": -438183
+   }
+  ],
+  "total_revenues": {
+   "original": 144196003,
+   "final": 144196003,
+   "actual": 142882729,
+   "variance": -1313274
+  },
+  "total_expenditures": {
+   "original": 150417714,
+   "final": 150417714,
+   "actual": 148561641,
+   "variance": 1856073
+  },
+  "transfers_in": {
+   "original": 6277906,
+   "final": 6277906,
+   "actual": 6277906,
+   "variance": 0
+  },
+  "transfers_out": {
+   "original": -4244728,
+   "final": -4244728,
+   "actual": -4201607,
+   "variance": 43121
+  },
+  "net_change": {
+   "original": -4188533,
+   "final": -4188533,
+   "actual": -2116553,
+   "variance": 2071980
+  },
+  "fb_begin": {
+   "actual": 57314929
+  },
+  "fb_end": {
+   "actual": 55138777
+  },
+  "gaap_adjustment": -59599
+ },
+ "2017": {
+  "year": 2017,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 89408293,
+    "final": 89408293,
+    "actual": 87469798,
+    "variance": -1938495
+   },
+   {
+    "label": "County offices",
+    "original": 31399956,
+    "final": 31399956,
+    "actual": 33552714,
+    "variance": 2152758
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 20554489,
+    "final": 20554489,
+    "actual": 20796538,
+    "variance": 242049
+   },
+   {
+    "label": "Interest and investment income",
+    "original": 475000,
+    "final": 475000,
+    "actual": 544725,
+    "variance": 69725
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3900000,
+    "final": 3900000,
+    "actual": 3823991,
+    "variance": -76009
+   },
+   {
+    "label": "Other",
+    "original": 1934366,
+    "final": 1934366,
+    "actual": 1814859,
+    "variance": -119507
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 2800203,
+    "final": 2861485,
+    "actual": 2741416,
+    "variance": 120069
+   },
+   {
+    "label": "General services",
+    "original": 14614110,
+    "final": 14618160,
+    "actual": 14179770,
+    "variance": 438390
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 18883426,
+    "final": 18883426,
+    "actual": 18782053,
+    "variance": 101373
+   },
+   {
+    "label": "Community development and planning",
+    "original": 20604770,
+    "final": 20783606,
+    "actual": 19597481,
+    "variance": 1186125
+   },
+   {
+    "label": "Public safety",
+    "original": 26432843,
+    "final": 26961270,
+    "actual": 26702432,
+    "variance": 258838
+   },
+   {
+    "label": "Judicial services",
+    "original": 18695443,
+    "final": 18695665,
+    "actual": 18399999,
+    "variance": 295666
+   },
+   {
+    "label": "Fiscal services",
+    "original": 2904344,
+    "final": 2913369,
+    "actual": 2899224,
+    "variance": 14145
+   },
+   {
+    "label": "Law enforcement",
+    "original": 43627959,
+    "final": 43752195,
+    "actual": 43676593,
+    "variance": 75602
+   },
+   {
+    "label": "Boards, commission & others",
+    "original": 5251000,
+    "final": 4122372,
+    "actual": 4541980,
+    "variance": -419608
+   },
+   {
+    "label": "Capital outlay",
+    "original": 15000,
+    "final": 237772,
+    "actual": 167782,
+    "variance": 69990
+   }
+  ],
+  "total_revenues": {
+   "original": 147672104,
+   "final": 147672104,
+   "actual": 148002625,
+   "variance": 330521
+  },
+  "total_expenditures": {
+   "original": 153829098,
+   "final": 153829320,
+   "actual": 151688730,
+   "variance": 2140590
+  },
+  "transfers_in": {
+   "original": 6310464,
+   "final": 6310464,
+   "actual": 6075796,
+   "variance": -234668
+  },
+  "transfers_out": {
+   "original": -6830192,
+   "final": -6830192,
+   "actual": -6750314,
+   "variance": 79878
+  },
+  "net_change": {
+   "original": -6676722,
+   "final": -6676944,
+   "actual": -3505453,
+   "variance": 3171491
+  },
+  "fb_begin": {
+   "actual": 55138777
+  },
+  "fb_end": {
+   "actual": 50553012
+  },
+  "gaap_adjustment": -1080312
+ },
+ "2018": {
+  "year": 2018,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 93893000,
+    "final": 93893000,
+    "actual": 91489401,
+    "variance": -2403599
+   },
+   {
+    "label": "County offices",
+    "original": 33338129,
+    "final": 33338129,
+    "actual": 34679124,
+    "variance": 1340995
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 23805645,
+    "final": 23805645,
+    "actual": 20461617,
+    "variance": -3344028
+   },
+   {
+    "label": "Interest and investment income",
+    "original": 525000,
+    "final": 525000,
+    "actual": 1154540,
+    "variance": 629540
+   },
+   {
+    "label": "Franchise fees",
+    "original": 4000000,
+    "final": 4000000,
+    "actual": 3817696,
+    "variance": -182304
+   },
+   {
+    "label": "Other",
+    "original": 1993773,
+    "final": 1993773,
+    "actual": 4380272,
+    "variance": 2386499
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 3037731,
+    "final": 3037731,
+    "actual": 2699419,
+    "variance": 338312
+   },
+   {
+    "label": "General services",
+    "original": 14953330,
+    "final": 14809243,
+    "actual": 14348808,
+    "variance": 460435
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 20041359,
+    "final": 20041359,
+    "actual": 18989241,
+    "variance": 1052118
+   },
+   {
+    "label": "Community development and planning",
+    "original": 21877331,
+    "final": 21877333,
+    "actual": 21111549,
+    "variance": 765784
+   },
+   {
+    "label": "Public safety",
+    "original": 27502445,
+    "final": 27764075,
+    "actual": 27362763,
+    "variance": 401312
+   },
+   {
+    "label": "Judicial services",
+    "original": 19242041,
+    "final": 19495820,
+    "actual": 19057611,
+    "variance": 438209
+   },
+   {
+    "label": "Fiscal services",
+    "original": 3108934,
+    "final": 3108934,
+    "actual": 3016677,
+    "variance": 92257
+   },
+   {
+    "label": "Law enforcement",
+    "original": 46800960,
+    "final": 46802260,
+    "actual": 45916721,
+    "variance": 885539
+   },
+   {
+    "label": "Boards, commissions & others",
+    "original": 5533028,
+    "final": 5007464,
+    "actual": 4784412,
+    "variance": 223052
+   },
+   {
+    "label": "Capital outlay",
+    "original": 37893,
+    "final": 190835,
+    "actual": 214147,
+    "variance": -23312
+   },
+   {
+    "label": "Transfers in",
+    "original": 9600000,
+    "final": 9600000,
+    "actual": 9642860,
+    "variance": 42860
+   },
+   {
+    "label": "Transfers out",
+    "original": -6601921,
+    "final": -6601921,
+    "actual": -6534499,
+    "variance": 67422
+   },
+   {
+    "label": "Total other financing sources (uses)",
+    "original": 2998079,
+    "final": 2998079,
+    "actual": 3108361,
+    "variance": 110282
+   },
+   {
+    "label": "Net changes in fund balances",
+    "original": -1581426,
+    "final": -1581428,
+    "actual": 1589663,
+    "variance": 3171091
+   }
+  ],
+  "total_revenues": {
+   "original": 157555547,
+   "final": 157555547,
+   "actual": 155982650,
+   "variance": -1572897
+  },
+  "total_expenditures": {
+   "original": 162135052,
+   "final": 162135054,
+   "actual": 157501348,
+   "variance": 4633706
+  },
+  "transfers_in": {
+   "original": 9600000,
+   "final": 9600000,
+   "actual": 9642860,
+   "variance": 42860
+  },
+  "transfers_out": {
+   "original": -6601921,
+   "final": -6601921,
+   "actual": -6534499,
+   "variance": 67422
+  },
+  "net_change": {
+   "original": -1581426,
+   "final": -1581428,
+   "actual": 1589663,
+   "variance": 3171091
+  },
+  "fb_begin": {
+   "actual": 50553012
+  },
+  "fb_end": {
+   "actual": 52142675
+  },
+  "gaap_adjustment": 0
+ },
+ "2019": {
+  "year": 2019,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 97179255,
+    "final": 97179255,
+    "actual": 97036794,
+    "variance": -142461
+   },
+   {
+    "label": "County offices",
+    "original": 34432643,
+    "final": 34432643,
+    "actual": 35021272,
+    "variance": 588629
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 23814719,
+    "final": 23814719,
+    "actual": 20927733,
+    "variance": -2886986
+   },
+   {
+    "label": "Franchise fees",
+    "original": 4000000,
+    "final": 4000000,
+    "actual": 3899728,
+    "variance": -100272
+   },
+   {
+    "label": "Interest revenue",
+    "original": 525000,
+    "final": 525000,
+    "actual": 1881250,
+    "variance": 1356250
+   },
+   {
+    "label": "Other miscellaneous revenues",
+    "original": 1996895,
+    "final": 1996895,
+    "actual": 1954733,
+    "variance": -42162
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 3102252,
+    "final": 3102252,
+    "actual": 2910534,
+    "variance": 191718
+   },
+   {
+    "label": "General services",
+    "original": 15283744,
+    "final": 15202070,
+    "actual": 14771854,
+    "variance": 430216
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 20450287,
+    "final": 20392074,
+    "actual": 18696993,
+    "variance": 1695081
+   },
+   {
+    "label": "Community development and planning",
+    "original": 22240266,
+    "final": 22209721,
+    "actual": 21889730,
+    "variance": 319991
+   },
+   {
+    "label": "Public safety",
+    "original": 28418703,
+    "final": 28571861,
+    "actual": 28150885,
+    "variance": 420976
+   },
+   {
+    "label": "Judicial services",
+    "original": 19629229,
+    "final": 19588489,
+    "actual": 19339006,
+    "variance": 249483
+   },
+   {
+    "label": "Fiscal services",
+    "original": 3178962,
+    "final": 3174608,
+    "actual": 3105593,
+    "variance": 69015
+   },
+   {
+    "label": "Law enforcement services",
+    "original": 48507120,
+    "final": 48259494,
+    "actual": 46739807,
+    "variance": 1519687
+   },
+   {
+    "label": "Boards, commissions & others",
+    "original": 5559402,
+    "final": 5302348,
+    "actual": 7809366,
+    "variance": -2507018
+   },
+   {
+    "label": "Capital outlay",
+    "original": 27893,
+    "final": 596399,
+    "actual": 595932,
+    "variance": 467
+   }
+  ],
+  "total_revenues": {
+   "original": 161948512,
+   "final": 161948512,
+   "actual": 160721510,
+   "variance": -1227002
+  },
+  "total_expenditures": {
+   "original": 166397858,
+   "final": 166399316,
+   "actual": 164009700,
+   "variance": 2389616
+  },
+  "transfers_in": {
+   "original": 9800000,
+   "final": 9800000,
+   "actual": 9962923,
+   "variance": 162923
+  },
+  "transfers_out": {
+   "original": -7787034,
+   "final": -7787034,
+   "actual": -7811011,
+   "variance": -23977
+  },
+  "net_change": {
+   "original": -2436380,
+   "final": -2437838,
+   "actual": -1136278,
+   "variance": 1301560
+  },
+  "fb_begin": {
+   "original": 52142675,
+   "final": 52142675,
+   "actual": 52142675,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 49706295,
+   "final": 49704837,
+   "actual": 51006397,
+   "variance": 1301560
+  },
+  "gaap_adjustment": 0
+ },
+ "2020": {
+  "year": 2020,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 102380667,
+    "final": 102380667,
+    "actual": 99080431,
+    "variance": -3300236
+   },
+   {
+    "label": "County offices",
+    "original": 37355437,
+    "final": 37355437,
+    "actual": 35615037,
+    "variance": -1740400
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 22038953,
+    "final": 22038953,
+    "actual": 21188938,
+    "variance": -850015
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3863250,
+    "final": 3863250,
+    "actual": 3884979,
+    "variance": 21729
+   },
+   {
+    "label": "Interest revenue",
+    "original": 1177746,
+    "final": 1177746,
+    "actual": 1190579,
+    "variance": 12833
+   },
+   {
+    "label": "Other miscellaneous revenues",
+    "original": 1721961,
+    "final": 1721961,
+    "actual": 5383023,
+    "variance": 3661062
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 3082319,
+    "final": 3086215,
+    "actual": 2979343,
+    "variance": 106872
+   },
+   {
+    "label": "General services",
+    "original": 15577748,
+    "final": 16011494,
+    "actual": 16005560,
+    "variance": 5934
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 19890148,
+    "final": 22277344,
+    "actual": 16004490,
+    "variance": 6272854
+   },
+   {
+    "label": "Community development and planning",
+    "original": 23095599,
+    "final": 21826031,
+    "actual": 21725330,
+    "variance": 100701
+   },
+   {
+    "label": "Public safety",
+    "original": 29382623,
+    "final": 32686614,
+    "actual": 32298383,
+    "variance": 388231
+   },
+   {
+    "label": "Judicial services",
+    "original": 20387715,
+    "final": 20045516,
+    "actual": 20054730,
+    "variance": -9214
+   },
+   {
+    "label": "Fiscal services",
+    "original": 3176587,
+    "final": 3264287,
+    "actual": 3263963,
+    "variance": 324
+   },
+   {
+    "label": "Law enforcement services",
+    "original": 49299884,
+    "final": 54079709,
+    "actual": 53552787,
+    "variance": 526922
+   },
+   {
+    "label": "Boards, commissions & others",
+    "original": 13706801,
+    "final": 9017116,
+    "actual": 10209646,
+    "variance": -1192530
+   },
+   {
+    "label": "Capital outlay",
+    "original": 212813,
+    "final": 387743,
+    "actual": 362837,
+    "variance": 24906
+   }
+  ],
+  "total_revenues": {
+   "original": 168538014,
+   "final": 168538014,
+   "actual": 166342987,
+   "variance": -2195027
+  },
+  "total_expenditures": {
+   "original": 177812237,
+   "final": 182682069,
+   "actual": 176457069,
+   "variance": 6225000
+  },
+  "transfers_in": {
+   "original": 13405000,
+   "final": 13405000,
+   "actual": 14899633,
+   "variance": 1494633
+  },
+  "transfers_out": {
+   "original": -8272791,
+   "final": -3402959,
+   "actual": -3402958,
+   "variance": 1
+  },
+  "net_change": {
+   "original": -4142014,
+   "final": -4142014,
+   "actual": 1382593,
+   "variance": 5524607
+  },
+  "fb_begin": {
+   "original": 51006397,
+   "final": 51006397,
+   "actual": 51006397,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 46864383,
+   "final": 46864383,
+   "actual": 52388990,
+   "variance": 5524607
+  },
+  "gaap_adjustment": 0
+ },
+ "2021": {
+  "year": 2021,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 108523507,
+    "final": 108523507,
+    "actual": 106055932,
+    "variance": -2467575
+   },
+   {
+    "label": "County offices",
+    "original": 37923011,
+    "final": 37923011,
+    "actual": 39332642,
+    "variance": 1409631
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 22975338,
+    "final": 22975338,
+    "actual": 20950673,
+    "variance": -2024665
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3901883,
+    "final": 3901883,
+    "actual": 3732191,
+    "variance": -169692
+   },
+   {
+    "label": "Interest revenue",
+    "original": 1189524,
+    "final": 1189524,
+    "actual": 358276,
+    "variance": -831248
+   },
+   {
+    "label": "Other miscellaneous revenues",
+    "original": 1727482,
+    "final": 1727482,
+    "actual": 2392628,
+    "variance": 665146
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 3100972,
+    "final": 3225721,
+    "actual": 3130568,
+    "variance": 95153
+   },
+   {
+    "label": "General services",
+    "original": 15759374,
+    "final": 16240721,
+    "actual": 15800678,
+    "variance": 440043
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 20995707,
+    "final": 14483423,
+    "actual": 11325357,
+    "variance": 3158066
+   },
+   {
+    "label": "Community development and planning",
+    "original": 23132182,
+    "final": 23035722,
+    "actual": 21831965,
+    "variance": 1203757
+   },
+   {
+    "label": "Public safety",
+    "original": 30303122,
+    "final": 34218001,
+    "actual": 34079304,
+    "variance": 138697
+   },
+   {
+    "label": "Judicial services",
+    "original": 20796270,
+    "final": 20999069,
+    "actual": 20982280,
+    "variance": 16789
+   },
+   {
+    "label": "Fiscal services",
+    "original": 3197070,
+    "final": 3362296,
+    "actual": 3304261,
+    "variance": 58035
+   },
+   {
+    "label": "Law enforcement services",
+    "original": 50763234,
+    "final": 55999493,
+    "actual": 55954025,
+    "variance": 45468
+   },
+   {
+    "label": "Boards, commissions & others",
+    "original": 16325487,
+    "final": 11905812,
+    "actual": 10850402,
+    "variance": 1055410
+   },
+   {
+    "label": "Capital outlay",
+    "original": 197813,
+    "final": 1100973,
+    "actual": 1067910,
+    "variance": 33063
+   }
+  ],
+  "total_revenues": {
+   "original": 176240745,
+   "final": 176240745,
+   "actual": 172822342,
+   "variance": -3418403
+  },
+  "total_expenditures": {
+   "original": 184571231,
+   "final": 184571231,
+   "actual": 178326750,
+   "variance": 6244481
+  },
+  "transfers_in": {
+   "original": 12546750,
+   "final": 12546750,
+   "actual": 23476267,
+   "variance": 10929517
+  },
+  "transfers_out": {
+   "original": -8458518,
+   "final": -8458518,
+   "actual": -23062611,
+   "variance": -14604093
+  },
+  "net_change": {
+   "original": -4242254,
+   "final": -4242254,
+   "actual": -5090752,
+   "variance": -848498
+  },
+  "fb_begin": {
+   "original": 52388990,
+   "final": 52388990,
+   "actual": 52388990,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 48146736,
+   "final": 48146736,
+   "actual": 47298238,
+   "variance": -848498
+  },
+  "gaap_adjustment": 0
+ },
+ "2022": {
+  "year": 2022,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 112186696,
+    "final": 112186696,
+    "actual": 112960396,
+    "variance": 773700
+   },
+   {
+    "label": "County offices",
+    "original": 38972238,
+    "final": 38972238,
+    "actual": 43749246,
+    "variance": 4777008
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 23464383,
+    "final": 23464383,
+    "actual": 23467820,
+    "variance": 3437
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3971875,
+    "final": 3971875,
+    "actual": 3636707,
+    "variance": -335168
+   },
+   {
+    "label": "Interest revenue",
+    "original": 1400000,
+    "final": 1400000,
+    "actual": 270487,
+    "variance": -1129513
+   },
+   {
+    "label": "Other miscellaneous revenues",
+    "original": 3381005,
+    "final": 3381005,
+    "actual": 4881612,
+    "variance": 1500607
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 3360382,
+    "final": 3451019,
+    "actual": 3300024,
+    "variance": 150995
+   },
+   {
+    "label": "General services",
+    "original": 16766133,
+    "final": 16470041,
+    "actual": 16237107,
+    "variance": 232934
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 24857687,
+    "final": 24758018,
+    "actual": 24755647,
+    "variance": 2371
+   },
+   {
+    "label": "Community development and planning",
+    "original": 24287629,
+    "final": 23195622,
+    "actual": 22863701,
+    "variance": 331921
+   },
+   {
+    "label": "Public safety",
+    "original": 35264566,
+    "final": 33639673,
+    "actual": 33533639,
+    "variance": 106034
+   },
+   {
+    "label": "Judicial services",
+    "original": 22879347,
+    "final": 22083133,
+    "actual": 21974775,
+    "variance": 108358
+   },
+   {
+    "label": "Fiscal services",
+    "original": 3433951,
+    "final": 3486259,
+    "actual": 3469303,
+    "variance": 16956
+   },
+   {
+    "label": "Law enforcement services",
+    "original": 59859354,
+    "final": 62575858,
+    "actual": 62546981,
+    "variance": 28877
+   },
+   {
+    "label": "Boards, commissions & others",
+    "original": 10949391,
+    "final": 11592803,
+    "actual": 13323377,
+    "variance": -1730574
+   },
+   {
+    "label": "Capital outlay",
+    "original": 41893,
+    "final": 435276,
+    "actual": 618813,
+    "variance": -183537
+   }
+  ],
+  "total_revenues": {
+   "original": 183376197,
+   "final": 183376197,
+   "actual": 188966268,
+   "variance": 5590071
+  },
+  "total_expenditures": {
+   "original": 201700333,
+   "final": 201687702,
+   "actual": 202797959,
+   "variance": -1110257
+  },
+  "transfers_in": {
+   "original": 16934188,
+   "final": 16934188,
+   "actual": 55682134,
+   "variance": 38747946
+  },
+  "transfers_out": {
+   "original": -4158895,
+   "final": -4171526,
+   "actual": -16544108,
+   "variance": -12372582
+  },
+  "net_change": {
+   "original": -5548843,
+   "final": -5548843,
+   "actual": 25504437,
+   "variance": 31053280
+  },
+  "fb_begin": {
+   "original": 47298238,
+   "final": 47298238,
+   "actual": 47298238,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 41749395,
+   "final": 41749395,
+   "actual": 72802675,
+   "variance": 31053280
+  },
+  "gaap_adjustment": 0
+ },
+ "2023": {
+  "year": 2023,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 118806164,
+    "final": 118806164,
+    "actual": 118319836,
+    "variance": -486328
+   },
+   {
+    "label": "County offices",
+    "original": 39759995,
+    "final": 39759995,
+    "actual": 41160644,
+    "variance": 1400649
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 23478383,
+    "final": 23478383,
+    "actual": 25645805,
+    "variance": 2167422
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3794792,
+    "final": 3794792,
+    "actual": 3341086,
+    "variance": -453706
+   },
+   {
+    "label": "Interest revenue",
+    "original": 1500000,
+    "final": 1500000,
+    "actual": 2594284,
+    "variance": 1094284
+   },
+   {
+    "label": "Other miscellaneous revenues",
+    "original": 3405999,
+    "final": 3405999,
+    "actual": 2506296,
+    "variance": -899703
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 3445867,
+    "final": 3481574,
+    "actual": 3374364,
+    "variance": 107210
+   },
+   {
+    "label": "General services",
+    "original": 17313695,
+    "final": 17330565,
+    "actual": 18276577,
+    "variance": -946012
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 26075166,
+    "final": 26077969,
+    "actual": 27785802,
+    "variance": -1707833
+   },
+   {
+    "label": "Community development and planning",
+    "original": 24769426,
+    "final": 25246598,
+    "actual": 26166183,
+    "variance": -919585
+   },
+   {
+    "label": "Public safety",
+    "original": 36383528,
+    "final": 36625135,
+    "actual": 36631286,
+    "variance": -6151
+   },
+   {
+    "label": "Judicial services",
+    "original": 23516411,
+    "final": 24194029,
+    "actual": 24165851,
+    "variance": 28178
+   },
+   {
+    "label": "Fiscal services",
+    "original": 3529100,
+    "final": 3807605,
+    "actual": 3772689,
+    "variance": 34916
+   },
+   {
+    "label": "Law enforcement services",
+    "original": 62378432,
+    "final": 62625561,
+    "actual": 68749265,
+    "variance": -6123704
+   },
+   {
+    "label": "Boards, commissions & others",
+    "original": 11235128,
+    "final": 9276910,
+    "actual": 13084098,
+    "variance": -3807188
+   },
+   {
+    "label": "Capital outlay",
+    "original": 27893,
+    "final": 8700,
+    "actual": 3172901,
+    "variance": -3164201
+   }
+  ],
+  "total_revenues": {
+   "original": 190745333,
+   "final": 190745333,
+   "actual": 193567951,
+   "variance": 2822618
+  },
+  "total_expenditures": {
+   "original": 208674646,
+   "final": 208674646,
+   "actual": 225366577,
+   "variance": -16691931
+  },
+  "transfers_in": {
+   "original": 14697405,
+   "final": 14697405,
+   "actual": 45047040,
+   "variance": 30349635
+  },
+  "transfers_out": {
+   "original": -5002027,
+   "final": -5002027,
+   "actual": -6599967,
+   "variance": -1597940
+  },
+  "net_change": {
+   "original": -8233935,
+   "final": -8233935,
+   "actual": 9812656,
+   "variance": 18046591
+  },
+  "fb_begin": {
+   "original": 72802675,
+   "final": 72802675,
+   "actual": 72802675,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 64568740,
+   "final": 64568740,
+   "actual": 82615331,
+   "variance": 18046591
+  },
+  "gaap_adjustment": 0
+ },
+ "2024": {
+  "year": 2024,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 137275900,
+    "final": 137275900,
+    "actual": 139788304,
+    "variance": 2512404
+   },
+   {
+    "label": "County offices",
+    "original": 46216848,
+    "final": 46216848,
+    "actual": 48730046,
+    "variance": 2513198
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 24725985,
+    "final": 24725985,
+    "actual": 26264678,
+    "variance": 1538693
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3783630,
+    "final": 3783630,
+    "actual": 2991797,
+    "variance": -791833
+   },
+   {
+    "label": "Interest revenue",
+    "original": 655000,
+    "final": 655000,
+    "actual": 5012928,
+    "variance": 4357928
+   },
+   {
+    "label": "Other miscellaneous revenues",
+    "original": 2702997,
+    "final": 2702997,
+    "actual": 3405031,
+    "variance": 702034
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 3887907,
+    "final": 3890136,
+    "actual": 3535593,
+    "variance": 354543
+   },
+   {
+    "label": "General services",
+    "original": 19853880,
+    "final": 19871513,
+    "actual": 18963850,
+    "variance": 907663
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 28578293,
+    "final": 28772613,
+    "actual": 30301672,
+    "variance": -1529059
+   },
+   {
+    "label": "Community development and planning",
+    "original": 29166703,
+    "final": 29168518,
+    "actual": 27518125,
+    "variance": 1650393
+   },
+   {
+    "label": "Public safety",
+    "original": 39718989,
+    "final": 39743615,
+    "actual": 39014221,
+    "variance": 729394
+   },
+   {
+    "label": "Judicial services",
+    "original": 25950705,
+    "final": 26123190,
+    "actual": 25591044,
+    "variance": 532146
+   },
+   {
+    "label": "Fiscal services",
+    "original": 4066041,
+    "final": 4071972,
+    "actual": 3912075,
+    "variance": 159897
+   },
+   {
+    "label": "Law enforcement services",
+    "original": 71393559,
+    "final": 72037183,
+    "actual": 74468721,
+    "variance": -2431538
+   },
+   {
+    "label": "Boards, commissions & others",
+    "original": 10924056,
+    "final": 9841528,
+    "actual": 11739338,
+    "variance": -1897810
+   },
+   {
+    "label": "Capital outlay",
+    "original": 50932,
+    "final": 49117,
+    "actual": 0,
+    "variance": 49117
+   }
+  ],
+  "total_revenues": {
+   "original": 215360360,
+   "final": 215360360,
+   "actual": 226192784,
+   "variance": 10832424
+  },
+  "total_expenditures": {
+   "original": 233591065,
+   "final": 233569385,
+   "actual": 235873073,
+   "variance": -2303688
+  },
+  "transfers_in": {
+   "original": 14158757,
+   "final": 14158757,
+   "actual": 16547576,
+   "variance": 2388819
+  },
+  "transfers_out": {
+   "original": -9150041,
+   "final": -9170698,
+   "actual": -8861389,
+   "variance": 309309
+  },
+  "net_change": {
+   "original": -13221989,
+   "final": -13220966,
+   "actual": -1994102,
+   "variance": 11226864
+  },
+  "fb_begin": {
+   "original": 82615331,
+   "final": 82615331,
+   "actual": 82615331,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 69393342,
+   "final": 69394365,
+   "actual": 80621229,
+   "variance": 11226864
+  },
+  "gaap_adjustment": 0
+ },
+ "2025": {
+  "year": 2025,
+  "ocr": false,
+  "rev_lines": [
+   {
+    "label": "Property taxes",
+    "original": 144586031,
+    "final": 144586031,
+    "actual": 149469411,
+    "variance": 4883380
+   },
+   {
+    "label": "County offices",
+    "original": 47142074,
+    "final": 47142074,
+    "actual": 51935864,
+    "variance": 4793790
+   },
+   {
+    "label": "Intergovernmental",
+    "original": 24732495,
+    "final": 24732495,
+    "actual": 29814439,
+    "variance": 5081944
+   },
+   {
+    "label": "Franchise fees",
+    "original": 3859303,
+    "final": 3859303,
+    "actual": 2375354,
+    "variance": -1483949
+   },
+   {
+    "label": "Interest revenue",
+    "original": 675000,
+    "final": 675000,
+    "actual": 4048386,
+    "variance": 3373386
+   },
+   {
+    "label": "Other miscellaneous revenues",
+    "original": 2769366,
+    "final": 2769366,
+    "actual": 9227671,
+    "variance": 6458305
+   }
+  ],
+  "exp_lines": [
+   {
+    "label": "Administrative services",
+    "original": 3976269,
+    "final": 3971679,
+    "actual": 3534807,
+    "variance": 436872
+   },
+   {
+    "label": "General services",
+    "original": 20934911,
+    "final": 20221793,
+    "actual": 20302796,
+    "variance": -81003
+   },
+   {
+    "label": "Emergency medical services",
+    "original": 29440186,
+    "final": 29440137,
+    "actual": 31391629,
+    "variance": -1951492
+   },
+   {
+    "label": "Community development and planning",
+    "original": 29656241,
+    "final": 29653358,
+    "actual": 29009783,
+    "variance": 643575
+   },
+   {
+    "label": "Public safety",
+    "original": 40705359,
+    "final": 40881866,
+    "actual": 40943035,
+    "variance": -61169
+   },
+   {
+    "label": "Judicial services",
+    "original": 26703178,
+    "final": 26629961,
+    "actual": 26986166,
+    "variance": -356205
+   },
+   {
+    "label": "Fiscal services",
+    "original": 4165789,
+    "final": 4172895,
+    "actual": 4097046,
+    "variance": 75849
+   },
+   {
+    "label": "Law enforcement services",
+    "original": 74249970,
+    "final": 74208199,
+    "actual": 80509371,
+    "variance": -6301172
+   },
+   {
+    "label": "Boards, commissions and others",
+    "original": 11661721,
+    "final": 11334985,
+    "actual": 13149328,
+    "variance": -1814343
+   },
+   {
+    "label": "Capital outlay",
+    "original": 155932,
+    "final": 1134683,
+    "actual": 972008,
+    "variance": 162675
+   }
+  ],
+  "total_revenues": {
+   "original": 223764269,
+   "final": 223764269,
+   "actual": 246871125,
+   "variance": 23106856
+  },
+  "total_expenditures": {
+   "original": 241649556,
+   "final": 241649556,
+   "actual": 251720397,
+   "variance": -10070841
+  },
+  "transfers_in": {
+   "original": 15250093,
+   "final": 15250093,
+   "actual": 15417995,
+   "variance": 167902
+  },
+  "transfers_out": {
+   "original": -9782907,
+   "final": -9782907,
+   "actual": -9644608,
+   "variance": 138299
+  },
+  "net_change": {
+   "original": -12418101,
+   "final": -12418101,
+   "actual": 924115,
+   "variance": 13342216
+  },
+  "fb_begin": {
+   "original": 80621229,
+   "final": 80621229,
+   "actual": 80621229,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 68203128,
+   "final": 68203128,
+   "actual": 81545344,
+   "variance": 13342216
+  },
+  "gaap_adjustment": 0
+ }
+}

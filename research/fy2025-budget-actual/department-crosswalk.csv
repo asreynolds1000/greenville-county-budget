@@ -1,0 +1,150 @@
+source_type,fiscal_year,source_department,canonical_key,comparability_note
+ACFR,2011,Administrative,administrative_services,
+ACFR,2011,General services,general_services,
+ACFR,2011,Human resources,human_resources,"FY2011-12 only. The FY2013 reorganization replaced {human_resources, public_works} with {community_development_planning, emergency_medical_services}; these four are a REORGANIZATION, not renames, so pre-2013 vs post-2013 comparison of these lines is a break (the stable 7 depts compare cleanly)."
+ACFR,2011,Public works,public_works,"FY2011-12 only. The FY2013 reorganization replaced {human_resources, public_works} with {community_development_planning, emergency_medical_services}; these four are a REORGANIZATION, not renames, so pre-2013 vs post-2013 comparison of these lines is a break (the stable 7 depts compare cleanly)."
+ACFR,2011,Public safety,public_safety,
+ACFR,2011,Elected officials - Judicial,judicial_services,
+ACFR,2011,Elected officials - Fiscal,fiscal_services,
+ACFR,2011,Elected officials - law enforcement,law_enforcement,
+ACFR,2011,"Boards, commissions and others",boards_commissions_others,
+ACFR,2012,Administrative,administrative_services,
+ACFR,2012,General services,general_services,
+ACFR,2012,Human resources,human_resources,"FY2011-12 only. The FY2013 reorganization replaced {human_resources, public_works} with {community_development_planning, emergency_medical_services}; these four are a REORGANIZATION, not renames, so pre-2013 vs post-2013 comparison of these lines is a break (the stable 7 depts compare cleanly)."
+ACFR,2012,Public works,public_works,"FY2011-12 only. The FY2013 reorganization replaced {human_resources, public_works} with {community_development_planning, emergency_medical_services}; these four are a REORGANIZATION, not renames, so pre-2013 vs post-2013 comparison of these lines is a break (the stable 7 depts compare cleanly)."
+ACFR,2012,Public safety,public_safety,
+ACFR,2012,Elected officials - Judicial,judicial_services,
+ACFR,2012,Elected officials - Fiscal,fiscal_services,
+ACFR,2012,Elected officials - Law Enforcement,law_enforcement,
+ACFR,2012,"Boards, commissions and others",boards_commissions_others,
+ACFR,2013,Administrative,administrative_services,
+ACFR,2013,General services,general_services,
+ACFR,2013,Community development and planning,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2013,Public safety,public_safety,
+ACFR,2013,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2013,Elected officials - Judicial,judicial_services,
+ACFR,2013,Elected officials - Fiscal,fiscal_services,
+ACFR,2013,Elected officials - Law enforcement,law_enforcement,
+ACFR,2013,"Boards, commissions and others",boards_commissions_others,
+ACFR,2014,Administrative,administrative_services,
+ACFR,2014,General services,general_services,
+ACFR,2014,Community development and planning,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2014,Public safety,public_safety,
+ACFR,2014,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2014,Elected officials - Judicial,judicial_services,
+ACFR,2014,Elected officials - Fiscal,fiscal_services,
+ACFR,2014,Elected officials - Law enforcement,law_enforcement,
+ACFR,2014,"Boards, commissions and others",boards_commissions_others,
+ACFR,2015,Administrative,administrative_services,
+ACFR,2015,General services,general_services,
+ACFR,2015,Community development and planning,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2015,Public safety,public_safety,
+ACFR,2015,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2015,Elected officials - Judicial,judicial_services,
+ACFR,2015,Elected officials - Fiscal,fiscal_services,
+ACFR,2015,Elected officials - Law enforcement,law_enforcement,
+ACFR,2015,"Boards, commissions and others",boards_commissions_others,
+ACFR,2016,Administrative,administrative_services,
+ACFR,2016,General services,general_services,
+ACFR,2016,Community development and planning,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2016,Public safety,public_safety,
+ACFR,2016,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2016,Elected officials - Judicial,judicial_services,
+ACFR,2016,Elected officials - Fiscal,fiscal_services,
+ACFR,2016,Elected officials - Law enforcement,law_enforcement,
+ACFR,2016,"Boards, commissions and others",boards_commissions_others,
+ACFR,2017,Administrative,administrative_services,
+ACFR,2017,General services,general_services,
+ACFR,2017,Community development and planning,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2017,Public safety,public_safety,
+ACFR,2017,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2017,Elected officials - Judicial,judicial_services,
+ACFR,2017,Elected officials - Fiscal,fiscal_services,
+ACFR,2017,Elected officials - Law enforcement,law_enforcement,
+ACFR,2017,"Boards, commissions and others",boards_commissions_others,
+ACFR,2018,Administrative services,administrative_services,
+ACFR,2018,General services,general_services,
+ACFR,2018,Community development and planning,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2018,Public safety,public_safety,
+ACFR,2018,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2018,Elected officials - judicial services,judicial_services,
+ACFR,2018,Elected officials - fiscal services,fiscal_services,
+ACFR,2018,Elected officials - law enforcement,law_enforcement,
+ACFR,2018,"Boards, commissions and others",boards_commissions_others,
+ACFR,2019,Administrative services:,administrative_services,
+ACFR,2019,General services:,general_services,
+ACFR,2019,Community development and planning:,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2019,Public safety:,public_safety,
+ACFR,2019,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2019,Elected officials - judicial services:,judicial_services,
+ACFR,2019,Elected officials - fiscal services:,fiscal_services,
+ACFR,2019,Elected officials - law enforcement:,law_enforcement,
+ACFR,2019,"Boards, commissions and others",boards_commissions_others,
+ACFR,2020,Administrative services:,administrative_services,
+ACFR,2020,General services:,general_services,
+ACFR,2020,Community development and planning:,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2020,Public safety:,public_safety,
+ACFR,2020,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2020,Elected officials - judicial services:,judicial_services,
+ACFR,2020,Elected officials - fiscal services:,fiscal_services,
+ACFR,2020,Elected officials - law enforcement:,law_enforcement,
+ACFR,2020,"Boards, commissions and others",boards_commissions_others,
+ACFR,2021,Administrative services:,administrative_services,
+ACFR,2021,General services:,general_services,
+ACFR,2021,Community development and planning:,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2021,Public safety:,public_safety,
+ACFR,2021,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2021,Elected officials - judicial services:,judicial_services,
+ACFR,2021,Elected officials - fiscal services:,fiscal_services,
+ACFR,2021,Elected officials - law enforcement:,law_enforcement,
+ACFR,2021,"Boards, commissions and others",boards_commissions_others,
+ACFR,2022,Administrative services:,administrative_services,
+ACFR,2022,General services:,general_services,
+ACFR,2022,Community development and planning:,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2022,Public safety:,public_safety,
+ACFR,2022,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2022,Elected officials - judicial services:,judicial_services,
+ACFR,2022,Elected officials - fiscal services:,fiscal_services,
+ACFR,2022,Elected officials - law enforcement:,law_enforcement,
+ACFR,2022,"Boards, commissions and others",boards_commissions_others,
+ACFR,2022,Debt service,debt_service,Broken out as its own line FY2022+; earlier years carry debt-service principal inside total expenditures without a department line.
+ACFR,2023,Administrative services:,administrative_services,
+ACFR,2023,General services:,general_services,
+ACFR,2023,Community development and planning:,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2023,Public safety:,public_safety,
+ACFR,2023,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2023,Elected officials - judicial services:,judicial_services,
+ACFR,2023,Elected officials - fiscal services:,fiscal_services,
+ACFR,2023,Elected officials - law enforcement:,law_enforcement,
+ACFR,2023,"Boards, commissions and others",boards_commissions_others,
+ACFR,2023,Debt service,debt_service,Broken out as its own line FY2022+; earlier years carry debt-service principal inside total expenditures without a department line.
+ACFR,2024,Administrative services:,administrative_services,
+ACFR,2024,General services:,general_services,
+ACFR,2024,Community development and planning:,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2024,Public safety:,public_safety,
+ACFR,2024,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2024,Elected officials - judicial services:,judicial_services,
+ACFR,2024,Elected officials - fiscal services:,fiscal_services,
+ACFR,2024,Elected officials - law enforcement:,law_enforcement,
+ACFR,2024,"Boards, commissions and others",boards_commissions_others,
+ACFR,2024,Debt service,debt_service,Broken out as its own line FY2022+; earlier years carry debt-service principal inside total expenditures without a department line.
+ACFR,2025,Administrative services:,administrative_services,
+ACFR,2025,General services:,general_services,
+ACFR,2025,Community development and planning:,community_development_planning,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2025,Public safety:,public_safety,
+ACFR,2025,Emergency medical services,emergency_medical_services,FY2013+ (created in the 2013 reorganization; see human_resources/public_works).
+ACFR,2025,Elected officials - judicial services:,judicial_services,
+ACFR,2025,Elected officials - fiscal services:,fiscal_services,
+ACFR,2025,Elected officials - law enforcement:,law_enforcement,
+ACFR,2025,"Boards, commissions and others",boards_commissions_others,
+ACFR,2025,Debt service,debt_service,Broken out as its own line FY2022+; earlier years carry debt-service principal inside total expenditures without a department line.
+FY2026-budget-book,2026,Administrative services,administrative_services,
+FY2026-budget-book,2026,Department of Administration,COMPOSITE,"Budget-book grouping; NOT 1:1 with ACFR. Contains human_resources + information systems + emergency management + emergency_medical_services ($32,783,093 of $44,035,256 is EMS). To compare EMS across years, pull the $32.78M sub-line, not this total."
+FY2026-budget-book,2026,General services,general_services,"Budget-book composition differs (e.g. Tax Services sits here, not under fiscal_services)."
+FY2026-budget-book,2026,Public works,public_works,Budget book retains a Public Works dept (Animal Care/Engineering/Roads/Property Mgmt); in the ACFR these functions sit under community_development_planning / general_services. p.37 label transposed with Planning (use p.57).
+FY2026-budget-book,2026,Planning and development,community_development_planning,Budget-book label; ~maps to ACFR community_development_planning. p.37/p.57 transposition applies.
+FY2026-budget-book,2026,Public safety,public_safety,Narrower than ACFR public_safety (Detention/Forensics/Records/Indigent Defense only); Sheriff/Coroner/ME are under law_enforcement here.
+FY2026-budget-book,2026,Judicial services,judicial_services,
+FY2026-budget-book,2026,Fiscal services,fiscal_services,
+FY2026-budget-book,2026,Law enforcement services,law_enforcement,
+FY2026-budget-book,2026,"Boards, commissions & others",boards_commissions_others,Printed as 'OTHER SERVICES' in the itemized p.57 table.

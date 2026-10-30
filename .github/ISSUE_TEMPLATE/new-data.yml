@@ -1,0 +1,22 @@
+name: Propose a dataset
+description: Data the site does not cover yet, with its public source.
+labels: ["new data"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What residents would be able to see
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public sources
+      description: The county documents (or other official public records) that publish it, with links.
+    validations:
+      required: true
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Known caveats
+      description: Years missing, reorganizations, definitions that changed, anything that would break a comparison.

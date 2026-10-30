@@ -1,0 +1,70 @@
+{
+  "years": [
+    {
+      "year": 2017,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances / Budget and Actual (Budget Basis) - Major Funds with Legally Adopted Budgets / Year Ended June 30, 2017 (General Fund column)",
+      "printed_page": "31",
+      "pdf_page": 37,
+      "total_revenues": {
+        "original": "147,672,104",
+        "final": "147,672,104",
+        "actual": "148,002,625"
+      },
+      "total_expenditures": {
+        "original": "153,829,098",
+        "final": "153,829,320",
+        "actual": "151,688,730"
+      },
+      "capital_outlay": {
+        "original": "15,000",
+        "final": "237,772",
+        "actual": "167,782"
+      },
+      "notes": "Found in the Basic Financial Statements section (BFS divider at PDF p.27), directly after the Reconciliation of the Statement of Revenues/Expenditures/Changes in Fund Balances to the Statement of Activities. The statement's masthead title covers 'Major Funds with Legally Adopted Budgets' and General Fund is presented as its own set of 4 columns (Original Budget, Final Budget, Actual (Budget Basis), Variance With Final Positive (Negative)); Road Maintenance and Parks/Rec/Tourism funds follow on subsequent pages (PDF pp.38-40) under the same title. Capital outlay is a distinct line within Expenditures, not broken into Salaries/Operations/Contractual/Capital detail. Below Net change in fund balances, the statement also shows Fund balance - beginning (55,138,777), an 'Adjustment: Budget to GAAP basis (Note 1-D)' of (1,080,312), and Fund balance - ending (50,553,012) - all Actual-basis only, no budget columns for those rows. Verified against a 200dpi rendered page image; text and image match exactly."
+    },
+    {
+      "year": 2018,
+      "statement_title": "Statement of Revenues, Expenditures and Changes in Fund Balances / Budget and Actual (Budget Basis) - Major Funds with Legally Adopted Budgets / Year Ended June 30, 2018 (General Fund column)",
+      "printed_page": "33",
+      "pdf_page": 37,
+      "total_revenues": {
+        "original": "157,555,547",
+        "final": "157,555,547",
+        "actual": "155,982,650"
+      },
+      "total_expenditures": {
+        "original": "162,135,052",
+        "final": "162,135,054",
+        "actual": "157,501,348"
+      },
+      "capital_outlay": {
+        "original": "37,893",
+        "final": "190,835",
+        "actual": "214,147"
+      },
+      "notes": "Same statement format/title as FY2017 (Major Funds with Legally Adopted Budgets), General Fund column, found in Basic Financial Statements section (BFS divider at PDF p.25), same relative position as 2017 (right after the Reconciliation to the Statement of Activities, PDF p.37 again). Unlike 2017, there is no 'Gain on sale' line and no GAAP-basis adjustment line below Net change in fund balances - just Fund balance - beginning (50,553,012, matching 2017's ending balance) and Fund balance - ending (52,142,675). Capital outlay again a distinct single line. Verified against a 200dpi rendered page image; text and image match exactly."
+    },
+    {
+      "year": 2019,
+      "statement_title": "GENERAL FUND / STATEMENT OF REVENUES, EXPENDITURES AND CHANGES IN FUND BALANCES - BUDGET AND ACTUAL (BUDGET BASIS) / FOR THE FISCAL YEAR ENDED JUNE 30, 2019",
+      "printed_page": "24",
+      "pdf_page": 47,
+      "total_revenues": {
+        "original": "161,948,512",
+        "final": "161,948,512",
+        "actual": "160,721,510"
+      },
+      "total_expenditures": {
+        "original": "166,397,858",
+        "final": "166,399,316",
+        "actual": "164,009,700"
+      },
+      "capital_outlay": {
+        "original": "27,893",
+        "final": "596,399",
+        "actual": "595,932"
+      },
+      "notes": "Presentation changed from the FY2017/2018 combined-major-funds statement to a standalone General Fund statement with its own dedicated page (General Fund, Road Maintenance Programs, and Parks/Rec/Tourism each get separate pages: PDF pp.47, 48, 49). Column headers are 'Budgeted Amounts: Original | Final' then 'Actual' then 'Variance with Final Budget' - matches the 4-column layout described in the task. Located in the Basic Financial Statements section (BFS divider at PDF p.35), immediately after the Reconciliation of the Statement of Revenues/Expenditures/Changes in Fund Balances to the Statement of Activities. Do NOT confuse with the 'Schedule of Revenues and Expenditures Budget and Actual (Budget Basis) - General Fund' in Other Supplementary Information at printed pp.87-93 (per-department Salaries/Operations/Contractual/Capital outlay detail) - that is a different, later schedule. Verified against a 200dpi rendered page image; text and image match exactly."
+    }
+  ]
+}

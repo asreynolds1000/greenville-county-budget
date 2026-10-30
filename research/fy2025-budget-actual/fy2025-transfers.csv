@@ -1,0 +1,8 @@
+fiscal_year,direction,general_fund_counterparty,amount,source
+2025,transfer_out,To Capital Projects Fund,2344855,"FY2025 ACFR Note 8 (Transfer From: General)"
+2025,transfer_out,To Miscellaneous Other Grants Fund,76699,"FY2025 ACFR Note 8 (Transfer From: General)"
+2025,transfer_out,To Nonmajor Governmental Funds,7223054,"FY2025 ACFR Note 8 (Transfer From: General)"
+2025,transfer_out,TOTAL transfers out of General Fund,9644608,"FY2025 ACFR Note 8"
+2025,transfer_in,From Nonmajor Governmental Funds,13167995,"FY2025 ACFR Note 8 (Transfer To: General)"
+2025,transfer_in,From Internal Service Funds,2250000,"FY2025 ACFR Note 8 (Transfer To: General)"
+2025,transfer_in,TOTAL transfers into General Fund,15417995,"FY2025 ACFR Note 8"

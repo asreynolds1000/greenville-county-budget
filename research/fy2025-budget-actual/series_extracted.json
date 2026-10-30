@@ -1,0 +1,650 @@
+{
+ "2011": {
+  "year": 2011,
+  "gf_line": 1879,
+  "total_revenues": {
+   "original": 125420953,
+   "final": 125420953,
+   "actual": 122379292,
+   "variance": -3041661
+  },
+  "total_expenditures": {
+   "original": 126749627,
+   "final": 126719519,
+   "actual": 123617673,
+   "variance": 3101846
+  },
+  "transfers_in": {
+   "original": 7248480,
+   "final": 7248480,
+   "actual": 7271191,
+   "variance": 22711
+  },
+  "transfers_out": {
+   "original": -5913769,
+   "final": -5913769,
+   "actual": -5088962,
+   "variance": 824807
+  },
+  "net_change": {
+   "original": 0,
+   "final": 0,
+   "actual": 943848,
+   "variance": 943848
+  },
+  "fb_begin": {
+   "original": 0,
+   "final": 49182443,
+   "actual": 49182443,
+   "variance": null
+  },
+  "fb_end": {
+   "original": 0,
+   "final": 50435663,
+   "actual": 50435663,
+   "variance": null
+  }
+ },
+ "2012": {
+  "year": 2012,
+  "error": "no GF total-revenue line >$100M found"
+ },
+ "2013": {
+  "year": 2013,
+  "gf_line": 1619,
+  "total_revenues": {
+   "original": 126627329,
+   "final": 126627329,
+   "actual": 130171828,
+   "variance": 3544499
+  },
+  "total_expenditures": {
+   "original": 130996023,
+   "final": 131271655,
+   "actual": 131273683,
+   "variance": -2028
+  },
+  "transfers_in": {
+   "original": 4534602,
+   "final": 4534602,
+   "actual": 4537119,
+   "variance": 2517
+  },
+  "transfers_out": {
+   "original": -650000,
+   "final": -374368,
+   "actual": -371424,
+   "variance": 2944
+  },
+  "net_change": {
+   "original": -484092,
+   "final": -484092,
+   "actual": 3063840,
+   "variance": 3547932
+  },
+  "fb_begin": {
+   "original": 0,
+   "final": 52219067,
+   "actual": 52219067,
+   "variance": null
+  },
+  "fb_end": {
+   "original": 0,
+   "final": 55507439,
+   "actual": 55507439,
+   "variance": null
+  }
+ },
+ "2014": {
+  "year": 2014,
+  "gf_line": 1515,
+  "total_revenues": {
+   "original": 133894751,
+   "final": 133894751,
+   "actual": 132779031,
+   "variance": -1115720
+  },
+  "total_expenditures": {
+   "original": 138810832,
+   "final": 138810832,
+   "actual": 136750125,
+   "variance": 2060707
+  },
+  "transfers_in": {
+   "original": 6565294,
+   "final": 6565294,
+   "actual": 6565294,
+   "variance": 0
+  },
+  "transfers_out": {
+   "original": -1385077,
+   "final": -1385077,
+   "actual": -1267834,
+   "variance": 117243
+  },
+  "net_change": {
+   "original": 264136,
+   "final": 264136,
+   "actual": 1326366,
+   "variance": 1062230
+  },
+  "fb_begin": {
+   "original": 0,
+   "final": 55507439,
+   "actual": 55507439,
+   "variance": null
+  },
+  "fb_end": {
+   "original": 0,
+   "final": 56882202,
+   "actual": 56882202,
+   "variance": null
+  }
+ },
+ "2015": {
+  "year": 2015,
+  "gf_line": 1847,
+  "total_revenues": {
+   "original": 138227146,
+   "final": 138227146,
+   "actual": 137546567,
+   "variance": -680579
+  },
+  "total_expenditures": {
+   "original": 143130310,
+   "final": 143130310,
+   "actual": 142076493,
+   "variance": 1053817
+  },
+  "transfers_in": {
+   "original": 6595986,
+   "final": 6595986,
+   "actual": 6495986,
+   "variance": -100000
+  },
+  "transfers_out": {
+   "original": -1683841,
+   "final": -1683841,
+   "actual": -1611640,
+   "variance": 72201
+  },
+  "net_change": {
+   "original": 8981,
+   "final": 8981,
+   "actual": 354420,
+   "variance": 345439
+  },
+  "fb_begin": {
+   "original": 0,
+   "final": 56882202,
+   "actual": 56882202,
+   "variance": null
+  },
+  "fb_end": {
+   "original": 0,
+   "final": 57314929,
+   "actual": 57314929,
+   "variance": null
+  }
+ },
+ "2016": {
+  "year": 2016,
+  "gf_line": 1744,
+  "total_revenues": {
+   "original": 144196003,
+   "final": 144196003,
+   "actual": 142882729,
+   "variance": -1313274
+  },
+  "total_expenditures": {
+   "original": 150417714,
+   "final": 150417714,
+   "actual": 148561641,
+   "variance": 1856073
+  },
+  "transfers_in": {
+   "original": 6277906,
+   "final": 6277906,
+   "actual": 6277906,
+   "variance": 0
+  },
+  "transfers_out": {
+   "original": -4244728,
+   "final": -4244728,
+   "actual": -4201607,
+   "variance": 43121
+  },
+  "net_change": {
+   "original": -4188533,
+   "final": -4188533,
+   "actual": -2116553,
+   "variance": 2071980
+  },
+  "fb_begin": {
+   "original": 0,
+   "final": 57314929,
+   "actual": 57314929,
+   "variance": null
+  },
+  "fb_end": {
+   "original": 0,
+   "final": 55138777,
+   "actual": 55138777,
+   "variance": null
+  }
+ },
+ "2017": {
+  "year": 2017,
+  "gf_line": 1768,
+  "total_revenues": {
+   "original": 147672104,
+   "final": 147672104,
+   "actual": 148002625,
+   "variance": 330521
+  },
+  "total_expenditures": {
+   "original": 153829098,
+   "final": 153829320,
+   "actual": 151688730,
+   "variance": 2140590
+  },
+  "transfers_in": {
+   "original": 6310464,
+   "final": 6310464,
+   "actual": 6075796,
+   "variance": -234668
+  },
+  "transfers_out": {
+   "original": -6830192,
+   "final": -6830192,
+   "actual": -6750314,
+   "variance": 79878
+  },
+  "net_change": {
+   "original": -6676722,
+   "final": -6676944,
+   "actual": -3505453,
+   "variance": 3171491
+  },
+  "fb_begin": {
+   "original": 0,
+   "final": 55138777,
+   "actual": 55138777,
+   "variance": null
+  },
+  "fb_end": {
+   "original": 0,
+   "final": 50553012,
+   "actual": 50553012,
+   "variance": null
+  }
+ },
+ "2018": {
+  "year": 2018,
+  "gf_line": 1786,
+  "total_revenues": {
+   "original": 157555547,
+   "final": 157555547,
+   "actual": 155982650,
+   "variance": -1572897
+  },
+  "total_expenditures": {
+   "original": 162135052,
+   "final": 162135054,
+   "actual": 157501348,
+   "variance": 4633706
+  },
+  "transfers_in": {
+   "original": 9600000,
+   "final": 9600000,
+   "actual": 9642860,
+   "variance": 42860
+  },
+  "transfers_out": {
+   "original": -6601921,
+   "final": -6601921,
+   "actual": -6534499,
+   "variance": 67422
+  },
+  "net_change": {
+   "original": -1581426,
+   "final": -1581428,
+   "actual": 1589663,
+   "variance": 3171091
+  },
+  "fb_begin": {
+   "original": 0,
+   "final": 50553012,
+   "actual": 50553012,
+   "variance": null
+  },
+  "fb_end": {
+   "original": 0,
+   "final": 52142675,
+   "actual": 52142675,
+   "variance": null
+  }
+ },
+ "2019": {
+  "year": 2019,
+  "gf_line": 1596,
+  "total_revenues": {
+   "original": 161948512,
+   "final": 161948512,
+   "actual": 160721510,
+   "variance": -1227002
+  },
+  "total_expenditures": {
+   "original": 166397858,
+   "final": 166399316,
+   "actual": 164009700,
+   "variance": 2389616
+  },
+  "transfers_in": {
+   "original": 9800000,
+   "final": 9800000,
+   "actual": 9962923,
+   "variance": 162923
+  },
+  "transfers_out": {
+   "original": -7787034,
+   "final": -7787034,
+   "actual": -7811011,
+   "variance": -23977
+  },
+  "net_change": {
+   "original": -2436380,
+   "final": -2437838,
+   "actual": -1136278,
+   "variance": 1301560
+  },
+  "fb_begin": {
+   "original": 52142675,
+   "final": 52142675,
+   "actual": 52142675,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 49706295,
+   "final": 49704837,
+   "actual": 51006397,
+   "variance": 1301560
+  }
+ },
+ "2020": {
+  "year": 2020,
+  "gf_line": 1830,
+  "total_revenues": {
+   "original": 168538014,
+   "final": 168538014,
+   "actual": 166342987,
+   "variance": -2195027
+  },
+  "total_expenditures": {
+   "original": 177812237,
+   "final": 182682069,
+   "actual": 176457069,
+   "variance": 6225000
+  },
+  "transfers_in": {
+   "original": 13405000,
+   "final": 13405000,
+   "actual": 14899633,
+   "variance": 1494633
+  },
+  "transfers_out": {
+   "original": -8272791,
+   "final": -3402959,
+   "actual": -3402958,
+   "variance": 1
+  },
+  "net_change": {
+   "original": -4142014,
+   "final": -4142014,
+   "actual": 1382593,
+   "variance": 5524607
+  },
+  "fb_begin": {
+   "original": 51006397,
+   "final": 51006397,
+   "actual": 51006397,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 46864383,
+   "final": 46864383,
+   "actual": 52388990,
+   "variance": 5524607
+  }
+ },
+ "2021": {
+  "year": 2021,
+  "gf_line": 1731,
+  "total_revenues": {
+   "original": 176240745,
+   "final": 176240745,
+   "actual": 172822342,
+   "variance": -3418403
+  },
+  "total_expenditures": {
+   "original": 184571231,
+   "final": 184571231,
+   "actual": 178326750,
+   "variance": 6244481
+  },
+  "transfers_in": {
+   "original": 12546750,
+   "final": 12546750,
+   "actual": 23476267,
+   "variance": 10929517
+  },
+  "transfers_out": {
+   "original": -8458518,
+   "final": -8458518,
+   "actual": -23062611,
+   "variance": -14604093
+  },
+  "net_change": {
+   "original": -4242254,
+   "final": -4242254,
+   "actual": -5090752,
+   "variance": -848498
+  },
+  "fb_begin": {
+   "original": 52388990,
+   "final": 52388990,
+   "actual": 52388990,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 48146736,
+   "final": 48146736,
+   "actual": 47298238,
+   "variance": -848498
+  }
+ },
+ "2022": {
+  "year": 2022,
+  "gf_line": 1846,
+  "total_revenues": {
+   "original": 183376197,
+   "final": 183376197,
+   "actual": 188966268,
+   "variance": 5590071
+  },
+  "total_expenditures": {
+   "original": 201700333,
+   "final": 201687702,
+   "actual": 202797959,
+   "variance": -1110257
+  },
+  "transfers_in": {
+   "original": 16934188,
+   "final": 16934188,
+   "actual": 55682134,
+   "variance": 38747946
+  },
+  "transfers_out": {
+   "original": -4158895,
+   "final": -4171526,
+   "actual": -16544108,
+   "variance": -12372582
+  },
+  "net_change": {
+   "original": -5548843,
+   "final": -5548843,
+   "actual": 25504437,
+   "variance": 31053280
+  },
+  "fb_begin": {
+   "original": 47298238,
+   "final": 47298238,
+   "actual": 47298238,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 41749395,
+   "final": 41749395,
+   "actual": 72802675,
+   "variance": 31053280
+  }
+ },
+ "2023": {
+  "year": 2023,
+  "gf_line": 1890,
+  "total_revenues": {
+   "original": 190745333,
+   "final": 190745333,
+   "actual": 193567951,
+   "variance": 2822618
+  },
+  "total_expenditures": {
+   "original": 208674646,
+   "final": 208674646,
+   "actual": 225366577,
+   "variance": -16691931
+  },
+  "transfers_in": {
+   "original": 14697405,
+   "final": 14697405,
+   "actual": 45047040,
+   "variance": 30349635
+  },
+  "transfers_out": {
+   "original": -5002027,
+   "final": -5002027,
+   "actual": -6599967,
+   "variance": -1597940
+  },
+  "net_change": {
+   "original": -8233935,
+   "final": -8233935,
+   "actual": 9812656,
+   "variance": 18046591
+  },
+  "fb_begin": {
+   "original": 72802675,
+   "final": 72802675,
+   "actual": 72802675,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 64568740,
+   "final": 64568740,
+   "actual": 82615331,
+   "variance": 18046591
+  }
+ },
+ "2024": {
+  "year": 2024,
+  "gf_line": 1762,
+  "total_revenues": {
+   "original": 215360360,
+   "final": 215360360,
+   "actual": 226192784,
+   "variance": 10832424
+  },
+  "total_expenditures": {
+   "original": 233591065,
+   "final": 233569385,
+   "actual": 235873073,
+   "variance": -2303688
+  },
+  "transfers_in": {
+   "original": 14158757,
+   "final": 14158757,
+   "actual": 16547576,
+   "variance": 2388819
+  },
+  "transfers_out": {
+   "original": -9150041,
+   "final": -9170698,
+   "actual": -8861389,
+   "variance": 309309
+  },
+  "net_change": {
+   "original": -13221989,
+   "final": -13220966,
+   "actual": -1994102,
+   "variance": 11226864
+  },
+  "fb_begin": {
+   "original": 82615331,
+   "final": 82615331,
+   "actual": 82615331,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 69393342,
+   "final": 69394365,
+   "actual": 80621229,
+   "variance": 11226864
+  }
+ },
+ "2025": {
+  "year": 2025,
+  "gf_line": 4733,
+  "total_revenues": {
+   "original": 223764269,
+   "final": 223764269,
+   "actual": 246871125,
+   "variance": 23106856
+  },
+  "total_expenditures": {
+   "original": 241649556,
+   "final": 241649556,
+   "actual": 251720397,
+   "variance": -10070841
+  },
+  "transfers_in": {
+   "original": 15250093,
+   "final": 15250093,
+   "actual": 15417995,
+   "variance": 167902
+  },
+  "transfers_out": {
+   "original": -9782907,
+   "final": -9782907,
+   "actual": -9644608,
+   "variance": 138299
+  },
+  "net_change": {
+   "original": -12418101,
+   "final": -12418101,
+   "actual": 924115,
+   "variance": 13342216
+  },
+  "fb_begin": {
+   "original": 80621229,
+   "final": 80621229,
+   "actual": 80621229,
+   "variance": 0
+  },
+  "fb_end": {
+   "original": 68203128,
+   "final": 68203128,
+   "actual": 81545344,
+   "variance": 13342216
+  }
+ }
+}

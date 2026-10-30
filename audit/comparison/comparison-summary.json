@@ -1,0 +1,44 @@
+{
+  "by_dataset": {
+    "budget_totals": {
+      "official_alternate_only": 15,
+      "source_mismatch": 1,
+      "verified_canonical": 184
+    },
+    "general_fund_balance": {
+      "official_alternate_status_mismatch": 3,
+      "source_mismatch": 1,
+      "verified_canonical": 13
+    },
+    "general_fund_departments": {
+      "label_mismatch": 2,
+      "official_alternate_only": 1,
+      "source_mismatch": 4,
+      "verified_canonical": 223
+    },
+    "general_fund_projection": {
+      "semantic_ambiguity": 6,
+      "source_mismatch": 12,
+      "verified_canonical": 31
+    },
+    "general_fund_revenue": {
+      "official_alternate_status_mismatch": 4,
+      "source_mismatch": 9,
+      "verified_canonical": 16
+    },
+    "special_revenue_funds": {
+      "official_alternate_only": 4,
+      "source_mismatch": 6,
+      "verified_canonical": 196
+    }
+  },
+  "classification_counts": {
+    "label_mismatch": 2,
+    "official_alternate_only": 20,
+    "official_alternate_status_mismatch": 7,
+    "semantic_ambiguity": 6,
+    "source_mismatch": 33,
+    "verified_canonical": 663
+  },
+  "numeric_cells_checked": 731
+}

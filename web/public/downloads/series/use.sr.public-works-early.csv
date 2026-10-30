@@ -1,0 +1,5 @@
+fiscal_year,value,printed_form,status_class,canonical_status,source_code,printed_page,pdf_page,source_url,note_ids
+2010,12726462,,actual,single,FY2012-13,43,51,https://www.greenvillecounty.org/ManagementandBudget/pdf/2012/budget_combined2012.pdf,note.sources-statement-not-printed
+2011,10540120,,actual,single,FY2012-13,43,51,https://www.greenvillecounty.org/ManagementandBudget/pdf/2012/budget_combined2012.pdf,note.budget-to-gaap;note.sources-statement-not-printed
+2012,5439816,,adopted,single,FY2012-13,43,51,https://www.greenvillecounty.org/ManagementandBudget/pdf/2012/budget_combined2012.pdf,note.budget-to-gaap;note.fy2012-extraction;note.sources-statement-not-printed
+2013,5493516,,adopted,single,FY2012-13,43,51,https://www.greenvillecounty.org/ManagementandBudget/pdf/2012/budget_combined2012.pdf,note.budget-to-gaap;note.sources-statement-not-printed
