@@ -410,7 +410,8 @@ export default function MethodologyPage() {
           Address and tax-map searches go from your browser to county GIS. After you
           choose a parcel, its PIN is sent to this site&rsquo;s server to retrieve the
           official {taxData.taxYear} county record. The site does not save the query,
-          place it in the URL, or send it to analytics; the county and hosting provider
+          place it in the URL, or send it to analytics. Google Analytics counts page visits
+          on this site but never receives an address or PIN. The county and hosting provider
           may keep their own logs. GIS returns current parcel records, so a displayed
           value or district may differ from the {taxData.taxYear} tax roll. Confirm or
           replace them using that year&rsquo;s record. Recipient amounts are calculated
@@ -484,6 +485,19 @@ export default function MethodologyPage() {
             </li>
           ))}
         </ul>
+        <p className="mt-3">
+          For a short, illustrated overview of county services and the year&rsquo;s finances,
+          read Greenville County&rsquo;s{" "}
+          <a
+            href="https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2025/pafr2025.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="text-accent underline"
+          >
+            FY2025 Popular Annual Financial Report
+          </a>
+          ; the detailed figures and accounting notes are in the ACFR.
+        </p>
       </Section>
 
       <Section id="corrections" title="Corrections">
