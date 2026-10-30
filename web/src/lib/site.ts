@@ -10,5 +10,8 @@ export const SITE_URL = "https://gcdata.alexreynolds.com";
 /** The public repository: source code, compiled data, pipeline and tests. */
 export const REPO_URL = "https://github.com/asreynolds1000/greenville-county-budget";
 
+/** Google Analytics 4. Loaded only on production builds, so previews, CI and local runs send nothing. */
+export const GA_MEASUREMENT_ID = "G-7G6QH2LQK3";
+
 /** Vercel marks production builds; previews and local exports must ask crawlers not to index. */
 export const IS_PRODUCTION_DEPLOYMENT = process.env.VERCEL_ENV === "production";

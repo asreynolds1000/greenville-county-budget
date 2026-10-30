@@ -410,7 +410,8 @@ export default function MethodologyPage() {
           Address and tax-map searches go from your browser to county GIS. After you
           choose a parcel, its PIN is sent to this site&rsquo;s server to retrieve the
           official {taxData.taxYear} county record. The site does not save the query,
-          place it in the URL, or send it to analytics; the county and hosting provider
+          place it in the URL, or send it to analytics. Google Analytics counts page visits
+          on this site but never receives an address or PIN. The county and hosting provider
           may keep their own logs. GIS returns current parcel records, so a displayed
           value or district may differ from the {taxData.taxYear} tax roll. Confirm or
           replace them using that year&rsquo;s record. Recipient amounts are calculated
