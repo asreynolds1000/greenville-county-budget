@@ -1,5 +1,5 @@
 {
-  "file_count": 55,
+  "file_count": 56,
   "files": [
     {
       "bytes": 418709,
@@ -550,6 +550,16 @@
       "source_id": "gc-fy2027-after-second",
       "source_status": "pre-adoption",
       "url": "https://www.greenvillecounty.org/Council/_Agenda/Meetings%20of%202026/County%20Council/2026.06.16/FY2027%20Budget%20Ordinance%20-%20after%202nd%20Reading.pdf"
+    },
+    {
+      "bytes": 8345110,
+      "fiscal_year_end": 2027,
+      "fiscal_year_start": 2027,
+      "path": "gc-fy2027/BudgetCombined.pdf",
+      "sha256": "d315174a853c4a8fbadae93b6f6901a34e54a0be517efe6b64bf3152bf556b4a",
+      "source_id": "gc-fy2027",
+      "source_status": "adopted",
+      "url": "https://www.greenvillecounty.org/ManagementandBudget/pdf/2027/BudgetCombined.pdf"
     }
   ],
   "manifest": "data/source-manifest.csv",
@@ -561,5 +571,5 @@
     }
   ],
   "output_directory": "data/raw",
-  "total_bytes": 225014121
+  "total_bytes": 233359231
 }
