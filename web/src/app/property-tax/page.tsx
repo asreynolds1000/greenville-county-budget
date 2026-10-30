@@ -5,8 +5,8 @@ import { PropertyTaxExplorer } from "@/components/PropertyTaxExplorer";
 import { getLatestFiscalYear } from "@/lib/loaders";
 
 export const metadata: Metadata = {
-  title: "Property-tax estimate",
-  description: "Estimate how a Greenville County property-tax amount is divided among county, school, city, and special-district lines.",
+  title: { absolute: "Greenville County property tax estimate · Budget Explorer" },
+  description: "Estimate how a Greenville County, SC property tax bill divides among county government, schools, cities and special districts, using the county's published 2025 millage.",
   alternates: { canonical: "/property-tax/" },
 };
 

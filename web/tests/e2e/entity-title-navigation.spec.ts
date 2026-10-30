@@ -21,7 +21,7 @@ const SITE = "Greenville County Budget Explorer";
 
 const DESTINATIONS = [
   { path: "/", title: SITE, link: 'header nav a[href="/"]' },
-  { path: "/property-tax/", title: `Property-tax estimate · ${SITE}`, link: 'header nav a[href="/property-tax/"]' },
+  { path: "/property-tax/", title: "Greenville County property tax estimate · Budget Explorer", link: 'header nav a[href="/property-tax/"]' },
   { path: "/compare/", title: `Compare spending across years · ${SITE}`, link: 'header nav a[href="/compare/"]' },
   { path: "/search/", title: `Search · ${SITE}`, link: 'header nav a[href="/search/"]' },
   { path: "/methodology/", title: `Methodology and coverage · ${SITE}`, link: 'footer a[href="/methodology/"]' },

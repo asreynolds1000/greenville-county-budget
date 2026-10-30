@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "@/components/AppLink";
 
 import { Amount } from "@/components/Amount";
@@ -7,6 +8,10 @@ import { RecencyNotice } from "@/components/RecencyNotice";
 import { getCoverageState, getEntitySummary, getGeneralFundComparisonYears, getLatestFiscalYear } from "@/lib/loaders";
 import { getResidentEntryPoints } from "@/lib/residentEntryPoints";
 import { getCountyRiver, getGeneralFundRiver, getRiverYears } from "@/lib/riverData";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   const latestYear = getLatestFiscalYear();

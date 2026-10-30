@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useLayoutEffect, useSyncExternalStore, type MouseEvent, type ReactNode } from "react";
 import { entityYearHref, selectEntityYear } from "@/lib/entityYearSelection";
-import { entityDocumentTitle } from "@/lib/entityTitle";
+import { entityDocumentTitle, entityTitleName } from "@/lib/entityTitle";
 
 type SharedContent = { chart: ReactNode; ledger: ReactNode };
 type YearContext = {
@@ -69,7 +69,7 @@ export function EntityYearExplorer({ entityId, name, years, panels, shared }: {
   // reader is on. The title written is only ever the one for the entity and year in the URL.
   useLayoutEffect(() => {
     if (year === null) return;
-    const wanted = entityDocumentTitle(name, year);
+    const wanted = entityDocumentTitle(entityTitleName(entityId, name), year);
     const pathname = `/e/${encodeURIComponent(entityId)}`;
     const onThisPage = () => {
       const here = window.location.pathname.replace(/\/$/, "");

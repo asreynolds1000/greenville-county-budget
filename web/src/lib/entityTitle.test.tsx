@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 import { generateMetadata } from "@/app/e/[entityId]/page";
 import { generateMetadata as fundMetadata } from "@/app/e/fund.general/page";
 import EntityLatestYearPage from "@/app/e/[entityId]/page";
-import { entityDocumentTitle, entityTitle } from "@/lib/entityTitle";
+import { entityDocumentTitle, entityTitle, entityTitleName } from "@/lib/entityTitle";
 
 /**
  * The route consolidation dropped the fiscal year from every entity page title: the reviewed
@@ -18,6 +18,12 @@ import { entityDocumentTitle, entityTitle } from "@/lib/entityTitle";
  * component; the browser spec owns it, and the rendered page baselines capture it.
  */
 describe("entity page titles keep their fiscal year", () => {
+  it("qualifies operating-overview categories so they do not share a title with department-view categories", () => {
+    expect(entityTitleName("overview.gf.public-works", "Public Works")).toBe("Public Works (operating overview)");
+    expect(entityTitleName("opcat.public-works", "Public Works")).toBe("Public Works");
+    expect(entityTitleName("dept.sheriff", "Sheriff")).toBe("Sheriff");
+  });
+
   it("composes the reviewed title format", () => {
     expect(entityTitle("General Fund", 2025)).toBe("General Fund — FY2025");
     expect(entityDocumentTitle("General Fund", 2025))
