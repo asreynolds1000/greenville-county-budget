@@ -72,6 +72,19 @@ test("the repository and the data licence are reachable from every page and stat
   }
 });
 
+test("the methodology source guide points readers to the county's popular annual report", async ({ page }) => {
+  await page.goto("/methodology/");
+  const sources = page.locator("section").filter({
+    has: page.getByRole("heading", { name: /every source document/i }),
+  });
+  await expect(
+    sources.locator(
+      'a[href="https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2025/pafr2025.pdf"]',
+    ),
+  ).toHaveText("FY2025 Popular Annual Financial Report");
+  await expect(sources.getByText(/the detailed figures and accounting notes are in the ACFR\./)).toBeVisible();
+});
+
 test("link previews, the credit, the home canonical and the Dataset markup are in place", async ({ page }) => {
   await page.goto("/e/dept.sheriff/?fy=2026");
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", `${SITE_URL}/og.png`);

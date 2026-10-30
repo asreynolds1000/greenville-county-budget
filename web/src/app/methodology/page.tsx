@@ -485,6 +485,19 @@ export default function MethodologyPage() {
             </li>
           ))}
         </ul>
+        <p className="mt-3">
+          For a short, illustrated overview of county services and the year&rsquo;s finances,
+          read Greenville County&rsquo;s{" "}
+          <a
+            href="https://www.greenvillecounty.org/FinanceDivision/PDFFinancialReport2025/pafr2025.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="text-accent underline"
+          >
+            FY2025 Popular Annual Financial Report
+          </a>
+          ; the detailed figures and accounting notes are in the ACFR.
+        </p>
       </Section>
 
       <Section id="corrections" title="Corrections">
