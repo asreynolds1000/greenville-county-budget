@@ -2,7 +2,7 @@ import Link from "@/components/AppLink";
 
 import { noteAnchor } from "@/components/DataNotes";
 import { PRINTED_DASH_NOTE_ID } from "@/components/PrintedFormNote";
-import { getAllDataNotes, getCorrections, getPendingYears } from "@/lib/loaders";
+import { getAllDataNotes, getBudgetStatus, getCorrections } from "@/lib/loaders";
 import { REPO_URL } from "@/lib/site";
 
 const MONTHS = [
@@ -44,10 +44,7 @@ function PrintedDashFootnote() {
  */
 export function SiteFooter() {
   const { data_version: dataVersion } = getCorrections();
-  const lastDataStatusCheck = getPendingYears().reduce(
-    (latest, pending) => pending.status_checked_on > latest ? pending.status_checked_on : latest,
-    "",
-  );
+  const lastDataStatusCheck = getBudgetStatus().status_checked_on;
 
   return (
     <footer className="mt-auto border-t border-hairline">

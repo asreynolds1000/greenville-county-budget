@@ -19,6 +19,7 @@ function formatDate(iso: string): string {
 export function RecencyNotice({ compact = false }: { compact?: boolean }) {
   const latest = getLatestFiscalYear();
   const pending = [...getPendingYears()].sort((a, b) => a.fiscal_year - b.fiscal_year)[0];
+  if (!pending) return null;
   const { data_version: dataVersion } = getCorrections();
 
   const content = <>

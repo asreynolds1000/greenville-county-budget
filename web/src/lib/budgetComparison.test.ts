@@ -5,7 +5,7 @@ import { getSpendingComparisonData } from "./spendingSnapshots";
 describe("resident spending comparisons", () => {
   const { snapshots, boundaries } = getSpendingComparisonData();
 
-  it("answers the Sheriff's latest-year change from the published amounts", () => {
+  it("answers the Sheriff's FY2025 to FY2026 change from the published amounts", () => {
     const result = compareSpendingLine("dept.sheriff", "departments", snapshots, 2025, 2026, boundaries);
     expect(result.end?.value).toBe(80_407_123);
     expect(result.start?.value).toBe(70_914_455);
@@ -28,7 +28,7 @@ describe("resident spending comparisons", () => {
     expect(result.percent).toBeNull();
   });
 
-  it("keeps the latest category shares on one reconciled General Fund denominator", () => {
+  it("keeps FY2026 category shares on one reconciled General Fund denominator", () => {
     const year = snapshots.find((s) => s.year === 2026)!;
     expect(year.total).toBe(275_141_134);
     expect(year.categories.reduce((sum, row) => sum + row.value!, 0)).toBe(year.total);

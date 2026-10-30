@@ -60,7 +60,7 @@ function scoreOne(entry: SearchEntry, query: string): number | null {
 function isCurrentGeneralFundUse(entry: SearchEntry): boolean {
   return entry.fund_id === "fund.general"
     && entry.domain_label === "Money out"
-    && entry.active_to_fy === 2026;
+    && entry.active_to_fy === 2027;
 }
 
 export function search(entries: SearchEntry[], query: string, limit = 40): Ranked[] {

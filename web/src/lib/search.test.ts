@@ -162,7 +162,7 @@ describe("ranking", () => {
     const firstGeneralFundUse = results.findIndex((result) => (
       result.entry.fund_id === "fund.general"
       && result.entry.domain_label === "Money out"
-      && result.entry.active_to_fy === 2026
+      && result.entry.active_to_fy === 2027
     ));
     expect(firstGeneralFundUse).toBeGreaterThanOrEqual(0);
     expect(firstDebt).toBeGreaterThan(firstGeneralFundUse);
@@ -188,14 +188,14 @@ describe("aliases reach the CURRENT entity, not only defunct ones", () => {
     const results = search(index, "zoning");
     expect(results.map((r) => r.entry.entity_id)).toContain("dept.planning");
     const current = results.find((r) => r.entry.entity_id === "dept.planning");
-    expect(current!.entry.active_to_fy).toBe(2026);
+    expect(current!.entry.active_to_fy).toBe(2027);
   });
 
   it("leaves no current-era General Fund department unsearchable by name", () => {
-    // Every department active through FY2026 must be findable by its own canonical name,
+    // Every department active through FY2027 must be findable by its own canonical name,
     // which is the floor below aliases: a department nobody can reach is invisible.
     const current = index.filter(
-      (e) => e.entity_id.startsWith("dept.") && e.active_to_fy === 2026,
+      (e) => e.entity_id.startsWith("dept.") && e.active_to_fy === 2027,
     );
     expect(current.length).toBeGreaterThan(10);
     for (const entry of current) {
