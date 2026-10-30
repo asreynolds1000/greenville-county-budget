@@ -257,10 +257,10 @@ Total revenues,label+section,General Fund Budget and Actual,,FY2025-ACFR,rev.tot
 Total expenditures,label+section,General Fund Budget and Actual,,FY2025-ACFR,use.gf.operating-total,2025,2025,Audited General Fund expenditures,human_confirmed
 Transfers in,label+section,General Fund Budget and Actual,,FY2025-ACFR,fin.gf.transfers-in,2025,2025,Audited General Fund transfers in,human_confirmed
 Transfers out,label+section,General Fund Budget and Actual,,FY2025-ACFR,fin.gf.transfers-out,2025,2025,Audited General Fund transfers out,human_confirmed
-Hospitality Tax,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.hospitality-tax,2026,2027,FY2026 transfer into the General Fund,human_confirmed
-Accommodations Tax,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.state-accommodations,2026,2027,FY2026 transfer into the General Fund,human_confirmed
-Infrastructure Bank,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.infrastructure-bank,2026,2027,FY2026 transfer into the General Fund,human_confirmed
-Workers Compensation,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.workers-compensation,2026,2027,FY2026 transfer into the General Fund,human_confirmed
+Hospitality Tax,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.hospitality-tax,2026,2026,FY2026 transfer into the General Fund,human_confirmed
+Accommodations Tax,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.state-accommodations,2026,2026,FY2026 transfer into the General Fund,human_confirmed
+Infrastructure Bank,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.infrastructure-bank,2026,2026,FY2026 transfer into the General Fund,human_confirmed
+Workers Compensation,label+section,General Fund Transfers From,,FY2026,fin.gf.transfer-in.workers-compensation,2026,2026,FY2026 transfer into the General Fund,human_confirmed
 Total Other Sources (Uses),label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,fin.gf.total-other-sources-uses,,,GF consolidated sources and uses,human_confirmed
 Total Other Sources (Uses),label+section,Consolidated Fund Summary,,,fin.gf.total-other-sources-uses,,,GF consolidated sources and uses,human_confirmed
 Capital Lease Issuance,label+section,Consolidated Fund Summary,,,fin.gf.capital-lease-issuance,,,GF consolidated sources and uses,human_confirmed

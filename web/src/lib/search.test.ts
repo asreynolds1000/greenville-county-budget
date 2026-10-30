@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import { getSearchIndex } from "./loaders";
 import { search } from "./search";
-import { getSearchGuide } from "./serviceContext";
+import { getSearchGuide, getServiceContext } from "./serviceContext";
 import type { SearchEntry } from "./schema";
 
 const GIS_PAIR = [
@@ -244,5 +244,47 @@ describe("fund descriptions are not searched", () => {
   it("still finds a fund by its name", () => {
     expect(idsFor("special revenue")).toContain("fund.special-revenue");
     expect(idsFor("general fund")).toContain("fund.general");
+  });
+});
+
+describe("FY2027 search-result service context", () => {
+  const index = getSearchIndex();
+
+  it.each([
+    ["deputies", "dept.sheriff"],
+    ["Outside Agencies", "dept.outsideagencies"],
+    ["Department of Administration", "opcat.department-of-administration"],
+    ["Emergency Medical Services", "dept.emergencymedicalservices"],
+    ["Human Resources", "dept.humanresources"],
+    ["Information Systems", "dept.informationsytems"],
+    ["Emergency Management", "dept.emergencymanagement"],
+    ["Animal Care", "dept.animalcareservices"],
+    ["Property Management", "dept.propertymanagement"],
+    ["roads", "dept.engineeringandroadbureaus"],
+    ["roads", "fund.sr.road-program"],
+    ["parks", "fund.sr.parks-recreation-tourism"],
+    ["parks", "use.sr.parks-recreation-tourism"],
+    ["parks", "use.debt.parks-recreation-tourism"],
+  ])("gives the latest %s result a matching note for %s", (query, entityId) => {
+    const entry = search(index, query).find(({ entry }) => entry.entity_id === entityId)?.entry;
+    expect(entry, entityId).toBeDefined();
+    expect(entry!.preview?.fiscal_year).toBe(2027);
+    const context = getServiceContext(entry!.entity_id, entry!.preview!.fiscal_year);
+    expect(context, entityId).toBeDefined();
+    expect(context!.shortLabel).toBeTruthy();
+    expect(context!.searchSummary).toBeTruthy();
+    expect(context!.source.href).toContain("/2027/");
+  });
+
+  it("warns that the FY2027 parks spending result is already included in the fund", () => {
+    const results = search(index, "parks");
+    expect(results).toHaveLength(3);
+    const spending = results.find(({ entry }) => entry.entity_id === "use.sr.parks-recreation-tourism")!.entry;
+    const context = getServiceContext(spending.entity_id, spending.preview!.fiscal_year);
+    expect(spending.preview?.observations.map((point) => point.value)).toEqual([17_840_529]);
+    expect(context?.searchSummary).toMatch(/already included in the whole parks fund/i);
+    const debt = results.find(({ entry }) => entry.entity_id === "use.debt.parks-recreation-tourism")!.entry;
+    expect(getServiceContext(debt.entity_id, debt.preview!.fiscal_year)?.searchSummary)
+      .toContain("does not establish");
   });
 });

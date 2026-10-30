@@ -45,7 +45,7 @@ test("the property-tax result continues into FY2027 county services without allo
   await bridge.getByRole("link", { name: /Explore FY2027 General Fund services/ }).click();
   await expect(page).toHaveURL(/\/e\/fund.general\/\?fy=2027#money-out$/);
   const services = page.getByRole("navigation", { name: "Explore FY2027 General Fund services" });
-  await services.locator('a[href="/e/dept.emergencymedicalservices/?fy=2027"]').click();
+  await services.getByRole("link", { name: "Ambulance services" }).click();
   await expect(page).toHaveURL(/\/e\/dept.emergencymedicalservices\/\?fy=2027$/);
-  await expect(page.getByRole("heading", { name: "Emergency Medical Services", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "What the FY2027 EMS budget covers" })).toBeVisible();
 });
