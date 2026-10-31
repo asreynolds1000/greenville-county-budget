@@ -7,9 +7,6 @@ import { isDeferredFund } from "@/lib/deferredFunds";
 import { EntityYearContext } from "@/components/EntityYearExplorer";
 import { generateStaticParams } from "@/app/e/[entityId]/page";
 import { buildFundPanelData } from "@/lib/buildFundPanelData";
-import baseline from "../../tests/fixtures/fund-panel-markup.json";
-// Forward regression fixture captured from the earlier working-tree renderer,
-// then corrected for canonical entity hrefs. This is not a HEAD before/after baseline.
 import canonicalBaseline from "../../tests/fixtures/fund-panel-canonical-markup.json";
 
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
@@ -20,8 +17,8 @@ vi.mock("next/dynamic", async () => ({ default: (await import("next/dist/shared/
 // Only transport is replaced: these unit tests do not need a running HTTP server.
 vi.stubGlobal("fetch", vi.fn(async (url: string) => {
   const entityId = /^\/e\/([^/]+)\/panels\.json\?revision=[a-f0-9]{64}$/.exec(url)?.[1];
-  if (!entityId || !(entityId in baseline)) throw new Error(`Unexpected request: ${url}`);
-  const years = Object.keys(baseline[entityId as keyof typeof baseline]).map(Number);
+  if (!entityId || !(entityId in canonicalBaseline)) throw new Error(`Unexpected request: ${url}`);
+  const years = Object.keys(canonicalBaseline[entityId as keyof typeof canonicalBaseline]).map(Number);
   return Response.json({ entityId, ...buildFundPanelData(entityId, years) });
 }));
 afterAll(() => vi.unstubAllGlobals());

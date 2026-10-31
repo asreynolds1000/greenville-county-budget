@@ -33,7 +33,7 @@ export const metadata: Metadata = {
  */
 
 const FIRST_YEAR = 2002;
-const LAST_YEAR = 2026;
+const LAST_YEAR = 2027;
 
 function DownloadRow({
   href,
@@ -158,7 +158,7 @@ export default function DownloadsPage() {
           The whole budget
         </h2>
         <ul className="mt-4">
-          <DownloadRow href="/downloads/tree/whole-budget-2026.csv" title="whole-budget-2026.csv">
+          <DownloadRow href="/downloads/tree/whole-budget-2027.csv" title="whole-budget-2027.csv">
             The additive budget tree for one year: the four funds and the named special
             revenue funds, each with its parent, its status and its citation, summing to the
             county&rsquo;s reported total. One file per year, FY{FIRST_YEAR} to FY{LAST_YEAR}{" "}

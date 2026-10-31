@@ -144,7 +144,7 @@ class ExportAppTests(unittest.TestCase):
             (self.out_dir / "data" / "v2" / "notes.json").read_text(encoding="utf-8")
         )["notes"]
         source_notes = [note for note in notes if note["note_type"] == "source_footnote"]
-        self.assertEqual(len(source_notes), 16)
+        self.assertEqual(len(source_notes), 21)
 
         for note in source_notes:
             entity_id = note["scope_value"]
@@ -196,11 +196,14 @@ class ExportAppTests(unittest.TestCase):
             if note["note_type"] == "source_footnote"
             and note["scope_value"] == "isf.workers-compensation"
         ]
-        self.assertEqual(len(workers), 2)
+        self.assertEqual(len(workers), 3)
         earlier = next(note for note in workers if note["fiscal_year_end"] == 2015)
         later = next(note for note in workers if note["fiscal_year_start"] == 2022)
         self.assertEqual(earlier["source_ref"], "FY2014-15, p.37")
         self.assertEqual(later["source_ref"], "FY2024-25, p.35; FY2026, p.35")
+        newest = next(note for note in workers if note["fiscal_year_start"] == 2027)
+        self.assertEqual(newest["fiscal_year_end"], 2027)
+        self.assertEqual(newest["source_ref"], "FY2027, p.35")
 
     # -- specific published numbers (Step 2 verify checks) ----------------
 
@@ -208,14 +211,16 @@ class ExportAppTests(unittest.TestCase):
         page = self._load_page("dept.sheriff")
         self.assertEqual(page["primary_status_class"], "adopted")
         years = [p["fiscal_year"] for p in page["series"]]
-        self.assertEqual(years, list(range(2004, 2027)))
-        self.assertEqual(len(years), 23)
+        self.assertEqual(years, list(range(2004, 2028)))
+        self.assertEqual(len(years), 24)
         last = page["series"][-1]
-        self.assertEqual(last["fiscal_year"], 2026)
-        self.assertEqual(last["value"], 80407123)
+        self.assertEqual(last["fiscal_year"], 2027)
+        self.assertEqual(last["value"], 84018403)
+        previous = next(point for point in page["series"] if point["fiscal_year"] == 2026)
+        self.assertEqual(previous["value"], 80407123)
         self.assertEqual(last["citation"]["printed_page"], 57)
         self.assertEqual(last["citation"]["pdf_page"], 58)
-        self.assertEqual(last["citation"]["source_code"], "FY2026")
+        self.assertEqual(last["citation"]["source_code"], "FY2027")
 
     def test_ems_department_gap_and_break(self):
         page = self._load_page("dept.emergencymedicalservices")
@@ -319,15 +324,15 @@ class ExportAppTests(unittest.TestCase):
             # Exporter-owned sweep set for the Phase 3.1 rendered-coverage gate. The web
             # test derives the actual set from static HTML and requires these counts.
             "coverage_page_entity_count": 271,
-            "coverage_page_route_count": 3945,
-            # 6 county-overview scopes x 3 domains x 25 years. Every region the overview
+            "coverage_page_route_count": 4128,
+            # 6 county-overview scopes x 3 domains x 26 years. Every region the overview
             # renders states its coverage in every year, including the ones with nothing.
-            "coverage_record_count": 450,
+            "coverage_record_count": 468,
             # 180 until three misprinted-label duplicates were merged (2026-07-22).
             # Core entities plus source-faithful Special Revenue, Debt Service, and
             # Enterprise operating-budget lines.
             "entity_count": 283,
-            "fiscal_year_max": 2026,
+            "fiscal_year_max": 2027,
             "fiscal_year_min": 2002,
             # 207 structural relationships, 13 `succeeded_by` links added 2026-07-22,
             # and two evidence-backed cross-presentation links added by Phase 3.3
@@ -338,7 +343,7 @@ class ExportAppTests(unittest.TestCase):
             "relationship_count": 241,
             "schema_version": 2,
             "statement_count": 21,
-            "statement_instance_count": 334,
+            "statement_instance_count": 352,
         })
         # 175 before balance.gf.budget-to-gaap-adjustment (the term that makes FY2011-FY2017
         # reconcile) and the four fund-balance classification entities; 177 after three
@@ -376,12 +381,11 @@ class ExportAppTests(unittest.TestCase):
         pending = json.loads(
             (self.out_dir / "data" / "v2" / "pending-years.json").read_text(encoding="utf-8")
         )
-        self.assertEqual(pending, [{
-            "adopted_on": "2026-06-16",
-            "fiscal_year": 2027,
-            "reason_not_ingested": "No consolidated final source located in the official publications checked.",
-            "status_checked_on": "2026-09-06",
-        }])
+        self.assertEqual(pending, [])
+        status = json.loads(
+            (self.out_dir / "data" / "v2" / "budget-status.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(status, {"status_checked_on": "2026-10-30"})
 
     def test_v2_required_fixture_entities_and_multi_status_series(self):
         expected = {
@@ -666,11 +670,11 @@ class SearchPreviewTests(unittest.TestCase):
 
     def test_current_year_entity_previews_the_current_year(self):
         preview = self.by_id["dept.sheriff"]["preview"]
-        self.assertEqual(preview["fiscal_year"], 2026)
+        self.assertEqual(preview["fiscal_year"], 2027)
         self.assertFalse(preview["is_latest"])
         self.assertEqual(
             preview["observations"], [
-                {"printed_form": None, "status_class": "adopted", "value": 80407123}
+                {"printed_form": None, "status_class": "adopted", "value": 84018403}
             ]
         )
 

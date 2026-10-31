@@ -24,7 +24,7 @@ test.describe("what the headline total includes", () => {
     // Closed by default: the reader who came for the spending total is not made to read it.
     await expect(disclosure).not.toHaveAttribute("open", /.*/);
     await disclosure.getByRole("group").or(disclosure.locator("summary")).first().click();
-    await expect(disclosure.getByText("$250,000")).toBeVisible();
+    await expect(disclosure.getByText("$2,270,221")).toBeVisible();
     await expect(disclosure.getByText("$2,500,000")).toBeVisible();
   });
 

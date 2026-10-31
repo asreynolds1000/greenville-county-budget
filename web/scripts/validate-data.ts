@@ -22,6 +22,7 @@ import { propertyTaxDataSchema } from "../src/lib/propertyTax";
 import {
   correctionsFileSchema,
   pendingYearsFileSchema,
+  budgetStatusFileSchema,
   dataNotesFileSchema,
   entitiesFileSchema,
   entityPageSchema,
@@ -114,6 +115,7 @@ function main(): void {
   validateFile(path.join("v2", "notes.json"), dataNotesFileSchema);
   validateFile(path.join("v2", "corrections.json"), correctionsFileSchema);
   validateFile(path.join("v2", "pending-years.json"), pendingYearsFileSchema);
+  validateFile(path.join("v2", "budget-status.json"), budgetStatusFileSchema);
   validateFile(path.join("v2", "search-index.json"), searchIndexFileSchema);
   validateFile(path.join("v2", "verification.json"), verificationFileSchema);
   validateFile(

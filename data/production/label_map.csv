@@ -18,7 +18,7 @@ Intergovernmental,label+section,Governmental Funds: 2002-2005 Summary of Estimat
 Intergovernmental,label+section,Consolidated Fund Summary,,,rev.intergovernmental,,,GF intergovernmental revenue,human_confirmed
 County Offices,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,rev.county-offices,2002,2017,County Offices renamed to County Offices/Fees in FY2018,human_confirmed
 County Offices,label+section,Consolidated Fund Summary,,,rev.county-offices,2002,2017,County Offices renamed to County Offices/Fees in FY2018,human_confirmed
-County Offices/Fees,label,,,,rev.county-offices,2018,2026,County Offices/Fees was County Offices through FY2017,human_confirmed
+County Offices/Fees,label,,,,rev.county-offices,2018,2027,County Offices/Fees was County Offices through FY2017,human_confirmed
 Other,label+section,Governmental Funds: 2002-2005 Summary of Estimated Financial Sources and Uses,,,rev.other,,,GF other financing sources,human_confirmed
 Other,label+section,Consolidated Fund Summary,,,rev.other,,,GF other financing sources,human_confirmed
 Capital Projects Reserve,label,,,,rev.capital-projects-reserve,,,FY2023 broad revenue category,human_confirmed
@@ -294,16 +294,16 @@ Emergency Medical Services,label+section,Budget Expenditure Overview,,,overview.
 Emergency Management,label+section,Budget Expenditure Overview,,,overview.gf.emergency-management,,,GF operating overview category,human_confirmed
 Strategic Operations,label+section,Budget Expenditure Overview,,,overview.gf.strategic-operations,,,GF operating overview category,human_confirmed
 Department of Administration,label+section,Budget Expenditure Overview,,,overview.gf.department-administration,,,GF operating overview category,human_confirmed
-Railroad Right-of-Way,label+section,General Fund Revenue Summary,,,rev.other.railroad-row,2026,2026,FY2026 Other Revenue detail,human_confirmed
-Interest,label+section,General Fund Revenue Summary,,,rev.other.interest,2026,2026,FY2026 Other Revenue detail,human_confirmed
-Unrealized Gain/Loss in Investment,label+section,General Fund Revenue Summary,,,rev.other.unrealized-investment,2026,2026,FY2026 Other Revenue detail,human_confirmed
-Indirect Cost,label+section,General Fund Revenue Summary,,,rev.other.indirect-cost,2026,2026,FY2026 Other Revenue detail,human_confirmed
-Miscellaneous Revenue,label+section,General Fund Revenue Summary,,,rev.other.miscellaneous,2026,2026,FY2026 Other Revenue detail,human_confirmed
-Tax Sale Revenue,label+section,General Fund Revenue Summary,,,rev.other.tax-sale,2026,2026,FY2026 Other Revenue detail,human_confirmed
-Cable Franchise Fees,label+section,General Fund Revenue Summary,,,rev.other.cable-franchise,2026,2026,FY2026 Other Revenue detail,human_confirmed
-Administrative Cost,label+section,General Fund Revenue Summary,,,rev.other.administrative-cost,2026,2026,FY2026 Other Revenue detail,human_confirmed
-County Health Retirees,label+section,General Fund Revenue Summary,,,rev.other.county-health-retirees,2026,2026,FY2026 Other Revenue detail,human_confirmed
-Rents,label+section,General Fund Revenue Summary,,,rev.other.rents,2026,2026,FY2026 Other Revenue detail,human_confirmed
+Railroad Right-of-Way,label+section,General Fund Revenue Summary,,,rev.other.railroad-row,2026,2027,FY2026 Other Revenue detail,human_confirmed
+Interest,label+section,General Fund Revenue Summary,,,rev.other.interest,2026,2027,FY2026 Other Revenue detail,human_confirmed
+Unrealized Gain/Loss in Investment,label+section,General Fund Revenue Summary,,,rev.other.unrealized-investment,2026,2027,FY2026 Other Revenue detail,human_confirmed
+Indirect Cost,label+section,General Fund Revenue Summary,,,rev.other.indirect-cost,2026,2027,FY2026 Other Revenue detail,human_confirmed
+Miscellaneous Revenue,label+section,General Fund Revenue Summary,,,rev.other.miscellaneous,2026,2027,FY2026 Other Revenue detail,human_confirmed
+Tax Sale Revenue,label+section,General Fund Revenue Summary,,,rev.other.tax-sale,2026,2027,FY2026 Other Revenue detail,human_confirmed
+Cable Franchise Fees,label+section,General Fund Revenue Summary,,,rev.other.cable-franchise,2026,2027,FY2026 Other Revenue detail,human_confirmed
+Administrative Cost,label+section,General Fund Revenue Summary,,,rev.other.administrative-cost,2026,2027,FY2026 Other Revenue detail,human_confirmed
+County Health Retirees,label+section,General Fund Revenue Summary,,,rev.other.county-health-retirees,2026,2027,FY2026 Other Revenue detail,human_confirmed
+Rents,label+section,General Fund Revenue Summary,,,rev.other.rents,2026,2027,FY2026 Other Revenue detail,human_confirmed
 Adjustment: Budget to GAAP basis (Note 1-D),label+section,General Fund Budget and Actual,,,balance.gf.budget-to-gaap-adjustment,2011,2017,Audited General Fund budget-to-GAAP reconciliation,human_confirmed
 Total revenues,label+section,General Fund Budget and Actual,,,rev.total-estimated-financial-sources,2011,2024,Audited General Fund total revenues,human_confirmed
 Total expenditures,label+section,General Fund Budget and Actual,,,use.gf.operating-total,2011,2024,Audited General Fund total expenditures,human_confirmed
@@ -313,14 +313,14 @@ Fund balance - Nonspendable,label+section,General Fund Balance Sheet,,,balance.g
 Fund balance - Committed,label+section,General Fund Balance Sheet,,,balance.gf.committed,2011,2025,Audited General Fund balance classification,human_confirmed
 Fund balance - Assigned,label+section,General Fund Balance Sheet,,,balance.gf.assigned,2011,2017,Audited General Fund balance classification,human_confirmed
 Fund balance - Unassigned,label+section,General Fund Balance Sheet,,,balance.gf.unassigned,2011,2025,Audited General Fund balance classification,human_confirmed
-Total Estimated Financial Sources,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.total,2010,2026,Special Revenue summary financial-sources total,human_confirmed
-Property Taxes,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.property-taxes,2010,2026,Special Revenue summary source,human_confirmed
+Total Estimated Financial Sources,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.total,2010,2027,Special Revenue summary financial-sources total,human_confirmed
+Property Taxes,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.property-taxes,2010,2027,Special Revenue summary source,human_confirmed
 County Offices,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.county-offices,2010,2017,Special Revenue summary source,human_confirmed
-Intergovernmental,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.intergovernmental,2010,2026,Special Revenue summary source,human_confirmed
-Fees,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.fees,2016,2026,Special Revenue summary source,human_confirmed
-Other,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.other,2010,2026,Special Revenue summary source,human_confirmed
-Total Expenditures,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.total,2010,2026,Special Revenue summary expenditure total,human_confirmed
-Administrative Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.administrative-services,2010,2026,Special Revenue summary expenditure,human_confirmed
+Intergovernmental,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.intergovernmental,2010,2027,Special Revenue summary source,human_confirmed
+Fees,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.fees,2016,2027,Special Revenue summary source,human_confirmed
+Other,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,inflow,,rev.sr.other,2010,2027,Special Revenue summary source,human_confirmed
+Total Expenditures,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.total,2010,2027,Special Revenue summary expenditure total,human_confirmed
+Administrative Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.administrative-services,2010,2027,Special Revenue summary expenditure,human_confirmed
 General Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.general-services,2010,2025,Special Revenue summary expenditure,human_confirmed
 Strategic Operations,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.strategic-operations,2020,2025,Special Revenue summary expenditure,human_confirmed
 Community Development and Planning,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.community-development-planning,2012,2025,Special Revenue summary expenditure,human_confirmed
@@ -329,45 +329,45 @@ Public Works,label+section+category,Special Revenue Funds Summary of Estimated F
 Public Works,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.public-works,2022,2025,Special Revenue summary expenditure,human_confirmed
 Public Safety,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.public-safety,2010,2025,Special Revenue summary expenditure,human_confirmed
 Emergency Medical Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.emergency-medical-services,2016,2021,Special Revenue summary expenditure,human_confirmed
-Judicial Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.judicial-services,2010,2026,Special Revenue summary expenditure,human_confirmed
-Fiscal Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.fiscal-services,2012,2026,Special Revenue summary expenditure,human_confirmed
-Law Enforcement Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.law-enforcement-services,2010,2026,Special Revenue summary expenditure,human_confirmed
-"Parks, Recreation & Tourism",label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.parks-recreation-tourism,2016,2026,Special Revenue summary expenditure,human_confirmed
-"Boards, Commissions & Others",label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.boards-commissions-others,2010,2026,Special Revenue summary expenditure,human_confirmed
-Capital Outlay,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.capital-outlay,2010,2026,Special Revenue summary expenditure,human_confirmed
-Interest and Fiscal Charges,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.interest-fiscal-charges,2010,2026,Special Revenue summary expenditure,human_confirmed
-Principal Retirement,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.principal-retirement,2010,2026,Special Revenue summary expenditure,human_confirmed
-Department of Administration,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-administration,2024,2026,Special Revenue summary expenditure,human_confirmed
-Department of General Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-general-services,2024,2026,Special Revenue summary expenditure,human_confirmed
-Department of Planning & Development,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-planning-development,2024,2026,Special Revenue summary expenditure,human_confirmed
-Department of Public Works,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-public-works,2024,2026,Special Revenue summary expenditure,human_confirmed
-Department of Public Safety,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-public-safety,2024,2026,Special Revenue summary expenditure,human_confirmed
-Excess(deficiency) of revenues over(under) expenditures,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,operating_result,,change.sr.operating-result,2010,2026,Special Revenue operating result,human_confirmed
-Sale of Property,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.sale-of-property,2010,2026,Special Revenue financing source,human_confirmed
-Capital Lease Proceeds,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.capital-lease-proceeds,2010,2026,Special Revenue financing source,human_confirmed
+Judicial Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.judicial-services,2010,2027,Special Revenue summary expenditure,human_confirmed
+Fiscal Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.fiscal-services,2012,2027,Special Revenue summary expenditure,human_confirmed
+Law Enforcement Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.law-enforcement-services,2010,2027,Special Revenue summary expenditure,human_confirmed
+"Parks, Recreation & Tourism",label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.parks-recreation-tourism,2016,2027,Special Revenue summary expenditure,human_confirmed
+"Boards, Commissions & Others",label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.boards-commissions-others,2010,2027,Special Revenue summary expenditure,human_confirmed
+Capital Outlay,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.capital-outlay,2010,2027,Special Revenue summary expenditure,human_confirmed
+Interest and Fiscal Charges,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.interest-fiscal-charges,2010,2027,Special Revenue summary expenditure,human_confirmed
+Principal Retirement,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.principal-retirement,2010,2027,Special Revenue summary expenditure,human_confirmed
+Department of Administration,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-administration,2024,2027,Special Revenue summary expenditure,human_confirmed
+Department of General Services,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-general-services,2024,2027,Special Revenue summary expenditure,human_confirmed
+Department of Planning & Development,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-planning-development,2024,2027,Special Revenue summary expenditure,human_confirmed
+Department of Public Works,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-public-works,2024,2027,Special Revenue summary expenditure,human_confirmed
+Department of Public Safety,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,outflow,,use.sr.department-public-safety,2024,2027,Special Revenue summary expenditure,human_confirmed
+Excess(deficiency) of revenues over(under) expenditures,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,operating_result,,change.sr.operating-result,2010,2027,Special Revenue operating result,human_confirmed
+Sale of Property,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.sale-of-property,2010,2027,Special Revenue financing source,human_confirmed
+Capital Lease Proceeds,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.capital-lease-proceeds,2010,2027,Special Revenue financing source,human_confirmed
 Bonded Sale/Debt Secuity issuance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.bonded-issuances,2010,2015,Source-printed spelling for earlier Special Revenue bond proceeds,human_confirmed
 Other Transfers *,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.other-transfers,2010,2015,Source-era other-transfer line,human_confirmed
 Transfers,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.transfers-net,2010,2017,Special Revenue net transfers,human_confirmed
-Transfers In,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.transfers-in,2016,2026,Special Revenue transfers in,human_confirmed
-Transfers Out,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.transfers-out,2016,2026,Special Revenue transfers out,human_confirmed
-Total Other Sources (Uses),label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.total-other-sources-uses,2010,2026,Special Revenue net financing total,human_confirmed
-Net Increase (Decrease )in Fund Balance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,net_position_change,,balance.sr.net-change,2014,2026,Special Revenue net fund-balance change,human_confirmed
-Net Increase (Decrease) in Fund Balance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,net_position_change,,balance.sr.net-change,2010,2026,Special Revenue net fund-balance change,human_confirmed
-Fund Balance July 1,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position,,balance.sr.beginning,2010,2026,Special Revenue beginning fund balance,human_confirmed
-Fund Balance - June 30,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position,,balance.sr.ending,2010,2026,Special Revenue ending fund balance,human_confirmed
+Transfers In,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.transfers-in,2016,2027,Special Revenue transfers in,human_confirmed
+Transfers Out,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.transfers-out,2016,2027,Special Revenue transfers out,human_confirmed
+Total Other Sources (Uses),label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,financing,,fin.sr.total-other-sources-uses,2010,2027,Special Revenue net financing total,human_confirmed
+Net Increase (Decrease )in Fund Balance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,net_position_change,,balance.sr.net-change,2014,2027,Special Revenue net fund-balance change,human_confirmed
+Net Increase (Decrease) in Fund Balance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,net_position_change,,balance.sr.net-change,2010,2027,Special Revenue net fund-balance change,human_confirmed
+Fund Balance July 1,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position,,balance.sr.beginning,2010,2027,Special Revenue beginning fund balance,human_confirmed
+Fund Balance - June 30,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position,,balance.sr.ending,2010,2027,Special Revenue ending fund balance,human_confirmed
 Adjustment Budget to GAAP,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_adjustment,,balance.sr.budget-to-gaap-adjustment,2015,2015,Special Revenue source-printed adjustment,human_confirmed
 Reserved for Encumbrances,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_adjustment,,balance.sr.reserved-encumbrances-adjustment,2020,2023,Special Revenue source-printed position adjustment,human_confirmed
 Reserved for Enccumbrances,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_component,,balance.sr.reserved-encumbrances,2014,2017,Special Revenue balance component spelling variant,human_confirmed
 Reserved for Encumbrances,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_component,,balance.sr.reserved-encumbrances,2014,2021,Special Revenue balance component,human_confirmed
 Reserved for Capital Projects,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_component,,balance.sr.reserved-capital-projects,2014,2017,Special Revenue balance component,human_confirmed
 Unreserved Fund Balance,label+section+category,Special Revenue Funds Summary of Estimated Financial Sources and Uses,position_component,,balance.sr.unreserved,2014,2021,Special Revenue balance component,human_confirmed
-Total Estimated Financial Sources,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.total,2010,2026,Debt Service financial-sources total,human_confirmed
-Property Taxes,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.property-taxes,2010,2026,Debt Service source,human_confirmed
-County Offices,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.county-offices,2010,2026,Debt Service source,human_confirmed
-Intergovernmental,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.intergovernmental,2010,2026,Debt Service source,human_confirmed
-Other,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.other,2010,2026,Debt Service source,human_confirmed
-Total Expenditures,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.total,2010,2026,Debt Service expenditure total,human_confirmed
-Administrative Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.administrative-services,2010,2026,Debt Service expenditure,human_confirmed
+Total Estimated Financial Sources,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.total,2010,2027,Debt Service financial-sources total,human_confirmed
+Property Taxes,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.property-taxes,2010,2027,Debt Service source,human_confirmed
+County Offices,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.county-offices,2010,2027,Debt Service source,human_confirmed
+Intergovernmental,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.intergovernmental,2010,2027,Debt Service source,human_confirmed
+Other,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,inflow,,rev.debt.other,2010,2027,Debt Service source,human_confirmed
+Total Expenditures,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.total,2010,2027,Debt Service expenditure total,human_confirmed
+Administrative Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.administrative-services,2010,2027,Debt Service expenditure,human_confirmed
 General Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.general-services,2010,2025,Debt Service expenditure,human_confirmed
 Strategic Operations,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.strategic-operations,2020,2025,Debt Service expenditure,human_confirmed
 Community Development and Planning,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.community-development-planning,2012,2025,Debt Service expenditure,human_confirmed
@@ -377,64 +377,68 @@ Pass Through Funding - Gvl Tech,label+section+category,Debt Service Fund Summary
 Public Works,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.public-works,2022,2025,Debt Service expenditure,human_confirmed
 Public Safety,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.public-safety,2010,2025,Debt Service expenditure,human_confirmed
 Emergency Medical Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.emergency-medical-services,2016,2021,Debt Service expenditure,human_confirmed
-Judicial Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.judicial-services,2010,2026,Debt Service expenditure,human_confirmed
-Fiscal Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.fiscal-services,2014,2026,Debt Service expenditure,human_confirmed
-Law Enforcement Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.law-enforcement-services,2010,2026,Debt Service expenditure,human_confirmed
-"Parks, Recreation & Tourism",label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.parks-recreation-tourism,2020,2026,Debt Service expenditure,human_confirmed
-"Boards, Commissions & Others",label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.boards-commissions-others,2010,2026,Debt Service expenditure,human_confirmed
-Capital Outlay,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.capital-outlay,2010,2026,Debt Service expenditure,human_confirmed
-Principal Retirement,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.principal-retirement,2010,2026,Debt Service expenditure,human_confirmed
-Interest and Fiscal Charges,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.interest-fiscal-charges,2010,2026,Debt Service expenditure,human_confirmed
-Department of Administration,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-administration,2024,2026,Debt Service expenditure,human_confirmed
-Department of General Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-general-services,2024,2026,Debt Service expenditure,human_confirmed
-Department of Planning & Development,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-planning-development,2024,2026,Debt Service expenditure,human_confirmed
-Department of Public Works,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-public-works,2024,2026,Debt Service expenditure,human_confirmed
-Department of Public Safety,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-public-safety,2024,2026,Debt Service expenditure,human_confirmed
-Excess (deficiency) of revenues over(under) expenditures,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,operating_result,,change.debt.operating-result,2010,2026,Debt Service operating result,human_confirmed
-Sale of Property,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.sale-of-property,2010,2026,Debt Service financing source,human_confirmed
-Capital Lease Issuance,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.capital-lease-issuance,2010,2026,Debt Service financing source,human_confirmed
+Judicial Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.judicial-services,2010,2027,Debt Service expenditure,human_confirmed
+Fiscal Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.fiscal-services,2014,2027,Debt Service expenditure,human_confirmed
+Law Enforcement Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.law-enforcement-services,2010,2027,Debt Service expenditure,human_confirmed
+"Parks, Recreation & Tourism",label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.parks-recreation-tourism,2020,2027,Debt Service expenditure,human_confirmed
+"Boards, Commissions & Others",label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.boards-commissions-others,2010,2027,Debt Service expenditure,human_confirmed
+Capital Outlay,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.capital-outlay,2010,2027,Debt Service expenditure,human_confirmed
+Principal Retirement,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.principal-retirement,2010,2027,Debt Service expenditure,human_confirmed
+Interest and Fiscal Charges,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.interest-fiscal-charges,2010,2027,Debt Service expenditure,human_confirmed
+Department of Administration,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-administration,2024,2027,Debt Service expenditure,human_confirmed
+Department of General Services,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-general-services,2024,2027,Debt Service expenditure,human_confirmed
+Department of Planning & Development,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-planning-development,2024,2027,Debt Service expenditure,human_confirmed
+Department of Public Works,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-public-works,2024,2027,Debt Service expenditure,human_confirmed
+Department of Public Safety,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,outflow,,use.debt.department-public-safety,2024,2027,Debt Service expenditure,human_confirmed
+Excess (deficiency) of revenues over(under) expenditures,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,operating_result,,change.debt.operating-result,2010,2027,Debt Service operating result,human_confirmed
+Sale of Property,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.sale-of-property,2010,2027,Debt Service financing source,human_confirmed
+Capital Lease Issuance,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.capital-lease-issuance,2010,2027,Debt Service financing source,human_confirmed
 Bonded Sale/Debt Security issuance,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.bonded-issuances,2010,2013,Earlier source label for Debt Service bond proceeds,human_confirmed
-Bonded Issuances/Premiums/Discounts,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.bonded-issuances,2012,2026,Debt Service financing source,human_confirmed
+Bonded Issuances/Premiums/Discounts,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.bonded-issuances,2012,2027,Debt Service financing source,human_confirmed
 Transfers,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.transfers-net,2010,2017,Debt Service net transfers,human_confirmed
-Transfers In,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.transfers-in,2016,2026,Debt Service transfers in,human_confirmed
-Transfers Out,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.transfers-out,2016,2026,Debt Service transfers out,human_confirmed
-Total Other Sources (Uses),label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.total-other-sources-uses,2010,2026,Debt Service net financing total,human_confirmed
-Net Increase (Decrease) in Fund Balance,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,net_position_change,,balance.debt.net-change,2010,2026,Debt Service net fund-balance change,human_confirmed
-Fund Balance July 1,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,position,,balance.debt.beginning,2010,2026,Debt Service beginning fund balance,human_confirmed
-Fund Balance June 30,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,position,,balance.debt.ending,2010,2026,Debt Service ending fund balance,human_confirmed
+Transfers In,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.transfers-in,2016,2027,Debt Service transfers in,human_confirmed
+Transfers Out,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.transfers-out,2016,2027,Debt Service transfers out,human_confirmed
+Total Other Sources (Uses),label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,financing,,fin.debt.total-other-sources-uses,2010,2027,Debt Service net financing total,human_confirmed
+Net Increase (Decrease) in Fund Balance,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,net_position_change,,balance.debt.net-change,2010,2027,Debt Service net fund-balance change,human_confirmed
+Fund Balance July 1,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,position,,balance.debt.beginning,2010,2027,Debt Service beginning fund balance,human_confirmed
+Fund Balance June 30,label+section+category,Debt Service Fund Summary of Estimated Financial Sources and Uses,position,,balance.debt.ending,2010,2027,Debt Service ending fund balance,human_confirmed
 PROPERTY TAXES,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.property-taxes,2002,2019,Enterprise Solid Waste outside revenue,human_confirmed
-Property Taxes,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.property-taxes,2018,2026,Enterprise Solid Waste outside revenue,human_confirmed
+Property Taxes,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.property-taxes,2018,2027,Enterprise Solid Waste outside revenue,human_confirmed
 CHARGES FOR SERVICES,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.charges-services,2002,2019,Enterprise Solid Waste outside revenue,human_confirmed
-Charges for Services,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.charges-services,2018,2026,Enterprise Solid Waste outside revenue,human_confirmed
+Charges for Services,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.charges-services,2018,2027,Enterprise Solid Waste outside revenue,human_confirmed
 OTHER,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.other-solid-waste,2002,2019,Enterprise Solid Waste outside revenue,human_confirmed
-Other Revenue,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.other-solid-waste,2018,2026,Enterprise Solid Waste outside revenue,human_confirmed
+Other Revenue,label+section+category,Enterprise Funds Operating Budgets,inflow_solid_waste,,rev.enterprise.other-solid-waste,2018,2027,Enterprise Solid Waste outside revenue,human_confirmed
 STORMWATER FEES,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.stormwater-fees,2002,2019,Enterprise Stormwater outside revenue,human_confirmed
-Stomwater Fees,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.stormwater-fees,2018,2026,Source-printed Stormwater spelling error,human_confirmed
+Stomwater Fees,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.stormwater-fees,2018,2027,Source-printed Stormwater spelling error,human_confirmed
 Stormwater Fees,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.stormwater-fees,2020,2023,Enterprise raster-table label,human_confirmed
 STORMWATER OTHER,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.other-stormwater,2008,2019,Enterprise Stormwater outside revenue,human_confirmed
-Other Revenue,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.other-stormwater,2018,2026,Enterprise Stormwater outside revenue,human_confirmed
+Other Revenue,label+section+category,Enterprise Funds Operating Budgets,inflow_stormwater,,rev.enterprise.other-stormwater,2018,2027,Enterprise Stormwater outside revenue,human_confirmed
 SOLID WASTE F/B CONTRIBUTION,label+section+category,Enterprise Funds Operating Budgets,position_change_solid_waste,,balance.enterprise.solid-waste-usage,2003,2011,Source-era Solid Waste usage or contribution,human_confirmed
 FUND BALANCE USAGE (CONTRIBUTION),label+section+category,Enterprise Funds Operating Budgets,position_change_solid_waste,,balance.enterprise.solid-waste-usage,2010,2019,Enterprise Solid Waste position change,human_confirmed
-Fund Balance Usage (Contribution),label+section+category,Enterprise Funds Operating Budgets,position_change_solid_waste,,balance.enterprise.solid-waste-usage,2018,2026,Enterprise Solid Waste position change,human_confirmed
+Fund Balance Usage (Contribution),label+section+category,Enterprise Funds Operating Budgets,position_change_solid_waste,,balance.enterprise.solid-waste-usage,2018,2027,Enterprise Solid Waste position change,human_confirmed
 STORMWATER F/B CONTRIBUTION,label+section+category,Enterprise Funds Operating Budgets,position_change_stormwater,,balance.enterprise.stormwater-usage,2006,2011,Source-era Stormwater usage or contribution,human_confirmed
 FUND BALANCE USAGE (CONTRIBUTION),label+section+category,Enterprise Funds Operating Budgets,position_change_stormwater,,balance.enterprise.stormwater-usage,2010,2019,Enterprise Stormwater position change,human_confirmed
-Fund Balance Usage (Contribution),label+section+category,Enterprise Funds Operating Budgets,position_change_stormwater,,balance.enterprise.stormwater-usage,2018,2026,Enterprise Stormwater position change,human_confirmed
-Other Financing Sources,label+section+category,Enterprise Funds Operating Budgets,financing_solid_waste,,fin.enterprise.other-sources-solid-waste,2024,2026,Enterprise Solid Waste financing,human_confirmed
-Total Solid Waste,label+section+category,Enterprise Funds Operating Budgets,total_solid_waste_revenue,,funding.enterprise.solid-waste-total,2010,2026,Enterprise Solid Waste funding total,human_confirmed
-Total Stormwater,label+section+category,Enterprise Funds Operating Budgets,total_stormwater_revenue,,funding.enterprise.stormwater-total,2010,2026,Enterprise Stormwater funding total,human_confirmed
+Fund Balance Usage (Contribution),label+section+category,Enterprise Funds Operating Budgets,position_change_stormwater,,balance.enterprise.stormwater-usage,2018,2027,Enterprise Stormwater position change,human_confirmed
+Other Financing Sources,label+section+category,Enterprise Funds Operating Budgets,financing_solid_waste,,fin.enterprise.other-sources-solid-waste,2024,2027,Enterprise Solid Waste financing,human_confirmed
+Total Solid Waste,label+section+category,Enterprise Funds Operating Budgets,total_solid_waste_revenue,,funding.enterprise.solid-waste-total,2010,2027,Enterprise Solid Waste funding total,human_confirmed
+Total Stormwater,label+section+category,Enterprise Funds Operating Budgets,total_stormwater_revenue,,funding.enterprise.stormwater-total,2010,2027,Enterprise Stormwater funding total,human_confirmed
 TOTAL FUNDS,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_revenue,,funding.enterprise.total,2002,2019,Enterprise revenue and funding total,human_confirmed
-Total Revenues,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_revenue,,funding.enterprise.total,2018,2026,Enterprise revenue and funding total,human_confirmed
+Total Revenues,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_revenue,,funding.enterprise.total,2018,2027,Enterprise revenue and funding total,human_confirmed
 SOLID WASTE,label+section+category,Enterprise Funds Operating Budgets,outflow_solid_waste,,use.enterprise.solid-waste,2002,2019,Enterprise Solid Waste expense,human_confirmed
-Solid Waste,label+section+category,Enterprise Funds Operating Budgets,outflow_solid_waste,,use.enterprise.solid-waste,2018,2026,Enterprise Solid Waste expense,human_confirmed
+Solid Waste,label+section+category,Enterprise Funds Operating Budgets,outflow_solid_waste,,use.enterprise.solid-waste,2018,2027,Enterprise Solid Waste expense,human_confirmed
 SOLID WASTE F/B CONTRIBUTION,label+section+category,Enterprise Funds Operating Budgets,outflow_solid_waste,,use.enterprise.solid-waste-fb-contribution,2006,2009,Source-era Enterprise expenditure line,human_confirmed
 STORMWATER MANAGEMENT,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.stormwater-management,2002,2009,Aggregate Stormwater expense,human_confirmed
 FLOODPLAIN MANAGEMENT,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.floodplain-management,2010,2019,Stormwater division expense,human_confirmed
-Floodplain Management,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.floodplain-management,2018,2026,Stormwater division expense,human_confirmed
+Floodplain Management,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.floodplain-management,2018,2027,Stormwater division expense,human_confirmed
 LAND DEVELOPMENT,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.land-development,2008,2019,Stormwater division expense,human_confirmed
-Land Development,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.land-development,2018,2026,Stormwater division expense,human_confirmed
+Land Development,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.land-development,2018,2027,Stormwater division expense,human_confirmed
 SOIL AND WATER,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.soil-water,2008,2019,Stormwater division expense,human_confirmed
-Soil and Water,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.soil-water,2018,2026,Stormwater division expense,human_confirmed
-Subdivision Administration,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.subdivision-administration,2022,2026,Stormwater division expense,human_confirmed
-Total Stormwater,label+section+category,Enterprise Funds Operating Budgets,total_stormwater_expense,,use.enterprise.stormwater-total,2010,2026,Enterprise Stormwater expense subtotal,human_confirmed
+Soil and Water,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.soil-water,2018,2027,Stormwater division expense,human_confirmed
+Subdivision Administration,label+section+category,Enterprise Funds Operating Budgets,outflow_stormwater,,use.enterprise.subdivision-administration,2022,2027,Stormwater division expense,human_confirmed
+Total Stormwater,label+section+category,Enterprise Funds Operating Budgets,total_stormwater_expense,,use.enterprise.stormwater-total,2010,2027,Enterprise Stormwater expense subtotal,human_confirmed
 TOTAL EXPENDITURES,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_expense,,use.enterprise.total,2002,2019,Enterprise expense total,human_confirmed
-Total Expenses,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_expense,,use.enterprise.total,2018,2026,Enterprise expense total,human_confirmed
+Total Expenses,label+section+category,Enterprise Funds Operating Budgets,total_enterprise_expense,,use.enterprise.total,2018,2027,Enterprise expense total,human_confirmed
+Hospitality Tax,label+section,General Fund Transfers From,,FY2027,fin.gf.transfer-in.hospitality-tax,2027,2027,FY2027 transfer into the General Fund,human_confirmed
+Accommodations Tax,label+section,General Fund Transfers From,,FY2027,fin.gf.transfer-in.state-accommodations,2027,2027,FY2027 transfer into the General Fund,human_confirmed
+Infrastructure Bank,label+section,General Fund Transfers From,,FY2027,fin.gf.transfer-in.infrastructure-bank,2027,2027,FY2027 transfer into the General Fund,human_confirmed
+Workers Compensation,label+section,General Fund Transfers From,,FY2027,fin.gf.transfer-in.workers-compensation,2027,2027,FY2027 transfer into the General Fund,human_confirmed

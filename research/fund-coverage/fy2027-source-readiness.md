@@ -1,5 +1,8 @@
 # FY2027 adopted-source readiness
 
+Update 2026-10-30: the final adopted FY2027 book has been acquired and reconciled.
+See the final-source resolution below; the September record is preserved as history.
+
 Checked 2026-09-06 against Greenville County's current Management & Budget index, Notices
 page, Council agenda directory through September 1, and approved minutes.
 
@@ -89,3 +92,45 @@ publications checked. The split-document reconstruction remains research evidenc
 it is not promoted as an adopted production hierarchy. Requesting a signed ordinance or
 certified schedule from the county is the next acquisition action, but no external request
 has been sent from this project.
+
+## Final-source resolution — 2026-10-30
+
+The official [FY2027 index](https://www.greenvillecounty.org/ManagementandBudget/Budget27.aspx),
+linked from the live Management and Budget index, now publishes the
+[combined final book](https://www.greenvillecounty.org/ManagementandBudget/pdf/2027/BudgetCombined.pdf).
+The 209-page single-year book was created October 23, 2026. Its SHA-256 is
+`d315174a853c4a8fbadae93b6f6901a34e54a0be517efe6b64bf3152bf556b4a`.
+The byte-identical archived capture is `20261030191122`.
+
+The cover identifies Fiscal Year 2027; the budget message begins on printed page 6.
+The Appendix prints Ordinance No. 5790 on printed page 193 and adoption on June 16, 2026
+on printed page 198. The FY2027 overview on printed page 35 retains a “PROPOSED BUDGET”
+column heading; the numbered and dated final ordinance establishes the edition's status.
+The book contains prior-year comparison columns, not a second newly adopted FY2026 budget.
+
+Every one of the 12 ordinance schedule totals matches the adoption bridge. The bridge's
+new final-book columns record the printed amounts and pages without replacing the earlier
+reconstruction. Appropriations are printed on pages 193–194; estimated sources on pages 194–196.
+
+The $200,000 amendment is placed at **Other Services** in broad Schedule A: the final book
+prints $17,006,528 on page 193, compared with $16,806,528 after second reading. Every other
+broad General Fund category is unchanged. The General Fund total rises by the same $200,000
+to $288,494,094. Pages 35, 57 and 125 repeat the final Other Services amount. The committee
+name is not printed as a separate line, so no committee entity or finer placement is inferred.
+
+Before ingestion, 415 matching five-column FY2026 budget cells, all 40 FY2026 adopted overview
+rows, and all 18 Enterprise FY2026 budget observations matched the FY2026 source. FY2026
+unaudited actual comparison columns in the new book are not ingested. The earlier sources,
+values, citations and notes remain in place.
+
+The six ingestion steps above are now resolved: the adopted source and archive records are
+registered; all bridge totals reconcile; 195 FY2027 observations follow the existing General,
+Special Revenue, Debt Service and Enterprise table routes; 18 statement instances and 18
+scope-coverage rows describe the printed detail; production validation and export checks run;
+and FY2027 becomes the latest published year. No audited FY2027 actual is claimed.
+
+The FY2027 Tax Sale Revenue cell on page 56 is blank. It remains absent rather than becoming
+zero; the nine printed Other Revenue components sum to $6,895,056. The source's lease-accounting
+reconciliation dash on page 57 is retained as unmodeled evidence. The General Fund lease-related
+transfer on page 131 is $8,342,254 while the Debt Service capital-lease amount on pages 35 and
+194 is $8,342,253. Both printed amounts are preserved; no transfers-removed county total is derived.

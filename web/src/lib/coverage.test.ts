@@ -21,7 +21,7 @@ describe("coverage states", () => {
   it("exists for every overview region in every published year", () => {
     for (const scope of OVERVIEW_SCOPES) {
       for (const domain of ["inflow", "position", "outflow"] as const) {
-        for (let year = 2002; year <= 2026; year++) {
+        for (let year = 2002; year <= 2027; year++) {
           expect(
             () => getCoverageState(scope, domain, year),
             `${scope}/${domain}/FY${year}`,
@@ -42,7 +42,7 @@ describe("coverage states", () => {
     // The three extracted non-General-Fund statements must move only at their source-backed
     // boundaries; this prevents either regressing the new coverage or backfilling years the
     // county did not publish in a comparable statement.
-    for (let year = 2002; year <= 2026; year++) {
+    for (let year = 2002; year <= 2027; year++) {
       expect(getCoverageState("budget.total", "inflow", year).coverage_level).toBe("partial");
     }
 
@@ -50,12 +50,12 @@ describe("coverage states", () => {
       for (let year = 2002; year <= 2009; year++) {
         expect(getCoverageState(scope, "inflow", year).coverage_level).toBe("unavailable");
       }
-      for (let year = 2010; year <= 2026; year++) {
+      for (let year = 2010; year <= 2027; year++) {
         expect(getCoverageState(scope, "inflow", year).coverage_level).toBe("complete");
       }
     }
 
-    for (let year = 2002; year <= 2026; year++) {
+    for (let year = 2002; year <= 2027; year++) {
       expect(getCoverageState("fund.enterprise", "inflow", year).coverage_level).toBe("complete");
       expect(getCoverageState("fund.internal-service", "inflow", year).coverage_level)
         .toBe("unavailable");

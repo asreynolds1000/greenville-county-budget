@@ -1282,12 +1282,17 @@ def _export_pending_years(out_dir: Path) -> list[Path]:
             }
             for row in reader
         ]
-    if not rows:
-        raise ValueError(f"{path.relative_to(_ROOT)} has no pending-year records")
-
     target = out_dir / "data" / "v2" / "pending-years.json"
     _write_json(target, sorted(rows, key=lambda row: row["fiscal_year"]))
-    return [target]
+    # A resolved pending year must not erase the date of the source-status review.
+    # Edition reviews carry that date independently of any remaining pending years.
+    reviews = _ROOT / "data" / "production" / "source_edition_reviews.csv"
+    with reviews.open(newline="", encoding="utf-8") as handle:
+        checked = [row["review_date"] for row in csv.DictReader(handle)]
+    checked.extend(row["status_checked_on"] for row in rows)
+    status_target = out_dir / "data" / "v2" / "budget-status.json"
+    _write_json(status_target, {"status_checked_on": max(checked)})
+    return [target, status_target]
 
 
 _ROLE_DOMAIN_LABEL = {
@@ -1904,7 +1909,13 @@ def _source_footnote_notes(conn) -> list[dict]:
 
     notes: list[dict] = []
     for (entity_id, status, marker, source_text), values in sorted(grouped.items()):
-        for start, end in _contiguous_year_ranges(values["years"]):
+        # FY2002-FY2026 is the reviewed publication being extended. Keep its
+        # note identities and citations intact when a new source repeats a
+        # footnote; extending a contiguous range would rewrite those old notes.
+        reviewed_years = {year for year in values["years"] if year <= 2026}
+        added_years = values["years"] - reviewed_years
+        ranges = _contiguous_year_ranges(reviewed_years) + _contiguous_year_ranges(added_years)
+        for start, end in ranges:
             identity = f"{entity_id}|{status}|{marker}|{source_text}|{start}|{end}"
             suffix = hashlib.sha256(identity.encode("utf-8")).hexdigest()[:10]
             missing = status == "human_confirmed_missing_text"

@@ -25,6 +25,7 @@ for (const width of [1440, 720, 390]) {
 
 test("choosing ambulance services opens its own cited budget using the General Fund denominator", async ({ page }) => {
   await page.goto("/");
+  await page.getByTestId("county-money-explorer").getByLabel("Budget year").selectOption("2026");
   await page.getByRole("button", { name: "Four fund groups", exact: true }).click();
   const guide = page.getByTestId("resident-orientation");
   await guide.getByRole("button", { name: "Follow a tax dollar" }).click();

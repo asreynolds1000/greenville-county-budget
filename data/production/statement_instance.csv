@@ -188,3 +188,21 @@ enterprise.outflow,2020,2021,FY2022-23,reconciled,,actual
 enterprise.outflow,2022,2023,FY2024-25,reconciled,,actual
 enterprise.outflow,2024,2025,FY2026,reconciled,,actual
 enterprise.outflow,2026,2026,FY2026,reconciled,,adopted
+gf.budget-sources,2027,2027,FY2027,reconciled,,
+gf.financing,2027,2027,FY2027,reconciled,,
+gf.operating-overview,2027,2027,FY2027,reconciled,,
+gf.other-revenue-detail,2027,2027,FY2027,reconciled,,
+gf.outflow,2027,2027,FY2027,reconciled,,
+gf.position,2027,2027,FY2027,reconciled,,
+gf.transfer-in-detail,2027,2027,FY2027,reconciled,Transfer-summary components reconcile.,
+gf.transfer-out-detail,2027,2027,FY2027,reconciled,,
+sr.inflow,2027,2027,FY2027,reconciled,,
+sr.outflow,2027,2027,FY2027,reconciled,,
+sr.financing,2027,2027,FY2027,reconciled,,
+sr.position,2027,2027,FY2027,reconciled,,
+debt.inflow,2027,2027,FY2027,reconciled,,
+debt.outflow,2027,2027,FY2027,reconciled,,
+debt.financing,2027,2027,FY2027,reconciled,,
+debt.position,2027,2027,FY2027,reconciled,,
+enterprise.funding,2027,2027,FY2027,reconciled,,adopted
+enterprise.outflow,2027,2027,FY2027,reconciled,,adopted

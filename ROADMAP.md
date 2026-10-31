@@ -3,10 +3,6 @@
 Each item needs its own source-backed dataset before it can be published. Contributions are
 welcome; see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-- **FY2027.** Council adopted FY2027 on June 16, 2026, but a consolidated final source (a signed
-  ordinance, adopted book or certified schedule) has not been published in a form this pipeline
-  can verify. The record of what is missing is
-  [`research/fund-coverage/fy2027-source-readiness.md`](research/fund-coverage/fy2027-source-readiness.md).
 - **FY2026 audited actuals.** FY2026 is budget-only until the county publishes its FY2026 ACFR.
 - **Audited actuals beyond the General Fund.** Budget-versus-actual covers the General Fund,
   FY2011 to FY2025. There is no all-fund audited spending series yet.

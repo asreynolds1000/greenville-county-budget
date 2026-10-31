@@ -12,9 +12,9 @@ class SourceFootnoteInventoryTests(unittest.TestCase):
         rows, occurrence_count = inventory()
         assert_settled_counts(rows)
 
-        self.assertEqual(occurrence_count, 105)
+        self.assertEqual(occurrence_count, 110)
         self.assertEqual({row["marker"] for row in rows}, {"*", "**"})
-        self.assertEqual(len(rows), 39)
+        self.assertEqual(len(rows), 44)
 
     def test_marker_detection_does_not_only_know_about_single_stars(self):
         self.assertEqual(markers_in_label("Human Resources **"), ("**",))
