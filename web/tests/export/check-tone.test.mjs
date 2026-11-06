@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { extractHtmlText, findHits, loadTerms } from "../../scripts/check-tone.mjs";
+import { CARD } from "../../scripts/og-card.mjs";
 
 const terms = loadTerms();
 const blocks = (text) => findHits([text], terms).filter((hit) => hit.tier === "block");
@@ -9,6 +10,14 @@ const blocks = (text) => findHits([text], terms).filter((hit) => hit.tier === "b
 test("the headline that shipped until 2026-11-06 is blocked", () => {
   assert.equal(blocks("Follow the county’s money.").length, 1);
   assert.equal(blocks("Follow the money").length, 1);
+  // The share image's alt text said this until 2026-11-06, and the first pattern missed it.
+  assert.equal(blocks("Budget Explorer: follow Greenville County's money").length, 1);
+});
+
+test("the share card's words pass (the card is an image, so the page scan cannot read it)", () => {
+  for (const text of Object.values(CARD)) {
+    assert.deepEqual(blocks(text), [], `share card text: ${text}`);
+  }
 });
 
 test("accusatory and alarm phrasing is blocked", () => {

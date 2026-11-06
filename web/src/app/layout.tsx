@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Greenville County Budget Explorer",
     locale: "en_US",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Budget Explorer: follow Greenville County's money" }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Greenville County Budget Explorer: the county budget, in plain terms" }],
   },
   twitter: {
     card: "summary_large_image",
