@@ -1,0 +1,41 @@
+# Tone check for the Budget Explorer's served copy (scripts/check-tone.mjs).
+#
+# The site is an independent, non-advocacy explorer. Copy describes what the county budget
+# says; it does not suggest wrongdoing, waste, or concealment, and it does not tell the
+# reader how to feel about a number. "Follow the county's money" shipped as the homepage
+# headline until 2026-11-06 because nothing checked for this.
+#
+# Format: tier <TAB> regex (case-insensitive, matched against visible text with curly
+# quotes straightened) <TAB> why.
+#   block  - fails CI. Phrasing that implies wrongdoing or takes a side.
+#   review - printed for a person to read; never fails CI. Words that are fine in a
+#            neutral sentence and loaded in others.
+# The county's own names (Solid Waste, a "Hidden Valley" road) are why "waste" and
+# "hidden" are matched only as phrases.
+
+block	\bfollow (the |our |your |its |their )?(county'?s? |public )?money\b	Watergate phrase; implies something is being hidden
+block	\b(where|how) (your|the|our) (tax )?(money|dollars?) (really|actually) go(es)?\b	implies the official account is false
+block	\b(hidden|buried|secret) (spending|costs?|fees?|money|budget|line items?)\b	alleges concealment
+block	\bwhat (they|the county|officials) (don'?t|do not) want you to (know|see)\b	conspiracy framing
+block	\b(the )?(real|hidden|ugly) truth about\b	exposé framing
+block	\bslush funds?\b	alleges misuse
+block	\bwasteful\b|\bwaste of (your |taxpayer |public )?(money|dollars|funds)\b|\bwasted (money|dollars|funds)\b	judges spending as waste
+block	\bbloat(ed)?\b	judges spending as excessive
+block	\bboondoggles?\b|\bpork(-| )?barrel\b|\bpork projects?\b	judges spending as improper
+block	\bsquander(s|ed|ing)?\b	judges spending as waste
+block	\b(out[- ]of[- ]control|runaway|reckless) (spending|budgets?|growth)\b	takes a side on growth
+block	\btax[- ]and[- ]spend\b	partisan phrase
+block	\b(your|taxpayer|hard[- ]earned) (tax )?dollars at work\b	advocacy slogan
+block	\b(corrupt|corruption|cronyism|kickbacks?|graft|fleece[ds]?|gouge[ds]?|gouging)\b	alleges misconduct
+block	\b(scandal(ous)?|outrageous|shocking|disgraceful)\b	tells the reader how to feel
+block	\b(exposed?|exposé)\b	exposé framing
+block	\b(fiscal|budget) (crisis|disaster|mess)\b	alarm framing
+
+review	\b(skyrocket(s|ed|ing)?|soar(s|ed|ing)?|balloon(s|ed|ing)?|explod(e|es|ed|ing)|surg(e|es|ed|ing)|spik(e|es|ed|ing))\b	loaded verbs for a change in a number; prefer rose/fell/grew by
+block	\b(staggering|whopping|massive|enormous|eye[- ]popping|jaw[- ]dropping)\b	tells the reader how big to feel a number is
+review	\b(plummet(s|ed|ing)?|slash(es|ed|ing)?|gutt?(ed|ing)|starv(e|es|ed|ing))\b	loaded verbs for a cut
+review	\b(only|just|a mere|merely) \$?[\d.,]+ ?(%|percent|million|billion)?\b	minimizing a figure
+review	\b(lavish|generous|bloated|fat|lean|stingy)\b	judges the size of a budget
+review	\b(hidden|secret|buried)\b	usually UI copy ("hidden from documents"); check it is not about the budget
+review	\btaxpayers? (are|is) (paying|footing|on the hook)\b	advocacy framing
+review	\b(accountab(le|ility)|transparen(t|cy))\b	fine as a description of the site; loaded as a claim about the county
