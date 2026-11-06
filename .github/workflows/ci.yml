@@ -74,8 +74,8 @@ jobs:
     runs-on: ubuntu-24.04
     needs: data
     env:
-      # CI always builds a preview (noindex) export. Production releases are made by the
-      # maintainer outside CI.
+      # CI always builds a preview (noindex) export. Production is built by Vercel's Git
+      # integration on each merge to main (web/vercel.json).
       VERCEL_ENV: preview
     defaults:
       run:
