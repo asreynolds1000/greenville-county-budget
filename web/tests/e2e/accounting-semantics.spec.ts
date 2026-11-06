@@ -21,6 +21,7 @@ async function fundingAndSpendingCsv(page: Page) {
 test.describe("county money explorer — accounting boundaries", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/");
+    await explorer(page).getByLabel("Budget year").selectOption("2026");
   });
 
   test("General Fund keeps money in, savings used, and planned spending separate", async ({ page }) => {
@@ -86,7 +87,7 @@ test.describe("county money explorer — accounting boundaries", () => {
     await expect(page.getByText(/This page shows the General Fund.s money in and out\. Each other fund has its own page/i)).toBeVisible();
     await expect(page.getByText(/The General Fund.s beginning balance, change during the year and ending balance are on its own page/i)).toBeVisible();
     await expect(page.getByText(/Internal Service Fund tracks departments billing each other/i)).toBeVisible();
-    await expect(page.getByText(/complete General Fund funding and spending view is available for FY2022, FY2023, FY2024, FY2025, FY2026/i)).toBeVisible();
+    await expect(page.getByText(/complete General Fund funding and spending view is available for FY2022, FY2023, FY2024, FY2025, FY2026, FY2027/i)).toBeVisible();
   });
 
   test("the explorer does not introduce horizontal page scrolling", async ({ page }) => {

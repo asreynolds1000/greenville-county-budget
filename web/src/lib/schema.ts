@@ -14,8 +14,8 @@ import { z } from "zod";
 // Shared primitives
 // ---------------------------------------------------------------------------
 
-/** Fiscal years covered by the data: FY2002 (earliest source) - FY2026 (latest adopted). */
-const fiscalYearSchema = z.number().int().min(2002).max(2026);
+/** Fiscal years covered by the data: FY2002 (earliest source) - FY2027 (latest adopted). */
+const fiscalYearSchema = z.number().int().min(2002).max(2027);
 
 /** A dollar amount as printed/computed. Always a whole-dollar integer, never a float (plan R1). */
 const dollarAmountSchema = z.number().int();
@@ -175,7 +175,7 @@ const reconciliationSchema = z.object({
  * One year's canonical observation for an entity. NOTE: `value` here is never
  * null — a fiscal year with no canonical value of this entity's status class
  * simply has no entry in `series` for that year. Callers must build the full
- * FY2002-2026 range themselves and treat missing years as unpublished (null).
+ * FY2002-2027 range themselves and treat missing years as unpublished (null).
  * See loaders.ts `seriesByYear`.
  */
 const seriesPointSchema = z.object({
@@ -700,8 +700,9 @@ export const pendingYearSchema = z.object({
   reason_not_ingested: z.string().min(1),
   status_checked_on: isoDateSchema,
 });
-export const pendingYearsFileSchema = z.array(pendingYearSchema).min(1);
+export const pendingYearsFileSchema = z.array(pendingYearSchema);
 export type PendingYear = z.infer<typeof pendingYearSchema>;
+export const budgetStatusFileSchema = z.object({ status_checked_on: isoDateSchema });
 
 export const v2ManifestSchema = z.object({
   coverage_page_entity_count: z.number().int().positive(),

@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     template: `%s · ${SITE_TITLE}`,
   },
   description:
-    "An independent, non-advocacy explorer of Greenville County, South Carolina's adopted budgets, FY2002-FY2026.",
+    "An independent, non-advocacy explorer of Greenville County, South Carolina's adopted budgets, FY2002-FY2027.",
   /**
    * Link previews. Per-page `title` and `description` flow into these automatically, so
    * every entity page gets its own; only the site-wide frame is declared here.

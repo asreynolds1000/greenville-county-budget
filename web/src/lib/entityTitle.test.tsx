@@ -31,14 +31,14 @@ describe("entity page titles keep their fiscal year", () => {
   });
 
   it("names the server-rendered year in a fund route's metadata", () => {
-    expect(fundMetadata().title).toBe("General Fund — FY2026");
+    expect(fundMetadata().title).toBe("General Fund — FY2027");
   });
 
   it("names the server-rendered year in an ordinary entity's metadata", async () => {
     const metadata = await generateMetadata({
       params: Promise.resolve({ entityId: "balance.debt.beginning" }),
     });
-    expect(metadata.title).toBe("Debt Service Beginning Fund Balance — FY2026");
+    expect(metadata.title).toBe("Debt Service Beginning Fund Balance — FY2027");
   });
 
   it("gives the year explorer the display name it needs to retitle the document", async () => {

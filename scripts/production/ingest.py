@@ -41,6 +41,7 @@ RECOVERY_DATASETS: tuple[str, ...] = (
 # reach. Kept in their own directory and counted separately so `primary_count` still
 # describes the frozen extraction alone, and so the frozen files are never edited.
 EXTENDED_DATASETS: tuple[str, ...] = (
+    "fy2027-adopted-budget",
     "general-fund-audited-series-extension",
     "general-fund-balance-composition",
     "special-revenue-summary",

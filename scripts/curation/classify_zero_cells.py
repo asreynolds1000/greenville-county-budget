@@ -21,6 +21,7 @@ from pathlib import Path
 
 from scripts.fund_coverage import extract_debt_service as debt_service
 from scripts.fund_coverage import extract_enterprise as enterprise
+from scripts.fund_coverage import extract_fy2027 as fy2027
 from scripts.fund_coverage import extract_special_revenue as special_revenue
 from scripts.production.ingest import ingest_observations
 from scripts.production.schema import create_schema
@@ -96,7 +97,7 @@ def _extraction_key(dataset: str, row: dict[str, object]) -> tuple[object, ...]:
         int(row["fiscal_year"]),
         row["status"],
         row["original_label"],
-        row.get("operating_category"),
+        row.get("operating_category") or None,
         int(row["pdf_page"]),
     )
 
@@ -108,13 +109,13 @@ def _observation_key(row: dict[str, object]) -> tuple[object, ...]:
         int(row["fiscal_year"]),
         row["status"],
         row["original_label"],
-        row.get("raw_operating_category"),
+        row.get("raw_operating_category") or None,
         int(row["pdf_page"]),
     )
 
 
 def fixed_width_forms() -> dict[tuple[object, ...], str]:
-    """Raw-token classifications from the three source-aligned text routes."""
+    """Raw-token classifications from the source-aligned text routes."""
     routes = (
         ("special-revenue-summary", special_revenue),
         ("debt-service-summary", debt_service),
@@ -136,6 +137,9 @@ def fixed_width_forms() -> dict[tuple[object, ...], str]:
                 if form not in ALLOWED_FORMS:
                     raise ValueError(f"unsupported printed form {form!r}: {key}")
                 forms[key] = form
+    for row in fy2027.extract():
+        if int(row["value"]) == 0:
+            forms[_extraction_key(fy2027.DATASET, row)] = str(row["printed_form"])
     return forms
 
 

@@ -94,7 +94,7 @@ describe("FY2026 river models", () => {
   });
 
   it("uses only fully reconciled, cited partitions for every offered year", () => {
-    for (const year of [2022, 2023, 2024, 2025, 2026]) {
+    for (const year of [2022, 2023, 2024, 2025, 2026, 2027]) {
       const river = getGeneralFundRiver(year);
       expect(river, `FY${year}`).not.toBeNull();
       if (!river) continue;
@@ -104,7 +104,7 @@ describe("FY2026 river models", () => {
   });
 
   it("offers only years with complete source and service-category statements", () => {
-    expect(getRiverYears()).toEqual([2022, 2023, 2024, 2025, 2026]);
+    expect(getRiverYears()).toEqual([2022, 2023, 2024, 2025, 2026, 2027]);
     expect(getGeneralFundRiver(2017)).toBeNull();
     expect(getGeneralFundRiver(2021)).toBeNull();
   });

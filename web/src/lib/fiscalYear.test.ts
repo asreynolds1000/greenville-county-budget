@@ -51,7 +51,7 @@ describe("the site's latest fiscal year", () => {
   it("rejects every stale adopted-but-not-ingested notice", () => {
     const latest = getLatestFiscalYear();
     const pending = getPendingYears();
-    expect(pending.length, "the recency notice must be backed by a record").toBeGreaterThan(0);
+    expect(pending).toEqual([]);
     for (const record of pending) {
       expect(
         record.fiscal_year,

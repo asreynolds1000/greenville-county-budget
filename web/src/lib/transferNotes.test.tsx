@@ -40,7 +40,7 @@ describe("transfer callouts and explanations on the whole-budget page", () => {
     expect(html).toContain("<summary");
     expect(html).toContain("How transfers affect this total");
     expect(html).toContain("Why no transfers-removed total?");
-    expect(html).toContain("$250,000");
+    expect(html).toContain("$2,270,221");
     expect(html).toContain("$2,500,000");
   });
 

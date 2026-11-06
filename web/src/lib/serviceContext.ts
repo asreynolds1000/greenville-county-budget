@@ -30,6 +30,7 @@ export type ServiceContextRecord = {
 };
 
 const FY2026_BUDGET_URL = "https://www.greenvillecounty.org/ManagementandBudget/pdf/2026/BudgetCombined.pdf";
+const FY2027_BUDGET_URL = "https://www.greenvillecounty.org/ManagementandBudget/pdf/2027/BudgetCombined.pdf";
 
 const CONTEXT: readonly ServiceContextRecord[] = [
   {
@@ -248,6 +249,214 @@ const CONTEXT: readonly ServiceContextRecord[] = [
     additionalSource: {
       label: "Parks fund transfers, printed p.47",
       href: `${FY2026_BUDGET_URL}#page=48`,
+    },
+    guide: {
+      label: "How the parks figures fit together",
+      href: "/services/parks/",
+    },
+  },
+  {
+    entityId: "dept.sheriff",
+    fiscalYear: 2027,
+    shortLabel: "Law enforcement services",
+    searchSummary: "FY2027 law-enforcement services, from emergency calls through investigations and court security.",
+    title: "What the FY2027 Sheriff budget covers",
+    summary: "The FY2027 budget describes direct law-enforcement services: emergency-call dispatch and response, court security, prisoner transport, criminal and civil process, environmental enforcement, investigations, and E911 coordination. It lists personnel, operating, contractual, and capital cost types. This description applies to FY2027 only; it does not establish the same scope for earlier years.",
+    source: {
+      label: "FY2027 county budget, printed p.123",
+      href: `${FY2027_BUDGET_URL}#page=124`,
+    },
+  },
+  {
+    entityId: "dept.outsideagencies",
+    fiscalYear: 2027,
+    shortLabel: "Community organizations and transit",
+    searchSummary: "FY2027 support for listed outside agencies, including GreenLink; it is not a transit-only amount.",
+    title: "Public transit and GreenLink",
+    summary: "The FY2027 county budget identifies GreenLink as the Greenville Transit Authority and lists it within Outside Agencies. Recipient-level amounts are not yet extracted into this explorer, so the amount on the Outside Agencies page is support for all listed recipients, not transit alone.",
+    source: {
+      label: "FY2027 county budget: GTA allocation, printed p.130",
+      href: `${FY2027_BUDGET_URL}#page=131`,
+    },
+    additionalSource: {
+      label: "GreenLink identity, printed p.192",
+      href: `${FY2027_BUDGET_URL}#page=193`,
+    },
+  },
+  {
+    entityId: "opcat.department-of-administration",
+    fiscalYear: 2027,
+    shortLabel: "EMS and county support",
+    searchSummary: "An FY2027 category that includes EMS alongside emergency management, GIS, information systems, and human resources.",
+    title: "What the FY2027 Administration category covers",
+    summary: "The FY2027 Department of Administration category combines Emergency Medical Services, Emergency Management, GIS, Information Systems, and Human Resources. The county's division table lists $34,433,840 for EMS within the category's $46,000,764 FY2027 budget. The official category name therefore includes ambulance services as well as county support functions.",
+    source: {
+      label: "FY2027 county budget, printed p.65",
+      href: `${FY2027_BUDGET_URL}#page=66`,
+    },
+  },
+  {
+    entityId: "dept.emergencymedicalservices",
+    fiscalYear: 2027,
+    shortLabel: "Ambulance services",
+    searchSummary: "FY2027 emergency treatment, ambulance transport, dispatch, and specialist rescue services.",
+    title: "What the FY2027 EMS budget covers",
+    summary: "The FY2027 EMS budget covers emergency treatment and ambulance transport to hospital emergency rooms, emergency communications and dispatch, and specialist rescue services such as vehicle extrication and hazardous-materials response. This description applies to FY2027 only.",
+    source: {
+      label: "FY2027 county budget, printed p.71",
+      href: `${FY2027_BUDGET_URL}#page=72`,
+    },
+  },
+  {
+    entityId: "dept.humanresources",
+    fiscalYear: 2027,
+    shortLabel: "County workforce support",
+    searchSummary: "FY2027 recruiting, training, benefits, safety, and other county workforce services.",
+    title: "What the FY2027 Human Resources budget covers",
+    summary: "The FY2027 Human Resources budget supports recruiting and onboarding, employee records, training, employee relations, compensation and benefits administration, workplace safety, and related workforce services. This description applies to FY2027 only.",
+    source: {
+      label: "FY2027 county budget, printed p.66",
+      href: `${FY2027_BUDGET_URL}#page=67`,
+    },
+  },
+  {
+    entityId: "dept.informationsytems",
+    fiscalYear: 2027,
+    shortLabel: "County technology services",
+    searchSummary: "FY2027 county information resources, network and workstation access, and technical solutions.",
+    title: "What the FY2027 Information Systems budget covers",
+    summary: "The FY2027 Information Systems budget supports county information resources, network and workstation access, and technical solutions for county departments and public-facing needs. This description applies to FY2027 only.",
+    source: {
+      label: "FY2027 county budget, printed p.68",
+      href: `${FY2027_BUDGET_URL}#page=69`,
+    },
+  },
+  {
+    entityId: "dept.emergencymanagement",
+    fiscalYear: 2027,
+    shortLabel: "Disaster preparedness and response",
+    searchSummary: "FY2027 planning, coordination, and Emergency Operations Center support for major emergencies and disasters.",
+    title: "What the FY2027 Emergency Management budget covers",
+    summary: "The FY2027 Emergency Management budget supports planning and coordinating the county's preparation for, response to, and recovery from large-scale emergencies and disasters, including Emergency Operations Center coordination. This description applies to FY2027 only.",
+    source: {
+      label: "FY2027 county budget, printed p.70",
+      href: `${FY2027_BUDGET_URL}#page=71`,
+    },
+  },
+  {
+    entityId: "dept.animalcareservices",
+    fiscalYear: 2027,
+    shortLabel: "Animal shelter and care",
+    searchSummary: "FY2027 open-admission shelter, animal care, adoption, rescue, and spay/neuter services.",
+    title: "What the FY2027 Animal Care Services budget covers",
+    summary: "The FY2027 Animal Care Services budget supports the county's open-admission shelter, including impoundment and quarantine of dogs and cats, humane care, reclamation assistance, adoption, animal rescue, and spay/neuter services. This description applies to FY2027 only.",
+    source: {
+      label: "FY2027 county budget, printed p.82",
+      href: `${FY2027_BUDGET_URL}#page=83`,
+    },
+  },
+  {
+    entityId: "dept.propertymanagement",
+    fiscalYear: 2027,
+    shortLabel: "County buildings and facilities",
+    searchSummary: "FY2027 operation and maintenance of county facilities for their tenants and public agencies.",
+    title: "What the FY2027 Property Management budget covers",
+    summary: "The FY2027 Property Management budget supports operating and maintaining county facilities so they can provide services, safety, and comfort to their tenants and public agencies. This description applies to FY2027 only.",
+    source: {
+      label: "FY2027 county budget, printed p.87",
+      href: `${FY2027_BUDGET_URL}#page=88`,
+    },
+  },
+  {
+    entityId: "dept.engineeringandroadbureaus",
+    fiscalYear: 2027,
+    shortLabel: "County road maintenance",
+    searchSummary: "FY2027 General Fund road, bridge, and sign maintenance and related engineering work.",
+    title: "What the FY2027 Engineering and Road Bureaus budget covers",
+    summary: "The FY2027 Engineering and Road Bureaus division within Public Works covers road, bridge, and sign maintenance; capital improvements; pavement management; and subdivision-construction activity. The budget identifies Engineering and three road bureaus as its sections. It is a General Fund division budget for those services, rather than the Road Program special-revenue fund.",
+    source: {
+      label: "FY2027 county budget, printed p.84",
+      href: `${FY2027_BUDGET_URL}#page=85`,
+    },
+    additionalSource: {
+      label: "Public Works divisions, printed p.81",
+      href: `${FY2027_BUDGET_URL}#page=82`,
+    },
+    guide: {
+      label: "How the separate road budgets relate",
+      href: "/services/roads/",
+    },
+  },
+  {
+    entityId: "fund.sr.road-program",
+    fiscalYear: 2027,
+    shortLabel: "Paving, sidewalks and road projects",
+    searchSummary: "The FY2027 Special Revenue Road Program for paving, sidewalks, bridge replacement, improvements, and traffic calming.",
+    title: "What the FY2027 Road Program budget covers",
+    summary: "The Road Program is a named Special Revenue fund. The FY2027 budget programs $30,594,350 for road paving, sidewalks, bridge replacement, road improvements, traffic calming, and transfers for road-maintenance bond debt service and public-works equipment replacement.",
+    source: {
+      label: "FY2027 county budget, printed p.150",
+      href: `${FY2027_BUDGET_URL}#page=151`,
+    },
+    additionalSource: {
+      label: "Road Program total, printed p.35",
+      href: `${FY2027_BUDGET_URL}#page=36`,
+    },
+    guide: {
+      label: "How the separate road budgets relate",
+      href: "/services/roads/",
+    },
+  },
+  {
+    entityId: "fund.sr.parks-recreation-tourism",
+    fiscalYear: 2027,
+    shortLabel: "Parks, trails, and recreation",
+    searchSummary: "FY2027 support for county parks, trails, recreation facilities, and programs; the whole fund includes spending and transfers.",
+    title: "How the FY2027 parks figures fit together",
+    summary: "The FY2027 Parks, Recreation, and Tourism Special Revenue fund totals $22,025,613: $17,840,529 in expenditures and $4,185,084 in transfers out. The county lists personnel, operating, contractual, and capital costs; its transfers include $3,700,000 for capital projects, $460,084 for recreation revenue-bond debt, and $25,000 for matching grants.",
+    source: {
+      label: "FY2027 county budget, printed pp.145-146",
+      href: `${FY2027_BUDGET_URL}#page=146`,
+    },
+    additionalSource: {
+      label: "Parks fund transfers, printed p.47",
+      href: `${FY2027_BUDGET_URL}#page=48`,
+    },
+    guide: {
+      label: "How the parks figures fit together",
+      href: "/services/parks/",
+    },
+  },
+  {
+    entityId: "use.sr.parks-recreation-tourism",
+    fiscalYear: 2027,
+    shortLabel: "Parks services and equipment",
+    searchSummary: "Staff, daily operations, contracted work, and equipment. Already included in the whole parks fund.",
+    title: "How the FY2027 parks spending line fits",
+    summary: "This is the FY2027 expenditure line within the Parks, Recreation, and Tourism Special Revenue fund. The county lists $17,840,529 in expenditures, distinct from the fund's $4,185,084 in transfers out.",
+    source: {
+      label: "FY2027 county budget, printed pp.145-146",
+      href: `${FY2027_BUDGET_URL}#page=146`,
+    },
+    guide: {
+      label: "How the parks figures fit together",
+      href: "/services/parks/",
+    },
+  },
+  {
+    entityId: "use.debt.parks-recreation-tourism",
+    fiscalYear: 2027,
+    shortLabel: "Parks category in the debt summary",
+    searchSummary: "A parks category in the FY2027 debt-service summary; its printed dash does not establish that parks has no debt elsewhere.",
+    title: "What the FY2027 parks debt-summary line means",
+    summary: "The FY2027 Debt Service summary prints a dash for Parks, Recreation, and Tourism. That summary category does not establish that the county has no parks-related debt elsewhere; the Special Revenue fund separately transfers $460,084 for recreation revenue-bond debt.",
+    source: {
+      label: "FY2027 county budget, printed p.48",
+      href: `${FY2027_BUDGET_URL}#page=49`,
+    },
+    additionalSource: {
+      label: "Parks fund transfers, printed p.47",
+      href: `${FY2027_BUDGET_URL}#page=48`,
     },
     guide: {
       label: "How the parks figures fit together",

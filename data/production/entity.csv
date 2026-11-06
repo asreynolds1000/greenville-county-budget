@@ -11,179 +11,179 @@ rev.property-taxes,revenue_category,Property Taxes,property tax,General Fund pro
 rev.intergovernmental,revenue_category,Intergovernmental,intergovernmental,Revenue from other governments,,,
 rev.county-offices,revenue_category,County Offices/Fees,county offices; fees,Fees and charges collected by county offices,,,
 rev.other,revenue_category,Other Revenue,other revenue,Interest earnings; cable franchise fees; administrative cost recoveries; retiree contributions; miscellaneous revenue; and rents,,,
-rev.other.railroad-row,revenue_source,Railroad Right-of-Way,,Revenue associated with railroad right-of-way,,2026,2026
-rev.other.interest,revenue_source,Investment earnings,interest,Interest earned on county-held resources,,2026,2026
-rev.other.unrealized-investment,revenue_source,Unrealized Investment Gain/Loss,,Unrealized investment gain or loss; budgeted at zero in FY2026,,2026,2026
-rev.other.indirect-cost,revenue_source,Indirect cost reimbursement,indirect cost,Indirect-cost recovery revenue,,2026,2026
-rev.other.miscellaneous,revenue_source,Miscellaneous Revenue,,Revenue not assigned to another printed source line,,2026,2026
-rev.other.tax-sale,revenue_source,Tax Sale Revenue,,Revenue associated with tax sales; budgeted at zero in FY2026,,2026,2026
-rev.other.cable-franchise,revenue_source,Cable Franchise Fees,,Cable franchise fee revenue,,2026,2026
-rev.other.administrative-cost,revenue_source,Administrative cost reimbursement,administrative cost,Administrative cost recovery revenue,,2026,2026
-rev.other.county-health-retirees,revenue_source,Retiree insurance premiums,county health retirees,Health insurance premiums associated with county retirees,,2026,2026
-rev.other.rents,revenue_source,Rents,,Rental revenue received by the General Fund,,2026,2026
+rev.other.railroad-row,revenue_source,Railroad Right-of-Way,,Revenue associated with railroad right-of-way,,2026,2027
+rev.other.interest,revenue_source,Investment earnings,interest,Interest earned on county-held resources,,2026,2027
+rev.other.unrealized-investment,revenue_source,Unrealized Investment Gain/Loss,,Unrealized investment gain or loss; budgeted at zero in FY2026,,2026,2027
+rev.other.indirect-cost,revenue_source,Indirect cost reimbursement,indirect cost,Indirect-cost recovery revenue,,2026,2027
+rev.other.miscellaneous,revenue_source,Miscellaneous Revenue,,Revenue not assigned to another printed source line,,2026,2027
+rev.other.tax-sale,revenue_source,Tax Sale Revenue,,Revenue associated with tax sales; budgeted at zero in FY2026,,2026,2027
+rev.other.cable-franchise,revenue_source,Cable Franchise Fees,,Cable franchise fee revenue,,2026,2027
+rev.other.administrative-cost,revenue_source,Administrative cost reimbursement,administrative cost,Administrative cost recovery revenue,,2026,2027
+rev.other.county-health-retirees,revenue_source,Retiree insurance premiums,county health retirees,Health insurance premiums associated with county retirees,,2026,2027
+rev.other.rents,revenue_source,Rents,,Rental revenue received by the General Fund,,2026,2027
 rev.capital-projects-reserve,revenue_category,Capital Projects Reserve,,Capital projects reserve financing reported FY2023,,,
 rev.charges-for-services,revenue_category,Charges for Services,,Charges for services revenue reported FY2023,,,
 rev.premiums,revenue_category,Premiums,,Premiums revenue reported FY2023,,,
 rev.stormwater-fees,revenue_category,Stormwater Fees,,Stormwater fees revenue reported FY2023,,,
 fund.sr.accommodations-tax,fund,Accommodations Tax,,Named special revenue fund,Restricted special revenue fund,2002,2015
-fund.sr.e911,fund,E-911,911; dispatch; emergency calls,Named special revenue fund,Restricted special revenue fund,2002,2026
-fund.sr.infrastructure-bank,fund,Infrastructure Bank,infrastructure bank,Named special revenue fund,Restricted special revenue fund,2002,2026
-fund.sr.medical-charities,fund,Medical Charities,medical charities,Named special revenue fund,Restricted special revenue fund,2002,2026
-fund.sr.road-program,fund,Road Program,roads; road program; road maintenance,Named special revenue fund,Restricted special revenue fund,2002,2026
-fund.sr.victims-rights,fund,Victim's Rights,victim services; victims rights,Named special revenue fund,Restricted special revenue fund,2002,2026
+fund.sr.e911,fund,E-911,911; dispatch; emergency calls,Named special revenue fund,Restricted special revenue fund,2002,2027
+fund.sr.infrastructure-bank,fund,Infrastructure Bank,infrastructure bank,Named special revenue fund,Restricted special revenue fund,2002,2027
+fund.sr.medical-charities,fund,Medical Charities,medical charities,Named special revenue fund,Restricted special revenue fund,2002,2027
+fund.sr.road-program,fund,Road Program,roads; road program; road maintenance,Named special revenue fund,Restricted special revenue fund,2002,2027
+fund.sr.victims-rights,fund,Victim's Rights,victim services; victims rights,Named special revenue fund,Restricted special revenue fund,2002,2027
 fund.sr.road-paving,fund,Road Paving,roads; paving; resurfacing,Named special revenue fund,Restricted special revenue fund,2004,2015
-fund.sr.hospitality-tax,fund,Hospitality Tax,hospitality tax; restaurant tax; prepared food tax,Named special revenue fund,Restricted special revenue fund,2006,2026
-fund.sr.parks-recreation-tourism,fund,"Parks, Recreation, and Tourism",parks; recreation; trails,Named special revenue fund,Restricted special revenue fund,2012,2026
-fund.sr.local-accommodations-tax,fund,Local Accommodations Tax,accommodations tax; hotel tax,Named special revenue fund,Restricted special revenue fund,2016,2026
-fund.sr.public-safety-interop,fund,Public Safety Interoperable Communications,radios; interoperable communications,Named special revenue fund,Restricted special revenue fund,2016,2026
-fund.sr.state-accommodations-tax,fund,State Accommodations Tax,accommodations tax; hotel tax,Named special revenue fund,Restricted special revenue fund,2016,2026
-fund.sr.affordable-housing,fund,Affordable Housing,affordable housing; housing,Named special revenue fund,Restricted special revenue fund,2022,2026
-fund.sr.natural-resources,fund,Natural Resources,natural resources; conservation,Named special revenue fund,Restricted special revenue fund,2022,2026
+fund.sr.hospitality-tax,fund,Hospitality Tax,hospitality tax; restaurant tax; prepared food tax,Named special revenue fund,Restricted special revenue fund,2006,2027
+fund.sr.parks-recreation-tourism,fund,"Parks, Recreation, and Tourism",parks; recreation; trails,Named special revenue fund,Restricted special revenue fund,2012,2027
+fund.sr.local-accommodations-tax,fund,Local Accommodations Tax,accommodations tax; hotel tax,Named special revenue fund,Restricted special revenue fund,2016,2027
+fund.sr.public-safety-interop,fund,Public Safety Interoperable Communications,radios; interoperable communications,Named special revenue fund,Restricted special revenue fund,2016,2027
+fund.sr.state-accommodations-tax,fund,State Accommodations Tax,accommodations tax; hotel tax,Named special revenue fund,Restricted special revenue fund,2016,2027
+fund.sr.affordable-housing,fund,Affordable Housing,affordable housing; housing,Named special revenue fund,Restricted special revenue fund,2022,2027
+fund.sr.natural-resources,fund,Natural Resources,natural resources; conservation,Named special revenue fund,Restricted special revenue fund,2022,2027
 isf.health-dental-premiums,program,Health/Dental Insurance Premiums,,Internal Service Fund component,Excluded from county-reported TOTAL BUDGET,2002,2005
-isf.workers-compensation,program,Workers Compensation,,Internal Service Fund component,Excluded from county-reported TOTAL BUDGET,2002,2026
-isf.health-dental-program,program,Health/Dental Insurance Program,,Internal Service Fund component,Excluded from county-reported TOTAL BUDGET,2006,2026
-isf.building-services,program,Building Services,,Internal Service Fund component,Excluded from county-reported TOTAL BUDGET,2022,2026
+isf.workers-compensation,program,Workers Compensation,,Internal Service Fund component,Excluded from county-reported TOTAL BUDGET,2002,2027
+isf.health-dental-program,program,Health/Dental Insurance Program,,Internal Service Fund component,Excluded from county-reported TOTAL BUDGET,2006,2027
+isf.building-services,program,Building Services,,Internal Service Fund component,Excluded from county-reported TOTAL BUDGET,2022,2027
 gf.expenditures,general_fund_total,Total General Fund Expenditures,,Summed General Fund appropriations (department view); differs from the GF budget in some years,,,
-opcat.administrative,operating_category,Administrative Services,,General Fund operating category (department view),,2002,2026
-opcat.community-development-planning,operating_category,Community Planning and Development,,General Fund operating category (department view),,2014,2026
-opcat.department-of-administration,operating_category,Department of Administration,,General Fund operating category (department view),,2026,2026
+opcat.administrative,operating_category,Administrative Services,,General Fund operating category (department view),,2002,2027
+opcat.community-development-planning,operating_category,Community Planning and Development,,General Fund operating category (department view),,2014,2027
+opcat.department-of-administration,operating_category,Department of Administration,,General Fund operating category (department view),,2026,2027
 opcat.emergency-management,operating_category,Emergency Management,,General Fund operating category (department view),,2020,2021
 opcat.emergency-medical-services,operating_category,Emergency Medical Services,,General Fund operating category (department view),,2018,2021
-opcat.fiscal,operating_category,Fiscal Services,,General Fund operating category (department view),,2002,2026
-opcat.general-services,operating_category,General Services,,General Fund operating category (department view),,2002,2026
+opcat.fiscal,operating_category,Fiscal Services,,General Fund operating category (department view),,2002,2027
+opcat.general-services,operating_category,General Services,,General Fund operating category (department view),,2002,2027
 opcat.human-resources,operating_category,Human Resources,,General Fund operating category (department view),,2002,2017
-opcat.judicial,operating_category,Judicial Services,,General Fund operating category (department view),,2002,2026
-opcat.law-enforcement,operating_category,Law Enforcement Services,,General Fund operating category (department view),,2002,2026
+opcat.judicial,operating_category,Judicial Services,,General Fund operating category (department view),,2002,2027
+opcat.law-enforcement,operating_category,Law Enforcement Services,,General Fund operating category (department view),,2002,2027
 opcat.operating-transfers,operating_category,Operating Transfers,,General Fund operating category (department view),,2002,2019
-opcat.other-financing-uses,operating_category,Other Financing Uses,,General Fund operating category (department view),,2020,2026
-opcat.other-services,operating_category,Other Services,,General Fund operating category (department view),,2002,2026
-opcat.public-safety,operating_category,Public Safety,,General Fund operating category (department view),,2002,2026
-opcat.public-works,operating_category,Public Works,,General Fund operating category (department view),,2002,2026
+opcat.other-financing-uses,operating_category,Other Financing Uses,,General Fund operating category (department view),,2020,2027
+opcat.other-services,operating_category,Other Services,,General Fund operating category (department view),,2002,2027
+opcat.public-safety,operating_category,Public Safety,,General Fund operating category (department view),,2002,2027
+opcat.public-works,operating_category,Public Works,,General Fund operating category (department view),,2002,2027
 opcat.strategic-operations,operating_category,Strategic Operations,,General Fund operating category (department view),,2022,2025
 dept.countyadministrator,department,COUNTY ADMINISTRATOR,administrator; county manager,General Fund department appropriation,,2002,2019
-dept.countyattorney,department,COUNTY ATTORNEY,county lawyer; legal,General Fund department appropriation,,2002,2026
-dept.countycouncil,department,COUNTY COUNCIL,council; councilmembers,General Fund department appropriation,,2002,2026
-dept.auditor,department,AUDITOR,auditor,General Fund department appropriation,,2002,2026
-dept.registerofdeeds,department,REGISTER OF DEEDS,deeds; property records; mortgage records,General Fund department appropriation,,2002,2026
-dept.treasurer,department,TREASURER,treasurer,General Fund department appropriation,,2002,2026
-dept.boardofappeals,department,BOARD OF APPEALS,board of appeals; tax appeal; assessment appeal,General Fund department appropriation,,2002,2026
-dept.financialoperations,department,FINANCIAL OPERATIONS,finance; accounting,General Fund department appropriation,,2002,2026
+dept.countyattorney,department,COUNTY ATTORNEY,county lawyer; legal,General Fund department appropriation,,2002,2027
+dept.countycouncil,department,COUNTY COUNCIL,council; councilmembers,General Fund department appropriation,,2002,2027
+dept.auditor,department,AUDITOR,auditor,General Fund department appropriation,,2002,2027
+dept.registerofdeeds,department,REGISTER OF DEEDS,deeds; property records; mortgage records,General Fund department appropriation,,2002,2027
+dept.treasurer,department,TREASURER,treasurer,General Fund department appropriation,,2002,2027
+dept.boardofappeals,department,BOARD OF APPEALS,board of appeals; tax appeal; assessment appeal,General Fund department appropriation,,2002,2027
+dept.financialoperations,department,FINANCIAL OPERATIONS,finance; accounting,General Fund department appropriation,,2002,2027
 dept.geographicinformationsystem,department,GEOGRAPHIC INFORMATION SYSTEM,GIS; maps; mapping,General Fund department appropriation,,2002,2019
 dept.informationsystemsandservices,department,INFORMATION SYSTEMS AND SERVICES,IT; computers; technology,General Fund department appropriation,,2002,2025
 dept.managementbudget,department,MANAGEMENT & BUDGET,budget office,General Fund department appropriation,,2002,2015
 dept.purchasing,department,PURCHASING,,General Fund department appropriation,,2002,2013
 dept.realpropertyservices,department,REAL PROPERTY SERVICES,assessor; property assessment; appraisal; reassessment,General Fund department appropriation,,2002,2015
 dept.taxcollector,department,TAX COLLECTOR,tax bill; paying taxes; car taxes; vehicle tax,General Fund department appropriation,,2002,2015
-dept.humanrelations,department,HUMAN RELATIONS,human relations,General Fund department appropriation,,2002,2026
-dept.humanresources,department,HUMAN RESOURCES,HR; hiring; staff,General Fund department appropriation,,2002,2026
-dept.registrationandelection,department,REGISTRATION AND ELECTION,elections; voter registration; polling places; voting,General Fund department appropriation,,2002,2026
-dept.veteransaffairs,department,VETERANS AFFAIRS,veterans,General Fund department appropriation,,2002,2026
-dept.circuitsolicitor,department,CIRCUIT SOLICITOR,prosecutor; solicitor; district attorney,General Fund department appropriation,,2002,2026
-dept.clerkofcourt,department,CLERK OF COURT,court records; clerk of court; jury,General Fund department appropriation,,2002,2026
-dept.indigentdefense,department,INDIGENT DEFENSE,court-appointed lawyer; indigent defense,General Fund department appropriation,,2002,2026
-dept.magistrates,department,MAGISTRATES,magistrate court; traffic court,General Fund department appropriation,,2002,2026
-dept.masterinequity,department,MASTER IN EQUITY,foreclosure; master in equity,General Fund department appropriation,,2002,2026
-dept.probatecourt,department,PROBATE COURT,probate; wills; estates; marriage licence; marriage license,General Fund department appropriation,,2002,2026
-dept.coroner,department,CORONER,coroner,General Fund department appropriation,,2002,2026
-dept.medicalexaminer,department,MEDICAL EXAMINER,autopsy; medical examiner,General Fund department appropriation,,2002,2026
-dept.sheriff,department,SHERIFF,deputies; sheriff's office; police; law enforcement; patrol,General Fund department appropriation,,2002,2026
-dept.employeebenefitfund,department,EMPLOYEE BENEFIT FUND,employee benefits; health insurance,General Fund department appropriation,,2002,2026
-dept.legislativedelegation,department,LEGISLATIVE DELEGATION,legislative delegation,General Fund department appropriation,,2002,2026
+dept.humanrelations,department,HUMAN RELATIONS,human relations,General Fund department appropriation,,2002,2027
+dept.humanresources,department,HUMAN RESOURCES,HR; hiring; staff,General Fund department appropriation,,2002,2027
+dept.registrationandelection,department,REGISTRATION AND ELECTION,elections; voter registration; polling places; voting,General Fund department appropriation,,2002,2027
+dept.veteransaffairs,department,VETERANS AFFAIRS,veterans,General Fund department appropriation,,2002,2027
+dept.circuitsolicitor,department,CIRCUIT SOLICITOR,prosecutor; solicitor; district attorney,General Fund department appropriation,,2002,2027
+dept.clerkofcourt,department,CLERK OF COURT,court records; clerk of court; jury,General Fund department appropriation,,2002,2027
+dept.indigentdefense,department,INDIGENT DEFENSE,court-appointed lawyer; indigent defense,General Fund department appropriation,,2002,2027
+dept.magistrates,department,MAGISTRATES,magistrate court; traffic court,General Fund department appropriation,,2002,2027
+dept.masterinequity,department,MASTER IN EQUITY,foreclosure; master in equity,General Fund department appropriation,,2002,2027
+dept.probatecourt,department,PROBATE COURT,probate; wills; estates; marriage licence; marriage license,General Fund department appropriation,,2002,2027
+dept.coroner,department,CORONER,coroner,General Fund department appropriation,,2002,2027
+dept.medicalexaminer,department,MEDICAL EXAMINER,autopsy; medical examiner,General Fund department appropriation,,2002,2027
+dept.sheriff,department,SHERIFF,deputies; sheriff's office; police; law enforcement; patrol,General Fund department appropriation,,2002,2027
+dept.employeebenefitfund,department,EMPLOYEE BENEFIT FUND,employee benefits; health insurance,General Fund department appropriation,,2002,2027
+dept.legislativedelegation,department,LEGISLATIVE DELEGATION,legislative delegation,General Fund department appropriation,,2002,2027
 dept.nondepartmental,department,NON-DEPARTMENTAL,,General Fund department appropriation,,2002,2025
-dept.outsideagencies,department,OUTSIDE AGENCIES,outside agencies; nonprofit funding,General Fund department appropriation,,2002,2026
+dept.outsideagencies,department,OUTSIDE AGENCIES,outside agencies; nonprofit funding,General Fund department appropriation,,2002,2027
 dept.planningcommission,department,PLA NNING COMMISSION,,General Fund department appropriation,,2002,2007
 dept.matchingfundgrants,department,MATCHING FUND GRANTS,,General Fund department appropriation,,2002,2019
 dept.operatingtransferscapitalprojects,department,OPERA TING TRA NSFERS - CA PITA L PROJECTS,,General Fund department appropriation,,2002,2005
 dept.operatingtransfersdebtservice,department,OPERA TING TRA NSFERS - DEBT SERV ICE,,General Fund department appropriation,,2002,2005
 dept.operatingtransfersspecialrevenue,department,OPERA TING TRA NSFERS - SPECIA L REV ENUE,,General Fund department appropriation,,2002,2005
-dept.detentioncenter,department,DETENTION CENTER,jail; detention; inmates,General Fund department appropriation,,2002,2026
-dept.emergencymedicalservices,department,EMERGENCY MEDICAL SERVICES,ambulance; EMS; paramedics,General Fund department appropriation,,2002,2026
-dept.forensics,department,FORENSICS,crime lab; forensics,General Fund department appropriation,,2002,2026
-dept.records,department,RECORDS,records,General Fund department appropriation,,2002,2026
+dept.detentioncenter,department,DETENTION CENTER,jail; detention; inmates,General Fund department appropriation,,2002,2027
+dept.emergencymedicalservices,department,EMERGENCY MEDICAL SERVICES,ambulance; EMS; paramedics,General Fund department appropriation,,2002,2027
+dept.forensics,department,FORENSICS,crime lab; forensics,General Fund department appropriation,,2002,2027
+dept.records,department,RECORDS,records,General Fund department appropriation,,2002,2027
 dept.codesenforcement,department,CODES ENFORCEMENT,code enforcement; building inspections; permits,General Fund department appropriation,,2002,2005
 dept.engineering,department,ENGINEERING,,General Fund department appropriation,,2002,2023
-dept.propertymanagement,department,PROPERTY MANAGEMENT,county buildings; facilities,General Fund department appropriation,,2002,2026
+dept.propertymanagement,department,PROPERTY MANAGEMENT,county buildings; facilities,General Fund department appropriation,,2002,2027
 dept.soilandwater,department,SOIL A ND WA TER,soil and water; conservation,General Fund department appropriation,,2002,2005
 dept.transferscapitalprojects,department,TRANSFERS - CAPITAL PROJECTS,,General Fund department appropriation,,2006,2019
 dept.transfersdebtservice,department,TRANSFERS - DEBT SERVICE,,General Fund department appropriation,,2006,2019
 dept.transfersspecialrevenue,department,TRANSFERS - SPECIAL REVENUE,,General Fund department appropriation,,2006,2015
-dept.codeenforcement,department,CODE ENFORCEMENT,code enforcement; building inspections; permits,General Fund department appropriation,,2006,2026
+dept.codeenforcement,department,CODE ENFORCEMENT,code enforcement; building inspections; permits,General Fund department appropriation,,2006,2027
 dept.engpavingdrainage,department,"ENG,-PAVING/DRAINAGE",,General Fund department appropriation,,2006,2013
 dept.engadministration,department,ENG.-ADMINISTRATION,,General Fund department appropriation,,2006,2013
 dept.engengineering,department,ENG.-ENGINEERING,,General Fund department appropriation,,2006,2013
 dept.engnorthernbureau,department,ENG.-NORTHERN BUREAU,,General Fund department appropriation,,2006,2013
 dept.engsouthernbureau,department,ENG.-SOUTHERN BUREAU,,General Fund department appropriation,,2006,2013
 dept.departmentofplanning,department,DEPARTMENT OF PLANNING,planning; zoning,General Fund department appropriation,,2008,2009
-dept.publicdefender,department,PUBLIC DEFENDER,public defender,General Fund department appropriation,,2010,2026
+dept.publicdefender,department,PUBLIC DEFENDER,public defender,General Fund department appropriation,,2010,2027
 dept.planningdepartment,department,PLANNING DEPARTMENT,planning; zoning,General Fund department appropriation,,2010,2013
-dept.animalcareservices,department,ANIMAL CARE SERVICES,animal shelter; animal control; pets; strays,General Fund department appropriation,,2010,2026
+dept.animalcareservices,department,ANIMAL CARE SERVICES,animal shelter; animal control; pets; strays,General Fund department appropriation,,2010,2027
 dept.engineeringnorthernbureau,department,ENGINEERING - NORTHERN BUREAU,,General Fund department appropriation,,2014,2015
 dept.engineeringsouthernbureau,department,ENGINEERING - SOUTHERN BUREAU,,General Fund department appropriation,,2014,2015
 dept.planningandcodecompliance.communitydevelopmentandplanning,department,PLANNING AND CODE COMPLIANCE,,General Fund department appropriation,,2014,2019
-dept.publicworksadministration,department,PUBLIC WORKS ADMINISTRATION,public works,General Fund department appropriation,,2014,2026
-dept.procurementservices,department,Procurement Services,procurement; purchasing; contracts,General Fund department appropriation,,2014,2026
+dept.publicworksadministration,department,PUBLIC WORKS ADMINISTRATION,public works,General Fund department appropriation,,2014,2027
+dept.procurementservices,department,Procurement Services,procurement; purchasing; contracts,General Fund department appropriation,,2014,2027
 dept.planningandcodecompliance.otherservices,department,PLANNING AND CODE COMPLIANCE,,General Fund department appropriation,,2014,2015
-dept.taxservices,department,Tax Services,tax services,General Fund department appropriation,,2016,2026
+dept.taxservices,department,Tax Services,tax services,General Fund department appropriation,,2016,2027
 dept.transfersinternalservice,department,TRANSFERS - INTERNAL SERVICE,,General Fund department appropriation,,2016,2019
-dept.counciladministrator,department,Council Administrator,,General Fund department appropriation,,2020,2026
-dept.planning,department,Planning,planning; zoning; land use,General Fund department appropriation,,2020,2026
-dept.geographicinformationsystems,department,Geographic Information Systems,GIS; maps; mapping,General Fund department appropriation,,2020,2026
-dept.matchingfundsgrants,department,Matching Funds/Grants,,General Fund department appropriation,,2020,2026
-dept.otherfinancingusesdebtservice,department,Other Financing Uses/Debt Service,,General Fund department appropriation,,2020,2026
-dept.otherfinancingusesinternalservices,department,Other Financing Uses/Internal Services,,General Fund department appropriation,,2020,2026
-dept.otherfinancingusescapitalprojects,department,Other Financing Uses/Capital Projects,,General Fund department appropriation,,2024,2026
-dept.otherfinancingusesspecialrevenue,department,Other Financing Uses/Special Revenue,,General Fund department appropriation,,2024,2026
-dept.engineeringandroadbureaus,department,Engineering and Road Bureaus,roads; paving; road maintenance,General Fund department appropriation,,2024,2026
-dept.emergencymanagement,department,Emergency Management,disaster; emergency preparedness,General Fund department appropriation,,2022,2026
-dept.informationsytems,department,Information Systems,IT; computers; technology,General Fund department appropriation,,2026,2026
-dept.fmvadjustment,department,FMV Adjustment,,General Fund department appropriation,,2026,2026
-dept.nondepartmentalfunds,department,Non-Departmental Funds,,General Fund department appropriation,,2026,2026
+dept.counciladministrator,department,Council Administrator,,General Fund department appropriation,,2020,2027
+dept.planning,department,Planning,planning; zoning; land use,General Fund department appropriation,,2020,2027
+dept.geographicinformationsystems,department,Geographic Information Systems,GIS; maps; mapping,General Fund department appropriation,,2020,2027
+dept.matchingfundsgrants,department,Matching Funds/Grants,,General Fund department appropriation,,2020,2027
+dept.otherfinancingusesdebtservice,department,Other Financing Uses/Debt Service,,General Fund department appropriation,,2020,2027
+dept.otherfinancingusesinternalservices,department,Other Financing Uses/Internal Services,,General Fund department appropriation,,2020,2027
+dept.otherfinancingusescapitalprojects,department,Other Financing Uses/Capital Projects,,General Fund department appropriation,,2024,2027
+dept.otherfinancingusesspecialrevenue,department,Other Financing Uses/Special Revenue,,General Fund department appropriation,,2024,2027
+dept.engineeringandroadbureaus,department,Engineering and Road Bureaus,roads; paving; road maintenance,General Fund department appropriation,,2024,2027
+dept.emergencymanagement,department,Emergency Management,disaster; emergency preparedness,General Fund department appropriation,,2022,2027
+dept.informationsytems,department,Information Systems,IT; computers; technology,General Fund department appropriation,,2026,2027
+dept.fmvadjustment,department,FMV Adjustment,,General Fund department appropriation,,2026,2027
+dept.nondepartmentalfunds,department,Non-Departmental Funds,,General Fund department appropriation,,2026,2027
 dept.propertymaintenance,department,Property Maintenance,,General Fund department appropriation,,2022,2023
 dept.otherfinancingusescapitalproject,department,Other Financing Uses/Capital Project,,General Fund department appropriation,,2022,2023
-balance.gf.beginning,balance_beginning,General Fund Balance — Beginning of Year,beginning balance;fund balance July 1,Reported General Fund balance at the start of the fiscal year,Fund balance is an accounting position and is not the same as cash,2002,2026
-balance.gf.ending,balance_ending,General Fund Balance — End of Year,ending balance;fund balance June 30,Reported or estimated General Fund balance at the end of the fiscal year,Fund balance is an accounting position and is not the same as cash,2002,2026
-balance.gf.net-change,balance_change,General Fund Balance — Net Change,change in fund balance;draw on fund balance,Revenue and transfers in minus operating uses and transfers out; a decrease means the adopted plan uses fund balance,,2002,2026
+balance.gf.beginning,balance_beginning,General Fund Balance — Beginning of Year,beginning balance;fund balance July 1,Reported General Fund balance at the start of the fiscal year,Fund balance is an accounting position and is not the same as cash,2002,2027
+balance.gf.ending,balance_ending,General Fund Balance — End of Year,ending balance;fund balance June 30,Reported or estimated General Fund balance at the end of the fiscal year,Fund balance is an accounting position and is not the same as cash,2002,2027
+balance.gf.net-change,balance_change,General Fund Balance — Net Change,change in fund balance;draw on fund balance,Revenue and transfers in minus operating uses and transfers out; a decrease means the adopted plan uses fund balance,,2002,2027
 balance.gf.revenue-replacement,balance_adjustment,Estimated Revenue Replacement (CSLFRF),revenue replacement,"A one-time FY2022 line the county printed between its beginning and ending General Fund balance, funded by federal pandemic recovery money","Estimated Revenue Replacement is Greenville County's claim under the Coronavirus State and Local Fiscal Recovery Funds (CSLFRF), the program created by the American Rescue Plan Act. Its revenue-loss provision lets a government spend up to its calculated loss of revenue during the pandemic on general government services. This site shows it as a position adjustment rather than as money in because that is where the county printed it: between the beginning and ending fund balance in the FY2022-23 budget book, not in the statement of financial sources. Without it the printed reconciliation does not add up. A beginning balance of $47,298,238, less a net change of $5,548,843, plus this line, gives the printed ending balance of $73,174,639. It appears in FY2022 and no other year.",2022,2022
 balance.gf.reserved-encumbrances,balance_adjustment,Reserved for Encumbrances,encumbrance reserve,Amount reserved for outstanding commitments in the printed fund-balance reconciliation,Not equivalent to unrestricted or spendable cash,2023,2023
 fin.gf.other-transfers,financing_net,Other Transfers,other transfers,Net General Fund financing line printed separately from transfers in early budget statements,,2002,2013
 fin.gf.transfers-net,financing_net,Transfers — Net,net transfers,Net General Fund transfer line used before the county separated transfers in and transfers out,,2002,2017
-fin.gf.total-other-sources-uses,financing_net,Total Other Sources (Uses),other financing sources and uses;net financing,Net total of the General Fund's printed other financing sources and uses,,2002,2026
-fin.gf.transfers-in,financing_source,Transfers In,transfers into general fund,Money budgeted to enter the General Fund from other county funds; FY2026 detail identifies each sending fund and amount,An inflow to the General Fund but an internal movement in a county-wide view,2018,2026
-fin.gf.transfers-out,financing_use,Transfers Out,interfund transfers;transfers from general fund,Money moved from the General Fund to another county fund for a defined purpose; FY2026 is chiefly master lease debt service,Stored with the source's sign; the uses statement displays its magnitude,2002,2026
+fin.gf.total-other-sources-uses,financing_net,Total Other Sources (Uses),other financing sources and uses;net financing,Net total of the General Fund's printed other financing sources and uses,,2002,2027
+fin.gf.transfers-in,financing_source,Transfers In,transfers into general fund,Money budgeted to enter the General Fund from other county funds; FY2026 detail identifies each sending fund and amount,An inflow to the General Fund but an internal movement in a county-wide view,2018,2027
+fin.gf.transfers-out,financing_use,Transfers Out,interfund transfers;transfers from general fund,Money moved from the General Fund to another county fund for a defined purpose; FY2026 is chiefly master lease debt service,Stored with the source's sign; the uses statement displays its magnitude,2002,2027
 fin.gf.capital-lease-issuance,financing_source,Capital Lease Issuance,lease proceeds,Capital-lease financing source printed for the General Fund,,2023,2023
 fin.gf.sale-of-property,financing_source,Sale of Property,property sale proceeds,Sale-of-property financing source printed for the General Fund,,2023,2023
-fin.gf.transfer-in.hospitality-tax,financing_source,Hospitality Tax transfer,hospitality tax transfer,Money moved from the Hospitality Tax Special Revenue Fund into the General Fund for eligible public-safety-related expenditures,Internal county movement; the outside revenue first enters the Hospitality Tax fund,2026,2026
-fin.gf.transfer-in.state-accommodations,financing_source,State Accommodations Tax transfer,accommodations tax transfer,The County's portion of state accommodations tax revenue moved from its special revenue fund into the General Fund,Internal county movement; the outside revenue first enters the State Accommodations Tax fund,2026,2026
-fin.gf.transfer-in.infrastructure-bank,financing_source,Infrastructure Bank transfer,infrastructure bank transfer,Money moved from the Infrastructure Bank Special Revenue Fund into the General Fund,Internal county movement; the source fund is financed primarily by fee-in-lieu-of-tax and property-tax-like receipts,2026,2026
-fin.gf.transfer-in.workers-compensation,financing_source,Workers Compensation fund-balance transfer,workers compensation transfer,Accumulated Workers Compensation Internal Service Fund balance moved into the General Fund,Existing county fund balance rather than new outside revenue,2026,2026
-use.gf.operating-total,use_total,Total General Fund Operating Budget,general fund operating uses,County services and operations before interfund transfers; includes law enforcement; public safety; courts; public works; administration; and other services,,2002,2026
-overview.gf.administrative,operating_overview_category,Administrative Services,,Broad category in the General Fund operating overview,,2002,2026
-overview.gf.fiscal,operating_overview_category,Fiscal Offices,,Broad elected and appointed fiscal offices in the General Fund operating overview,,2002,2026
-overview.gf.judicial,operating_overview_category,Judicial Offices,,Broad elected and appointed judicial offices in the General Fund operating overview,,2002,2026
-overview.gf.law-enforcement,operating_overview_category,Law Enforcement Offices,,Broad elected and appointed law-enforcement offices in the General Fund operating overview,,2002,2026
-overview.gf.general-services,operating_overview_category,General Services,,Broad category in the General Fund operating overview,,2002,2026
+fin.gf.transfer-in.hospitality-tax,financing_source,Hospitality Tax transfer,hospitality tax transfer,Money moved from the Hospitality Tax Special Revenue Fund into the General Fund for eligible public-safety-related expenditures,Internal county movement; the outside revenue first enters the Hospitality Tax fund,2026,2027
+fin.gf.transfer-in.state-accommodations,financing_source,State Accommodations Tax transfer,accommodations tax transfer,The County's portion of state accommodations tax revenue moved from its special revenue fund into the General Fund,Internal county movement; the outside revenue first enters the State Accommodations Tax fund,2026,2027
+fin.gf.transfer-in.infrastructure-bank,financing_source,Infrastructure Bank transfer,infrastructure bank transfer,Money moved from the Infrastructure Bank Special Revenue Fund into the General Fund,Internal county movement; the source fund is financed primarily by fee-in-lieu-of-tax and property-tax-like receipts,2026,2027
+fin.gf.transfer-in.workers-compensation,financing_source,Workers Compensation fund-balance transfer,workers compensation transfer,Accumulated Workers Compensation Internal Service Fund balance moved into the General Fund,Existing county fund balance rather than new outside revenue,2026,2027
+use.gf.operating-total,use_total,Total General Fund Operating Budget,general fund operating uses,County services and operations before interfund transfers; includes law enforcement; public safety; courts; public works; administration; and other services,,2002,2027
+overview.gf.administrative,operating_overview_category,Administrative Services,,Broad category in the General Fund operating overview,,2002,2027
+overview.gf.fiscal,operating_overview_category,Fiscal Offices,,Broad elected and appointed fiscal offices in the General Fund operating overview,,2002,2027
+overview.gf.judicial,operating_overview_category,Judicial Offices,,Broad elected and appointed judicial offices in the General Fund operating overview,,2002,2027
+overview.gf.law-enforcement,operating_overview_category,Law Enforcement Offices,,Broad elected and appointed law-enforcement offices in the General Fund operating overview,,2002,2027
+overview.gf.general-services,operating_overview_category,General Services,,Broad category in the General Fund operating overview,,2002,2027
 overview.gf.human-resources,operating_overview_category,Human Resources,,Broad category in the General Fund operating overview,,2002,2013
-overview.gf.other-services,operating_overview_category,Other Services,,Broad category in the General Fund operating overview,,2002,2026
-overview.gf.public-safety,operating_overview_category,Public Safety,,Broad category in the General Fund operating overview,,2002,2026
-overview.gf.public-works,operating_overview_category,Public Works,,Broad category in the General Fund operating overview; absent as a separate printed category FY2012–FY2021,,2002,2026
-overview.gf.community-planning-development,operating_overview_category,Community Planning and Development,,Broad category in the General Fund operating overview,,2012,2026
+overview.gf.other-services,operating_overview_category,Other Services,,Broad category in the General Fund operating overview,,2002,2027
+overview.gf.public-safety,operating_overview_category,Public Safety,,Broad category in the General Fund operating overview,,2002,2027
+overview.gf.public-works,operating_overview_category,Public Works,,Broad category in the General Fund operating overview; absent as a separate printed category FY2012–FY2021,,2002,2027
+overview.gf.community-planning-development,operating_overview_category,Community Planning and Development,,Broad category in the General Fund operating overview,,2012,2027
 overview.gf.emergency-medical-services,operating_overview_category,Emergency Medical Services,,Broad category printed separately in the General Fund operating overview,,2016,2021
 overview.gf.emergency-management,operating_overview_category,Emergency Management,,Broad category printed separately in the General Fund operating overview,,2018,2021
 overview.gf.strategic-operations,operating_overview_category,Strategic Operations,,Broad category in the General Fund operating overview,,2022,2023
-overview.gf.department-administration,operating_overview_category,Department of Administration,,Broad category in the General Fund operating overview,,2024,2026
+overview.gf.department-administration,operating_overview_category,Department of Administration,,Broad category in the General Fund operating overview,,2024,2027
 balance.gf.budget-to-gaap-adjustment,balance_adjustment,General Fund Budget-to-GAAP Adjustment (Note 1-D),budget to GAAP adjustment,The county reports its General Fund result on a budget basis and then prints a separate adjustment reconciling it to the accounting basis used elsewhere in the report,Not money received or spent; it connects two ways of counting the same year,2011,2017
 balance.gf.nonspendable,balance_component,Nonspendable Fund Balance,not spendable;prepaid and advances,"Money the county holds but cannot spend, such as prepaid items and advances to other funds",Counted in fund balance but not available to spend,2011,2025
 balance.gf.committed,balance_component,Committed Fund Balance,committed balance;contingency,"Money the county council has formally committed to a specific purpose, such as contingency funds",Committed by council action; redirecting it requires the same formal action,2011,2025
 balance.gf.assigned,balance_component,Assigned Fund Balance,assigned balance,Money the county intended for a particular use without a formal commitment. The county stops reporting this classification for the General Fund after 2017,Intent only; not a formal restriction,2011,2017
 balance.gf.unassigned,balance_component,Unassigned Fund Balance,unassigned balance;available fund balance;reserves,The portion of fund balance not held back for any specific purpose. This is the closest figure to money the county could choose to spend,Still an accounting position rather than cash on hand,2011,2025
-rev.sr.total,revenue_total,Total Special Revenue Financial Sources,special revenue sources,Total outside revenue printed for the selected Special Revenue Funds before internal financing movements,The selected-funds scope changes between budget books,2010,2026
-rev.sr.property-taxes,revenue_category,Special Revenue Property Taxes,property taxes,Property-tax revenue restricted to selected Special Revenue purposes,Restricted revenue; not General Fund property tax,2010,2026
+rev.sr.total,revenue_total,Total Special Revenue Financial Sources,special revenue sources,Total outside revenue printed for the selected Special Revenue Funds before internal financing movements,The selected-funds scope changes between budget books,2010,2027
+rev.sr.property-taxes,revenue_category,Special Revenue Property Taxes,property taxes,Property-tax revenue restricted to selected Special Revenue purposes,Restricted revenue; not General Fund property tax,2010,2027
 rev.sr.county-offices,revenue_category,Special Revenue County Offices,county offices,County-office receipts printed as a Special Revenue source in the earlier fund summaries,Source category is zero in multiple source years,2010,2017
-rev.sr.intergovernmental,revenue_category,Special Revenue Intergovernmental Revenue,intergovernmental,Revenue from other governments restricted to selected Special Revenue purposes,Restricted revenue; not General Fund intergovernmental revenue,2010,2026
-rev.sr.fees,revenue_category,Special Revenue Fees,fees,Fees restricted to selected Special Revenue purposes,The source begins printing Fees as a separate summary category in FY2016,2016,2026
-rev.sr.other,revenue_category,Other Special Revenue,other revenue,Other outside revenue restricted to selected Special Revenue purposes,The source does not break this summary category down on the statement page,2010,2026
-use.sr.total,use_total,Total Special Revenue Expenditures,special revenue expenditures,Total expenditures printed for the selected Special Revenue Funds before other financing uses,The selected-funds scope changes between budget books,2010,2026
-use.sr.administrative-services,expense_line,Special Revenue Administrative Services,administrative services,Administrative-services expenditure category in the Special Revenue summary,,2010,2026
+rev.sr.intergovernmental,revenue_category,Special Revenue Intergovernmental Revenue,intergovernmental,Revenue from other governments restricted to selected Special Revenue purposes,Restricted revenue; not General Fund intergovernmental revenue,2010,2027
+rev.sr.fees,revenue_category,Special Revenue Fees,fees,Fees restricted to selected Special Revenue purposes,The source begins printing Fees as a separate summary category in FY2016,2016,2027
+rev.sr.other,revenue_category,Other Special Revenue,other revenue,Other outside revenue restricted to selected Special Revenue purposes,The source does not break this summary category down on the statement page,2010,2027
+use.sr.total,use_total,Total Special Revenue Expenditures,special revenue expenditures,Total expenditures printed for the selected Special Revenue Funds before other financing uses,The selected-funds scope changes between budget books,2010,2027
+use.sr.administrative-services,expense_line,Special Revenue Administrative Services,administrative services,Administrative-services expenditure category in the Special Revenue summary,,2010,2027
 use.sr.general-services,expense_line,Special Revenue General Services,general services,General-services expenditure category in the Special Revenue summary,,2010,2025
 use.sr.strategic-operations,expense_line,Special Revenue Strategic Operations,strategic operations,Strategic-operations expenditure category in the Special Revenue summary,,2020,2025
 use.sr.community-development-planning,expense_line,Special Revenue Community Development and Planning,community development and planning,Community-development and planning expenditure category in the Special Revenue summary,,2012,2025
@@ -192,43 +192,43 @@ use.sr.public-works-early,expense_line,Special Revenue Public Works — Earlier 
 use.sr.public-works,expense_line,Special Revenue Public Works,public works,Public-works expenditure category in the Special Revenue summary,,2022,2025
 use.sr.public-safety,expense_line,Special Revenue Public Safety,public safety,Public-safety expenditure category in the Special Revenue summary,,2010,2025
 use.sr.emergency-medical-services,expense_line,Special Revenue Emergency Medical Services,emergency medical services,Emergency-medical-services expenditure category in the Special Revenue summary,,2016,2021
-use.sr.judicial-services,expense_line,Special Revenue Judicial Services,judicial services,Judicial-services expenditure category in the Special Revenue summary,,2010,2026
-use.sr.fiscal-services,expense_line,Special Revenue Fiscal Services,fiscal services,Fiscal-services expenditure category in the Special Revenue summary,,2012,2026
-use.sr.law-enforcement-services,expense_line,Special Revenue Law Enforcement Services,law enforcement services,Law-enforcement expenditure category in the Special Revenue summary,,2010,2026
-use.sr.parks-recreation-tourism,expense_line,"Special Revenue Parks, Recreation and Tourism",parks and recreation,Parks recreation and tourism expenditure category in the Special Revenue summary,,2016,2026
-use.sr.boards-commissions-others,expense_line,"Special Revenue Boards, Commissions and Others",boards and commissions,Boards commissions and other expenditures in the Special Revenue summary,,2010,2026
-use.sr.capital-outlay,expense_line,Special Revenue Capital Outlay,capital outlay,Capital purchases printed separately from operating categories,,2010,2026
-use.sr.interest-fiscal-charges,expense_line,Special Revenue Interest and Fiscal Charges,interest and fiscal charges,Interest and fiscal charges in the Special Revenue summary,,2010,2026
-use.sr.principal-retirement,expense_line,Special Revenue Principal Retirement,principal retirement,Debt principal paid from selected Special Revenue Funds,,2010,2026
-use.sr.department-administration,expense_line,Special Revenue Department of Administration,department of administration,Department of Administration category introduced in the FY2026 book,,2024,2026
-use.sr.department-general-services,expense_line,Special Revenue Department of General Services,department of general services,Department of General Services category introduced in the FY2026 book,,2024,2026
-use.sr.department-planning-development,expense_line,Special Revenue Department of Planning and Development,department of planning and development,Department of Planning and Development category introduced in the FY2026 book,,2024,2026
-use.sr.department-public-works,expense_line,Special Revenue Department of Public Works,department of public works,Department of Public Works category introduced in the FY2026 book,,2024,2026
-use.sr.department-public-safety,expense_line,Special Revenue Department of Public Safety,department of public safety,Department of Public Safety category introduced in the FY2026 book,,2024,2026
-change.sr.operating-result,balance_change,Special Revenue Operating Result,excess of revenue over expenditures,Financial sources less expenditures before other financing,Not the final change in fund balance because transfers are excluded,2010,2026
-fin.sr.sale-of-property,financing_source,Special Revenue Sale of Property,property sale proceeds,Sale-of-property financing source for selected Special Revenue Funds,,2010,2026
-fin.sr.capital-lease-proceeds,financing_source,Special Revenue Capital Lease Proceeds,capital lease proceeds,Capital-lease financing source for selected Special Revenue Funds,,2010,2026
+use.sr.judicial-services,expense_line,Special Revenue Judicial Services,judicial services,Judicial-services expenditure category in the Special Revenue summary,,2010,2027
+use.sr.fiscal-services,expense_line,Special Revenue Fiscal Services,fiscal services,Fiscal-services expenditure category in the Special Revenue summary,,2012,2027
+use.sr.law-enforcement-services,expense_line,Special Revenue Law Enforcement Services,law enforcement services,Law-enforcement expenditure category in the Special Revenue summary,,2010,2027
+use.sr.parks-recreation-tourism,expense_line,"Special Revenue Parks, Recreation and Tourism",parks and recreation,Parks recreation and tourism expenditure category in the Special Revenue summary,,2016,2027
+use.sr.boards-commissions-others,expense_line,"Special Revenue Boards, Commissions and Others",boards and commissions,Boards commissions and other expenditures in the Special Revenue summary,,2010,2027
+use.sr.capital-outlay,expense_line,Special Revenue Capital Outlay,capital outlay,Capital purchases printed separately from operating categories,,2010,2027
+use.sr.interest-fiscal-charges,expense_line,Special Revenue Interest and Fiscal Charges,interest and fiscal charges,Interest and fiscal charges in the Special Revenue summary,,2010,2027
+use.sr.principal-retirement,expense_line,Special Revenue Principal Retirement,principal retirement,Debt principal paid from selected Special Revenue Funds,,2010,2027
+use.sr.department-administration,expense_line,Special Revenue Department of Administration,department of administration,Department of Administration category introduced in the FY2026 book,,2024,2027
+use.sr.department-general-services,expense_line,Special Revenue Department of General Services,department of general services,Department of General Services category introduced in the FY2026 book,,2024,2027
+use.sr.department-planning-development,expense_line,Special Revenue Department of Planning and Development,department of planning and development,Department of Planning and Development category introduced in the FY2026 book,,2024,2027
+use.sr.department-public-works,expense_line,Special Revenue Department of Public Works,department of public works,Department of Public Works category introduced in the FY2026 book,,2024,2027
+use.sr.department-public-safety,expense_line,Special Revenue Department of Public Safety,department of public safety,Department of Public Safety category introduced in the FY2026 book,,2024,2027
+change.sr.operating-result,balance_change,Special Revenue Operating Result,excess of revenue over expenditures,Financial sources less expenditures before other financing,Not the final change in fund balance because transfers are excluded,2010,2027
+fin.sr.sale-of-property,financing_source,Special Revenue Sale of Property,property sale proceeds,Sale-of-property financing source for selected Special Revenue Funds,,2010,2027
+fin.sr.capital-lease-proceeds,financing_source,Special Revenue Capital Lease Proceeds,capital lease proceeds,Capital-lease financing source for selected Special Revenue Funds,,2010,2027
 fin.sr.bonded-issuances,financing_source,Special Revenue Bonded Issuances,bond proceeds,Bond-sale proceeds printed in the earlier Special Revenue summaries,Financing rather than operating revenue,2010,2015
 fin.sr.other-transfers,financing_net,Special Revenue Other Transfers,other transfers,Source-era other-transfer line printed separately from the main transfer line,Internal county movement; not outside revenue,2010,2015
 fin.sr.transfers-net,financing_net,Special Revenue Transfers — Net,net transfers,Net transfer line used before the source separated transfers in and transfers out,Internal county movement; not outside revenue,2010,2017
-fin.sr.transfers-in,financing_source,Transfers Into Special Revenue Funds,transfers in,Money moved into selected Special Revenue Funds from other county funds,Internal county movement; not outside revenue,2016,2026
-fin.sr.transfers-out,financing_use,Transfers Out of Special Revenue Funds,transfers out,Money moved from selected Special Revenue Funds to other county funds,Internal county movement; stored with the source's negative sign,2016,2026
-fin.sr.total-other-sources-uses,financing_net,Total Special Revenue Other Sources and Uses,net other financing,Net other financing sources and uses for selected Special Revenue Funds,Internal movements should not be double-counted county-wide,2010,2026
-balance.sr.net-change,balance_change,Special Revenue Net Change in Fund Balance,net change,Change in selected Special Revenue fund balance after expenditures and other financing,The selected-funds scope changes between budget books,2010,2026
-balance.sr.beginning,balance_beginning,Special Revenue Beginning Fund Balance,beginning fund balance,Fund balance at July 1 for the selected Special Revenue Funds,Fund balance is an accounting position and not cash,2010,2026
-balance.sr.ending,balance_ending,Special Revenue Ending Fund Balance,ending fund balance,Fund balance at June 30 for the selected Special Revenue Funds,Fund balance is an accounting position and not cash,2010,2026
+fin.sr.transfers-in,financing_source,Transfers Into Special Revenue Funds,transfers in,Money moved into selected Special Revenue Funds from other county funds,Internal county movement; not outside revenue,2016,2027
+fin.sr.transfers-out,financing_use,Transfers Out of Special Revenue Funds,transfers out,Money moved from selected Special Revenue Funds to other county funds,Internal county movement; stored with the source's negative sign,2016,2027
+fin.sr.total-other-sources-uses,financing_net,Total Special Revenue Other Sources and Uses,net other financing,Net other financing sources and uses for selected Special Revenue Funds,Internal movements should not be double-counted county-wide,2010,2027
+balance.sr.net-change,balance_change,Special Revenue Net Change in Fund Balance,net change,Change in selected Special Revenue fund balance after expenditures and other financing,The selected-funds scope changes between budget books,2010,2027
+balance.sr.beginning,balance_beginning,Special Revenue Beginning Fund Balance,beginning fund balance,Fund balance at July 1 for the selected Special Revenue Funds,Fund balance is an accounting position and not cash,2010,2027
+balance.sr.ending,balance_ending,Special Revenue Ending Fund Balance,ending fund balance,Fund balance at June 30 for the selected Special Revenue Funds,Fund balance is an accounting position and not cash,2010,2027
 balance.sr.budget-to-gaap-adjustment,balance_adjustment,Special Revenue Budget-to-GAAP Adjustment,budget to GAAP adjustment,Source-printed reconciliation adjustment in the FY2016-17 book,Not money received or spent,2015,2015
 balance.sr.reserved-encumbrances-adjustment,balance_adjustment,Special Revenue Encumbrance Adjustment,encumbrance adjustment,Source-printed reserve line in the FY2022-23 roll-forward; only FY2022 is nonzero,Printed as positive but arithmetically deducted; not cash spending,2020,2023
 balance.sr.reserved-encumbrances,balance_component,Special Revenue Reserved for Encumbrances,encumbered fund balance,Ending fund balance reserved for outstanding commitments,Not unrestricted or available fund balance,2014,2021
 balance.sr.reserved-capital-projects,balance_component,Special Revenue Reserved for Capital Projects,capital project reserve,Ending fund balance reserved for capital projects,Not unrestricted or available fund balance,2014,2017
 balance.sr.unreserved,balance_component,Special Revenue Unreserved Fund Balance,unreserved fund balance,Source-era label for the portion of ending fund balance not shown as reserved,An accounting position rather than cash on hand,2014,2021
-rev.debt.total,revenue_total,Total Debt Service Financial Sources,debt service sources,Total outside revenue printed for the Debt Service Fund before internal financing movements,,2010,2026
-rev.debt.property-taxes,revenue_category,Debt Service Property Taxes,property taxes,Property-tax revenue dedicated to debt service,Restricted for principal and interest; not General Fund property tax,2010,2026
-rev.debt.county-offices,revenue_category,Debt Service County Offices,county offices,County-office receipts printed as a Debt Service source,The extracted summaries print zero throughout,2010,2026
-rev.debt.intergovernmental,revenue_category,Debt Service Intergovernmental Revenue,intergovernmental,Revenue from other governments dedicated to debt service,,2010,2026
-rev.debt.other,revenue_category,Other Debt Service Revenue,other revenue,Other outside revenue in the Debt Service summary,The source does not break this summary category down on the statement page,2010,2026
-use.debt.total,use_total,Total Debt Service Expenditures,debt service expenditures,Total principal interest and other expenditures printed for the Debt Service Fund,,2010,2026
-use.debt.administrative-services,expense_line,Debt Service Administrative Services,administrative services,Administrative-services category in the Debt Service summary,The extracted summaries print zero throughout,2010,2026
+rev.debt.total,revenue_total,Total Debt Service Financial Sources,debt service sources,Total outside revenue printed for the Debt Service Fund before internal financing movements,,2010,2027
+rev.debt.property-taxes,revenue_category,Debt Service Property Taxes,property taxes,Property-tax revenue dedicated to debt service,Restricted for principal and interest; not General Fund property tax,2010,2027
+rev.debt.county-offices,revenue_category,Debt Service County Offices,county offices,County-office receipts printed as a Debt Service source,The extracted summaries print zero throughout,2010,2027
+rev.debt.intergovernmental,revenue_category,Debt Service Intergovernmental Revenue,intergovernmental,Revenue from other governments dedicated to debt service,,2010,2027
+rev.debt.other,revenue_category,Other Debt Service Revenue,other revenue,Other outside revenue in the Debt Service summary,The source does not break this summary category down on the statement page,2010,2027
+use.debt.total,use_total,Total Debt Service Expenditures,debt service expenditures,Total principal interest and other expenditures printed for the Debt Service Fund,,2010,2027
+use.debt.administrative-services,expense_line,Debt Service Administrative Services,administrative services,Administrative-services category in the Debt Service summary,The extracted summaries print zero throughout,2010,2027
 use.debt.general-services,expense_line,Debt Service General Services,general services,General-services category in the Debt Service summary,The extracted summaries print zero throughout,2010,2025
 use.debt.strategic-operations,expense_line,Debt Service Strategic Operations,strategic operations,Strategic-operations category in the Debt Service summary,The extracted summaries print zero throughout,2020,2025
 use.debt.community-development-planning,expense_line,Debt Service Community Development and Planning,community development and planning,Community-development category in the Debt Service summary,The extracted summaries print zero throughout,2012,2025
@@ -238,47 +238,47 @@ use.debt.pass-through-gvl-tech,expense_line,Debt Service Pass Through Funding �
 use.debt.public-works,expense_line,Debt Service Public Works,public works,Public-works category in the Debt Service summary,The extracted summaries print zero throughout,2022,2025
 use.debt.public-safety,expense_line,Debt Service Public Safety,public safety,Public-safety category in the Debt Service summary,The extracted summaries print zero throughout,2010,2025
 use.debt.emergency-medical-services,expense_line,Debt Service Emergency Medical Services,emergency medical services,Emergency-medical-services category in the Debt Service summary,The extracted summaries print zero throughout,2016,2021
-use.debt.judicial-services,expense_line,Debt Service Judicial Services,judicial services,Judicial-services category in the Debt Service summary,The extracted summaries print zero throughout,2010,2026
-use.debt.fiscal-services,expense_line,Debt Service Fiscal Services,fiscal services,Fiscal-services category in the Debt Service summary,The extracted summaries print zero throughout,2014,2026
-use.debt.law-enforcement-services,expense_line,Debt Service Law Enforcement Services,law enforcement services,Law-enforcement category in the Debt Service summary,The extracted summaries print zero throughout,2010,2026
-use.debt.parks-recreation-tourism,expense_line,"Debt Service Parks, Recreation and Tourism",parks and recreation,Parks recreation and tourism category in the Debt Service summary,The extracted summaries print zero throughout,2020,2026
-use.debt.boards-commissions-others,expense_line,"Debt Service Boards, Commissions and Others",boards and commissions,Boards commissions and other category in the Debt Service summary,The extracted summaries print zero throughout,2010,2026
-use.debt.capital-outlay,expense_line,Debt Service Capital Outlay,capital outlay,Capital outlay printed separately in the Debt Service summary,The extracted summaries print zero throughout,2010,2026
-use.debt.principal-retirement,expense_line,Debt Service Principal Retirement,principal retirement,Principal repaid on county debt through the Debt Service Fund,,2010,2026
-use.debt.interest-fiscal-charges,expense_line,Debt Service Interest and Fiscal Charges,interest and fiscal charges,Interest and related fiscal charges paid through the Debt Service Fund,,2010,2026
-use.debt.department-administration,expense_line,Debt Service Department of Administration,department of administration,Department of Administration category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2026
-use.debt.department-general-services,expense_line,Debt Service Department of General Services,department of general services,Department of General Services category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2026
-use.debt.department-planning-development,expense_line,Debt Service Department of Planning and Development,department of planning and development,Department of Planning and Development category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2026
-use.debt.department-public-works,expense_line,Debt Service Department of Public Works,department of public works,Department of Public Works category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2026
-use.debt.department-public-safety,expense_line,Debt Service Department of Public Safety,department of public safety,Department of Public Safety category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2026
-change.debt.operating-result,balance_change,Debt Service Operating Result,deficiency before financing,Financial sources less debt-service expenditures before other financing,Not the final change in fund balance because debt issuances and transfers are excluded,2010,2026
-fin.debt.sale-of-property,financing_source,Debt Service Sale of Property,property sale proceeds,Sale-of-property financing source in the Debt Service summary,,2010,2026
-fin.debt.capital-lease-issuance,financing_source,Debt Service Capital Lease Issuance,capital lease issuance,Capital-lease financing source in the Debt Service summary,,2010,2026
-fin.debt.bonded-issuances,financing_source,Debt Service Bonded Issuances and Premiums,bond proceeds;premiums;discounts,Bond proceeds premiums and discounts reported as other financing,Financing rather than operating revenue,2010,2026
+use.debt.judicial-services,expense_line,Debt Service Judicial Services,judicial services,Judicial-services category in the Debt Service summary,The extracted summaries print zero throughout,2010,2027
+use.debt.fiscal-services,expense_line,Debt Service Fiscal Services,fiscal services,Fiscal-services category in the Debt Service summary,The extracted summaries print zero throughout,2014,2027
+use.debt.law-enforcement-services,expense_line,Debt Service Law Enforcement Services,law enforcement services,Law-enforcement category in the Debt Service summary,The extracted summaries print zero throughout,2010,2027
+use.debt.parks-recreation-tourism,expense_line,"Debt Service Parks, Recreation and Tourism",parks and recreation,Parks recreation and tourism category in the Debt Service summary,The extracted summaries print zero throughout,2020,2027
+use.debt.boards-commissions-others,expense_line,"Debt Service Boards, Commissions and Others",boards and commissions,Boards commissions and other category in the Debt Service summary,The extracted summaries print zero throughout,2010,2027
+use.debt.capital-outlay,expense_line,Debt Service Capital Outlay,capital outlay,Capital outlay printed separately in the Debt Service summary,The extracted summaries print zero throughout,2010,2027
+use.debt.principal-retirement,expense_line,Debt Service Principal Retirement,principal retirement,Principal repaid on county debt through the Debt Service Fund,,2010,2027
+use.debt.interest-fiscal-charges,expense_line,Debt Service Interest and Fiscal Charges,interest and fiscal charges,Interest and related fiscal charges paid through the Debt Service Fund,,2010,2027
+use.debt.department-administration,expense_line,Debt Service Department of Administration,department of administration,Department of Administration category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2027
+use.debt.department-general-services,expense_line,Debt Service Department of General Services,department of general services,Department of General Services category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2027
+use.debt.department-planning-development,expense_line,Debt Service Department of Planning and Development,department of planning and development,Department of Planning and Development category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2027
+use.debt.department-public-works,expense_line,Debt Service Department of Public Works,department of public works,Department of Public Works category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2027
+use.debt.department-public-safety,expense_line,Debt Service Department of Public Safety,department of public safety,Department of Public Safety category introduced in the FY2026 book,The extracted summaries print zero throughout,2024,2027
+change.debt.operating-result,balance_change,Debt Service Operating Result,deficiency before financing,Financial sources less debt-service expenditures before other financing,Not the final change in fund balance because debt issuances and transfers are excluded,2010,2027
+fin.debt.sale-of-property,financing_source,Debt Service Sale of Property,property sale proceeds,Sale-of-property financing source in the Debt Service summary,,2010,2027
+fin.debt.capital-lease-issuance,financing_source,Debt Service Capital Lease Issuance,capital lease issuance,Capital-lease financing source in the Debt Service summary,,2010,2027
+fin.debt.bonded-issuances,financing_source,Debt Service Bonded Issuances and Premiums,bond proceeds;premiums;discounts,Bond proceeds premiums and discounts reported as other financing,Financing rather than operating revenue,2010,2027
 fin.debt.transfers-net,financing_net,Debt Service Transfers — Net,net transfers,Net transfer line used before the source separated transfers in and transfers out,Internal county movement; not outside revenue,2010,2017
-fin.debt.transfers-in,financing_source,Transfers Into Debt Service,transfers in,Money moved into the Debt Service Fund from other county funds,Internal county movement; not outside revenue,2016,2026
-fin.debt.transfers-out,financing_use,Transfers Out of Debt Service,transfers out,Money moved from the Debt Service Fund to other county funds,Internal county movement; stored with the source's negative sign,2016,2026
-fin.debt.total-other-sources-uses,financing_net,Total Debt Service Other Sources and Uses,net other financing,Net bond and transfer financing for the Debt Service Fund,Internal movements and borrowing should not be treated as outside operating revenue,2010,2026
-balance.debt.net-change,balance_change,Debt Service Net Change in Fund Balance,net change,Change in Debt Service fund balance after expenditures and other financing,,2010,2026
-balance.debt.beginning,balance_beginning,Debt Service Beginning Fund Balance,beginning fund balance,Debt Service fund balance at July 1,Fund balance is an accounting position and not cash,2010,2026
-balance.debt.ending,balance_ending,Debt Service Ending Fund Balance,ending fund balance,Debt Service fund balance at June 30,Fund balance is an accounting position and not cash,2010,2026
-rev.enterprise.property-taxes,revenue_category,Enterprise Property Taxes,property taxes,Property-tax funding printed for Solid Waste,Restricted to the Enterprise Fund; not General Fund property tax,2002,2026
-rev.enterprise.charges-services,revenue_category,Enterprise Charges for Services,service charges,Charges collected for Solid Waste services,,2002,2026
-rev.enterprise.other-solid-waste,revenue_category,Other Solid Waste Revenue,other revenue,Other outside revenue printed for Solid Waste,,2002,2026
-rev.enterprise.stormwater-fees,revenue_category,Stormwater Fees,stormwater utility fees,Fees supporting the Stormwater Enterprise Fund,Restricted to stormwater purposes,2002,2026
-rev.enterprise.other-stormwater,revenue_category,Other Stormwater Revenue,other stormwater revenue,Other outside revenue printed for Stormwater,,2008,2026
-balance.enterprise.solid-waste-usage,balance_change,Solid Waste Fund Balance Usage (Contribution),fund balance usage;fund balance contribution,Source-printed use of or contribution to Solid Waste fund balance,Positive means usage inside the source funding table; negative means contribution. No beginning or ending position is printed.,2003,2026
-balance.enterprise.stormwater-usage,balance_change,Stormwater Fund Balance Usage (Contribution),fund balance usage;fund balance contribution,Source-printed use of or contribution to Stormwater fund balance,Positive means usage inside the source funding table; negative means contribution. No beginning or ending position is printed.,2006,2026
-fin.enterprise.other-sources-solid-waste,financing_source,Solid Waste Other Financing Sources,other financing sources,Other financing printed separately inside Solid Waste funding,Financing rather than outside operating revenue,2024,2026
-funding.enterprise.solid-waste-total,funding_total,Total Solid Waste Funding,total solid waste revenue,Source-printed Solid Waste total including outside revenue financing and fund-balance usage,Not an outside-revenue total,2010,2026
-funding.enterprise.stormwater-total,funding_total,Total Stormwater Funding,total stormwater revenue,Source-printed Stormwater total including outside revenue and fund-balance usage,Not an outside-revenue total,2010,2026
-funding.enterprise.total,funding_total,Total Enterprise Revenue and Funding,total enterprise funds;total revenues,Source-printed total of Enterprise operating revenue financing and fund-balance usage,Not an outside-revenue total and not additive with consolidated county revenue,2002,2026
-use.enterprise.solid-waste,expense_line,Solid Waste Expenses,solid waste,Source-printed Solid Waste operating expenses,,2002,2026
+fin.debt.transfers-in,financing_source,Transfers Into Debt Service,transfers in,Money moved into the Debt Service Fund from other county funds,Internal county movement; not outside revenue,2016,2027
+fin.debt.transfers-out,financing_use,Transfers Out of Debt Service,transfers out,Money moved from the Debt Service Fund to other county funds,Internal county movement; stored with the source's negative sign,2016,2027
+fin.debt.total-other-sources-uses,financing_net,Total Debt Service Other Sources and Uses,net other financing,Net bond and transfer financing for the Debt Service Fund,Internal movements and borrowing should not be treated as outside operating revenue,2010,2027
+balance.debt.net-change,balance_change,Debt Service Net Change in Fund Balance,net change,Change in Debt Service fund balance after expenditures and other financing,,2010,2027
+balance.debt.beginning,balance_beginning,Debt Service Beginning Fund Balance,beginning fund balance,Debt Service fund balance at July 1,Fund balance is an accounting position and not cash,2010,2027
+balance.debt.ending,balance_ending,Debt Service Ending Fund Balance,ending fund balance,Debt Service fund balance at June 30,Fund balance is an accounting position and not cash,2010,2027
+rev.enterprise.property-taxes,revenue_category,Enterprise Property Taxes,property taxes,Property-tax funding printed for Solid Waste,Restricted to the Enterprise Fund; not General Fund property tax,2002,2027
+rev.enterprise.charges-services,revenue_category,Enterprise Charges for Services,service charges,Charges collected for Solid Waste services,,2002,2027
+rev.enterprise.other-solid-waste,revenue_category,Other Solid Waste Revenue,other revenue,Other outside revenue printed for Solid Waste,,2002,2027
+rev.enterprise.stormwater-fees,revenue_category,Stormwater Fees,stormwater utility fees,Fees supporting the Stormwater Enterprise Fund,Restricted to stormwater purposes,2002,2027
+rev.enterprise.other-stormwater,revenue_category,Other Stormwater Revenue,other stormwater revenue,Other outside revenue printed for Stormwater,,2008,2027
+balance.enterprise.solid-waste-usage,balance_change,Solid Waste Fund Balance Usage (Contribution),fund balance usage;fund balance contribution,Source-printed use of or contribution to Solid Waste fund balance,Positive means usage inside the source funding table; negative means contribution. No beginning or ending position is printed.,2003,2027
+balance.enterprise.stormwater-usage,balance_change,Stormwater Fund Balance Usage (Contribution),fund balance usage;fund balance contribution,Source-printed use of or contribution to Stormwater fund balance,Positive means usage inside the source funding table; negative means contribution. No beginning or ending position is printed.,2006,2027
+fin.enterprise.other-sources-solid-waste,financing_source,Solid Waste Other Financing Sources,other financing sources,Other financing printed separately inside Solid Waste funding,Financing rather than outside operating revenue,2024,2027
+funding.enterprise.solid-waste-total,funding_total,Total Solid Waste Funding,total solid waste revenue,Source-printed Solid Waste total including outside revenue financing and fund-balance usage,Not an outside-revenue total,2010,2027
+funding.enterprise.stormwater-total,funding_total,Total Stormwater Funding,total stormwater revenue,Source-printed Stormwater total including outside revenue and fund-balance usage,Not an outside-revenue total,2010,2027
+funding.enterprise.total,funding_total,Total Enterprise Revenue and Funding,total enterprise funds;total revenues,Source-printed total of Enterprise operating revenue financing and fund-balance usage,Not an outside-revenue total and not additive with consolidated county revenue,2002,2027
+use.enterprise.solid-waste,expense_line,Solid Waste Expenses,solid waste,Source-printed Solid Waste operating expenses,,2002,2027
 use.enterprise.solid-waste-fb-contribution,expense_line,Solid Waste Fund-Balance Contribution — Source-Era Expense Line,solid waste fund balance contribution,Separate line printed inside Enterprise expenditures in the FY2008-09 source,Source-era expenditure presentation; distinct from the revenue-block funding line,2006,2009
 use.enterprise.stormwater-management,expense_line,Stormwater Management Expenses,stormwater management,Aggregate Stormwater expense line printed before division detail was introduced,,2002,2009
-use.enterprise.floodplain-management,expense_line,Floodplain Management Expenses,floodplain management,Floodplain Management expenses inside the Stormwater Enterprise Fund,,2010,2026
-use.enterprise.land-development,expense_line,Land Development Expenses,land development,Land Development expenses inside the Stormwater Enterprise Fund,,2008,2026
-use.enterprise.soil-water,expense_line,Soil and Water Expenses,soil and water,Soil and Water expenses inside the Stormwater Enterprise Fund,,2008,2026
-use.enterprise.subdivision-administration,expense_line,Subdivision Administration Expenses,subdivision administration,Subdivision Administration expenses inside the Stormwater Enterprise Fund,,2022,2026
-use.enterprise.stormwater-total,use_total,Total Stormwater Expenses,total stormwater expenses,Source-printed Stormwater expense subtotal,,2010,2026
-use.enterprise.total,use_total,Total Enterprise Expenses,total enterprise expenses,Source-printed Enterprise expense total,This is the Enterprise amount used in the countywide expenditure total,2002,2026
+use.enterprise.floodplain-management,expense_line,Floodplain Management Expenses,floodplain management,Floodplain Management expenses inside the Stormwater Enterprise Fund,,2010,2027
+use.enterprise.land-development,expense_line,Land Development Expenses,land development,Land Development expenses inside the Stormwater Enterprise Fund,,2008,2027
+use.enterprise.soil-water,expense_line,Soil and Water Expenses,soil and water,Soil and Water expenses inside the Stormwater Enterprise Fund,,2008,2027
+use.enterprise.subdivision-administration,expense_line,Subdivision Administration Expenses,subdivision administration,Subdivision Administration expenses inside the Stormwater Enterprise Fund,,2022,2027
+use.enterprise.stormwater-total,use_total,Total Stormwater Expenses,total stormwater expenses,Source-printed Stormwater expense subtotal,,2010,2027
+use.enterprise.total,use_total,Total Enterprise Expenses,total enterprise expenses,Source-printed Enterprise expense total,This is the Enterprise amount used in the countywide expenditure total,2002,2027

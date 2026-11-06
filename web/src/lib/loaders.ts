@@ -39,6 +39,7 @@ import {
   dataNotesFileSchema,
   correctionsFileSchema,
   pendingYearsFileSchema,
+  budgetStatusFileSchema,
   searchIndexFileSchema,
   v2CoverageFileSchema,
   verificationFileSchema,
@@ -126,7 +127,7 @@ export function getLatestFiscalYear(): number {
 }
 
 const GLOBAL_MIN_FY = 2002;
-const GLOBAL_MAX_FY = 2026;
+const GLOBAL_MAX_FY = 2027;
 
 /**
  * The full range of fiscal years this entity is "on the map" for, per
@@ -350,6 +351,11 @@ export function getPendingYears(): PendingYear[] {
     );
   }
   return pendingYearsCache;
+}
+
+/** Latest recorded budget edition or pending-source status review. */
+export function getBudgetStatus() {
+  return budgetStatusFileSchema.parse(readJson(path.join("v2", "budget-status.json")));
 }
 
 let verificationCache: VerificationYear[] | null = null;

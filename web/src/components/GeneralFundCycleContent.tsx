@@ -1276,6 +1276,7 @@ export function GeneralFundCycleContent({ input, common, correction, services, h
   const otherRevenueDetail = input.statements["gf.other-revenue-detail"];
   const transferInDetail = input.statements["gf.transfer-in-detail"];
   const transferOutDetail = input.statements["gf.transfer-out-detail"];
+  const hasTransferDetails = Boolean(transferInDetail && transferOutDetail);
   const actualPosition = input.statements["gf.actual-position"];
   const budgetActualComparison = input.comparison;
 
@@ -1404,7 +1405,7 @@ export function GeneralFundCycleContent({ input, common, correction, services, h
       ? { id: "summary", label: "Summary" }
       : null,
     { id: "money-in", label: "Money in" },
-    year === 2026 ? { id: "transfers", label: "Transfers" } : null,
+    hasTransferDetails ? { id: "transfers", label: "Transfers" } : null,
     { id: "money-out", label: "Money out" },
     { id: "change-over-time", label: "Compare years" },
     { id: "services", label: "Services" },
@@ -1518,7 +1519,7 @@ export function GeneralFundCycleContent({ input, common, correction, services, h
 
         Built from the sections this YEAR actually renders, never from a fixed list: the
         summary equation needs a published position, and the transfers explainer only
-        exists for FY2026. A jump link to a section that is not on the page is worse than
+        needs both source-printed detail statements. A jump link to a section that is not on the page is worse than
         no jump link, because it silently does nothing when clicked.
 
         Not sticky. The plan allowed it after testing; on a 390px viewport a sticky row
@@ -1859,7 +1860,7 @@ export function GeneralFundCycleContent({ input, common, correction, services, h
             <StatementLine common={common}
               member={transfersIn}
               label="Transfers in"
-              detail={year === 2026
+              detail={hasTransferDetails
                 ? "Money entering from four county funds. The detailed transfer summary identifies each amount below."
                 : "Money entering the General Fund from other county funds."}
               fiscalYear={year}
@@ -1938,7 +1939,7 @@ export function GeneralFundCycleContent({ input, common, correction, services, h
         {history}
       </details>
 
-      {year === 2026 && (
+      {hasTransferDetails && (
         <section id="transfers" className="mt-14 scroll-mt-4 border-t border-hairline pt-9">
           <div className="max-w-3xl">
             <p className="font-mono text-xs tracking-[0.16em] text-ink-secondary uppercase">
@@ -1948,9 +1949,7 @@ export function GeneralFundCycleContent({ input, common, correction, services, h
               Transfers move money between county funds
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-secondary">
-              The county moves money between funds to support defined purposes. The FY2026 budget
-              names the funds sending money into the General Fund and shows where transfers out
-              are directed.
+              {`The county moves money between funds to support defined purposes. The FY${year} budget names the funds sending money into the General Fund and shows where transfers out are directed.`}
             </p>
           </div>
 
@@ -1967,9 +1966,9 @@ export function GeneralFundCycleContent({ input, common, correction, services, h
                   />
                 ))}
               </ul>
-              <p className="mt-4 text-xs leading-relaxed text-ink-secondary">
+              {year === 2026 && <p className="mt-4 text-xs leading-relaxed text-ink-secondary">
                 The transfer table reconciles to the total. Its Hospitality Tax narrative is one dollar lower than its summary table.
-              </p>
+              </p>}
             </article>
 
             <div className="transfer-map-arrow transfer-map-arrow-in" aria-label={`${transfersIn?.value ?? 0} enters the General Fund`}>
@@ -2017,10 +2016,7 @@ export function GeneralFundCycleContent({ input, common, correction, services, h
               Smaller General Fund revenue sources
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-secondary">
-              The county groups these under the official label “Other Revenue”: <strong className="font-medium text-ink"><Amount value={memberById(otherRevenueDetail, "rev.other")?.value ?? null} printedForm={memberById(otherRevenueDetail, "rev.other")?.printed_form ?? null} /></strong> in
-              FY2026. They include franchise fees, investment earnings, cost reimbursements,
-              retiree insurance premiums, rents, and miscellaneous receipts. Zero-value lines
-              remain in the downloadable statement but are omitted here.
+              The county groups these under the official label “Other Revenue”: <strong className="font-medium text-ink"><Amount value={memberById(otherRevenueDetail, "rev.other")?.value ?? null} printedForm={memberById(otherRevenueDetail, "rev.other")?.printed_form ?? null} /></strong>{` in FY${year}. They include franchise fees, investment earnings, cost reimbursements, retiree insurance premiums, rents, and miscellaneous receipts. Zero-value lines remain in the downloadable statement but are omitted here.`}
             </p>
             <div className="mt-4"><SourceLink common={common} member={otherRevenueLines[0] ?? null} pageYear={year} /></div>
           </div>

@@ -27,13 +27,13 @@ test.describe("entity page titles name the year on screen", () => {
 
   test("the latest year is named too, and the title follows the year control", async ({ page }) => {
     await page.goto("/e/fund.general/");
-    await expect(page).toHaveTitle("General Fund — FY2026 · Greenville County Budget Explorer");
+    await expect(page).toHaveTitle("General Fund — FY2027 · Greenville County Budget Explorer");
 
     await page.getByRole("combobox", { name: "Explore fiscal year" }).selectOption("2014");
     await expect(page).toHaveTitle("General Fund — FY2014 · Greenville County Budget Explorer");
 
     await page.goBack();
-    await expect(page).toHaveTitle("General Fund — FY2026 · Greenville County Budget Explorer");
+    await expect(page).toHaveTitle("General Fund — FY2027 · Greenville County Budget Explorer");
   });
 
   test("an ordinary entity page names its year without any deferred panel", async ({ page }) => {

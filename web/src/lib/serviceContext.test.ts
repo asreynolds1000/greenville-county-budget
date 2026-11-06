@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 
+import { getV2EntityPage } from "./loaders";
 import { getSearchGuide, getServiceContext } from "./serviceContext";
 
 describe("FY2026 authored service context", () => {
@@ -77,5 +78,81 @@ describe("FY2026 authored service context", () => {
       expect(guide?.href).toBe("/services/parks/");
       expect(guide?.summary).toContain("already includes $17,475,148");
     }
+  });
+});
+
+describe("FY2027 authored service context", () => {
+  it.each([
+    ["dept.sheriff", 123, "Law enforcement services", "court security"],
+    ["dept.outsideagencies", 130, "Community organizations and transit", "not transit alone"],
+    ["opcat.department-of-administration", 65, "EMS and county support", "Emergency Medical Services"],
+    ["dept.emergencymedicalservices", 71, "Ambulance services", "ambulance transport"],
+    ["dept.humanresources", 66, "County workforce support", "recruiting and onboarding"],
+    ["dept.informationsytems", 68, "County technology services", "network and workstation access"],
+    ["dept.emergencymanagement", 70, "Disaster preparedness and response", "Emergency Operations Center"],
+    ["dept.animalcareservices", 82, "Animal shelter and care", "open-admission shelter"],
+    ["dept.propertymanagement", 87, "County buildings and facilities", "county facilities"],
+    ["dept.engineeringandroadbureaus", 84, "County road maintenance", "three road bureaus"],
+    ["fund.sr.road-program", 150, "Paving, sidewalks and road projects", "traffic calming"],
+    ["fund.sr.parks-recreation-tourism", 145, "Parks, trails, and recreation", "transfers out"],
+    ["use.sr.parks-recreation-tourism", 145, "Parks services and equipment", "expenditure line within"],
+    ["use.debt.parks-recreation-tourism", 48, "Parks category in the debt summary", "prints a dash"],
+  ] as const)("scopes %s to its FY2027 source page", (entityId, printedPage, shortLabel, detail) => {
+    const context = getServiceContext(entityId, 2027);
+    expect(context, entityId).toBeDefined();
+    expect(context!.fiscalYear).toBe(2027);
+    expect(context!.shortLabel).toBe(shortLabel);
+    expect(context!.summary).toContain(detail);
+    expect(context!.summary).toContain("FY2027");
+    expect(context!.summary).not.toContain("FY2026");
+    expect(context!.source.href).toBe(
+      `https://www.greenvillecounty.org/ManagementandBudget/pdf/2027/BudgetCombined.pdf#page=${printedPage + 1}`,
+    );
+    expect(context!.source.label).toContain(String(printedPage));
+    expect(getServiceContext(entityId, 2028)).toBeUndefined();
+  });
+
+  function amount(entityId: string): string {
+    const point = getV2EntityPage(entityId).series.find((point) => point.fiscal_year === 2027);
+    expect(point, entityId).toBeDefined();
+    return `$${point!.value!.toLocaleString("en-US")}`;
+  }
+
+  it("matches Administration, EMS and Road Program amounts to the exported FY2027 data", () => {
+    const administration = getServiceContext("opcat.department-of-administration", 2027);
+    expect(administration?.summary).toContain(amount("opcat.department-of-administration"));
+    expect(administration?.summary).toContain(amount("dept.emergencymedicalservices"));
+    expect(getServiceContext("fund.sr.road-program", 2027)?.summary).toContain(amount("fund.sr.road-program"));
+  });
+
+  it("keeps the FY2027 parks fund, spending and printed debt dash distinct", () => {
+    const fund = getServiceContext("fund.sr.parks-recreation-tourism", 2027);
+    const spending = getServiceContext("use.sr.parks-recreation-tourism", 2027);
+    const debt = getServiceContext("use.debt.parks-recreation-tourism", 2027);
+    expect(fund?.summary).toContain(amount("fund.sr.parks-recreation-tourism"));
+    expect(fund?.summary).toContain(amount("use.sr.parks-recreation-tourism"));
+    expect(fund?.summary).toContain("$4,185,084 in transfers out");
+    expect(fund?.summary).toContain("$3,700,000 for capital projects");
+    expect(fund?.summary).toContain("$460,084 for recreation revenue-bond debt");
+    expect(fund?.summary).toContain("$25,000 for matching grants");
+    expect(fund?.additionalSource?.href).toMatch(/2027\/BudgetCombined.pdf#page=48$/);
+    expect(spending?.summary).toContain(amount("use.sr.parks-recreation-tourism"));
+    expect(spending?.summary).toContain("$4,185,084 in transfers out");
+    expect(spending?.searchSummary).toContain("Already included in the whole parks fund");
+    const debtPoint = getV2EntityPage("use.debt.parks-recreation-tourism").series
+      .find((point) => point.fiscal_year === 2027);
+    expect(debtPoint?.printed_form).toBe("-");
+    expect(debt?.summary).toContain("does not establish");
+    expect(debt?.summary).toContain("$460,084");
+    expect(debt?.additionalSource?.href).toMatch(/2027\/BudgetCombined.pdf#page=48$/);
+  });
+
+  it("cites FY2027 GreenLink identity and keeps historical-only explanations out of FY2027", () => {
+    expect(getServiceContext("dept.outsideagencies", 2027)?.additionalSource?.href)
+      .toMatch(/2027\/BudgetCombined.pdf#page=193$/);
+    expect(getServiceContext("dept.emergencymedicalservices", 2027)?.changeNote).toBeUndefined();
+    expect(getServiceContext("fund.sr.road-program", 2027)?.changeNote).toBeUndefined();
+    expect(getServiceContext("fund.sr.road-paving", 2027)).toBeUndefined();
+    expect(getServiceContext("dept.informationsystemsandservices", 2027)).toBeUndefined();
   });
 });

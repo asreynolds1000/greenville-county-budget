@@ -7,6 +7,7 @@ for (const width of [1440, 390]) {
     await page.getByRole("link", { name: "How has the budget changed?" }).click();
     const section = page.locator("#change-over-time");
     await section.getByRole("combobox", { name: "Earlier year", exact: true }).selectOption("2016");
+    await section.getByRole("combobox", { name: "Later year", exact: true }).selectOption("2026");
     await expect(section).toContainText("$256,805,216");
     await expect(section).toContainText("$477,233,755");
     await expect(section).toContainText("$220,428,539");
@@ -24,6 +25,8 @@ for (const width of [1440, 390]) {
   test(`a resident finds the largest department increase at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/compare/");
+    await page.getByRole("combobox", { name: "From fiscal year", exact: true }).selectOption("2025");
+    await page.getByRole("combobox", { name: "To fiscal year", exact: true }).selectOption("2026");
     await page.getByRole("combobox", { name: "Compare", exact: true }).selectOption("departments");
     await page.getByRole("combobox", { name: "Order by", exact: true }).selectOption("increase");
     const sheriff = page.getByTestId("spending-comparison-row").filter({ has: page.getByRole("heading", { name: "Sheriff", exact: true }) });

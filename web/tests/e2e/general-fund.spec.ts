@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { gotoGeneralFundYear } from "./helpers/general-fund-year";
 
 /**
  * General Fund orientation and density (plan Step 4).
@@ -14,7 +15,7 @@ const PHONE = { width: 390, height: 844 };
 
 test.describe("money-out composition", () => {
   test("each share is attached to the line it describes", async ({ page }) => {
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
 
     // The owner's finding: a composition bar rendered after "Transfers out" put its large
     // operations segment directly beneath the small transfers figure, so the picture
@@ -39,7 +40,7 @@ test.describe("money-out composition", () => {
   test("the amounts, statuses, citations and the transfer explanation survive", async ({
     page,
   }) => {
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
     const moneyOut = page.locator("#money-out");
 
     await expect(moneyOut.getByText(/not a second expense/i)).toBeVisible();
@@ -48,23 +49,26 @@ test.describe("money-out composition", () => {
   });
 
   test("the shares are derived from the amounts on the page, not written in", async ({ page }) => {
-    // "Check another year" is not available here: FY2011–FY2025 all have an audited
-    // comparison and render the budget-versus-actual branch instead, so FY2026 is the only
-    // year that uses this two-line presentation at all. Proving the numbers are derived
-    // therefore has to be done within the one year — by recomputing them from the dollar
-    // figures the page itself prints. A hardcoded "96.9%" would survive a second-year test
-    // that never ran; it cannot survive this one.
-    await page.goto("/e/fund.general/?fy=2026");
-    const moneyOut = page.locator("#money-out");
-    // The "What services does this support?" nav at the end of this section prints its own
-    // General Fund total (for its share denominator) plus each linked service's own dollar
-    // figure -- none of which are the operating/transfers/total triple this test recomputes
-    // from, so its dollar figures are subtracted out (by exact text, respecting duplicate
-    // counts) rather than assumed away by DOM position.
-    const nav = moneyOut.locator("nav");
-    const navDollarCounts = new Map<string, number>();
-    for (const text of await nav.getByText(/^\$[\d,]+$/).allInnerTexts()) {
-      navDollarCounts.set(text, (navDollarCounts.get(text) ?? 0) + 1);
+    // FY2011–FY2025 all have an audited comparison and render the budget-versus-actual
+    // branch instead, so only the adopted-only years (FY2026 and FY2027) use this two-line
+    // presentation. Proving the numbers are derived is done within each year, by recomputing
+    // them from the dollar figures the page itself prints. A hardcoded "96.9%" cannot
+    // survive this.
+    for (const fy of [2026, 2027]) {
+      await gotoGeneralFundYear(page, fy);
+      const moneyOut = page.locator("#money-out");
+      // A year other than the latest loads after navigation, and allInnerTexts() does not
+      // wait. Read the figures only once the composition has rendered.
+      await expect(moneyOut.getByText(/%\s*of money out/i).first()).toBeVisible();
+      // The "What services does this support?" nav at the end of this section prints its own
+      // General Fund total (for its share denominator) plus each linked service's own dollar
+      // figure -- none of which are the operating/transfers/total triple this test recomputes
+      // from, so its dollar figures are subtracted out (by exact text, respecting duplicate
+      // counts) rather than assumed away by DOM position.
+      const nav = moneyOut.locator("nav");
+      const navDollarCounts = new Map<string, number>();
+      for (const text of await nav.getByText(/^\$[\d,]+$/).allInnerTexts()) {
+        navDollarCounts.set(text, (navDollarCounts.get(text) ?? 0) + 1);
     }
 
     const dollars = (await moneyOut.getByText(/^\$[\d,]+$/).allInnerTexts())
@@ -88,13 +92,14 @@ test.describe("money-out composition", () => {
 
     expect(shares[0]).toBeCloseTo(Number(((operating / total) * 100).toFixed(1)), 1);
     expect(shares[1]).toBeCloseTo(Number(((transfersOut / total) * 100).toFixed(1)), 1);
+    }
   });
 });
 
 test.describe("mobile density", () => {
   test("the summary equation fits within 1.5 viewport heights at 390x844", async ({ page }) => {
     await page.setViewportSize(PHONE);
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
 
     const equation = page.locator("#summary");
     await expect(equation).toBeVisible();
@@ -109,7 +114,7 @@ test.describe("mobile density", () => {
 
   test("compacting the equation drops no figure, citation or explanation", async ({ page }) => {
     await page.setViewportSize(PHONE);
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
     const equation = page.locator("#summary");
 
     // Every step of the equation still shows its amount and its source. Density is not a
@@ -127,7 +132,7 @@ test.describe("mobile density", () => {
 
   test("year and section chips never wrap into a wall of rows", async ({ page }) => {
     await page.setViewportSize(PHONE);
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
 
     // The plan's gate: each control uses no more than two visible rows, or an intentional
     // scrolling presentation. Measured by counting DISTINCT vertical positions among a
@@ -156,7 +161,7 @@ test.describe("mobile density", () => {
 
   test("FY2025's denser budget-versus-actual section stays legible at 320px", async ({ page }) => {
     await page.setViewportSize({ width: 320, height: 568 });
-    await page.goto("/e/fund.general/?fy=2025");
+    await gotoGeneralFundYear(page, 2025);
 
     const overflow = await page.evaluate(
       () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
@@ -185,7 +190,7 @@ test.describe("section jump", () => {
 
   test("jumping leaves the target heading clear of the top edge", async ({ page }) => {
     await page.setViewportSize(PHONE);
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
 
     await page.getByRole("navigation", { name: /on this page/i })
       .getByRole("link", { name: /^money out$/i })
@@ -198,12 +203,12 @@ test.describe("section jump", () => {
   });
 
   test("FY2026 offers the transfers section and FY2014 does not", async ({ page }) => {
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
     await expect(
       page.getByRole("navigation", { name: /on this page/i }).getByRole("link", { name: /transfers/i }),
     ).toHaveCount(1);
 
-    await page.goto("/e/fund.general/?fy=2014");
+    await gotoGeneralFundYear(page, 2014);
     const nav = page.getByRole("navigation", { name: /on this page/i });
     if ((await nav.count()) > 0) {
       await expect(nav.getByRole("link", { name: /^transfers$/i })).toHaveCount(0);

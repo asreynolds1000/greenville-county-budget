@@ -1,13 +1,13 @@
-statement,after_second_reading_amount,adopted_amendment_amount,reconstructed_adopted_amount,ordinance_pdf_page,minutes_pdf_page,status,note
-General Fund appropriations,288294094,200000,288494094,1,8,reconstructed_adopted,"Council adopted one amendment: add $200,000 for the Oversight Ad Hoc Committee. The minutes do not assign the added line item to one of the ordinance's printed broad General Fund categories."
-Special Revenue Fund appropriations,118256009,0,118256009,1,,unchanged_at_adoption,"No adopted amendment changed this schedule."
-Debt Service Fund appropriations,33861514,0,33861514,2,,unchanged_at_adoption,"No adopted amendment changed this schedule."
-Capital Projects Fund appropriations,21937000,0,21937000,2,,unchanged_at_adoption,"No adopted amendment changed this schedule."
-Internal Service Fund appropriations,58943086,0,58943086,2,,unchanged_at_adoption,"No adopted amendment changed this schedule."
-Enterprise Fund appropriations,35296480,0,35296480,2,,unchanged_at_adoption,"No adopted amendment changed this schedule."
-General Fund estimated sources,282319855,0,282319855,2,,unchanged_at_adoption,"The adopted amendment increased expenditures without identifying a new revenue or financing source."
-Special Revenue Fund estimated sources,117288050,0,117288050,3,,unchanged_at_adoption,"No adopted amendment changed this schedule."
-Debt Service Fund estimated sources,61984782,0,61984782,3,,unchanged_at_adoption,"No adopted amendment changed this schedule."
-Capital Projects Fund estimated sources,21937000,0,21937000,3,,unchanged_at_adoption,"No adopted amendment changed this schedule."
-Internal Service Fund estimated sources,63466027,0,63466027,4,,unchanged_at_adoption,"No adopted amendment changed this schedule."
-Enterprise Fund estimated sources,26848217,0,26848217,4,,unchanged_at_adoption,"No adopted amendment changed this schedule."
+statement,after_second_reading_amount,adopted_amendment_amount,reconstructed_adopted_amount,ordinance_pdf_page,minutes_pdf_page,status,note,final_book_source_code,final_book_amount,final_book_printed_page,final_book_pdf_page,final_book_note
+General Fund appropriations,288294094,200000,288494094,1,8,reconstructed_adopted,"Council adopted one amendment: add $200,000 for the Oversight Ad Hoc Committee. The minutes do not assign the added line item to one of the ordinance's printed broad General Fund categories.",FY2027,288494094,193,194,"Matches the final printed ordinance total. Other Services is 17006528, up 200000 from second reading; every other broad Schedule A category is unchanged."
+Special Revenue Fund appropriations,118256009,0,118256009,1,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,118256009,193,194,Matches the final printed ordinance total.
+Debt Service Fund appropriations,33861514,0,33861514,2,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,33861514,194,195,Matches the final printed ordinance total.
+Capital Projects Fund appropriations,21937000,0,21937000,2,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,21937000,194,195,Matches the final printed ordinance total.
+Internal Service Fund appropriations,58943086,0,58943086,2,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,58943086,194,195,Matches the final printed ordinance total.
+Enterprise Fund appropriations,35296480,0,35296480,2,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,35296480,194,195,Matches the final printed ordinance total.
+General Fund estimated sources,282319855,0,282319855,2,,unchanged_at_adoption,The adopted amendment increased expenditures without identifying a new revenue or financing source.,FY2027,282319855,194,195,Matches the final printed ordinance total.
+Special Revenue Fund estimated sources,117288050,0,117288050,3,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,117288050,195,196,Matches the final printed ordinance total.
+Debt Service Fund estimated sources,61984782,0,61984782,3,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,61984782,195,196,Matches the final printed ordinance total.
+Capital Projects Fund estimated sources,21937000,0,21937000,3,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,21937000,195,196,Matches the final printed ordinance total.
+Internal Service Fund estimated sources,63466027,0,63466027,4,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,63466027,196,197,Matches the final printed ordinance total.
+Enterprise Fund estimated sources,26848217,0,26848217,4,,unchanged_at_adoption,No adopted amendment changed this schedule.,FY2027,26848217,196,197,Matches the final printed ordinance total.

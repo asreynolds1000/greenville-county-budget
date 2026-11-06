@@ -78,7 +78,7 @@ test("without JavaScript the entity still exposes latest figures, history and th
   await page.goto("http://127.0.0.1:4321/e/balance.debt.beginning/?fy=2024");
   await expect(page.getByText(/The latest covered year is shown/)).toBeVisible();
   await expect(page.getByRole("heading", { name: "History", exact: true })).toBeVisible();
-  await expect(page.locator('[data-canonical-value="balance.debt.beginning|2026|adopted|dollars"]')).toContainText("$17,679,737");
+  await expect(page.locator('[data-canonical-value="balance.debt.beginning|2027|adopted|dollars"]')).toContainText("$7,261,487");
   const history = page.getByRole("heading", { name: "History", exact: true }).locator("..");
   await expect(history).toContainText("$36,090,963");
   await expect(history).toContainText("$8,773,496");
@@ -115,7 +115,7 @@ for (const entityId of Object.keys(fundEvidence) as FundId[]) {
     const context = await browser.newContext({ javaScriptEnabled: false });
     const page = await context.newPage();
     await page.goto(`http://127.0.0.1:4321/e/${entityId}/?fy=2014`);
-    await expect(page.locator("[data-entity-year]")).toHaveAttribute("data-entity-year", "2026");
+    await expect(page.locator("[data-entity-year]")).toHaveAttribute("data-entity-year", "2027");
     await expect(fundHeadline(page, entityId)).toContainText(fundEvidence[entityId].latest);
     const notice = page.locator("noscript p");
     await expect(notice).toContainText("Historical year detail requires JavaScript.");
@@ -141,7 +141,7 @@ test("fund data is fetched on historical selection and a failed request can be r
   await page.route(modelUrl, route => route.fulfill({ status: 503, body: "Unavailable" }));
   await page.goto("/e/fund.debt-service/");
   const selector = page.getByRole("combobox", { name: "Explore fiscal year", exact: true });
-  await expect(selector).toHaveValue("2026");
+  await expect(selector).toHaveValue("2027");
   await expect(page.locator("main h1")).toContainText("Debt Service");
   expect(requests).toHaveLength(0);
   await selector.selectOption("2014");
@@ -169,7 +169,7 @@ test("a pending historical model renders the currently selected year when it arr
   });
   try {
     await page.goto("/e/fund.debt-service/");
-    await expect(fundHeadline(page, "fund.debt-service")).toContainText("$34,885,734");
+    await expect(fundHeadline(page, "fund.debt-service")).toContainText("$33,861,514");
     const selector = page.getByRole("combobox", { name: "Explore fiscal year", exact: true });
     await selector.selectOption("2014");
     await expect(page.getByRole("status")).toContainText("Loading FY2014 figures");

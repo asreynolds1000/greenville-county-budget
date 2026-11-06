@@ -16,7 +16,7 @@ from tests._sources import require_source_corpus
 class ZeroCellClassifierTests(unittest.TestCase):
     def test_inventory_is_the_exact_ingested_zero_set(self):
         rows = zero_observations()
-        self.assertEqual(773, len(rows))
+        self.assertEqual(804, len(rows))
         self.assertEqual(len(rows), len({row["observation_id"] for row in rows}))
         self.assertEqual({0}, {row["value"] for row in rows})
 
@@ -65,15 +65,16 @@ class ZeroCellSourceClassifierTests(unittest.TestCase):
         require_source_corpus([
             "data/raw/gc-fy2012-2013/budget_combined2012.pdf",
             "data/raw/gc-fy2026/BudgetCombined.pdf",
+            "data/raw/gc-fy2027/BudgetCombined.pdf",
         ])
 
     def test_fixed_width_route_classifies_every_text_backed_summary_zero(self):
         observations = zero_observations()
         forms = fixed_width_forms()
-        self.assertEqual(625, len(forms))
+        self.assertEqual(656, len(forms))
         rows = merge_rows(observations, forms, {}, reviewed_forms(observations))
         classified = [row for row in rows if row["classification_method"] == "fixed_width_token"]
-        self.assertEqual(534, len(classified))
+        self.assertEqual(565, len(classified))
         self.assertEqual({"-"}, {row["printed_form"] for row in classified})
         self.assertTrue(all(row["review_status"] for row in rows))
 

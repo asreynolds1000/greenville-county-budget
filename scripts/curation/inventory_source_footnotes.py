@@ -29,8 +29,8 @@ from scripts.production.ingest import (
 
 ROOT = Path(__file__).resolve().parents[2]
 EXPECTED_LABEL_COUNT = 13
-EXPECTED_LABEL_BOOK_PAIR_COUNT = 38
-EXPECTED_READ_ROW_COUNT = 39
+EXPECTED_LABEL_BOOK_PAIR_COUNT = 43
+EXPECTED_READ_ROW_COUNT = 44
 
 FIELDNAMES = (
     "source_code",

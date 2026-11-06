@@ -295,6 +295,7 @@ test.describe("citations degrade instead of dying", () => {
     // The source archive is now complete. Pin the new FY2026 capture so a later refresh
     // cannot silently drop the fallback or attach the figure to a different snapshot.
     await page.goto("/");
+    await page.getByTestId("county-money-explorer").getByLabel("Budget year").selectOption("2026");
     const county = page.getByRole("link", {
       name: /County of Greenville Budget Document Fiscal Year 2026/i,
     }).first();
