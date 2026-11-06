@@ -30,7 +30,7 @@ export default function Home() {
       <div className="flex flex-wrap items-end justify-between gap-x-10 gap-y-6">
         <div className="max-w-2xl">
           <p className="font-mono text-[11px] tracking-[0.16em] text-ink-secondary uppercase">Greenville County, South Carolina · Budget Explorer</p>
-          <h1 className="mt-3 font-display text-4xl leading-[1.08] font-semibold tracking-tight text-ink sm:text-5xl">Follow the county’s money.</h1>
+          <h1 className="mt-3 font-display text-4xl leading-[1.08] font-semibold tracking-tight text-ink sm:text-5xl">The county budget, in plain terms.</h1>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-ink-secondary">See where public money comes from, what it pays for, and how the choices have changed.</p>
         </div>
         <Link href={`/e/budget.total/?fy=${latestYear}`} className="block border-l-2 border-accent/40 pl-4 hover:border-accent" aria-label={`Open the county-published FY${latestYear} budget total and its source`}>
