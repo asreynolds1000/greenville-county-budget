@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { gotoGeneralFundYear } from "./helpers/general-fund-year";
 
 /**
  * Reachability and mobile legibility (plan Step 0, bullets 2–3 and 5).
@@ -13,7 +14,7 @@ const NARROW = { width: 320, height: 568 };
 
 test.describe("General Fund year navigation", () => {
   test("every supported year is reachable from the year control", async ({ page }) => {
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
 
     const yearNav = page.getByRole("navigation", { name: /fiscal year/i });
     await expect(yearNav).toBeVisible();
@@ -33,7 +34,7 @@ test.describe("General Fund year navigation", () => {
   });
 
   test("each supported year appears in exactly one group", async ({ page }) => {
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
     const yearNav = page.getByRole("navigation", { name: /fiscal year/i });
     const labels = (await yearNav.getByRole("link").allInnerTexts()).map((t) => t.trim());
     const duplicates = labels.filter((label, index) => labels.indexOf(label) !== index);
@@ -42,7 +43,7 @@ test.describe("General Fund year navigation", () => {
   });
 
   test("the current year is marked for assistive technology", async ({ page }) => {
-    await page.goto("/e/fund.general/?fy=2024");
+    await gotoGeneralFundYear(page, 2024);
     const current = page.getByRole("navigation", { name: /fiscal year/i })
       .locator("[aria-current='page']");
     await expect(current).toHaveCount(1);
@@ -51,7 +52,7 @@ test.describe("General Fund year navigation", () => {
 
   test("year controls meet a 44px touch target on mobile", async ({ page }) => {
     await page.setViewportSize(PHONE);
-    await page.goto("/e/fund.general/?fy=2026");
+    await gotoGeneralFundYear(page, 2026);
 
     const control = page.getByRole("combobox", { name: "Choose fiscal year" });
     const box = await control.boundingBox();
