@@ -107,6 +107,13 @@ jobs:
       - name: Verify exported fund renderer isolation
         run: node --test tests/export/fund-bundles.test.mjs
 
+      # The site is non-advocacy. This reads the served pages and fails on phrasing that
+      # implies wrongdoing or tells the reader how to feel (web/tone-terms.tsv).
+      - name: Tone check of the served copy
+        run: |
+          node --test tests/export/check-tone.test.mjs
+          node scripts/check-tone.mjs out
+
       - name: Prepare Vercel Build Output API artifact
         run: npm run prepare:deploy
 
