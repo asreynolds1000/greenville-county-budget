@@ -69,6 +69,7 @@ jobs:
 
   web:
     name: Web build (Next.js static export)
+    timeout-minutes: 40
     # Pinned: Playwright 1.58.0 cannot install Chromium on ubuntu-26.04, and ubuntu-latest moves there in a gradual rollout from 2026-10-19 to 2026-11-19.
     runs-on: ubuntu-24.04
     needs: data

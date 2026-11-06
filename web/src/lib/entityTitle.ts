@@ -12,6 +12,7 @@
  * component and must be able to import it.
  */
 export const SITE_TITLE = "Greenville County Budget Explorer";
+export const SHORT_SITE_TITLE = "Budget Explorer";
 
 /**
  * Nine General Fund operating-overview categories share a name with a department-view
@@ -22,12 +23,26 @@ export function entityTitleName(entityId: string, name: string): string {
   return entityId.startsWith("overview.gf.") ? `${name} (operating overview)` : name;
 }
 
-/** What `generateMetadata` returns; Next applies the site template to it. */
-export function entityTitle(name: string, year: number): string {
-  return `${name} — FY${year}`;
+/** Kinds whose pages describe spending, so the title says "budget". Every other kind is a
+ * revenue, balance, financing or change page, where "budget" would mislabel it. */
+const SPENDING_KINDS = new Set(["fund", "dept", "opcat", "overview", "isf", "use", "gf", "budget"]);
+
+const COUNTY = "Greenville County";
+
+/**
+ * What `generateMetadata` returns. Written for a search result: it leads with the place,
+ * and says "budget" only on pages about spending. `entityId` decides the kind (the part
+ * before the first dot).
+ */
+export function entityTitle(entityId: string, name: string, year: number): string {
+  const kind = entityId.split(".")[0];
+  const full = entityTitleName(entityId, name);
+  const place = full.startsWith(COUNTY) ? full : `${COUNTY} ${full}`;
+  const body = SPENDING_KINDS.has(kind) && !/budget$/i.test(full) ? `${place} budget` : place;
+  return `${body}, FY${year}`;
 }
 
-/** The whole `document.title`, template included, for the client-side update. */
-export function entityDocumentTitle(name: string, year: number): string {
-  return `${entityTitle(name, year)} · ${SITE_TITLE}`;
+/** The whole `document.title`, for the server (absolute) and the client-side update. */
+export function entityDocumentTitle(entityId: string, name: string, year: number): string {
+  return `${entityTitle(entityId, name, year)} · ${SHORT_SITE_TITLE}`;
 }

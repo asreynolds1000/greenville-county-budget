@@ -5,11 +5,14 @@ import { Amount } from "@/components/Amount";
 import { CountyMoneyExplorer } from "@/components/CountyMoneyExplorer";
 import { CoverageState } from "@/components/Coverage";
 import { RecencyNotice } from "@/components/RecencyNotice";
-import { getCoverageState, getEntitySummary, getGeneralFundComparisonYears, getLatestFiscalYear } from "@/lib/loaders";
+import { getCoverageState, getEntitySummary, getGeneralFundComparisonYears, getLatestFiscalYear, getYears } from "@/lib/loaders";
 import { getResidentEntryPoints } from "@/lib/residentEntryPoints";
 import { getCountyRiver, getGeneralFundRiver, getRiverYears } from "@/lib/riverData";
 
+const coveredYears = Object.keys(getYears()).map(Number);
+
 export const metadata: Metadata = {
+  title: { absolute: `Greenville County, SC Budget Explorer, FY${Math.min(...coveredYears)}–FY${Math.max(...coveredYears)}` },
   alternates: { canonical: "/" },
 };
 

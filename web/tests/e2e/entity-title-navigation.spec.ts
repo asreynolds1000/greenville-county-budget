@@ -18,9 +18,11 @@ import { expect, test, type Page } from "@playwright/test";
  * point, so the settle window is comfortably past that.
  */
 const SITE = "Greenville County Budget Explorer";
+const SHORT = "Budget Explorer";
+const HOME = "Greenville County, SC Budget Explorer, FY2002–FY2027";
 
 const DESTINATIONS = [
-  { path: "/", title: SITE, link: 'header nav a[href="/"]' },
+  { path: "/", title: HOME, link: 'header nav a[href="/"]' },
   { path: "/property-tax/", title: "Greenville County property tax estimate · Budget Explorer", link: 'header nav a[href="/property-tax/"]' },
   { path: "/compare/", title: `Compare spending across years · ${SITE}`, link: 'header nav a[href="/compare/"]' },
   { path: "/search/", title: `Search · ${SITE}`, link: 'header nav a[href="/search/"]' },
@@ -28,13 +30,13 @@ const DESTINATIONS = [
 ] as const;
 
 const ORIGINS = [
-  { name: "a deferred fund with ?fy", url: "/e/fund.general/?fy=2020", title: `General Fund — FY2020 · ${SITE}`, year: "2020" },
-  { name: "an ordinary entity with ?fy", url: "/e/dept.sheriff/?fy=2020", title: `Sheriff — FY2020 · ${SITE}`, year: "2020" },
-  { name: "a deferred fund on its latest year", url: "/e/fund.general/", title: `General Fund — FY2027 · ${SITE}`, year: "2027" },
-  { name: "an ordinary entity on its latest year", url: "/e/dept.sheriff/", title: `Sheriff — FY2027 · ${SITE}`, year: "2027" },
+  { name: "a deferred fund with ?fy", url: "/e/fund.general/?fy=2020", title: `Greenville County General Fund budget, FY2020 · ${SHORT}`, year: "2020" },
+  { name: "an ordinary entity with ?fy", url: "/e/dept.sheriff/?fy=2020", title: `Greenville County Sheriff budget, FY2020 · ${SHORT}`, year: "2020" },
+  { name: "a deferred fund on its latest year", url: "/e/fund.general/", title: `Greenville County General Fund budget, FY2027 · ${SHORT}`, year: "2027" },
+  { name: "an ordinary entity on its latest year", url: "/e/dept.sheriff/", title: `Greenville County Sheriff budget, FY2027 · ${SHORT}`, year: "2027" },
   // Out of range: year === null, so the explorer installs no observer. Its server-rendered
   // title is the latest year, which the existing spec accepts as "not asserting FY1999".
-  { name: "an uncovered year", url: "/e/fund.general/?fy=1999", title: `General Fund — FY2027 · ${SITE}`, year: "unavailable" },
+  { name: "an uncovered year", url: "/e/fund.general/?fy=1999", title: `Greenville County General Fund budget, FY2027 · ${SHORT}`, year: "unavailable" },
 ] as const;
 
 const SETTLE_MS = 800;
@@ -86,13 +88,13 @@ test.describe("leaving an entity page: the destination keeps its own title", () 
 
 test.describe("year changes inside an entity page", () => {
   for (const origin of [ORIGINS[0], ORIGINS[1]]) {
-    const name = origin.title.split(" — ")[0];
+    const name = origin.title.split(", FY")[0];
     test(`${origin.name}: one change, rapid changes, back and forward, then leaving`, async ({ page }) => {
       await openEntity(page, origin);
       const control = page.getByRole("combobox", { name: "Explore fiscal year" });
 
       await control.selectOption("2014");
-      await expectSettledTitle(page, `${name} — FY2014 · ${SITE}`);
+      await expectSettledTitle(page, `${name}, FY2014 · ${SHORT}`);
 
       // Several selections faster than any deferred panel can resolve. Each pushes a history
       // entry; only the last one may win the title.
@@ -100,14 +102,14 @@ test.describe("year changes inside an entity page", () => {
       await control.selectOption("2012");
       await control.selectOption("2015");
       await expect(page.locator("[data-entity-year]")).toHaveAttribute("data-entity-year", "2015");
-      await expectSettledTitle(page, `${name} — FY2015 · ${SITE}`);
+      await expectSettledTitle(page, `${name}, FY2015 · ${SHORT}`);
 
       await page.goBack();
-      await expectSettledTitle(page, `${name} — FY2012 · ${SITE}`);
+      await expectSettledTitle(page, `${name}, FY2012 · ${SHORT}`);
       await page.goBack();
-      await expectSettledTitle(page, `${name} — FY2010 · ${SITE}`);
+      await expectSettledTitle(page, `${name}, FY2010 · ${SHORT}`);
       await page.goForward();
-      await expectSettledTitle(page, `${name} — FY2012 · ${SITE}`);
+      await expectSettledTitle(page, `${name}, FY2012 · ${SHORT}`);
 
       // A year chosen by the control rather than by the URL, then a soft navigation away.
       await page.locator('header nav a[href="/search/"]').click();
@@ -116,7 +118,7 @@ test.describe("year changes inside an entity page", () => {
 
       await page.goBack();
       await expect(page.locator("[data-entity-year]")).toHaveAttribute("data-entity-year", "2012");
-      await expectSettledTitle(page, `${name} — FY2012 · ${SITE}`);
+      await expectSettledTitle(page, `${name}, FY2012 · ${SHORT}`);
     });
   }
 });
@@ -128,7 +130,7 @@ test.describe("entity to entity links are document navigations", () => {
     await page.locator('a[href="/e/fund.general/?fy=2020"]').first().click();
     await page.waitForURL("/e/fund.general/?fy=2020");
     await expect(page.locator("[data-entity-year]")).toHaveAttribute("data-entity-year", "2020");
-    await expectSettledTitle(page, `General Fund — FY2020 · ${SITE}`);
+    await expectSettledTitle(page, `Greenville County General Fund budget, FY2020 · ${SHORT}`);
 
     await page.goBack();
     await page.waitForURL(ORIGINS[1].url);
@@ -157,6 +159,6 @@ test.describe("hard load and soft arrival at the same entity URL agree", () => {
   test("a hard load without the trailing slash still names its year", async ({ page }) => {
     await page.goto("/e/dept.sheriff?fy=2020");
     await expect(page.locator("[data-entity-year]")).toHaveAttribute("data-entity-year", "2020");
-    await expectSettledTitle(page, `Sheriff — FY2020 · ${SITE}`);
+    await expectSettledTitle(page, `Greenville County Sheriff budget, FY2020 · ${SHORT}`);
   });
 });

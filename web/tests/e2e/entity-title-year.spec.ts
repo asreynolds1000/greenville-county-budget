@@ -18,27 +18,27 @@ test.describe("entity page titles name the year on screen", () => {
     await expect(page.getByRole("heading", { name: "How the General Fund moves through one year" })).toBeVisible();
     await expect(page.locator("[data-entity-year]")).toHaveAttribute("data-entity-year", "2025");
 
-    await expect(page).toHaveTitle("General Fund — FY2025 · Greenville County Budget Explorer");
+    await expect(page).toHaveTitle("Greenville County General Fund budget, FY2025 · Budget Explorer");
     // The panel's own request settles around 300ms in and re-applies the metadata title. A
     // title that is only correct before then is the defect, not the fix.
     await page.waitForTimeout(1500);
-    await expect(page).toHaveTitle("General Fund — FY2025 · Greenville County Budget Explorer");
+    await expect(page).toHaveTitle("Greenville County General Fund budget, FY2025 · Budget Explorer");
   });
 
   test("the latest year is named too, and the title follows the year control", async ({ page }) => {
     await page.goto("/e/fund.general/");
-    await expect(page).toHaveTitle("General Fund — FY2027 · Greenville County Budget Explorer");
+    await expect(page).toHaveTitle("Greenville County General Fund budget, FY2027 · Budget Explorer");
 
     await page.getByRole("combobox", { name: "Explore fiscal year" }).selectOption("2014");
-    await expect(page).toHaveTitle("General Fund — FY2014 · Greenville County Budget Explorer");
+    await expect(page).toHaveTitle("Greenville County General Fund budget, FY2014 · Budget Explorer");
 
     await page.goBack();
-    await expect(page).toHaveTitle("General Fund — FY2027 · Greenville County Budget Explorer");
+    await expect(page).toHaveTitle("Greenville County General Fund budget, FY2027 · Budget Explorer");
   });
 
   test("an ordinary entity page names its year without any deferred panel", async ({ page }) => {
     await page.goto("/e/rev.sr.fees/?fy=2025");
-    await expect(page).toHaveTitle("Special Revenue Fees — FY2025 · Greenville County Budget Explorer");
+    await expect(page).toHaveTitle("Greenville County Special Revenue Fees, FY2025 · Budget Explorer");
   });
 
   test("an uncovered year leaves the title alone rather than asserting a year it is not showing", async ({ page }) => {
