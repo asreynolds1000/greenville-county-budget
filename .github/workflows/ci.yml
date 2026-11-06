@@ -74,8 +74,8 @@ jobs:
     runs-on: ubuntu-24.04
     needs: data
     env:
-      # CI always builds a preview (noindex) export. Production releases are made by the
-      # maintainer outside CI.
+      # The test build is always a preview (noindex) export. The deploy job below makes the
+      # production build on a merge to main.
       VERCEL_ENV: preview
     defaults:
       run:
@@ -207,4 +207,91 @@ jobs:
         env:
           REQUIRE_PAGE_BASELINES: "1"
         run: python3 -m unittest tests.test_page_baselines -v
+
+  # A merge to main is the release, as on the maintainer's other sites. It runs only after
+  # both jobs above pass, rebuilds in production mode (indexable robots.txt and sitemap),
+  # repeats the release checks on that build, then uploads it and points both hosts at it.
+  # Git deploys stay off in web/vercel.json: Vercel's own builder would not add the
+  # county-record function that scripts/prepare-vercel-output.mjs packages.
+  deploy:
+    name: Deploy to production
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [data, web]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
+    env:
+      VERCEL_ENV: production
+      NEXT_PUBLIC_SITE_URL: https://gcdata.alexreynolds.com
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: "web/.nvmrc"
+          cache: "npm"
+          cache-dependency-path: "web/package-lock.json"
+
+      # The secrets reach only this step and the upload step, never npm ci or the build, so a
+      # dependency's install script cannot read the deploy token.
+      - name: Fail early if the deploy secrets are missing
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          for name in VERCEL_TOKEN VERCEL_ORG_ID VERCEL_PROJECT_ID; do
+            if [ -z "${!name}" ]; then echo "::error::secret $name is not set"; exit 1; fi
+          done
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Production build
+        run: npm run build
+
+      - name: Release checks on the production build
+        run: |
+          grep -qx "Allow: /" out/robots.txt || { echo "::error::robots.txt does not allow indexing"; exit 1; }
+          grep -q "https://gcdata.alexreynolds.com/sitemap.xml" out/robots.txt || { echo "::error::robots.txt has the wrong sitemap host"; exit 1; }
+          node scripts/check-tone.mjs out
+
+      - name: Package static pages and the county-record function
+        run: npm run prepare:deploy
+
+      - name: Install the Vercel CLI
+        run: npm i -g vercel@59.3.0
+
+      - name: Upload, then point both hosts at it
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          url=$(vercel deploy --prebuilt --archive=tgz --prod --yes --token="$VERCEL_TOKEN")
+          echo "deployed $url"
+          vercel alias set "$url" gvl-county-budget.vercel.app --token="$VERCEL_TOKEN"
+
+      # The Next build ID is unique to this build and appears in the exported homepage, so
+      # finding it on each host proves that host serves THIS build, not the previous one.
+      - name: Verify both hosts serve this build
+        run: |
+          build_id=$(cat .next/BUILD_ID)
+          grep -q "$build_id" out/index.html || { echo "::error::build ID not in out/index.html; this check cannot work"; exit 1; }
+          for host in gcdata.alexreynolds.com gvl-county-budget.vercel.app; do
+            for path in / /robots.txt /sitemap.xml /property-tax/; do
+              code=$(curl -s -o /dev/null -w '%{http_code}' "https://$host$path")
+              [ "$code" = 200 ] || { echo "::error::$host$path returned $code"; exit 1; }
+            done
+            curl -s "https://$host/" | grep -q "$build_id" || { echo "::error::$host is not serving build $build_id"; exit 1; }
+            code=$(curl -s -o /dev/null -w '%{http_code}' "https://$host/api/property-record")
+            [ "$code" = 405 ] || { echo "::error::$host county-record function returned $code to GET, expected 405"; exit 1; }
+          done
+          echo "both hosts verified"
 
