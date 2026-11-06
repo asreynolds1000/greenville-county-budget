@@ -24,21 +24,49 @@ describe("entity page titles keep their fiscal year", () => {
     expect(entityTitleName("dept.sheriff", "Sheriff")).toBe("Sheriff");
   });
 
-  it("composes the reviewed title format", () => {
-    expect(entityTitle("General Fund", 2025)).toBe("General Fund — FY2025");
-    expect(entityDocumentTitle("General Fund", 2025))
-      .toBe("General Fund — FY2025 · Greenville County Budget Explorer");
+  it.each([
+    ["fund.general", "General Fund", "Greenville County General Fund budget, FY2025"],
+    ["dept.sheriff", "Sheriff", "Greenville County Sheriff budget, FY2025"],
+    ["opcat.public-works", "Public Works", "Greenville County Public Works budget, FY2025"],
+    ["overview.gf.public-works", "Public Works", "Greenville County Public Works (operating overview) budget, FY2025"],
+    ["isf.fleet", "Fleet", "Greenville County Fleet budget, FY2025"],
+    ["use.salaries", "Salaries", "Greenville County Salaries budget, FY2025"],
+    ["gf.expenditures", "Expenditures", "Greenville County Expenditures budget, FY2025"],
+    ["budget.total", "Total", "Greenville County Total budget, FY2025"],
+    ["rev.charges-for-services", "Charges for Services", "Greenville County Charges for Services, FY2025"],
+    ["balance.gf.ending", "General Fund Ending Balance", "Greenville County General Fund Ending Balance, FY2025"],
+    ["fin.debt", "Debt Financing", "Greenville County Debt Financing, FY2025"],
+    ["change.gf", "General Fund Change", "Greenville County General Fund Change, FY2025"],
+    ["funding.x", "Some Funding", "Greenville County Some Funding, FY2025"],
+    ["newkind.x", "Anything", "Greenville County Anything, FY2025"],
+  ])("titles %s", (id, name, want) => {
+    expect(entityTitle(id, name, 2025)).toBe(want);
+  });
+
+  it("does not repeat 'budget' when the name already ends in it", () => {
+    expect(entityTitle("budget.total", "Total Budget", 2027)).toBe("Greenville County Total Budget, FY2027");
+    expect(entityTitle("dept.x", "Capital BUDGET", 2027)).toBe("Greenville County Capital BUDGET, FY2027");
+  });
+
+  it("does not repeat 'Greenville County' when the name already starts with it", () => {
+    expect(entityTitle("fund.x", "Greenville County Library", 2027)).toBe("Greenville County Library budget, FY2027");
+    expect(entityTitle("rev.x", "Greenville County Fees", 2027)).toBe("Greenville County Fees, FY2027");
+  });
+
+  it("composes the document title with the short site name", () => {
+    expect(entityDocumentTitle("fund.general", "General Fund", 2025))
+      .toBe("Greenville County General Fund budget, FY2025 · Budget Explorer");
   });
 
   it("names the server-rendered year in a fund route's metadata", () => {
-    expect(fundMetadata().title).toBe("General Fund — FY2027");
+    expect(fundMetadata().title).toEqual({ absolute: "Greenville County General Fund budget, FY2027 · Budget Explorer" });
   });
 
   it("names the server-rendered year in an ordinary entity's metadata", async () => {
     const metadata = await generateMetadata({
       params: Promise.resolve({ entityId: "balance.debt.beginning" }),
     });
-    expect(metadata.title).toBe("Debt Service Beginning Fund Balance — FY2027");
+    expect(metadata.title).toEqual({ absolute: "Greenville County Debt Service Beginning Fund Balance, FY2027 · Budget Explorer" });
   });
 
   it("gives the year explorer the display name it needs to retitle the document", async () => {
