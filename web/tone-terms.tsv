@@ -13,7 +13,7 @@
 # The county's own names (Solid Waste, a "Hidden Valley" road) are why "waste" and
 # "hidden" are matched only as phrases.
 
-block	\bfollow (the |our |your |its |their )?(county'?s? |public )?money\b	Watergate phrase; implies something is being hidden
+block	\bfollow (\S+ ){0,3}money\b	Watergate phrase; implies something is being hidden
 block	\b(where|how) (your|the|our) (tax )?(money|dollars?) (really|actually) go(es)?\b	implies the official account is false
 block	\b(hidden|buried|secret) (spending|costs?|fees?|money|budget|line items?)\b	alleges concealment
 block	\bwhat (they|the county|officials) (don'?t|do not) want you to (know|see)\b	conspiracy framing
