@@ -1,10 +1,11 @@
-# Greenville County Budget Explorer
+# Greenville County Budget Explorer: how the county raises and spends money
 
-An independent, non-advocacy civic-information project. It helps Greenville County, South
-Carolina residents see how county government raises, restricts, allocates and spends money,
-and how that has changed over time.
+- **What:** A static website that shows how Greenville County, SC raises, restricts, allocates and spends money, and how that has changed over time. Every figure traces to a county document and printed page. Live at [gcdata.alexreynolds.com](https://gcdata.alexreynolds.com/).
+- **For:** Greenville County residents and anyone checking the county's published numbers. It is an independent, non-advocacy civic-information project, and Alex Reynolds maintains it. Next steps are tracked privately.
+- **Runs:** Vercel project `gvl-county-budget` (Next.js static export from `web/`, plus one small function that fetches a county property record). A merged PR to `main` deploys production through Vercel's Git integration, and other branches get previews. There is no database. Data comes from the county's adopted budget books and audited financial reports.
+- **Status:** Live (2026-11-23). The site answers 200, and the last production deploy was 2026-11-06. FY2027 budget data was added 2026-10-31.
 
-**Live site:** [gcdata.alexreynolds.com](https://gcdata.alexreynolds.com/)
+Agent notes: `AGENTS.md`. Gaps in the data: `ROADMAP.md`.
 
 This repository holds everything behind the site: the source registry and document hashes,
 the transcribed figures, the pipeline that turns them into the site's data, the tests that
