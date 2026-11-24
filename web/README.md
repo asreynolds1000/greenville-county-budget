@@ -1,4 +1,4 @@
-# Greenville County Budget Explorer — web
+# Greenville County Budget Explorer: web app
 
 Next.js (App Router) static export of the Greenville County Budget Explorer.
 See `../docs/sources-funds-uses-architecture-spec.md` for the architecture and
